@@ -1,0 +1,31 @@
+.footer {
+
+    &__title {
+        font-size: 0.9em;
+        color: $white;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+    &__text {
+        font-size: 0.7em;
+    }
+
+    &--first {
+        flex: 20% 0;
+    }
+
+    &--second {
+        flex: 80% 1;
+    }
+
+    &__link {
+        font-size: 0.7em;
+        color: $white;
+        text-decoration: solid;
+    }
+
+    &__copyWrite {
+        font-size: 0.6em;
+    }
+}

@@ -1,0 +1,14 @@
+.collaboration {
+    align-items: stretch;
+    &__column {
+        display: flex;
+        color: $white !important;
+        flex-direction: column;
+        border-left: 2px solid $white;
+        justify-content: space-between;
+    }
+
+    &__number {
+        font-size: 4em;
+    }
+}

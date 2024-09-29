@@ -1,0 +1,46 @@
+.container-1920 {
+    max-width: 1920px;
+}
+
+.bg-gray {
+    background-color: $gray-main !important;
+}
+
+.btn-gold {
+    background-color: $gold;
+    border-radius: 0;
+    font-size: 0.7em;
+    font-weight: 600;
+
+    &:hover {
+        border-color: $gold;
+        color: $gold;
+    }
+}
+
+.btn-gold-inline {
+    border-radius: 0;
+    font-size: 0.7em;
+    font-weight: 600;
+    border-color: $gold;
+    color: $white;
+    &:hover {
+        background-color: $gold;
+    }
+}
+
+.nav-link {
+    color: $white;
+    font-size: 1em;
+    font-weight: 300;
+    &:focus {
+        color: $white;
+    }
+    &:hover {
+        color: $white;
+    }
+}
+
+.fs-7 {
+    font-size: 0.7em;
+}

@@ -1,0 +1,25 @@
+.smallBanners {
+    position: relative;
+    &__image {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    &__containerLink {
+        padding: 0.3em 0.55em;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        background-color: $gray-main;
+    }
+
+    &__title {
+        max-height: 22px;
+        color: $white;
+    }
+
+    &__link {
+        font-size: 0.7em;
+        color: $white;
+    }
+}

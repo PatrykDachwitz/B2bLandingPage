@@ -1,8 +1,23 @@
 // Fonts
-@import url('https://fonts.bunny.net/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+//Custom Bootstrap
+@import "customBootstrap";
+
+@import "menu";
+
+@import "smallBanners";
+
+@import "footer";
+
+@import "collaboration";
+
+@import "formContact";
+
+@import "slider";

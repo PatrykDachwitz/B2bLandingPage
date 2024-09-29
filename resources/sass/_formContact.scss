@@ -1,0 +1,33 @@
+.formContact {
+    max-width: 650px;
+
+    &__input {
+        border: 0;
+        border-radius: 0;
+        background-color: $gray-second;
+        color: $gray-text;
+        min-width: 100%;
+        &--textarea {
+            min-height: 200px;
+        }
+
+        &--checkbox {
+            background-color: $gray-main !important;
+            border-radius: 0 !important;
+            accent-color:$gold !important;
+
+        }
+
+    }
+    &__info {
+        font-size: 0.6em;
+        color: $white;
+        &--red {
+            color: $red;
+        }
+    }
+
+    &__button {
+        padding: 5px 40px;
+    }
+}
