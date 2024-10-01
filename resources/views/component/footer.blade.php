@@ -2,15 +2,18 @@
     <div class="d-flex">
         <div class="d-flex flex-column justify-content-between text-white footer--first">
             <b class="footer__title">@lang('footer.company')</b>
-            <p class="footer__text">@lang('footer.street')<br />@lang('footer.city')</p>
-            <a class="footer__text" href="tel: {{ config("shop.phone") }}">@lang('footer.phone') {{ config("shop.phone") }}</a>
-            <a class="footer__text" href="mailto: {{ config("shop.mailContact") }}">@lang('footer.mail') {{ config("shop.mailContact") }}</a>
+            <p class="footer__text">
+                @lang('footer.street')<br />
+                @lang('footer.city')<br />
+                @lang('footer.phone') <a class="footer__text footer__text--unstyle" href="tel: {{ config("shop.phone") }}">{{ config("shop.phone") }}</a><br />
+                @lang('footer.mail') <a class="footer__text footer__text--unstyle" href="mailto: {{ config("shop.mailContact") }}">{{ config("shop.mailContact") }}</a>
+            </p>
         </div>
         <div class="footer--second d-flex flex-column align-items-end">
             <ul class="d-flex list-unstyled">
-                <li><a class="footer__title">@lang('footer.collaborationPath')</a></li>
-                <li class="mx-2"><a class="footer__title">@lang('footer.products')</a></li>
-                <li><a class="footer__title">@lang('footer.formContact')</a></li>
+                <li><a class="footer__title footer__title--second">@lang('footer.collaborationPath')</a></li>
+                <li class="mx-2"><a class="footer__title footer__title--second">@lang('footer.products')</a></li>
+                <li><a class="footer__title footer__title--second">@lang('footer.formContact')</a></li>
             </ul>
             <ul class="d-flex list-unstyled">
                 <li>
@@ -46,9 +49,9 @@
                     </a>
                 </li>
             </ul>
-            <a class="footer__link">@lang('footer.findInGoogle')</a>
+            <a class="footer__text">@lang('footer.findInGoogle')</a>
         </div>
     </div>
     <hr />
-    <div class="footer__copyWrite">@lang('footer.copyWriting')</div>
+    <div class="footer__text mb-3">@lang('footer.copyWriting')</div>
 </footer>

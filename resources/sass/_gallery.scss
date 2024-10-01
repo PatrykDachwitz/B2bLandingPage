@@ -1,0 +1,9 @@
+.gallery {
+    &__miniContainer {
+        flex: 80px 0;
+    }
+
+    &__mainContainer {
+        flex: 80% 1;
+    }
+}
