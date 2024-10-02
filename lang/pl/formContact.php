@@ -1,15 +1,15 @@
 <?php
 
 return [
-  'contactWithForm' => "Skontaktuj się z nami poprzez formularz lub bezpośrednio pod adresem b2b@artforma.eu.",
+  'contactWithForm' => "Kontaktieren Sie uns über das Formular oder direkt unter b2b'artforma.eu. Wir werden Ihnen so schnell wie möglich antworten.",
   'contact24Hours' => "Nasz przedstawiciel skontaktuje się z Tobą  w ciągu 24 godzin.",
-  'names' => "Nazwa firmy lub imię i nazwisko",
-  'email' => "Email",
-  'phone' => "Numer telefonu",
-  'message' => "Treść wiadomości....",
-  'requireInputs' => "Wszystkie pola są wymagane",
-  'adminData' => "Administratorem Twoich danych osobowych jest FORAM Sp. z o.o. sp. k. z siedzibą w Wolsztynie przy ul. Jeziorna 3 Karpicko. Będziemy przetwarzać Twoje dane podane w niniejszym formularzu kontaktowym w celu odpowiedniego ustosunkowania się do Twojej wiadomości, w tym udzielenia odpowiedzi na Twoje zapytanie. Szczegółowe informacje o regułach przetwarzania przez nas danych osobowych znajdziesz tutaj",
-  'firstRule' => "Zgadzam się na przetwarzanie moich danych osobowych (nazwa firmy/imię i nazwisko, numer telefonu kontaktowego, adres email) przez Usługodawcę, tj. FORAM SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ SPÓŁKA KOMANDYTOWA z siedzibą w Karpicku przy ul. Jeziornej 3) w celach marketingu telefonicznego. Wyrażenie zgody jest dobrowolne. Mam prawo cofnąć zgodę w dowolnym momencie bez wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem. Mam prawo dostępu do treści swoich danych i ich sprostowania, usunięcia, ograniczenia przetwarzania, oraz prawo do przenoszenia danych na zasadach zawartych w polityce prywatności serwisu internetowego. Dane osobowe w serwisie internetowym przetwarzane są zgodnie z polityką prywatności. Zachęcamy do zapoznania się z polityką przed wyrażeniem zgody",
-  'secondRule' => "Potwierdzam, że zapoznałem się z polityką prywatności sklepu internetowego",
-  'send' => "Wyślij",
+  'names' => "Firmennamen oder Vor- und Nachname",
+  'email' => "E-Mail",
+  'phone' => "Telefonnummer",
+  'message' => "Inhalt der Nachricht",
+  'requireInputs' => "Alle Felder sind erforderlich",
+  'adminData' => "Der Verwalter Ihrer persönlichen Daten ist FORAM Sp. z o.o. sp. k. mit Sitz in Wolsztyn, Ul. Jeziorna 3, Karpicko. Wir verarbeiten Ihre Daten, die Sie uns in diesem Kontaktformular zur Verfügung gestellt haben, um auf Ihre Nachricht angemessen zu reagieren, einschließlich der Beantwortung Ihrer Anfrage. Ausführliche Informationen über die Vorschriften, die unsere Verarbeitung Ihrer personenbezogenen Daten regeln, finden Sie hier.",
+  'firstRule' => "Ich bin mit der Verarbeitung meiner personenbezogenen Daten (Firmenname/Vorname, Kontakttelefonnummer, E-Mail-Adresse) durch den Dienstleistungsanbieter, d.h. FORUM GESELLSCHAFT MIT BESCHRÄNKTER HAFTUNG KOMMANDITGESELLSCHAFT MIT SITZ IN KARPICKO, UL. Jeziorna 3) zum Zwecke des telefonischen Marketings einverstanden. Die Einwilligung ist freiwillig. Ich habe das Recht, die Einwilligung jederzeit zu widerrufen, ohne dass die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung beeinträchtigt wird. Ich habe das Recht auf Einsicht in die Inhalte meiner Daten und deren Berichtigung, Löschung, Einschränkung der Verarbeitung sowie das Recht auf Datenübertragbarkeit gemäß den Datenschutzbestimmungen der Webseite. Personenbezogene Daten auf der Website werden in Übereinstimmung mit der Datenschutzerklärung verarbeitet. Wir empfehlen Ihnen, die Datenschutzerklärung vor einer Einwilligung zu lesen.",
+  'secondRule' => "Ich bestätige, dass ich die Datenschutzbestimmungen des Online- Shops gelesen habe.",
+  'send' => "Senden Sie",
 ];

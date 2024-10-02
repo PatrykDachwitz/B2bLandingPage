@@ -1,7 +1,10 @@
 .footer {
     color: $gray-footer-text;
     &__title {
-        font-size: 0.8em;
+        font-size: 1.4em;
+        @media (min-width: 992px) {
+            font-size: 0.8em;
+        }
         font-weight: bolder;
         color: $gray-footer-text;
         text-decoration: none;
@@ -13,7 +16,10 @@
     }
 
     &__text {
-        font-size: 0.6em;
+        font-size: 1em;
+        @media (min-width: 992px) {
+            font-size: 0.6em;
+        }
         color: $gray-footer-text;
         &--unstyle {
             text-decoration: none;
@@ -21,13 +27,27 @@
         }
     }
 
+    &__icon {
+        width: 40px;
+        height: 40px;
+        @media (min-width: 992px) {
+            width: 25px;
+            height: 25px;
+        }
+    }
 
     &--first {
-        flex: 20% 0;
+        flex: 100% 1;
+        @media (min-width: 992px) {
+            flex: 20% 0;
+        }
     }
 
     &--second {
-        flex: 80% 1;
+        flex: 100% 1;
+        @media (min-width: 992px) {
+            flex: 80% 1;
+        }
     }
 
 }
