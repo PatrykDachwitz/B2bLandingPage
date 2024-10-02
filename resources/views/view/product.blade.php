@@ -1,11 +1,13 @@
-@extends('partial.layout')
+@extends('partial.layout',[
+    'menu' => 'menu--product'
+])
 
 
 @section('content')
-<section class="container-1920 d-flex justify-content-start fs-7 fw-bold my-2">
+<section class="container-1920 d-flex justify-content-start fs-7 fw-bold mb-2" style="margin-top: calc(0.5rem + 80px) !important;">
     <picture>
         <source srcset="/files/icons/home.webp" type="image/webp">
-        <img src="/files/icons/home.png" alt="home" loading="lazy" width="10" height="10">
+        <img src="/files/icons/home.png" alt="home" loading="lazy" width="10" class="ms-4" height="10">
     </picture>
     <span class="mx-3">Strona główna</span>
     <picture>
@@ -16,13 +18,13 @@
 </section>
 
 
-<section class="row container-1920">
-    <div class="col-6">
+<section class="row container-1920 m-0">
+    <div class="col-12 col-lg-6">
         <div class="gallery d-flex">
             <div class="d-flex flex-column mx-3">
-                @for($i = 0; $i < 9; $i++)
+                @for($i = 0; $i < 3; $i++)
                     <div class="mb-2">
-                        <img src="/files/gallery/m_1.jpg" width="80">
+                        <img src="/files/gallery/1.jpg" width="80">
                     </div>
                 @endfor
             </div>
@@ -51,7 +53,7 @@
             </div>
         </div>
     </div>
-    <div class="col-6 d-flex flex-column align-items-start text-white">
+    <div class="col-12 col-lg-5 d-flex flex-column align-items-start text-white">
         <h1 class="fs-3">StoneLine</h1>
         <p class="fs-7 text-gray-footer">Zestaw mebli łazienkowych wykończony fornirem kamiennym z naturalnych łupków to doskonałe połączenie nowoczesności i elegancji. W skład zestawu wchodzi szafka podumywalkowa oraz lustro, którego rama wykończona jest naturalnym kamieniem. Szeroka gama struktur i odcieni kamienia sprawia, że każdy element zestawu jest unikatowy i niepowtarzalny. Lustro dostępne jest w dwóch wersjach głębokości – 9 cm lub 4 cm.</p>
         <h2 class="fs-5">Standardowe rozamiry <span class="text-gray-footer">[cm]</span></h2>
@@ -67,13 +69,33 @@
                 </div>
             @endfor
         </div>
-        <ul class="">
-            <li>Produkt wykonujemy na zamówienie, dostosowując go do wybranego rozmiaru.</li>
-            <li>Kolory obudowy i kształty dostępne w opisie</li>
-            <li>Cena za zestaw: od 3000€ </li>
-            <li>Czas realizacji do 40 dni roboczych</li>
+        <ul class="list-unstyled">
+            <li>
+                <picture>
+                    <source srcset="/files/icons/check.webp" type="image/webp">
+                    <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
+                </picture> Produkt wykonujemy na zamówienie, dostosowując go do wybranego rozmiaru.
+            </li>
+            <li>
+                <picture>
+                    <source srcset="/files/icons/check.webp" type="image/webp">
+                    <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
+                </picture>Kolory obudowy i kształty dostępne w opisie
+            </li>
+            <li>
+                <picture>
+                    <source srcset="/files/icons/check.webp" type="image/webp">
+                    <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
+                </picture>Cena za zestaw: od 3000€
+            </li>
+            <li>
+                <picture>
+                    <source srcset="/files/icons/check.webp" type="image/webp">
+                    <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
+                </picture>Czas realizacji do 40 dni roboczych
+            </li>
         </ul>
-        <div><button class="btn btn-gold fs-6">Uzyskaj wycenę</button></div>
+        <div><a href="#contactForm" class="btn btn-gold fs-6">Uzyskaj wycenę</a></div>
         <div>
             <h3 class="fs-6 mt-3"><i>Potrzebujesz pomocy?</i></h3>
             <ul class="d-flex justify-content-start list-unstyled">
@@ -106,14 +128,14 @@
     </div>
 </section>
 
-<section class="d-flex flex-column">
+<section class="container-1920 overflow-hidden d-flex flex-column mt-2">
     <div class="border-bottom fw-bold">
         <button class="btn btn-gold px-5">Opis produktu</button>
     </div>
 
     <div class="text-white mt-4">
-        <span class="ms-5 fs-1">Kolekcja dekorów</span>
-        <a class="text-white fw-light" href="/">Sprawdz pełen wzorni</a>
+        <span class="ms-2 ms-lg-5 fs-1">Kolekcja dekorów</span>
+        <a class="text-white fw-light ms-2 ms-lg-0" href="/">Sprawdz&nbsp;pełen&nbsp;wzorni</a>
         <div class="d-flex mt-4">
             @for($j = 0; $j < 20; $j++)
                 <div class="mx-1">
@@ -127,13 +149,13 @@
     </div>
 
     <div class="text-white mt-4">
-        <span class="fs-1 ms-5">Dostępne warianty</span>
+        <span class="fs-1 ms-2 ms-lg-5">Dostępne warianty</span>
         <div class="d-flex mt-4">
             <div class="d-flex position-absolute top-50 start-0">
-                <picture>
+                {{--<picture>
                     <source srcset="/files/icons/arrow.webp" type="image/webp">
                     <img src="/files/icons/arrow.png" alt="arrow" loading="lazy" height="50" width="50">
-                </picture>
+                </picture>--}}
             </div>
             @for($j = 0; $j < 20; $j++)
                 <div class="mx-1">
@@ -147,4 +169,5 @@
     </div>
 </section>
 
+    @include('component.formContact')
 @endsection

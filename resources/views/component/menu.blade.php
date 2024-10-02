@@ -1,4 +1,4 @@
-<nav class="container-fluid navbar navbar-expand-lg position-fixed menu">
+<nav class="container-fluid navbar navbar-expand-lg position-fixed top-0 menu {{$menu ?? ''}}">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
             <picture>

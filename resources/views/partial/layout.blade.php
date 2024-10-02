@@ -12,7 +12,9 @@
 ])
 </head>
 <body>
-@include('component.menu')
+@include('component.menu', [
+    'menu' => $menu ?? ""
+])
 
 @yield('content')
 
