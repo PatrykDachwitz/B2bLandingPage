@@ -1,6 +1,6 @@
 <footer class="footer d-flex flex-column mt-4 px-5">
     <div class="d-flex flex-column flex-lg-row">
-        <div class="d-flex flex-column justify-content-between align-items-center text-white footer--first">
+        <div class="d-flex flex-column justify-content-between align-items-center align-items-lg-start text-white footer--first">
             <b class="footer__title">@lang('footer.company')</b>
             <p class="footer__text">
                 @lang('footer.street')<br />

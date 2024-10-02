@@ -3,7 +3,7 @@
     &__title {
         font-size: 1.4em;
         @media (min-width: 992px) {
-            font-size: 0.8em;
+            font-size: 1.2em;
         }
         font-weight: bolder;
         color: $gray-footer-text;
@@ -18,7 +18,7 @@
     &__text {
         font-size: 1em;
         @media (min-width: 992px) {
-            font-size: 0.6em;
+            font-size: 1em;
         }
         color: $gray-footer-text;
         &--unstyle {
@@ -31,8 +31,8 @@
         width: 40px;
         height: 40px;
         @media (min-width: 992px) {
-            width: 25px;
-            height: 25px;
+            width: 35px;
+            height: 35px;
         }
     }
 

@@ -8,8 +8,8 @@
         <div class="slider__container d-flex flex-column justify-content-center align-items-center">
             <h1 class="fs-4 text-white text-center mx-5">@lang('mainPage.sliderContent')</h1>
             <div class="mt-2">
-                <button class="btn btn-gold me-1 slider__button" href="{{ route('mainPage') }}#products">@lang('mainPage.viewProduct')</button>
-                <button class="ms-2 btn btn-gold-inline slider__button" href="#contactForm">@lang('mainPage.sendRequest')</button>
+                <button class="btn btn-gold me-1 slider__button fs-6" href="{{ route('mainPage') }}#products">@lang('mainPage.viewProduct')</button>
+                <button class="ms-2 btn btn-gold-inline slider__button fs-6" href="#contactForm">@lang('mainPage.sendRequest')</button>
             </div>
         </div>
 
@@ -35,8 +35,8 @@
                         </picture>
                     </div>
                     <div class="smallBanners__containerLink d-flex flex-column">
-                        <span class="smallBanners__title fs-5">@lang('mainPage.oliver')</span>
-                        <a class="smallBanners__link" href="{{ route('product') }}">@lang('mainPage.viewMore')</a>
+                        <span class="smallBanners__title fs-4">@lang('mainPage.oliver')</span>
+                        <a class="smallBanners__link fs-5 pt-2" href="{{ route('product') }}">@lang('mainPage.viewMore')</a>
                     </div>
 
                 </div>
@@ -50,7 +50,7 @@
             @for($i = 1; $i < 5; $i++)
                 <div class="col-6 col-md-3 d-flex collaboration__column">
                     <b class="collaboration__number mb-5 ps-3">{{ $i }}</b>
-                    <p class="ps-2 fs-7">
+                    <p class="ps-2 fs-6">
                         @switch($i)
                             @case('1')
                                 @lang('mainPage.contactAboutProduct')

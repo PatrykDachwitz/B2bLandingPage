@@ -7,10 +7,10 @@
         <div class="col-12">
             <input name="names" class="formContact__input" type="text" placeholder="@lang('formContact.names')" required>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-lg-6">
             <input name="email" class="formContact__input" type="email" placeholder="@lang('formContact.email')" required>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-lg-6">
             <input name="phone" class="formContact__input" type="text" placeholder="@lang('formContact.phone')" required>
         </div>
         <div class="col-12">
@@ -27,7 +27,7 @@
             <p class="formContact__info">@lang('formContact.secondRule')</p>
         </div>
         <div class="col-12 d-flex justify-content-center">
-            <button class="btn btn-gold formContact__button">@lang('formContact.send')</button>
+            <button class="btn btn-gold formContact__button fs-6">@lang('formContact.send')</button>
         </div>
     </form>
 </section>

@@ -4,15 +4,15 @@
 
 
 @section('content')
-<section class="container-1920 d-flex justify-content-start fs-7 fw-bold mb-2" style="margin-top: calc(0.5rem + 80px) !important;">
+<section class="container-1920 d-flex justify-content-start fs-6 fw-bold mb-2" style="margin-top: calc(0.5rem + 80px) !important;">
     <picture>
         <source srcset="/files/icons/home.webp" type="image/webp">
-        <img src="/files/icons/home.png" alt="home" loading="lazy" width="10" class="ms-4" height="10">
+        <img src="/files/icons/home.png" alt="home" loading="lazy" width="20" class="ms-4" height="20">
     </picture>
     <span class="mx-3">Strona główna</span>
     <picture>
         <source srcset="/files/icons/arrow.webp" type="image/webp">
-        <img src="/files/icons/arrow.png" alt="arrow" loading="lazy" height="10" width="10">
+        <img src="/files/icons/arrow.png" alt="arrow" loading="lazy" height="20" width="20">
     </picture>
     <span class="mx-3">Lustro Stone Line</span>
 </section>
@@ -55,7 +55,7 @@
     </div>
     <div class="col-12 col-lg-5 d-flex flex-column align-items-start text-white">
         <h1 class="fs-3">StoneLine</h1>
-        <p class="fs-7 text-gray-footer">Zestaw mebli łazienkowych wykończony fornirem kamiennym z naturalnych łupków to doskonałe połączenie nowoczesności i elegancji. W skład zestawu wchodzi szafka podumywalkowa oraz lustro, którego rama wykończona jest naturalnym kamieniem. Szeroka gama struktur i odcieni kamienia sprawia, że każdy element zestawu jest unikatowy i niepowtarzalny. Lustro dostępne jest w dwóch wersjach głębokości – 9 cm lub 4 cm.</p>
+        <p class="fs-6 text-gray-footer">Zestaw mebli łazienkowych wykończony fornirem kamiennym z naturalnych łupków to doskonałe połączenie nowoczesności i elegancji. W skład zestawu wchodzi szafka podumywalkowa oraz lustro, którego rama wykończona jest naturalnym kamieniem. Szeroka gama struktur i odcieni kamienia sprawia, że każdy element zestawu jest unikatowy i niepowtarzalny. Lustro dostępne jest w dwóch wersjach głębokości – 9 cm lub 4 cm.</p>
         <h2 class="fs-5">Standardowe rozamiry <span class="text-gray-footer">[cm]</span></h2>
         <div class="row">
             @for($i = 1; $i < 4; $i++)
@@ -69,7 +69,7 @@
                 </div>
             @endfor
         </div>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled fs-6">
             <li>
                 <picture>
                     <source srcset="/files/icons/check.webp" type="image/webp">
@@ -97,29 +97,29 @@
         </ul>
         <div><a href="#contactForm" class="btn btn-gold fs-6">Uzyskaj wycenę</a></div>
         <div>
-            <h3 class="fs-6 mt-3"><i>Potrzebujesz pomocy?</i></h3>
+            <h3 class="fs-5 mt-3"><i>Potrzebujesz pomocy?</i></h3>
             <ul class="d-flex justify-content-start list-unstyled">
                 <li>
                     <a href="https://wa.me/+48781637661">
                         <picture>
                             <source srcset="/files/icons/whatsapp.webp" type="image/webp">
-                            <img src="/files/icons/whatsapp.png" alt="arrow" loading="lazy" height="20" width="20">
+                            <img src="/files/icons/whatsapp.png" alt="arrow" loading="lazy" height="30" width="30">
                         </picture>
                     </a>
                 </li>
                 <li class="ms-1">
-                    <a href="tel: {{ config("shop.phone") }}" class="text-decoration-none text-white fs-7">
+                    <a href="tel: {{ config("shop.phone") }}" class="text-decoration-none text-white fs-6">
                     <picture>
                         <source srcset="/files/icons/telephone.webp" type="image/webp">
-                        <img src="/files/icons/telephone.png" alt="arrow" loading="lazy" height="20" width="20">
+                        <img src="/files/icons/telephone.png" alt="arrow" loading="lazy" height="30" width="30">
                     </picture> <i>{{ config("shop.phone") }}</i>
                     </a>
                 </li>
                 <li class="ms-3">
-                    <a href="mailto: {{ config("shop.mailContact") }}" class="text-decoration-none text-white fs-7">
+                    <a href="mailto: {{ config("shop.mailContact") }}" class="text-decoration-none text-white fs-6">
                         <picture>
                             <source srcset="/files/icons/email.webp" type="image/webp">
-                            <img src="/files/icons/email.png" alt="arrow" loading="lazy" height="20" width="20">
+                            <img src="/files/icons/email.png" alt="arrow" loading="lazy" height="30" width="30">
                         </picture> <i>{{ config("shop.mailContact") }}</i>
                     </a>
                 </li>
@@ -130,18 +130,18 @@
 
 <section class="container-1920 overflow-hidden d-flex flex-column mt-2">
     <div class="border-bottom fw-bold">
-        <button class="btn btn-gold px-5">Opis produktu</button>
+        <button class="btn btn-gold px-5 fs-6">Opis produktu</button>
     </div>
 
     <div class="text-white mt-4">
         <span class="ms-2 ms-lg-5 fs-1">Kolekcja dekorów</span>
-        <a class="text-white fw-light ms-2 ms-lg-0" href="/">Sprawdz&nbsp;pełen&nbsp;wzorni</a>
+        <a class="text-white fw-light ms-2 ms-lg-0 fs-5" href="/">Sprawdz&nbsp;pełen&nbsp;wzorni</a>
         <div class="d-flex mt-4">
             @for($j = 0; $j < 20; $j++)
                 <div class="mx-1">
                     <picture>
                         <source srcset="/files/sliderColor.webp" type="image/webp">
-                        <img src="/files/sliderColor.jpg" loading="lazy" height="200"/>
+                        <img src="/files/sliderColor.jpg" loading="lazy" height="300"/>
                     </picture>
                 </div>
             @endfor
@@ -161,7 +161,7 @@
                 <div class="mx-1">
                     <picture>
                         <source srcset="/files/sliderProduct.webp" type="image/webp">
-                        <img src="/files/sliderProduct.jpg" loading="lazy" height="200"/>
+                        <img src="/files/sliderProduct.jpg" loading="lazy" height="300"/>
                     </picture>
                 </div>
             @endfor
