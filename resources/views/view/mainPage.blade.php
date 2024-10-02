@@ -3,18 +3,20 @@
 
 @section('content')
 
-    <section class="container-fluid d-flex justify-content-between p-0">
+    <section class="container-fluid d-flex flex-column-reverse flex-md-row justify-content-between p-0">
 
         <div class="slider__container d-flex flex-column justify-content-center align-items-center">
-            <h1 class="fs-4 text-white text-center mx-5">@lang('mainPage.sliderContent')</h1>
-            <div class="mt-2">
+            <h1 class="fs-4 text-white text-center mx-5 mt-3 mt-md-0">@lang('mainPage.sliderContent')</h1>
+            <div class="mt-2 d-flex flex-column flex-md-row align-items-center">
                 <button class="btn btn-gold me-1 slider__button fs-6" href="{{ route('mainPage') }}#products">@lang('mainPage.viewProduct')</button>
-                <button class="ms-2 btn btn-gold-inline slider__button fs-6" href="#contactForm">@lang('mainPage.sendRequest')</button>
+                <button class="ms-2 btn btn-gold-inline slider__button fs-6 mt-2 mt-md-0" href="#contactForm">@lang('mainPage.sendRequest')</button>
             </div>
         </div>
 
         <div class="slider__container">
             <picture>
+                <source srcset="/files/767_900_crop.webp" media="(max-width:768px)" type="image/webp">
+                <source srcset="/files/767_900_crop.jpg" media="(max-width:768px)" type="image/jpg">
                 <source srcset="/files/slider.webp" type="image/webp">
                 <img src="/files/slider.jpg" class="slider__image" loading="lazy">
             </picture>
@@ -48,9 +50,9 @@
         <p class="text-center text-white mb-5 fs-1">@lang('mainPage.cooperation')</p>
         <div class="container-1920 row mx-1 mx-md-5 px-md-5 g-5 g-md-0 collaboration">
             @for($i = 1; $i < 5; $i++)
-                <div class="col-6 col-md-3 d-flex collaboration__column">
-                    <b class="collaboration__number mb-5 ps-3">{{ $i }}</b>
-                    <p class="ps-2 fs-6">
+                <div class="col-12 col-md-3 d-flex collaboration__column d-flex flex-row justify-content-md-between flex-md-column align-items-end align-items-md-start pe-md-3">
+                    <b class="collaboration__number mb-md-5 ps-3">{{ $i }}</b>
+                    <p class="ps-5 ps-md-2 fs-6">
                         @switch($i)
                             @case('1')
                                 @lang('mainPage.contactAboutProduct')

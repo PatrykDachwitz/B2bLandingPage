@@ -1,11 +1,12 @@
 .collaboration {
     align-items: stretch;
     &__column {
-        display: flex;
         color: $white !important;
-        flex-direction: column;
-        border-left: 2px solid $white;
-        justify-content: space-between;
+        border-bottom: 2px solid $white;
+        @media (min-width: 768px) {
+            border-left: 2px solid $white;
+            border-bottom: 0;
+        }
     }
 
     &__number {
