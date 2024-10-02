@@ -2,6 +2,8 @@
 
 
 return [
+    'shopRules' => "AGB",
+    'privacyPolicy' => "Datenschutz",
     'company' => "FORAM Sp. z o.o. sp.k.",
     'street' => "ul. Jeziorna 3, Karpicko",
     'city' => "64-200 Wolsztyn",

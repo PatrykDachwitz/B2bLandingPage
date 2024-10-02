@@ -1,4 +1,4 @@
-<section class="container-fluid mt-5 pb-5 bg-gray d-flex flex-column align-items-center">
+<section class="container-fluid mt-5 pb-5 bg-gray d-flex flex-column align-items-center" id="contactForm">
     <p class="text-center text-white fs-5 my-3">
         @lang('formContact.contactWithForm') <br />
         @lang('formContact.contact24Hours')

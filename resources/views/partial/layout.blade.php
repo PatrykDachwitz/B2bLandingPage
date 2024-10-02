@@ -12,8 +12,7 @@
 ])
 </head>
 <body>
-{{--
-@include('component.menu')--}}
+@include('component.menu')
 
 @yield('content')
 

@@ -107,13 +107,43 @@
 </section>
 
 <section class="d-flex flex-column">
-    <div class="border-bottom fw-bold px-5">
-        <button class="btn btn-gold">Opis produktu</button>
+    <div class="border-bottom fw-bold">
+        <button class="btn btn-gold px-5">Opis produktu</button>
     </div>
 
-    <div>
-        <span class="fs-1">Kolekcja dekorów</span>
-        <a>Sprawdz pełen wzorni</a>
+    <div class="text-white mt-4">
+        <span class="ms-5 fs-1">Kolekcja dekorów</span>
+        <a class="text-white fw-light" href="/">Sprawdz pełen wzorni</a>
+        <div class="d-flex mt-4">
+            @for($j = 0; $j < 20; $j++)
+                <div class="mx-1">
+                    <picture>
+                        <source srcset="/files/sliderColor.webp" type="image/webp">
+                        <img src="/files/sliderColor.jpg" loading="lazy" height="200"/>
+                    </picture>
+                </div>
+            @endfor
+        </div>
+    </div>
+
+    <div class="text-white mt-4">
+        <span class="fs-1 ms-5">Dostępne warianty</span>
+        <div class="d-flex mt-4">
+            <div class="d-flex position-absolute top-50 start-0">
+                <picture>
+                    <source srcset="/files/icons/arrow.webp" type="image/webp">
+                    <img src="/files/icons/arrow.png" alt="arrow" loading="lazy" height="50" width="50">
+                </picture>
+            </div>
+            @for($j = 0; $j < 20; $j++)
+                <div class="mx-1">
+                    <picture>
+                        <source srcset="/files/sliderProduct.webp" type="image/webp">
+                        <img src="/files/sliderProduct.jpg" loading="lazy" height="200"/>
+                    </picture>
+                </div>
+            @endfor
+        </div>
     </div>
 </section>
 

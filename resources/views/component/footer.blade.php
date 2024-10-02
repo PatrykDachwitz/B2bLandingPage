@@ -11,40 +11,42 @@
         </div>
         <div class="footer--second d-flex flex-column align-items-end">
             <ul class="d-flex list-unstyled">
-                <li><a class="footer__title footer__title--second">@lang('footer.collaborationPath')</a></li>
-                <li class="mx-2"><a class="footer__title footer__title--second">@lang('footer.products')</a></li>
-                <li><a class="footer__title footer__title--second">@lang('footer.formContact')</a></li>
+                <li><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#collaborationPath">@lang('footer.shopRules')</a></li>
+                <li class="mx-2"><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#collaborationPath">@lang('footer.privacyPolicy')</a></li>
+                <li><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#collaborationPath">@lang('footer.collaborationPath')</a></li>
+                <li class="mx-2"><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#products">@lang('footer.products')</a></li>
+                <li><a class="footer__title footer__title--second" href="#contactForm">@lang('footer.formContact')</a></li>
             </ul>
             <ul class="d-flex list-unstyled">
                 <li>
                     <a href="{{ config("shop.facebook") }}">
                         <picture>
                             <source srcset="/files/icons/facebook.webp" type="image/webp">
-                            <img src="/files/icons/facebook.png" width="30" height="30" class="footer__icon" loading="lazy">
+                            <img src="/files/icons/facebook.png" width="25" height="25" class="footer__icon" loading="lazy">
                         </picture>
                     </a>
                 </li>
-                <li>
+                <li class="ms-1">
                     <a href="{{ config("shop.instagram") }}">
                         <picture>
                             <source srcset="/files/icons/instagram.webp" type="image/webp">
-                            <img src="/files/icons/instagram.png" width="30" height="30" class="footer__icon" loading="lazy">
+                            <img src="/files/icons/instagram.png" width="25" height="25" class="footer__icon" loading="lazy">
                         </picture>
                     </a>
                 </li>
-                <li>
+                <li class="ms-1">
                     <a href="{{ config("shop.pinterest") }}">
                         <picture>
                             <source srcset="/files/icons/pinterest.webp" type="image/webp">
-                            <img src="/files/icons/pinterest.png" width="30" height="30" class="footer__icon" loading="lazy">
+                            <img src="/files/icons/pinterest.png" width="25" height="25" class="footer__icon" loading="lazy">
                         </picture>
                     </a>
                 </li>
-                <li>
+                <li class="ms-1">
                     <a href="{{ config("shop.linkedin") }}">
                         <picture>
                             <source srcset="/files/icons/linkedin.webp" type="image/webp">
-                            <img src="/files/icons/linkedin.png" width="30" height="30" class="footer__icon" loading="lazy">
+                            <img src="/files/icons/linkedin.png" width="25" height="25" class="footer__icon" loading="lazy">
                         </picture>
                     </a>
                 </li>

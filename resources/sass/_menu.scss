@@ -3,13 +3,17 @@
     padding: 1em 0;
 
     &--scroll {
-        padding: 0 !important;
-        background-color: $black;
+        background-color: $gray-main;
         z-index: 2;
+        border-bottom: 1px solid $gray-text;
     }
     &__list {
         width: 100%;
         display: flex;
         justify-content: end;
+    }
+
+    &__additionalList {
+        background-color: white;
     }
 }
