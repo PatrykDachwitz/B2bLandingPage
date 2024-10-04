@@ -6,4 +6,9 @@
     &__mainContainer {
         flex: 80% 1;
     }
+
+    @media (min-width: 992px) {
+        position: sticky;
+        top: $height-menu;
+    }
 }

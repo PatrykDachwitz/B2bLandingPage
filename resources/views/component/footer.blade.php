@@ -1,22 +1,25 @@
 <footer class="footer d-flex flex-column mt-4 px-5">
-    <div class="d-flex flex-column flex-lg-row">
-        <div class="d-flex flex-column justify-content-between align-items-center align-items-lg-start text-white footer--first">
-            <b class="footer__title">@lang('footer.company')</b>
-            <p class="footer__text">
-                @lang('footer.street')<br />
-                @lang('footer.city')<br />
-                @lang('footer.phone') <a class="footer__text footer__text--unstyle" href="tel: {{ config("shop.phone") }}">{{ config("shop.phone") }}</a><br />
-                @lang('footer.mail') <a class="footer__text footer__text--unstyle" href="mailto: {{ config("shop.mailContact") }}">{{ config("shop.mailContact") }}</a>
-            </p>
-        </div>
-        <div class="footer--second d-flex flex-column align-items-center align-items-lg-end">
-            <ul class="d-flex flex-column flex-lg-row list-unstyled text-start">
+    <div class="d-flex flex-column flex-lg-row justify-content-between">
+        <div class="d-flex flex-column flex-lg-row justify-content-start footer--first">
+            <div class="d-flex flex-column justify-content-start align-items-center align-items-lg-start text-white">
+                <b class="footer__title mt-2">@lang('footer.company')</b>
+                <p class="footer__text">
+                    {{--@lang('footer.street')<br />
+                    @lang('footer.city')<br />--}}
+                    @lang('footer.phone') <a class="footer__text footer__text--unstyle" href="tel: {{ config("shop.phone") }}">{{ config("shop.phone") }}</a><br />
+                    @lang('footer.mail') <a class="footer__text footer__text--unstyle" href="mailto: {{ config("shop.mailContact") }}">{{ config("shop.mailContact") }}</a>
+                </p>
+            </div>
+            <ul class="ms-5 d-flex flex-column list-unstyled text-start my-0">
                 <li><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#collaborationPath">@lang('footer.shopRules')</a></li>
-                <li class="mx-lg-2"><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#collaborationPath">@lang('footer.privacyPolicy')</a></li>
+                <li><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#collaborationPath">@lang('footer.privacyPolicy')</a></li>
                 <li><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#collaborationPath">@lang('footer.collaborationPath')</a></li>
-                <li class="mx-lg-2"><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#products">@lang('footer.products')</a></li>
+                <li><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#products">@lang('footer.products')</a></li>
                 <li><a class="footer__title footer__title--second" href="#contactForm">@lang('footer.formContact')</a></li>
             </ul>
+        </div>
+        <div class="footer--second d-flex flex-column justify-content-center align-items-center align-items-lg-end">
+            <hr class="d-lg-none" style="min-width: 100%">
             <ul class="d-flex list-unstyled">
                 <li>
                     <a href="{{ config("shop.facebook") }}">

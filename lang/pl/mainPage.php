@@ -4,7 +4,7 @@ return [
   'ourProducts' => "Entdecken Sie uns unsere Produkte",
   'cooperation' => "Współpraca",
   'sliderContent' => 'Sehr geehrte Kundin, sehr geehrter Kunde, wir danken für Ihr Interesse an unserem Angebot an Möbeln und Luxusspiegeln.',
-  'viewProduct' => 'Sehen Sie unsere Produkte!',
+  'viewProduct' => 'Sehen Sie unsere Produkte',
   'sendRequest' => 'Fragen Sie uns',
   'oliver' => 'ColorLine',
   'viewMore' => 'Sehen Sie mehr',

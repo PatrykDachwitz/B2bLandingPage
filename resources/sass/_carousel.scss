@@ -1,0 +1,17 @@
+.carousel {
+
+    &__imagesContainer {
+        left: 0;
+        transition: left 1s ease;
+        cursor: pointer;
+    }
+
+    /*&__image {
+        @media (min-width: 992px) {
+            &:hover {
+                height: 350px;
+                margin-bottom: 25px;
+            }
+        }
+    }*/
+}

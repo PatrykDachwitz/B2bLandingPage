@@ -4,7 +4,7 @@
 return [
     'shopRules' => "AGB",
     'privacyPolicy' => "Datenschutz",
-    'company' => "FORAM Sp. z o.o. sp.k.",
+    'company' => "Artforma",
     'street' => "ul. Jeziorna 3, Karpicko",
     'city' => "64-200 Wolsztyn",
     'nip' => "Steuernummer: 923‑172‑93‑78",

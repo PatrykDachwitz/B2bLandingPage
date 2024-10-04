@@ -4,26 +4,13 @@
 
 
 @section('content')
-<section class="container-1920 d-flex justify-content-start fs-6 fw-bold mb-2" style="margin-top: calc(0.5rem + 80px) !important;">
-    <picture>
-        <source srcset="/files/icons/home.webp" type="image/webp">
-        <img src="/files/icons/home.png" alt="home" loading="lazy" width="20" class="ms-4" height="20">
-    </picture>
-    <span class="mx-3">Strona główna</span>
-    <picture>
-        <source srcset="/files/icons/arrow.webp" type="image/webp">
-        <img src="/files/icons/arrow.png" alt="arrow" loading="lazy" height="20" width="20">
-    </picture>
-    <span class="mx-3">Lustro Stone Line</span>
-</section>
 
-
-<section class="row container-1920 m-0">
-    <div class="col-12 col-lg-6">
-        <div class="gallery d-flex">
-            <div class="d-flex flex-column mx-3">
+<section class="row container-1920 mb-0 mx-0" style="margin-top: 190px !important;">
+    <div class="col-12 col-lg-6 position-relative">
+        <div class="gallery flex-column-reverse flex-lg-row d-flex">
+            <div class="d-flex flex-lg-column mx-lg-3 mt-2 mt-lg-0">
                 @for($i = 0; $i < 3; $i++)
-                    <div class="mb-2">
+                    <div class="mb-lg-2 me-2 me-lg-0">
                         <img src="/files/gallery/1.jpg" width="80">
                     </div>
                 @endfor
@@ -54,12 +41,12 @@
         </div>
     </div>
     <div class="col-12 col-lg-5 d-flex flex-column align-items-start text-white">
-        <h1 class="fs-3">StoneLine</h1>
+        <h1 class="fs-2 m-0 py-3 py-lg-0">StoneLine</h1>
         <p class="fs-6 text-gray-footer">Zestaw mebli łazienkowych wykończony fornirem kamiennym z naturalnych łupków to doskonałe połączenie nowoczesności i elegancji. W skład zestawu wchodzi szafka podumywalkowa oraz lustro, którego rama wykończona jest naturalnym kamieniem. Szeroka gama struktur i odcieni kamienia sprawia, że każdy element zestawu jest unikatowy i niepowtarzalny. Lustro dostępne jest w dwóch wersjach głębokości – 9 cm lub 4 cm.</p>
         <h2 class="fs-5">Standardowe rozamiry <span class="text-gray-footer">[cm]</span></h2>
-        <div class="row">
+        <div class="row g-5">
             @for($i = 1; $i < 4; $i++)
-                <div class="col-3">
+                <div class="col-4">
                     <h3 class="fs-6">Szafka <span class="text-gray-footer">LxWxH</span></h3>
                     <ul class="list-unstyled">
                         @for($j = 0; $j < 3; $j++)
@@ -82,32 +69,22 @@
                     <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
                 </picture>Kolory obudowy i kształty dostępne w opisie
             </li>
-            <li>
-                <picture>
-                    <source srcset="/files/icons/check.webp" type="image/webp">
-                    <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
-                </picture>Cena za zestaw: od 3000€
-            </li>
-            <li>
-                <picture>
-                    <source srcset="/files/icons/check.webp" type="image/webp">
-                    <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
-                </picture>Czas realizacji do 40 dni roboczych
-            </li>
+
+
         </ul>
         <div><a href="#contactForm" class="btn btn-gold fs-6">Uzyskaj wycenę</a></div>
         <div>
             <h3 class="fs-5 mt-3"><i>Potrzebujesz pomocy?</i></h3>
-            <ul class="d-flex justify-content-start list-unstyled">
+            <ul class="d-flex flex-column flex-lg-row justify-content-start list-unstyled">
                 <li>
-                    <a href="https://wa.me/+48781637661">
+                    <a href="{{ config("shop.whatsApp") }}" class="text-decoration-none text-white fs-6">
                         <picture>
                             <source srcset="/files/icons/whatsapp.webp" type="image/webp">
                             <img src="/files/icons/whatsapp.png" alt="arrow" loading="lazy" height="30" width="30">
-                        </picture>
+                        </picture>  <i>WhatsApp</i>
                     </a>
                 </li>
-                <li class="ms-1">
+                <li class="mt-3 mt-lg-0 ms-lg-3">
                     <a href="tel: {{ config("shop.phone") }}" class="text-decoration-none text-white fs-6">
                     <picture>
                         <source srcset="/files/icons/telephone.webp" type="image/webp">
@@ -115,7 +92,7 @@
                     </picture> <i>{{ config("shop.phone") }}</i>
                     </a>
                 </li>
-                <li class="ms-3">
+                <li class="mt-3 mt-lg-0 ms-lg-3">
                     <a href="mailto: {{ config("shop.mailContact") }}" class="text-decoration-none text-white fs-6">
                         <picture>
                             <source srcset="/files/icons/email.webp" type="image/webp">
@@ -133,29 +110,17 @@
         <button class="btn btn-gold px-5 fs-6">Opis produktu</button>
     </div>
 
-    <div class="text-white mt-4">
-        <span class="ms-2 ms-lg-5 fs-1">Kolekcja dekorów</span>
-        <a class="text-white fw-light ms-2 ms-lg-0 fs-5" href="/">Sprawdz&nbsp;pełen&nbsp;wzorni</a>
-        <div class="d-flex mt-4">
-            @for($j = 0; $j < 20; $j++)
-                <div class="mx-1">
-                    <picture>
-                        <source srcset="/files/sliderColor.webp" type="image/webp">
-                        <img src="/files/sliderColor.jpg" loading="lazy" height="300"/>
-                    </picture>
-                </div>
-            @endfor
-        </div>
-    </div>
 
-    <div class="text-white mt-4">
+    @include('component.product.carousel')
+
+    {{--<div class="text-white mt-4">
         <span class="fs-1 ms-2 ms-lg-5">Dostępne warianty</span>
         <div class="d-flex mt-4">
             <div class="d-flex position-absolute top-50 start-0">
-                {{--<picture>
+                --}}{{--<picture>
                     <source srcset="/files/icons/arrow.webp" type="image/webp">
                     <img src="/files/icons/arrow.png" alt="arrow" loading="lazy" height="50" width="50">
-                </picture>--}}
+                </picture>--}}{{--
             </div>
             @for($j = 0; $j < 20; $j++)
                 <div class="mx-1">
@@ -166,7 +131,7 @@
                 </div>
             @endfor
         </div>
-    </div>
+    </div--}}>
 </section>
 
     @include('component.formContact')

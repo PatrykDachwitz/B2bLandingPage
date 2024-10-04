@@ -22,7 +22,9 @@
         }
         color: $gray-footer-text;
         &--unstyle {
-            text-decoration: none;
+            @media (min-width: 992px) {
+                text-decoration: none;
+            }
             font-size: 1em;
         }
     }
@@ -39,14 +41,14 @@
     &--first {
         flex: 100% 1;
         @media (min-width: 992px) {
-            flex: 20% 0;
+            flex: 40% 0;
         }
     }
 
     &--second {
         flex: 100% 1;
         @media (min-width: 992px) {
-            flex: 80% 1;
+            flex: 60% 1;
         }
     }
 

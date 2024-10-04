@@ -1,9 +1,9 @@
 <nav class="py-0 container-fluid navbar flex-column navbar-expand-lg position-fixed top-0 menu {{$menu ?? ''}}">
-    <div class="container-fluid py-3 position-relative">
+    <div class="container-fluid py-3 py-lg-4 position-relative px-3 px-lg-5">
         <a class="navbar-brand" href="/">
             <picture>
                 <source srcset="/files/logo.webp" type="image/webp">
-                <img src="/files/logo.png" loading="lazy" height="40">
+                <img src="/files/logo.png" loading="lazy" class="menu__image" height="45">
             </picture>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,7 +14,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('mainPage') }}#collaborationPath">@lang('menu.collaborationPath')</a>
                 </li>
-                <li class="nav-item ">
+                <li class="nav-item mx-4">
                     <a class="nav-link dropdown-toggle menu__additional--activate" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">@lang('menu.ourProducts')</a>
                     <div class="container-fluid justify-content-start justify-content-lg-end py-1 py-lg-4 menu__additional">
                         <div class="d-none d-lg-block">

@@ -1,29 +1,14 @@
 import './bootstrap';
 import {compileString} from "sass";
+import {checkNeedActivateMenu} from "@/utils/checkNeedActivateMenu.js";
+import {Carousel} from "@/utils/carousel.js";
 
 checkNeedActivateMenu();
 
 window.addEventListener('scroll', checkNeedActivateMenu)
 
-function checkNeedActivateMenu() {
-    if(window.scrollY > 20) activeScrollMenu();
-    else deactivateScrollMenu();
-}
 
-function getMenuContainer () {
-    return document.querySelector('nav');
-}
-function activeScrollMenu() {
-    let menu = getMenuContainer();
 
-    if (!menu.classList.contains('menu--scroll')) {
-        menu.classList.add('menu--scroll');
-    }
-}
-
-function deactivateScrollMenu() {
-    let menu = getMenuContainer();
-    if (menu.classList.contains('menu--scroll')) {
-        menu.classList.remove('menu--scroll');
-    }
-}
+window.addEventListener('load', e => {
+    const carousel = new Carousel('data-carousel-decor')
+})

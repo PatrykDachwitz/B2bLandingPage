@@ -8,8 +8,8 @@
         <div class="slider__container d-flex flex-column justify-content-center align-items-center">
             <h1 class="fs-4 text-white text-center mx-5 mt-3 mt-md-0">@lang('mainPage.sliderContent')</h1>
             <div class="mt-2 d-flex flex-column flex-md-row align-items-center">
-                <button class="btn btn-gold me-1 slider__button fs-6" href="{{ route('mainPage') }}#products">@lang('mainPage.viewProduct')</button>
-                <button class="ms-2 btn btn-gold-inline slider__button fs-6 mt-2 mt-md-0" href="#contactForm">@lang('mainPage.sendRequest')</button>
+                <button class="btn btn-gold me-md-1 slider__button fs-6" href="{{ route('mainPage') }}#products">@lang('mainPage.viewProduct')</button>
+                <button class="ms-md-2 btn btn-gold-inline slider__button fs-6 mt-2 mt-md-0" href="#contactForm">@lang('mainPage.sendRequest')</button>
             </div>
         </div>
 
@@ -25,8 +25,7 @@
     </section>
 
 
-    <section class="container-fluid" id="products">
-        <h2 class="text-center text-white my-5 fs-3">@lang('mainPage.ourProducts')</h2>
+    <section class="container-fluid mt-5" id="products">
         <div class="container-1920 row g-3 px-3">
             @for($i = 0; $i < 6; $i++)
                 <div class="col-6 col-md-4 smallBanners">
@@ -46,8 +45,8 @@
         </div>
     </section>
 
-    <section class="bg-gray container-fluid py-5 mt-5 d-flex flex-column collaboration" id="collaborationPath">
-        <p class="text-center text-white mb-5 fs-1">@lang('mainPage.cooperation')</p>
+    <section class="bg-gray container-fluid pb-5 mt-5 d-flex flex-column collaboration" id="collaborationPath">
+        <p class="text-center text-white m-0 fs-1 py-5">@lang('mainPage.cooperation')</p>
         <div class="container-1920 row mx-1 mx-md-5 px-md-5 g-5 g-md-0 collaboration">
             @for($i = 1; $i < 5; $i++)
                 <div class="col-12 col-md-3 d-flex collaboration__column d-flex flex-row justify-content-md-between flex-md-column align-items-end align-items-md-start pe-md-3">

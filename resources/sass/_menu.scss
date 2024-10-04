@@ -3,6 +3,13 @@
         filter: invert(1);
     }
 
+    &__image {
+        height: 45px;
+        @media (min-width: 992px) {
+            height: 60px;
+        }
+    }
+
     background-color: $gray-main;
 
     @media (min-width: 992px) {
