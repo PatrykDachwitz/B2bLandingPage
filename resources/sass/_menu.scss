@@ -1,7 +1,13 @@
 .menu {
-    background-color: #000000e3;
-    padding: 1em 0;
+    &__icon {
+        filter: invert(1);
+    }
 
+    background-color: $gray-main;
+
+    @media (min-width: 992px) {
+        background-color: #000000e3;
+    }
     &--scroll {
         background-color: $gray-main;
         z-index: 2;
@@ -20,7 +26,25 @@
         justify-content: end;
     }
 
-    &__additionalList {
-        background-color: white;
+    &__additional {
+        left: 0;
+        top: 80px;
+        background-color: $gray-main;
+        display: none !important;
+
+        @media (min-width: 992px) {
+            position: absolute;
+            border-top: 1px solid $gray-text;
+            border-bottom: 1px solid $gray-text;
+        }
+
+        &--activate:hover ~ .menu__additional {
+            display: flex !important;
+        }
+
+        &:hover {
+            display: flex !important;
+        }
     }
+
 }
