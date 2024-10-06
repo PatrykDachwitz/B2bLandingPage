@@ -37,7 +37,7 @@
                             <img src="/files/gallery/{{ $product }}/1.jpg" class="d-block w-100" alt="...">
                         </div>
                         @for($i = 2; $i <= $gallery; $i++)
-                            <div class="carousel-item" data-galler-index="2">
+                            <div class="carousel-item" data-galler-index="{{ $i }}">
                                 <img src="/files/gallery/{{ $product }}/{{ $i }}.jpg" class="d-block w-100" alt="...">
                             </div>
                         @endfor
