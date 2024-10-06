@@ -10,11 +10,8 @@
         }
     }
 
-    background-color: $gray-main;
+    background-color: #000000e3;
 
-    @media (min-width: 992px) {
-        background-color: #000000e3;
-    }
     &--scroll {
         background-color: $gray-main;
         z-index: 2;
@@ -31,18 +28,30 @@
         width: 100%;
         display: flex;
         justify-content: end;
+        @media (min-width: 992px) {
+            min-height: $height-menu;
+            align-items: center;
+        }
     }
 
     &__additional {
+        z-index: 10;
         left: 0;
-        top: 80px;
         background-color: $gray-main;
         display: none !important;
-
+        top: $height-menu;
         @media (min-width: 992px) {
             position: absolute;
             border-top: 1px solid $gray-text;
             border-bottom: 1px solid $gray-text;
+        }
+
+        &--activate {
+            @media (min-width: 992px) {
+                display: flex;
+                align-items: center;
+                min-height: $height-menu;
+            }
         }
 
         &--activate:hover ~ .menu__additional {
@@ -51,6 +60,19 @@
 
         &:hover {
             display: flex !important;
+        }
+    }
+
+    &__option {
+        @media (min-width: 992px) {
+            display: flex;
+            align-items: center;
+            min-height: $height-menu;
+        }
+    }
+    &__container--option {
+        @media (min-width: 992px) {
+            min-height: $height-menu;
         }
     }
 

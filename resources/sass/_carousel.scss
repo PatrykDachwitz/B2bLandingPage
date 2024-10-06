@@ -2,10 +2,31 @@
 
     &__imagesContainer {
         left: 0;
-        transition: left 1s ease;
         cursor: pointer;
     }
 
+    &__button {
+        display: flex;
+        align-items: center;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgb(30 30 30) 0%, rgba(0, 212, 255, 0) 100%);
+        cursor: pointer;
+
+        &--next {
+            background: rgb(0,0,0);
+            background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgb(30 30 30) 0%, rgba(0, 212, 255, 0) 100%);
+
+        }
+        & img {
+            filter: invert(1);
+        }
+
+        &--decor {
+            height: 300px;
+            bottom: 0;
+
+        }
+    }
     /*&__image {
         @media (min-width: 992px) {
             &:hover {

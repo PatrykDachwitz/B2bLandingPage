@@ -51,3 +51,49 @@
 .rotate-180 {
     transform: rotate(180deg);
 }
+
+.dropdown-item:hover {
+    color: $white !important;
+}
+
+.navbar-toggler:focus {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.f-c {
+    flex-direction: column !important;
+}
+
+.d-n {
+    display: none !important;
+}
+
+.jc-s {
+    justify-content: start !important;
+}
+
+.jc-c {
+    justify-content: center !important;
+}
+
+.d-f {
+    display: flex !important;
+}
+
+.ai-s {
+    align-items: start !important;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.min-width-100 {
+    max-width: 100%;
+}
+
+.ai-c {
+    align-items: center !important;
+}
+

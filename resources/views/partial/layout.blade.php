@@ -5,7 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>B2b Page</title>
+    <link rel="icon" type="image/png" href="/files/favicon.ico">
+    <title>Zusammenarbeit B2B - Artforma</title>
     @vite([
     'resources/js/app.js',
     'resources/sass/app.scss',
@@ -19,6 +20,7 @@
 @yield('content')
 
 @include('component.footer')
+
 
 </body>
 </html>

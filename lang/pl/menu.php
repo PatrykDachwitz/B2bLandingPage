@@ -1,7 +1,8 @@
 <?php
 
 return [
-  'collaborationPath' => "Ścieżka współpracy",
-  'ourProducts' => "Nasze produkty",
+  'collaborationPath' => "Wie funktionieren wir?",
+  'ourProducts' => "Produkte",
   'contact' => "Kontakt",
+  'collection' => "Kollektion",
 ];

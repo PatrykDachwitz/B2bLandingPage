@@ -1,6 +1,8 @@
 .gallery {
-    &__miniContainer {
-        flex: 80px 0;
+    &__container--miniImage {
+        @media (min-width: 992px) {
+            flex: 80px 0;
+        }
     }
 
     &__mainContainer {
@@ -10,5 +12,37 @@
     @media (min-width: 992px) {
         position: sticky;
         top: $height-menu;
+    }
+
+    &__button {
+        @media (min-width: 992px) {
+            width: 80px;
+        }
+        cursor: pointer;
+        &--up {
+            @media (max-width: 991px) {
+                left: 0;
+                transform: rotate(180deg);
+            }
+            @media (min-width: 992px) {
+                top: 0;
+                transform: rotate(180deg);
+            }
+            filter: invert(1);
+        }
+
+        &--down {
+
+            @media (max-width: 991px) {
+                right: 0;
+                transform: rotate(90deg);
+            }
+            @media (min-width: 992px) {
+                bottom: 0;
+                transform: rotate(90deg);
+            }
+            filter: invert(1);
+
+        }
     }
 }
