@@ -66,7 +66,7 @@ export class Menu {
 
         buttons.forEach(button => {
             button.addEventListener('mouseover', e =>{
-                console.log('test');
+                /*console.log('test');*/
                 this.changeImage(button);
             })
         })

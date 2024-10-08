@@ -207,7 +207,7 @@ export class Gallery {
         let currentTop = this.getCurrentTopValue();
         let newTopValue = currentTop + this.originHeightImage;
 
-        console.log(newTopValue)
+        /*console.log(newTopValue)*/
         if (newTopValue >= 0) {
             this.disabledButton('up');
             this.galleryMiniImageContainer.style.top = `0px`;

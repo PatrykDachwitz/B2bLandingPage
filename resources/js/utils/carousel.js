@@ -74,8 +74,8 @@ export class Carousel {
     calculateLeftShiftPlus() {
         let currentLeftStyle = this.getCurrentLeftStyle();
 
-        console.log(currentLeftStyle);
-        console.log(this.widthImage);
+        /*console.log(currentLeftStyle);
+        console.log(this.widthImage);*/
         return (currentLeftStyle + this.widthImage);
     }
 
