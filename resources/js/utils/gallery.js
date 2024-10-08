@@ -3,18 +3,104 @@ export class Gallery {
     galleryMiniImageContainer
 
     buttonDown;
+    buttonNext;
+    buttonPrevious;
     buttonUp;
     maxScroll;
     originHeightImage;
+    originWidthImage;
+    maxShiftScroll;
     constructor() {
         this.galleryContainer = document.querySelector('.gallery');
         this.galleryMiniImageContainer = document.querySelector('.gallery__miniContainer--main');
 
-        this.initSmallGalleryPc();
+
+        if (window.innerWidth > 991) {
+            this.initSmallGalleryPc();
+        } else {
+            this.initSmallGalleryMobile();
+        }
     }
 
+    calculateWidthImage() {
+        this.originWidthImage = document.querySelector('.gallery__mainContainer--image').offsetWidth;
+    }
+
+    calculateMaxShiftLeft() {
+        let offsetParentContainer = document.querySelector(".gallery__container--miniImage").offsetWidth;
+        let scrollChildContainer = this.galleryMiniImageContainer.scrollWidth;
+
+        this.maxShiftScroll = scrollChildContainer - offsetParentContainer;
+    }
+    initSmallGalleryMobile() {
+        this.calculateWidthImage();
+        this.calculateMaxShiftLeft()
+
+        const miniImages = document.querySelectorAll('.gallery__mainContainer--image');
+
+        miniImages.forEach(miniImage => {
+            miniImage.classList.remove('d-lg-none');
+            miniImage.addEventListener('click', e => {
+                this.changeImage(miniImage.dataset.gallerySmall);
+            });
+
+        })
+
+        this.initButtonMobile();
+    }
+
+    getCurrentLeft() {
+        let currentLeft = this.galleryMiniImageContainer.style.left;
+
+        if (currentLeft === "") return 0
+        else return parseInt(currentLeft);
+    }
+    nextImageScroll() {
+        let leftShift = this.getCurrentLeft();
+        let newShiftLeft = leftShift - this.originWidthImage;
+
+        if(Math.abs(this.maxShiftScroll) <= Math.abs(newShiftLeft)) {
+            this.galleryMiniImageContainer.style.left = `-${this.maxShiftScroll}px`;
+            this.disabledButton('next');
+            this.activateButton('previous');
+        } else {
+            this.galleryMiniImageContainer.style.left = `${newShiftLeft}px`;
+            this.activateButton('previous');
+        }
+    }
+
+    previousImageScroll() {
+        let leftShift = this.getCurrentLeft();
+        let newShiftLeft = leftShift + this.originWidthImage;
+
+        if (newShiftLeft >= 0) {
+            this.galleryMiniImageContainer.style.left = `0`;
+            this.disabledButton('previous');
+            this.activateButton('next');
+        } else {
+            this.galleryMiniImageContainer.style.left = `${newShiftLeft}px`;
+            this.activateButton('next');
+        }
+
+    }
+
+
+    initButtonMobile() {
+        this.buttonNext = document.querySelector('.gallery__button--down');
+        this.buttonPrevious = document.querySelector('.gallery__button--up');
+
+        this.buttonNext.addEventListener('click', e => {
+            this.nextImageScroll();
+        });
+
+        this.buttonPrevious.addEventListener('click', e => {
+            this.previousImageScroll();
+        });
+    }
+
+
     calculateHeightAndUpdatePc() {
-        let height = this.galleryContainer.scrollHeight;
+        let height = this.galleryContainer.offsetHeight;
         let miniImageContainer = document.querySelector('.gallery__container--miniImage');
         miniImageContainer.style.maxHeight = `${height}px`;
 
@@ -34,9 +120,19 @@ export class Gallery {
 
         this.maxScroll = (this.galleryMiniImageContainer.scrollHeight - height);
         this.originHeightImage = miniImages[0].offsetHeight;
-        this.initButton();
+
+        if (this.galleryMiniImageContainer.offsetHeight <= 600) {
+            this.removeButton();
+        } else {
+            this.initButton();
+        }
     }
 
+    removeButton() {
+        document.querySelector('.gallery__button--down').remove();
+        document.querySelector('.gallery__button--up').remove();
+
+    }
     initButton() {
         this.buttonDown = document.querySelector('.gallery__button--down');
         this.buttonUp = document.querySelector('.gallery__button--up');
@@ -66,6 +162,12 @@ export class Gallery {
             case 'up':
                 this.buttonUp.style.display = "none";
                 break;
+            case "next":
+                this.buttonNext.style.display = "none";
+                break;
+            case 'previous':
+                this.buttonPrevious.style.display = "none";
+                break;
         }
     }
 
@@ -76,6 +178,12 @@ export class Gallery {
                 break;
             case "up":
                 this.buttonUp.style.display = "";
+                break;
+            case "next":
+                this.buttonNext.style.display = "";
+                break;
+            case "previous":
+                this.buttonPrevious.style.display = "";
                 break;
         }
 

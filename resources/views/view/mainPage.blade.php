@@ -25,9 +25,9 @@
     </section>
 
 
-    <section class="container-fluid mt-5 p-md-0" id="products">
+    <section class="container-fluid mt-5 p-md-0 mx-0 overflow-hidden" id="products">
         <div class="container-1920 row g-3 px-3">
-            <div class="col-6 col-md-4 smallBanners">
+            <div class="col-6 col-lg-4 smallBanners">
                 <div>
                     <picture>
                         <source srcset="/files/bannerColorLine.webp" type="image/webp">
@@ -40,7 +40,7 @@
                 </div>
 
             </div>
-            <div class="col-6 col-md-4 smallBanners">
+            <div class="col-6 col-lg-4 smallBanners">
                 <div>
                     <picture>
                         <source srcset="/files/bannerStoneLine.webp" type="image/webp">
@@ -53,7 +53,7 @@
                 </div>
 
             </div>
-            <div class="col-6 col-md-4 smallBanners">
+            <div class="col-6 col-lg-4 smallBanners">
                 <div>
                     <picture>
                         <source srcset="/files/bannerNolan.webp" type="image/webp">
@@ -66,7 +66,7 @@
                 </div>
 
             </div>
-            <div class="col-6 col-md-4 smallBanners">
+            <div class="col-6 col-lg-4 smallBanners">
                 <div>
                     <picture>
                         <source srcset="/files/bannerSolidLone.webp" type="image/webp">
@@ -79,7 +79,7 @@
                 </div>
 
             </div>
-            <div class="col-6 col-md-4 smallBanners">
+            <div class="col-6 col-lg-4 smallBanners">
                 <div>
                     <picture>
                         <source srcset="/files/bannerGleamLine.webp" type="image/webp">
@@ -92,7 +92,7 @@
                 </div>
 
             </div>
-            <div class="col-6 col-md-4 smallBanners">
+            <div class="col-6 col-lg-4 smallBanners">
                 <div>
                     <picture>
                         <source srcset="/files/bannerSteindekor.webp" type="image/webp">

@@ -1,5 +1,6 @@
 .smallBanners {
     position: relative;
+    overflow: hidden;
     &__image {
         min-width: 100%;
         max-width: 100%;
@@ -10,13 +11,17 @@
         bottom: 10px;
         left: 10px;
         background-color: $gray-main;
+        min-height: 100%;
         @media (min-width: 768px) {
+            min-height: auto;
             position: absolute;
         }
     }
 
     &__title {
-        max-height: 22px;
+        @media (min-width: 768px) {
+            max-height: 22px;
+        }
         color: $white;
     }
 

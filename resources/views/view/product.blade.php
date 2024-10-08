@@ -19,14 +19,14 @@
                 <div class="position-absolute gallery__button--down gallery__button" >
                     <picture>
                         <source srcset="/files/icons/arrow.webp" type="image/webp" >
-                        <img src="/files/icons/arrow.png" loading="lazy" width="40" height="40">
+                        <img src="/files/icons/arrow.png" class="gallery__button--down--img" loading="lazy" width="40" height="40">
                     </picture>
                 </div>
 
                 <div class="position-absolute gallery__button gallery__button--up" style="display: none">
                     <picture>
                         <source srcset="/files/icons/arrow.webp" type="image/webp" >
-                        <img src="/files/icons/arrow.png" loading="lazy" width="40" height="40">
+                        <img src="/files/icons/arrow.png" class="gallery__button--up--img" loading="lazy" width="40" height="40">
                     </picture>
                 </div>
             </div>
@@ -68,10 +68,12 @@
 
         @if(is_array(__($product . ".sizes")))
         <h2 class="fs-5">{{ __($product . ".standardSize") }} <span class="text-gray-footer">[cm]</span></h2>
-        <div class="row g-5">
+        <div class="d-flex">
                 @foreach(__($product . ".sizes") ?? [] as $size)
-                    <div class="col-4">
-                        <h3 class="fs-6">{{ $size['title'] }} <span class="text-gray-footer">{{ $size['titleSecond'] }}</span></h3>
+                    <div class="@if($loop->index > 0) ms-4 @endif">
+                        <div class="d-flex">
+                            <h3 class="fs-6">{{ $size['title'] }} <span class="text-gray-footer">{{ $size['titleSecond'] }}</span></h3>
+                        </div>
                         <ul class="list-unstyled">
                             @foreach($size['option'] ?? [] as $optionSize)
                                 <li class="fs-6">{{ $optionSize }}</li>
