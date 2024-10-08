@@ -11,16 +11,31 @@ export class Carousel {
     scrollOriginalWidth;
     constructor(dataCarousel) {
         this.initPrimaryInformation(dataCarousel);
-        this.initButtons();
+
+        if (window.innerWidth < this.scrollOriginalWidth) {
+            this.initButtons();
+        } else {
+            this.removeButton();
+        }
     }
 
+    removeButton() {
+        let nextButton = this.containerCarousel.querySelector('[data-button-next]');
+        let previousButton = this.containerCarousel.querySelector('[data-button-previous]');
+
+        nextButton.remove();
+        previousButton.remove();
+
+    }
     initPrimaryInformation(dataCarousel) {
         this.containerCarousel = document.querySelector(`[${dataCarousel}]`);
         this.containerImages = this.containerCarousel.querySelector('.carousel__imagesContainer');
         this.widthImage = parseInt(this.containerImages.querySelector('[data-carousel-column]').offsetWidth);
 
         this.calculateMaxValueShift();
-        this.calculateColumnsInformation();
+        if (window.innerWidth < this.scrollOriginalWidth) {
+            this.calculateColumnsInformation();
+        }
     }
 
     calculateColumnsInformation() {

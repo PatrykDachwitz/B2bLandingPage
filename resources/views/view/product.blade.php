@@ -7,7 +7,7 @@
 
 <section class="row container-1920 mb-0 mx-0" style="margin-top: 150px !important;">
     <div class="col-12 col-lg-6 position-relative">
-        <div class="gallery flex-column-reverse flex-lg-row d-flex">
+        <div class="gallery flex-column-reverse flex-lg-row justify-content-lg-end d-flex">
             <div class="d-flex gallery__container--miniImage overflow-hidden flex-lg-column mx-lg-3 mt-2 mt-lg-0">
                 <div class="gallery__miniContainer--main flex-lg-column d-flex position-relative">
                     @for($i = 1; $i <= $gallery; $i++)
@@ -57,6 +57,15 @@
     <div class="col-12 col-lg-5 d-flex flex-column align-items-start text-white">
         <h1 class="fs-2 m-0 py-3 py-lg-0">{{ __($product . ".title") }}</h1>
         <p class="fs-6 text-gray-footer">{{ __($product . ".description") }}</p>
+
+        @if(__($product . ".titleSecond") !== $product . ".titleSecond")
+            <h1 class="fs-2 m-0 py-3 py-lg-0">{{ __($product . ".titleSecond") }}</h1>
+        @endif
+
+        @if(__($product . ".descriptionSecond") !== $product . ".descriptionSecond")
+            <p class="fs-6 text-gray-footer">{{ __($product . ".descriptionSecond") }}</p>
+        @endif
+
         @if(is_array(__($product . ".sizes")))
         <h2 class="fs-5">{{ __($product . ".standardSize") }} <span class="text-gray-footer">[cm]</span></h2>
         <div class="row g-5">
@@ -135,21 +144,27 @@
         'title' => __($product . ".decorTitle"),
         'countDecor' => $countDecor,
         'product' => $product,
+        'directory' => 'decor',
     ])
 
-    <div class="text-white mt-4">
-        <span class="fs-1 ms-2 ms-lg-5">{{ __($product . ".availableForm") }}</span>
-        <div class="d-flex mt-4">
-            @for($j = 0; $j < 20; $j++)
-                <div class="mx-1">
-                    <picture>
-                        <source srcset="/files/sliderProduct.webp" type="image/webp">
-                        <img src="/files/sliderProduct.jpg" loading="lazy" height="300"/>
-                    </picture>
-                </div>
-            @endfor
-        </div>
-    </div>
+    @if($product === "steindekor")
+        @include('component.product.carousel', [
+        'title' => __($product . ".decorTitleSecond"),
+        'countDecor' => 11,
+        'product' => $product,
+        'directory' => 'forms',
+    ])
+    @endif
+
+    @if($product === "stoneLine")
+        @include('component.product.carousel', [
+          'title' => __($product . ".availableForm"),
+          'countDecor' => 7,
+          'product' => $product,
+          'directory' => 'forms',
+          "catalog" => false
+        ])
+    @endif
 </section>
 
     @include('component.formContact', [

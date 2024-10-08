@@ -7,7 +7,7 @@ return [
     'sizes' => [
         [
             'title' => "Schrank",
-            'titleSecond' => "LxBxH",
+            'titleSecond' => "[BxHxT]",
             'option' => [
                 '140x50x57',
                 '120x50x57',
@@ -16,7 +16,7 @@ return [
         ],
         [
             'title' => "Spiegel",
-            'titleSecond' => "LxB",
+            'titleSecond' => "[BxH]",
             'option' => [
                 '144x94',
                 '129x84',
@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Produktbeschreibung',
     'decorTitle' => 'Beispiele für Dekore',
     'availableForm' => 'Erhältliche Spiegelformen',
-    'downloadMaterial' => 'Herunterladen',
+    'downloadMaterial' => 'Technische Informationen [Herunterladen]',
     'formContactFirst' => 'Um ein Produkt zu bestellen oder ein Angebot zu erhalten, kontaktieren Sie uns bitte unter Angabe der Größe, der Serie und des gewählten Dekors.',
     'formContactSecond' => 'Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen.',
 ];

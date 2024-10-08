@@ -9,4 +9,5 @@ return [
     'instagram' => "https://www.instagram.com/artforma_com",
     'linkedin' => "https://pl.linkedin.com/company/artformacom",
     'pinterest' => "https://pl.pinterest.com/artforma_de",
+    'google' => "https://www.google.de/search?q=artforma",
 ];

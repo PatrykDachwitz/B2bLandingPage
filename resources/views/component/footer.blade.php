@@ -22,7 +22,7 @@
             <hr class="d-lg-none" style="min-width: 100%">
             <ul class="d-flex list-unstyled">
                 <li>
-                    <a href="{{ config("shop.facebook") }}">
+                    <a href="{{ config("shop.facebook") }}" target="_blank">
                         <picture>
                             <source srcset="/files/icons/facebook.webp" type="image/webp">
                             <img src="/files/icons/facebook.png" class="footer__icon" loading="lazy">
@@ -30,7 +30,7 @@
                     </a>
                 </li>
                 <li class="ms-1">
-                    <a href="{{ config("shop.instagram") }}">
+                    <a href="{{ config("shop.instagram") }}" target="_blank">
                         <picture>
                             <source srcset="/files/icons/instagram.webp" type="image/webp">
                             <img src="/files/icons/instagram.png" class="footer__icon" loading="lazy">
@@ -38,7 +38,7 @@
                     </a>
                 </li>
                 <li class="ms-1">
-                    <a href="{{ config("shop.pinterest") }}">
+                    <a href="{{ config("shop.pinterest") }}" target="_blank">
                         <picture>
                             <source srcset="/files/icons/pinterest.webp" type="image/webp">
                             <img src="/files/icons/pinterest.png" class="footer__icon" loading="lazy">
@@ -46,7 +46,7 @@
                     </a>
                 </li>
                 <li class="ms-1">
-                    <a href="{{ config("shop.linkedin") }}">
+                    <a href="{{ config("shop.linkedin") }}" target="_blank">
                         <picture>
                             <source srcset="/files/icons/linkedin.webp" type="image/webp">
                             <img src="/files/icons/linkedin.png" class="footer__icon" loading="lazy">
@@ -54,7 +54,7 @@
                     </a>
                 </li>
             </ul>
-            <a class="footer__text">@lang('footer.findInGoogle')</a>
+            <a class="footer__text" href="{{ config('shop.google') }}" target="_blank">@lang('footer.findInGoogle')</a>
         </div>
     </div>
     <hr />

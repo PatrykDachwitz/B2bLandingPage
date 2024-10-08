@@ -2,16 +2,25 @@
 
 return [
     'title' => 'ColorLine',
-    'description' => 'Die Möbel mit lackierten Rahmen, die in einer breiten RAL- und NCS-Farbalette und Ausführungen - glänzend, halbmatt oder matt - erhältlich sind, sind eine ausgezeichnete Wahl für diejenigen, die nach einzigartigen und stilvollen Lösungen suchen. Das Set, das aus einem eleganten Schrank und einem Spiegel besteht, kann mit Glasdekor, das in einer Vielzahl von Motiven erhältlich ist, bereichert werden und verleiht der Einrichtung einen einzigartigen Charakter und individuellen Stil.',
+    'description' => 'Die lackierten Möbelrahmen, erhältlich in vielen RAL- und NCS-Farben sowie in glänzend, halbmatt oder matt, sind ideal für stilvolle und einzigartige Einrichtungslösungen. Das Set aus elegantem Schrank und Spiegel kann mit Glasdekor in verschiedenen Motiven ergänzt werden, um dem Raum einen individuellen Charakter zu verleihen.',
     'standardSize' => "Standardgrößen",
     'sizes' => [
         [
             'title' => "Spiegel",
-            'titleSecond' => "LxB",
+            'titleSecond' => "[BxH]",
             'option' => [
                 '90x160',
                 '80x140',
                 '70x120',
+            ]
+        ],
+        [
+            'title' => "Waschbeckenunterschrank",
+            'titleSecond' => "[BxHxT]",
+            'option' => [
+                '80x50x40',
+                '100x50x40',
+                '120x50x40',
             ]
         ]
     ],
@@ -22,7 +31,7 @@ return [
     'descriptionAdditional' => 'Produktbeschreibung',
     'decorTitle' => 'Beispiele für Dekore',
     'availableForm' => 'Erhältliche Spiegelformen',
-    'downloadMaterial' => 'Herunterladen',
+    'downloadMaterial' => 'Technische Informationen [Herunterladen]',
     'formContactFirst' => 'Um ein Produkt zu bestellen oder ein Angebot zu erhalten, kontaktieren Sie uns bitte unter Angabe der Größe, der Serie und des gewählten Dekors.',
     'formContactSecond' => 'Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen.',
 ];

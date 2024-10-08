@@ -7,7 +7,7 @@ return [
     'sizes' => [
         [
             'title' => "Waschbeckenunterschrank",
-            'titleSecond' => "",
+            'titleSecond' => "[BxHxT]",
             'option' => [
                 '140x45x40',
                 '120x45x40',
@@ -16,7 +16,7 @@ return [
         ],
         [
             'title' => "Spiegel",
-            'titleSecond' => "LxB",
+            'titleSecond' => "[BxH]",
             'option' => [
                 '140x80',
                 '120x80',
@@ -25,7 +25,7 @@ return [
         ],
         [
             'title' => "Hängeschrank",
-            'titleSecond' => "",
+            'titleSecond' => "[BxHxT]",
             'option' => [
                 '40x150x40',
             ]
@@ -38,7 +38,7 @@ return [
     'descriptionAdditional' => 'Produktbeschreibung',
     'decorTitle' => 'Beispiele für Dekore',
     'availableForm' => 'Erhältliche Spiegelformen',
-    'downloadMaterial' => 'Herunterladen',
+    'downloadMaterial' => 'Technische Informationen [Herunterladen]',
     'formContactFirst' => 'Um ein Produkt zu bestellen oder ein Angebot zu erhalten, kontaktieren Sie uns bitte unter Angabe der Größe, der Serie und des gewählten Dekors.',
     'formContactSecond' => 'Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen.',
 ];
