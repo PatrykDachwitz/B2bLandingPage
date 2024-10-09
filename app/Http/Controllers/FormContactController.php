@@ -13,7 +13,7 @@ class FormContactController extends Controller
     public function __invoke(FormContactRequest $request)
     {
         $trainer = "b2b@pdachwitz.pl";
-        $trainee = "patrykda99@gmail.com";
+        $trainee = "b2b@artforma.eu";
 
         Mail::send(
             'email.b2b',

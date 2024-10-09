@@ -1,8 +1,8 @@
 <?php
 
 return [
-  'contactWithForm' => "Kontaktieren Sie uns über das Formular oder direkt unter b2b@artforma.eu.",
-  'contact24Hours' => "Wir werden Ihnen so schnell wie möglich antworten.",
+  'contactWithForm' => "Kontaktieren Sie uns über das Formular oder direkt unter <a class='text-white' href='mailto:b2b@artforma.eu'>b2b@artforma.eu</a>",
+  'contact24Hours' => "Wir werden Ihnen so schnell wie möglich antworten",
   'names' => "Firmennamen oder Vor- und Nachname",
   'email' => "E-Mail",
   'phone' => "Telefonnummer",

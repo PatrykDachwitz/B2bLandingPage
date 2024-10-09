@@ -68,9 +68,9 @@
 
         @if(is_array(__($product . ".sizes")))
         <h2 class="fs-5">{{ __($product . ".standardSize") }} <span class="text-gray-footer">[cm]</span></h2>
-        <div class="d-flex">
+        <div class="d-flex @if(count(__($product . ".sizes") ?? []) > 2) flex-column flex-lg-row @endif">
                 @foreach(__($product . ".sizes") ?? [] as $size)
-                    <div class="@if($loop->index > 0) ms-4 @endif">
+                    <div class="@if($loop->index > 0 & count(__($product . ".sizes") ?? []) <= 2) ms-4 @else ms-lg-4 @endif">
                         <div class="d-flex">
                             <h3 class="fs-6">{{ $size['title'] }} <span class="text-gray-footer">{{ $size['titleSecond'] }}</span></h3>
                         </div>

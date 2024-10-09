@@ -39,6 +39,6 @@ return [
     'decorTitle' => 'Beispiele für Dekore',
     'availableForm' => 'Erhältliche Spiegelformen',
     'downloadMaterial' => 'Technische Informationen [Herunterladen]',
-    'formContactFirst' => 'Um ein Produkt zu bestellen oder ein Angebot zu erhalten, kontaktieren Sie uns bitte unter Angabe der Größe, der Serie und des gewählten Dekors.',
-    'formContactSecond' => 'Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen.',
+    'formContactFirst' => 'Um ein Produkt zu bestellen oder ein Angebot zu erhalten, kontaktieren Sie uns bitte unter Angabe der Größe, der Serie und des gewählten Dekors',
+    'formContactSecond' => 'Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen',
 ];
