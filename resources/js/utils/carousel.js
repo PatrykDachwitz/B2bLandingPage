@@ -17,7 +17,66 @@ export class Carousel {
         } else {
             this.removeButton();
         }
+
+        this.initLoopDecor();
     }
+
+    clearLoopImages() {
+        let imagesLoop = this.containerImages.querySelectorAll('[data-loop-image="true"]');
+
+        imagesLoop.forEach(decor => {
+            decor.style.minWidth = '193px';
+            decor.style.minHeight = '300px';
+            decor.dataset.loopImage = false;
+        });
+        this.clearButtonMarginBottom();
+    }
+    clearButtonMarginBottom() {
+        if (this.nextButton !== undefined) {
+            this.nextButton.style.bottom = '0';
+        }
+
+        if (this.previousButton !== undefined) {
+            this.previousButton.style.bottom = '0';
+        }
+
+    }
+    changeButtonMarginBottom() {
+        if (this.nextButton !== undefined) {
+            this.nextButton.style.bottom = '120px';
+        }
+
+        if (this.previousButton !== undefined) {
+            this.previousButton.style.bottom = '120px';
+        }
+
+
+    }
+    loopImage(decor) {
+        let currentLoop = decor.dataset.loopImage;
+
+        this.clearLoopImages();
+        if (currentLoop === undefined || currentLoop === 'false') {
+            decor.style.minWidth = '270px';
+            decor.style.minHeight = '420px';
+            decor.dataset.loopImage = true;
+            this.changeButtonMarginBottom();
+        } else {
+            decor.style.minWidth = '193px';
+            decor.style.minHeight = '300px';
+            decor.dataset.loopImage = false;
+            this.clearButtonMarginBottom();
+        }
+    }
+    initLoopDecor() {
+        let decorsContainer = this.containerCarousel.querySelectorAll('.carousel__imageContainer');
+        decorsContainer.forEach(decor => {
+            decor.addEventListener('click', e => {
+                this.loopImage(decor);
+            })
+        })
+    }
+
 
     removeButton() {
         let nextButton = this.containerCarousel.querySelector('[data-button-next]');
@@ -133,10 +192,12 @@ export class Carousel {
         this.previousButton = this.containerCarousel.querySelector('[data-button-previous]');
 
         this.nextButton.addEventListener('click', e => {
+            this.clearLoopImages();
             this.changeNextPosition()
         });
 
         this.previousButton.addEventListener('click', e => {
+            this.clearLoopImages();
             this.changePreviousPosition()
         });
     }
