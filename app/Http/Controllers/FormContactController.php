@@ -13,7 +13,7 @@ class FormContactController extends Controller
     public function __invoke(FormContactRequest $request)
     {
         $trainer = "b2b@pdachwitz.pl";
-        $trainee = "b2b@artforma.eu";
+        $trainee = "patrykda99@gmail.com";
 
         Mail::send(
             'email.b2b',
@@ -29,8 +29,8 @@ class FormContactController extends Controller
             }
         );
 
-        return redirect()
-            ->back()
-            ->with('messageSuccess', 'success');
+        return response([
+            'msg' => 'success'
+        ], 200);
     }
 }

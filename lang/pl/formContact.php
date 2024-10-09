@@ -3,8 +3,8 @@
 return [
   'contactWithForm' => "Kontaktieren Sie uns über das Formular oder direkt unter b2b@artforma.eu.",
   'contact24Hours' => "Wir werden Ihnen so schnell wie möglich antworten.",
-  'names' => "Firmennamen oder Vor- und Nachname*",
-  'email' => "E-Mail*",
+  'names' => "Firmennamen oder Vor- und Nachname",
+  'email' => "E-Mail",
   'phone' => "Telefonnummer",
   'message' => "Inhalt der Nachricht",
   'requireInputs' => "Die mit * gekennzeichneten Felder sind erforderlich.",
@@ -15,4 +15,5 @@ return [
   'collapseText' => "Weniger zeigen",
   'expandText' => "Mehr zeigen",
   'successSendMail' => "Vielen Dank, die Daten aus dem Formular wurden gesendet.",
+  'errorSendMail' => "Beim Senden der Nachricht ist ein Fehler aufgetreten",
 ];

@@ -44,4 +44,6 @@ Route::get('/products/{product}', ProductController::class)->name('product');
 Route::post('/send-mail', FormContactController::class)
     ->name('formContact');
 
+Route::post('/send-mail', FormContactController::class)
+    ->name('formContact');
 

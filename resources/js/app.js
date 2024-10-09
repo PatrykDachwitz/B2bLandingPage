@@ -5,6 +5,7 @@ import {Carousel} from "@/utils/carousel.js";
 import {changeHeightRule} from "@/utils/ruleFormContact.js";
 import {Gallery} from "@/utils/gallery.js";
 import {Menu} from "@/utils/menu.js";
+import {ContactForm} from "@/utils/contactForm.js";
 
 checkNeedActivateMenu();
 
@@ -22,5 +23,6 @@ window.addEventListener('load', e => {
     })
 
     const menu = new Menu();
+    const formContact = new ContactForm('data-form-contact');
 })
 
