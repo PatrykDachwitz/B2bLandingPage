@@ -2,12 +2,12 @@
 
 return [
     'title' => 'StoneLine',
-    'description' => 'Das Badmöbel-Set mit Natursteinfurnier aus Schiefer verbindet Modernität mit Eleganz. Das Set besteht aus einem Waschbeckenschrank und einem Spiegel mit Natursteinrahmen, der in zwei Tiefen - 9 cm oder 4 cm - erhältlich ist. Die Vielfalt der Steinstrukturen und Schattierungen macht jedes Stück zu einem Unikat. Das Set kann auch mit einem Steindekor erweitert werden, das dem Bad einen einzigartigen Charakter verleiht.',
-    'standardSize' => "Standardgrößen",
+    'description' => 'Zestaw mebli łazienkowych z fornirem kamiennym z naturalnych łupków łączy nowoczesność z elegancją. W skład zestawu wchodzi szafka podumywalkowa i lustro z ramą z naturalnego kamienia, dostępne w dwóch głębokościach – 9 cm lub 4 cm. Różnorodność struktur i odcieni kamienia sprawia, że każdy element jest unikatowy. Zestaw można także rozbudować o dekor kamienny, nadając łazience wyjątkowy charakter.',
+    'standardSize' => "Standardowe rozmiary",
     'sizes' => [
         [
-            'title' => "Schrank",
-            'titleSecond' => "[BxHxT]",
+            'title' => "Szafka",
+            'titleSecond' => "",
             'option' => [
                 '140x50x57',
                 '120x50x57',
@@ -15,8 +15,8 @@ return [
             ]
         ],
         [
-            'title' => "Spiegel",
-            'titleSecond' => "[BxH]",
+            'title' => "Lustro",
+            'titleSecond' => "",
             'option' => [
                 '144x94',
                 '129x84',
@@ -24,14 +24,14 @@ return [
             ]
         ]
     ],
-    'ProductionForClient' => 'Wir stellen das Produkt auf <b>Bestellung</b> her und passen es an die gewählte Größe an.',
-    'colorAvailable' => '<b>Verfügbare Gehäusefarben und -formen</b> in der Beschreibung',
-    'contact' => 'Haben Sie Fragen? Kontaktieren Sie uns',
-    'getPriceProduct' => 'Kostenvoranschlag einholen',
-    'descriptionAdditional' => 'Produktbeschreibung',
-    'decorTitle' => 'Beispiele für Dekore',
-    'availableForm' => 'Erhältliche Spiegelformen',
-    'downloadMaterial' => 'Technische Informationen [Herunterladen]',
-    'formContactFirst' => 'Um ein Produkt zu bestellen oder ein Angebot zu erhalten, kontaktieren Sie uns bitte unter Angabe der Größe, der Serie und des gewählten Dekors',
-    'formContactSecond' => 'Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen',
+    'ProductionForClient' => 'Produkt wykonujemy na <b>zamówienie</b>, dostosowując go do wybranego rozmiaru.',
+    'colorAvailable' => '<b>Kolory obudowy i kształty</b> dostępne w opisie',
+    'contact' => 'Masz pytania? Skontaktuj się z nami Haben Sie Fragen?',
+    'getPriceProduct' => 'Uzyskaj wycenę',
+    'descriptionAdditional' => 'Opis produktu',
+    'decorTitle' => 'Przykładowe dekory',
+    'availableForm' => 'Dostępne kształty luster',
+    'downloadMaterial' => 'Materiały do pobrania',
+    'formContactFirst' => 'Aby zamówić lub otrzymać wycenę produktu, prosimy o kontakt, podając w wiadomości rozmiar, serię oraz wybrany dekor.',
+    'formContactSecond' => 'Skontaktujemy się z Tobą tak szybko jak będzie to możliwe.',
 ];

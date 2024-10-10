@@ -26,10 +26,10 @@
             </div>
         </div>
 
-        <h1 class="h1 text-center mt-5 mb-3">Musterpalette - Möbel Nolan</h1>
-        <p class="text-center font18 col-12 col-md-9 col-lg-7 mb-4">Stöbern Sie in unserer Designpalette und wählen Sie aus einer Vielzahl von Optionen, die Ihren Bedürfnissen entsprechen</p>
-        <h2 class="h2 text-center mt-4">Verfügbare Muster von Möbelfronten</h2>
-        <h3 class="font20 text-center my-3">Metalllaminate</h3>
+        <h1 class="h1 text-center mt-5 mb-3">@lang('decors.nolan.title')</h1>
+        <p class="text-center font18 col-12 col-md-9 col-lg-7 mb-4">@lang('decors.nolan.description')</p>
+        <h2 class="h2 text-center mt-4">@lang('decors.nolan.titleSectionFirst')</h2>
+        <h3 class="font20 text-center my-3">@lang('decors.nolan.titleSupportSectionFirst')</h3>
         <!--<p class="text-center font16 col-12 col-md-9 col-lg-7 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
         <div class="container row ai-s">
             @php
@@ -691,7 +691,7 @@
             @endforeach
 
         </div>
-        <h3 class="font20 text-center mt-5 mb-3">Steinlaminat</h3>
+        <h3 class="font20 text-center mt-5 mb-3">@lang('decors.nolan.titleSupportSectionThird')</h3>
         <!--<p class="text-center font16 col-12 col-md-9 col-lg-7 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
         <div class="container row ai-s">
             @php
@@ -792,7 +792,7 @@
                 </div>
             @endforeach
         </div>
-        <h3 class="font20 text-center mt-5 mb-3">MDF lackiert</h3>
+        <h3 class="font20 text-center mt-5 mb-3">@lang('decors.nolan.titleSupportSectionSecond')</h3>
         <!--<p class="text-center font16 col-12 col-md-9 col-lg-7 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
         <div class="container row ai-s">
             @foreach([
@@ -1008,8 +1008,8 @@
         </div>
     </section>
     <section class="bg-white d-f f-c jc-s ai-c">
-        <h2 class="h2 text-center mt-5 mb-2">Verfügbare Designs der Möbelseiten</h2>
-        <h3 class="font20 text-center mb-4 mt-2">MDF lackiert</h3>
+        <h2 class="h2 text-center mt-5 mb-2">@lang('decors.nolan.titleSectionFirst')</h2>
+        <h3 class="font20 text-center mb-4 mt-2">@lang('decors.nolan.titleSupportSectionSecond')</h3>
         <!--<p class="text-center font16 col-12 col-md-9 col-lg-7 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>-->
         <div class="container row ai-s">
             @foreach([

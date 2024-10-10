@@ -12,7 +12,7 @@
             @lang('formContact.contact24Hours')
         @endif
     </p>
-    <form class="row formContact g-3" method="POST" action="{{ route('formContact') }}" data-form-contact>
+    <form class="row formContact g-3" method="POST" action="{{ route('formContact', ['lang' => \Illuminate\Support\Facades\App::getLocale()]) }}" data-form-contact>
 
         @csrf
         <div class="col-12">

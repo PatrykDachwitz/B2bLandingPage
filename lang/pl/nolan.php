@@ -2,12 +2,12 @@
 
 return [
     'title' => 'Nolan',
-    'description' => 'Wir bieten Möbelsets mit abgerundeten Formen an, die mit Metalllaminaten in einer Vielzahl von Strukturen und Farben versehen sind. Es sind auch MDF-Lackierungen und mit Steinlaminat erhältlich, was eine noch größere Oberflächenvielfalt ermöglicht. Das Set besteht aus einem Waschbeckenunterschrank, einem Spiegel und einem Zubehörschrank, um eine komplette und funktionale Lösung zu schaffen.',
-    'standardSize' => "Standardgrößen",
+    'description' => 'Oferujemy zestawy meblowe o zaokrąglonych kształtach, wykończone metalowymi laminatami w szerokiej gamie struktur i kolorów. Dostępne są również wersje lakierowane na MDF oraz z kamiennym laminatem, co zapewnia jeszcze większą różnorodność wykończeń. W skład zestawu wchodzą: szafka podumywalkowa, lustro oraz szafka na akcesoria, tworząc kompletne i funkcjonalne rozwiązanie. ',
+    'standardSize' => "Standardowe rozmiary",
     'sizes' => [
         [
-            'title' => "Waschbeckenunterschrank",
-            'titleSecond' => "[BxHxT]",
+            'title' => "Szafka podumywalkowa",
+            'titleSecond' => "",
             'option' => [
                 '140x45x40',
                 '120x45x40',
@@ -15,8 +15,8 @@ return [
             ]
         ],
         [
-            'title' => "Spiegel",
-            'titleSecond' => "[BxH]",
+            'title' => "Lustro",
+            'titleSecond' => "LxW",
             'option' => [
                 '140x80',
                 '120x80',
@@ -24,21 +24,21 @@ return [
             ]
         ],
         [
-            'title' => "Hängeschrank",
-            'titleSecond' => "[BxHxT]",
+            'title' => "Szafka wisząca",
+            'titleSecond' => "",
             'option' => [
                 '40x150x40',
             ]
         ]
     ],
-    'ProductionForClient' => 'Wir stellen das Produkt auf <b>Bestellung</b> her und passen es an die gewählte Größe an.',
-    'colorAvailable' => '<b>Verfügbare Gehäusefarben und -formen</b> in der Beschreibung',
-    'contact' => 'Haben Sie Fragen? Kontaktieren Sie uns',
-    'getPriceProduct' => 'Kostenvoranschlag einholen',
-    'descriptionAdditional' => 'Produktbeschreibung',
-    'decorTitle' => 'Beispiele für Dekore',
-    'availableForm' => 'Erhältliche Spiegelformen',
-    'downloadMaterial' => 'Technische Informationen [Herunterladen]',
-    'formContactFirst' => 'Um ein Produkt zu bestellen oder ein Angebot zu erhalten, kontaktieren Sie uns bitte unter Angabe der Größe, der Serie und des gewählten Dekors',
-    'formContactSecond' => 'Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen',
+    'ProductionForClient' => 'Produkt wykonujemy na <b>zamówienie</b>, dostosowując go do wybranego rozmiaru.',
+    'colorAvailable' => '<b>Kolory obudowy i kształty</b> dostępne w opisie',
+    'contact' => 'Masz pytania? Skontaktuj się z nami Haben Sie Fragen?',
+    'getPriceProduct' => 'Uzyskaj wycenę',
+    'descriptionAdditional' => 'Opis produktu',
+    'decorTitle' => 'Przykładowe dekory',
+    'availableForm' => 'Dostępne kształty luster',
+    'downloadMaterial' => 'Materiały do pobrania',
+    'formContactFirst' => 'Aby zamówić lub otrzymać wycenę produktu, prosimy o kontakt, podając w wiadomości rozmiar, serię oraz wybrany dekor.',
+    'formContactSecond' => 'Skontaktujemy się z Tobą tak szybko jak będzie to możliwe.',
 ];

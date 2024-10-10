@@ -51,7 +51,7 @@ class ProductController extends Controller
     /**
      * Handle the incoming request.
      */
-    public function __invoke(string $product)
+    public function __invoke(string $country, string $product)
     {
 
         if (in_array($product, $this->availableOptions)) {

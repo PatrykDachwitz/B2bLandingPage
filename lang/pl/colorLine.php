@@ -2,12 +2,12 @@
 
 return [
     'title' => 'ColorLine',
-    'description' => 'Die lackierten Möbelrahmen, erhältlich in vielen RAL- und NCS-Farben sowie in glänzend, halbmatt oder matt, sind ideal für stilvolle und einzigartige Einrichtungslösungen. Das Set aus elegantem Schrank und Spiegel kann mit Glasdekor in verschiedenen Motiven ergänzt werden, um dem Raum einen individuellen Charakter zu verleihen.',
-    'standardSize' => "Standardgrößen",
+    'description' => 'Meble w lakierowanych ramach, dostępne w szerokiej gamie kolorów z palet RAL i NCS oraz w wykończeniach – połysk, półmat lub mat – to doskonała propozycja dla tych, którzy poszukują unikalnych i stylowych rozwiązań. Zestaw, składający się z eleganckiej szafki i lustra, można wzbogacić o szklany dekor, dostępny w różnorodnych motywach, nadając wnętrzu wyjątkowy charakter i indywidualny styl.',
+    'standardSize' => "Standardowe rozmiary",
     'sizes' => [
         [
-            'title' => "Spiegel",
-            'titleSecond' => "[BxH]",
+            'title' => "Lustro",
+            'titleSecond' => "[LxWxH]",
             'option' => [
                 '90x160',
                 '80x140',
@@ -15,8 +15,8 @@ return [
             ]
         ],
         [
-            'title' => "Waschbeckenunterschrank",
-            'titleSecond' => "[BxHxT]",
+            'title' => "Szafka podumywalkowa",
+            'titleSecond' => "[LxWxH]",
             'option' => [
                 '80x50x40',
                 '100x50x40',
@@ -24,14 +24,14 @@ return [
             ]
         ]
     ],
-    'ProductionForClient' => 'Wir stellen das Produkt auf <b>Bestellung</b> her und passen es an die gewählte Größe an.',
-    'colorAvailable' => '<b>Verfügbare Gehäusefarben und -formen</b> in der Beschreibung',
-    'contact' => 'Haben Sie Fragen? Kontaktieren Sie uns',
-    'getPriceProduct' => 'Kostenvoranschlag einholen',
-    'descriptionAdditional' => 'Produktbeschreibung',
-    'decorTitle' => 'Beispiele für Dekore',
-    'availableForm' => 'Erhältliche Spiegelformen',
-    'downloadMaterial' => 'Technische Informationen [Herunterladen]',
-    'formContactFirst' => 'Um ein Produkt zu bestellen oder ein Angebot zu erhalten, kontaktieren Sie uns bitte unter Angabe der Größe, der Serie und des gewählten Dekors',
-    'formContactSecond' => 'Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen',
+    'ProductionForClient' => 'Produkt wykonujemy na <b>zamówienie</b>, dostosowując go do wybranego rozmiaru.',
+    'colorAvailable' => '<b>Kolory obudowy i kształty</b> dostępne w opisie',
+    'contact' => 'Masz pytania? Skontaktuj się z nami Haben Sie Fragen?',
+    'getPriceProduct' => 'Uzyskaj wycenę',
+    'descriptionAdditional' => 'Opis produktu',
+    'decorTitle' => 'Przykładowe dekory',
+    'availableForm' => 'Dostępne kształty luster',
+    'downloadMaterial' => 'Materiały do pobrania',
+    'formContactFirst' => 'Aby zamówić lub otrzymać wycenę produktu, prosimy o kontakt, podając w wiadomości rozmiar, serię oraz wybrany dekor.',
+    'formContactSecond' => 'Skontaktujemy się z Tobą tak szybko jak będzie to możliwe.',
 ];

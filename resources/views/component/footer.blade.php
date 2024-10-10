@@ -11,10 +11,10 @@
                 </p>
             </div>
             <ul class="ms-5 d-flex flex-column list-unstyled text-start my-0">
-                <li><a class="footer__title footer__title--second" href="{{ route('rule') }}">@lang('footer.shopRules')</a></li>
-                <li><a class="footer__title footer__title--second" href="{{ route('policePrivate') }}">@lang('footer.privacyPolicy')</a></li>
-                <li><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#collaborationPath">@lang('footer.collaborationPath')</a></li>
-                <li><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#products">@lang('footer.products')</a></li>
+                <li><a class="footer__title footer__title--second" href="{{ route('rule', ['lang' => \Illuminate\Support\Facades\App::getLocale(),]) }}">@lang('footer.shopRules')</a></li>
+                <li><a class="footer__title footer__title--second" href="{{ route('policePrivate', ['lang' => \Illuminate\Support\Facades\App::getLocale(),]) }}">@lang('footer.privacyPolicy')</a></li>
+                <li><a class="footer__title footer__title--second" href="{{ route('mainPage', ['lang' => \Illuminate\Support\Facades\App::getLocale(),]) }}#collaborationPath">@lang('footer.collaborationPath')</a></li>
+                <li><a class="footer__title footer__title--second" href="{{ route('mainPage', ['lang' => \Illuminate\Support\Facades\App::getLocale(),]) }}#products">@lang('footer.products')</a></li>
                 <li><a class="footer__title footer__title--second" href="#contactForm">@lang('footer.formContact')</a></li>
             </ul>
         </div>

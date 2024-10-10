@@ -2,32 +2,32 @@
 
 return [
     'title' => 'SolidLine',
-    'description' => 'Das Möbelset ist aus europäischem oder exotischem Massivholz gefertigt und in verschiedenen Beiztönen erhältlich. Es ist eine perfekte Ergänzung für jedes Interieur und verleiht natürlichen Charme und Eleganz. Das Set besteht aus einem Waschbeckenunterschrank, einem Spiegel und einem Zubehörschrank.',
-    'standardSize' => "Standardgrößen",
+    'description' => 'Zestaw meblowy wykonany z litego drewna – europejskiego lub egzotycznego, dostępny w różnych rodzajach wybarwienia, stanowi doskonały dodatek do każdego wnętrza, dodając mu naturalnego uroku i elegancji. W skład zestawu wchodzi szafka podumywalkowa, lustro oraz szafka na akcesoria.',
+    'standardSize' => "Standardowe rozmiary",
     'sizes' => [
         [
-            'title' => "Waschbeckenunterschrank",
-            'titleSecond' => "[BxHxT]",
+            'title' => "Szafka podumywalkowa",
+            'titleSecond' => "",
             'option' => [
                 '120x28x50',
             ]
         ],
         [
-            'title' => "Spiegel",
-            'titleSecond' => "[BxH]",
+            'title' => "Lustro",
+            'titleSecond' => "[LxW]",
             'option' => [
                 '98x106',
             ]
         ]
     ],
-    'ProductionForClient' => 'Wir stellen das Produkt auf <b>Bestellung</b> her und passen es an die gewählte Größe an.',
-    'colorAvailable' => '<b>Verfügbare Gehäusefarben und -formen</b> in der Beschreibung',
-    'contact' => 'Haben Sie Fragen? Kontaktieren Sie uns',
-    'getPriceProduct' => 'Kostenvoranschlag einholen',
-    'descriptionAdditional' => 'Produktbeschreibung',
-    'decorTitle' => 'Beispiele für Dekore',
-    'availableForm' => 'Erhältliche Spiegelformen',
-    'downloadMaterial' => 'Technische Informationen [Herunterladen]',
-    'formContactFirst' => 'Um ein Produkt zu bestellen oder ein Angebot zu erhalten, kontaktieren Sie uns bitte unter Angabe der Größe, der Serie und des gewählten Dekors',
-    'formContactSecond' => 'Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen',
+    'ProductionForClient' => 'Produkt wykonujemy na <b>zamówienie</b>, dostosowując go do wybranego rozmiaru.',
+    'colorAvailable' => '<b>Kolory obudowy i kształty</b> dostępne w opisie',
+    'contact' => 'Masz pytania? Skontaktuj się z nami Haben Sie Fragen?',
+    'getPriceProduct' => 'Uzyskaj wycenę',
+    'descriptionAdditional' => 'Opis produktu',
+    'decorTitle' => 'Przykładowe dekory',
+    'availableForm' => 'Dostępne kształty luster',
+    'downloadMaterial' => 'Materiały do pobrania',
+    'formContactFirst' => 'Aby zamówić lub otrzymać wycenę produktu, prosimy o kontakt, podając w wiadomości rozmiar, serię oraz wybrany dekor.',
+    'formContactSecond' => 'Skontaktujemy się z Tobą tak szybko jak będzie to możliwe.',
 ];

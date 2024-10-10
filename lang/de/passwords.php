@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'reset' => 'Twoje hasło zostało zresetowane.',
-    'sent' => 'Wysłaliśmy do Ciebie e-mailem link umożliwiający zresetowanie hasła.',
-    'throttled' => 'Proszę poczekać przed ponowną próbą.',
-    'token' => 'Ten token resetowania hasła jest nieprawidłowy.',
-    'user' => "Nie możemy znaleźć użytkownika o tym adresie e-mail.",
+    'reset' => 'Ihr Passwort wurde zurückgesetzt.',
+    'sent' => 'Wir haben Ihnen den Link zum Zurücksetzen Ihres Passworts per E-Mail gesendet.',
+    'throttled' => 'Bitte warten Sie, bevor Sie es erneut versuchen.',
+    'token' => 'Dieses Token zum Zurücksetzen des Passworts ist ungültig.',
+    'user' => "Wir können keinen Benutzer mit dieser E-Mail-Adresse finden.",
 
 ];

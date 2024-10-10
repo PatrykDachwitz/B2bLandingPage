@@ -13,8 +13,8 @@ return [
     |
     */
 
-    'failed' => 'Te dane uwierzytelniające nie są zgodne z naszymi danymi.',
-    'password' => 'Podane hasło jest nieprawidłowe.',
-    'throttle' => 'Zbyt wiele prób logowania. Spróbuj ponownie za :sekundy.',
+    'failed' => 'Diese Anmeldeinformationen stimmen nicht mit unseren Aufzeichnungen überein.',
+    'password' => 'Das angegebene Passwort ist falsch.',
+    'throttle' => 'Zu viele Anmeldeversuche. Bitte versuchen Sie es in :Sekunden Sekunden erneut.',
 
 ];
