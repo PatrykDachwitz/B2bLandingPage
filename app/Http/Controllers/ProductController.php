@@ -39,7 +39,7 @@ class ProductController extends Controller
         ],
         'steindekor' => [
             'product' => 'steindekor',
-            'countDecor' => 20,
+            'countDecor' => 11,
             'gallery' => 8,
         ],
         'stoneLine' => [

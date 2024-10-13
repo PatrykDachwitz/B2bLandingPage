@@ -152,7 +152,7 @@
     @if($product === "steindekor")
         @include('component.product.carousel', [
         'title' => __($product . ".decorTitleSecond"),
-        'countDecor' => 11,
+        'countDecor' => 20,
         'product' => $product,
         'directory' => 'forms',
     ])
