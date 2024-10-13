@@ -6,9 +6,36 @@
                 <img src="/files/logo.png" loading="lazy" class="menu__image" height="45">
             </picture>
         </a>
+        <li class="nav-item dropdown d-flex align-items-center d-lg-none">
+            <a class="nav-link dropdown-toggle text-white text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <picture>
+                    <source srcset="/files/flags/{{ \Illuminate\Support\Facades\Request::route()->parameters()['lang'] ?? "de" }}.webp" type="image/webp">
+                    <img width="40" src="/files/flags/{{ \Illuminate\Support\Facades\Request::route()->parameters()['lang'] ?? "de" }}.jpg" alt="pl" loading="lazy">
+                </picture> {{ \Illuminate\Support\Facades\Request::route()->parameters()['lang'] ?? "de" }}
+            </a>
+            <ul class="dropdown-menu">
+
+                @foreach([
+            'pl',
+            'de',
+            'uk',
+            ] as $country)
+                    <li>
+                        <a class="dropdown-item text-white text-uppercase" href="{{ \App\Facades\PathUrl::getModificationCurrentPath($country) }}">
+                            <picture>
+                                <source srcset="/files/flags/{{ $country }}.webp" type="image/webp">
+                                <img width="40" src="/files/flags/{{ $country }}.jpg" alt="{{ $country }}" loading="lazy">
+                            </picture>
+                            {{ $country }}
+                        </a>
+                    </li>
+                @endforeach
+            </ul>
+        </li>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon menu__icon"></span>
         </button>
+
         <div class="collapse navbar-collapse menu__container--option" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mt-3 mt-lg-0 mb-lg-0 menu__list">
                 <li class="nav-item menu__option">
@@ -35,6 +62,33 @@
                 </li>
                 <li class="nav-item menu__option">
                     <a class="nav-link" href="#contactForm">@lang('menu.contact')</a>
+                </li>
+                <li class="nav-item dropdown d-none d-lg-block">
+                    <a class="nav-link dropdown-toggle text-white text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <picture>
+                            <source srcset="/files/flags/{{ \Illuminate\Support\Facades\Request::route()->parameters()['lang'] ?? "de" }}.webp" type="image/webp">
+                            <img width="40" src="/files/flags/{{ \Illuminate\Support\Facades\Request::route()->parameters()['lang'] ?? "de" }}.jpg" alt="pl" loading="lazy">
+                        </picture>
+                        {{ \Illuminate\Support\Facades\Request::route()->parameters()['lang'] ?? "de"}}
+                    </a>
+                    <ul class="dropdown-menu">
+
+                        @foreach([
+                    'pl',
+                    'de',
+                    'uk',
+                    ] as $country)
+                            <li>
+                                <a class="dropdown-item text-white text-uppercase" href="{{ \App\Facades\PathUrl::getModificationCurrentPath($country) }}">
+                                    <picture>
+                                        <source srcset="/files/flags/{{ $country }}.webp" type="image/webp">
+                                        <img width="40" src="/files/flags/{{ $country }}.jpg" alt="{{ $country }}" loading="lazy">
+                                    </picture>
+                                    {{ $country }}
+                                </a>
+                            </li>
+                        @endforeach
+                    </ul>
                 </li>
             </ul>
         </div>

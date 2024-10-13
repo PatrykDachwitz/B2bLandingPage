@@ -108,7 +108,7 @@
             <h3 class="fs-5 mt-3"><i>{{ __($product . ".contact") }}</i></h3>
             <ul class="d-flex flex-column flex-xl-row justify-content-start list-unstyled">
                 <li>
-                    <a href="{{ config("shop.whatsApp") }}" class="text-decoration-none text-white fs-6">
+                    <a href="{{ config("shop." . \Illuminate\Support\Facades\Request::route()->parameters()['lang'] .".whatsApp") }}" class="text-decoration-none text-white fs-6">
                         <picture>
                             <source srcset="/files/icons/whatsapp.webp" type="image/webp">
                             <img src="/files/icons/whatsapp.png" alt="arrow" loading="lazy" height="30" width="30">
@@ -116,19 +116,19 @@
                     </a>
                 </li>
                 <li class="mt-3 mt-lg-0 ms-lg-3">
-                    <a href="tel: {{ config("shop.phone") }}" class="text-decoration-none text-white fs-6">
+                    <a href="tel: {{ config("shop." . \Illuminate\Support\Facades\Request::route()->parameters()['lang'] .".phone") }}" class="text-decoration-none text-white fs-6">
                     <picture>
                         <source srcset="/files/icons/telephone.webp" type="image/webp">
                         <img src="/files/icons/telephone.png" alt="arrow" loading="lazy" height="30" width="30">
-                    </picture> <i>{{ config("shop.phone") }}</i>
+                    </picture> <i>{{ config("shop." . \Illuminate\Support\Facades\Request::route()->parameters()['lang'] .".phone") }}</i>
                     </a>
                 </li>
                 <li class="mt-3 mt-lg-0 ms-lg-3">
-                    <a href="mailto: {{ config("shop.mailContact") }}" class="text-decoration-none text-white fs-6">
+                    <a href="mailto: {{ config("shop." . \Illuminate\Support\Facades\Request::route()->parameters()['lang'] .".mailContact") }}" class="text-decoration-none text-white fs-6">
                         <picture>
                             <source srcset="/files/icons/email.webp" type="image/webp">
                             <img src="/files/icons/email.png" alt="arrow" loading="lazy" height="30" width="30">
-                        </picture> <i>{{ config("shop.mailContact") }}</i>
+                        </picture> <i>{{ config("shop." . \Illuminate\Support\Facades\Request::route()->parameters()['lang'] .".mailContact") }}</i>
                     </a>
                 </li>
             </ul>

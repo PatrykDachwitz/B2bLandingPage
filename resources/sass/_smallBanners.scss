@@ -1,17 +1,26 @@
 .smallBanners {
     position: relative;
     overflow: hidden;
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+    }
     &__image {
         min-width: 100%;
         max-width: 100%;
     }
 
     &__containerLink {
+        @media (max-width: 768px) {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+        }
         padding: 0.3em 0.55em;
         bottom: 10px;
-        left: 10px;
+        left: 17px;
         background-color: $gray-main;
-        min-height: 100%;
+        //min-height: 100%;
         @media (min-width: 768px) {
             min-height: auto;
             position: absolute;

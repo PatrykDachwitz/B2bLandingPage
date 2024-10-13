@@ -4,9 +4,7 @@ use App\Http\Controllers\FormContactController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/shop-regeln', function () {
-    return view('view.rule');
-})->name('rule');
+
 
 Route::group([
    'prefix' => "/{lang}",
@@ -42,7 +40,9 @@ Route::group([
         return view('view.policePrivate');
     })->name('policePrivate');
 
-
+    Route::get('/shop-regeln', function () {
+        return view('view.rule');
+    })->name('rule');
 
     Route::get('/products/{product}', ProductController::class)->name('product');
 
@@ -51,4 +51,8 @@ Route::group([
 });
 
 
-
+Route::get('/', function () {
+   return redirect( \route("mainPage", [
+       'lang' => config('language.defaultLanguage')
+   ])) ;
+});

@@ -3,7 +3,7 @@
 return [
   'ourProducts' => "Entdecken Sie uns unsere Produkte",
   'cooperation' => "Wie funktionieren wir?",
-  'sliderContent' => 'Sehr geehrte Damen und Herren, <br />wir danken Ihnen für Ihr Interesse an unserem Angebot an Möbeln und Luxusspiegeln.',
+  'sliderContent' => 'Sehr geehrte Damen und Herren,<br />wir danken Ihnen für Ihr Interesse an unserem Angebot an Möbeln<br />und Luxusspiegeln.',
   'viewProduct' => 'Sehen Sie unsere Produkte',
   'sendRequest' => 'Fragen Sie uns',
   'colorLine' => 'ColorLine',

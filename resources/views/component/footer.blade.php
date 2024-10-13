@@ -6,13 +6,13 @@
                 <p class="footer__text">
                     {{--@lang('footer.street')<br />
                     @lang('footer.city')<br />--}}
-                    @lang('footer.phone') <a class="footer__text footer__text--unstyle" href="tel: {{ config("shop.phone") }}">{{ config("shop.phone") }}</a><br />
-                    @lang('footer.mail') <a class="footer__text footer__text--unstyle" href="mailto: {{ config("shop.mailContact") }}">{{ config("shop.mailContact") }}</a>
+                    @lang('footer.phone') <a class="footer__text footer__text--unstyle" href="tel: {{ config("shop." . \Illuminate\Support\Facades\Request::route()->parameters()['lang'] .".phone") }}">{{ config("shop." . \Illuminate\Support\Facades\Request::route()->parameters()['lang'] .".phone") }}</a><br />
+                    @lang('footer.mail') <a class="footer__text footer__text--unstyle" href="mailto: {{ config("shop." . \Illuminate\Support\Facades\Request::route()->parameters()['lang'] .".mailContact") }}">{{ config("shop." . \Illuminate\Support\Facades\Request::route()->parameters()['lang'] .".mailContact") }}</a>
                 </p>
             </div>
             <ul class="ms-5 d-flex flex-column list-unstyled text-start my-0">
-                <li><a class="footer__title footer__title--second" href="{{ route('rule', ['lang' => \Illuminate\Support\Facades\App::getLocale(),]) }}">@lang('footer.shopRules')</a></li>
-                <li><a class="footer__title footer__title--second" href="{{ route('policePrivate', ['lang' => \Illuminate\Support\Facades\App::getLocale(),]) }}">@lang('footer.privacyPolicy')</a></li>
+                <li><a class="footer__title footer__title--second" href="{{ route('rule', ['lang' => \Illuminate\Support\Facades\App::getLocale()]) }}">@lang('footer.shopRules')</a></li>
+                <li><a class="footer__title footer__title--second" href="{{ route('policePrivate', ['lang' => \Illuminate\Support\Facades\App::getLocale()]) }}">@lang('footer.privacyPolicy')</a></li>
                 <li><a class="footer__title footer__title--second" href="{{ route('mainPage', ['lang' => \Illuminate\Support\Facades\App::getLocale(),]) }}#collaborationPath">@lang('footer.collaborationPath')</a></li>
                 <li><a class="footer__title footer__title--second" href="{{ route('mainPage', ['lang' => \Illuminate\Support\Facades\App::getLocale(),]) }}#products">@lang('footer.products')</a></li>
                 <li><a class="footer__title footer__title--second" href="#contactForm">@lang('footer.formContact')</a></li>
@@ -22,7 +22,7 @@
             <hr class="d-lg-none" style="min-width: 100%">
             <ul class="d-flex list-unstyled">
                 <li>
-                    <a href="{{ config("shop.facebook") }}" target="_blank">
+                    <a href="{{ config("shop." . \Illuminate\Support\Facades\Request::route()->parameters()['lang'] .".facebook") }}" target="_blank">
                         <picture>
                             <source srcset="/files/icons/facebook.webp" type="image/webp">
                             <img src="/files/icons/facebook.png" class="footer__icon" loading="lazy">
@@ -30,7 +30,7 @@
                     </a>
                 </li>
                 <li class="ms-1">
-                    <a href="{{ config("shop.instagram") }}" target="_blank">
+                    <a href="{{ config("shop." . \Illuminate\Support\Facades\Request::route()->parameters()['lang'] .".instagram") }}" target="_blank">
                         <picture>
                             <source srcset="/files/icons/instagram.webp" type="image/webp">
                             <img src="/files/icons/instagram.png" class="footer__icon" loading="lazy">
@@ -38,7 +38,7 @@
                     </a>
                 </li>
                 <li class="ms-1">
-                    <a href="{{ config("shop.pinterest") }}" target="_blank">
+                    <a href="{{ config("shop." . \Illuminate\Support\Facades\Request::route()->parameters()['lang'] .".pinterest") }}" target="_blank">
                         <picture>
                             <source srcset="/files/icons/pinterest.webp" type="image/webp">
                             <img src="/files/icons/pinterest.png" class="footer__icon" loading="lazy">
@@ -46,7 +46,7 @@
                     </a>
                 </li>
                 <li class="ms-1">
-                    <a href="{{ config("shop.linkedin") }}" target="_blank">
+                    <a href="{{ config("shop." . \Illuminate\Support\Facades\Request::route()->parameters()['lang'] .".linkedin") }}" target="_blank">
                         <picture>
                             <source srcset="/files/icons/linkedin.webp" type="image/webp">
                             <img src="/files/icons/linkedin.png" class="footer__icon" loading="lazy">
@@ -54,7 +54,7 @@
                     </a>
                 </li>
             </ul>
-            <a class="footer__text" href="{{ config('shop.google') }}" target="_blank">@lang('footer.findInGoogle')</a>
+            <a class="footer__text" href="{{ config('shop.' . \Illuminate\Support\Facades\Request::route()->parameters()['lang'] .'.google') }}" target="_blank">@lang('footer.findInGoogle')</a>
         </div>
     </div>
     <hr />
