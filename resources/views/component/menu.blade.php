@@ -1,6 +1,8 @@
 <nav class="py-3 py-lg-0 container-fluid navbar flex-column navbar-expand-lg position-fixed top-0 menu {{$menu ?? ''}}">
     <div class="container-fluid position-relative px-3 px-lg-5">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="{{ route('mainPage', [
+    'lang' => \Illuminate\Support\Facades\Request::route()->parameters()['lang'] ?? "de"
+]) }}">
             <picture>
                 <source srcset="/files/logo.webp" type="image/webp">
                 <img src="/files/logo.png" loading="lazy" class="menu__image" height="45">
