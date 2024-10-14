@@ -19,8 +19,9 @@
 
 @yield('content')
 
+@include('component.cookie')
 @include('component.footer')
-
-
+<h1> {{\Illuminate\Support\Facades\Cookie::get('cookie1')}} </h1>
+{{--{{ dd(\Illuminate\Support\Facades\Request::cookie()) }}--}}
 </body>
 </html>
