@@ -27,7 +27,7 @@ return [
     'descriptionAdditional' => 'Opis produktu',
     'decorTitle' => 'Przykładowe dekory',
     'availableForm' => 'Dostępne kształty luster',
-    'downloadMaterial' => 'Materiały do pobrania',
+    'downloadMaterial' => 'Materiały do <a class="text-white" href="/files/technicalSpecification/gleamLine.pdf" target="_blank">pobrania</a>',
     'formContactFirst' => 'Aby zamówić lub otrzymać wycenę produktu, prosimy o kontakt, podając w wiadomości rozmiar, serię oraz wybrany dekor.',
     'formContactSecond' => 'Skontaktujemy się z Tobą tak szybko jak będzie to możliwe.',
 ];

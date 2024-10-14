@@ -100,7 +100,7 @@
                 <picture>
                     <source srcset="/files/icons/check.webp" type="image/webp">
                     <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
-                </picture> <a class="text-decoration-underline text-white">{!! __($product . ".downloadMaterial") !!}</a>
+                </picture> <span class="text-white">{!! __($product . ".downloadMaterial") !!}</span>
             </li>
         </ul>
         <div><a href="#contactForm" class="btn btn-gold fs-6">{{ __($product . ".getPriceProduct") }}</a></div>

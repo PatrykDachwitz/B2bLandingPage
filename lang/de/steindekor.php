@@ -15,7 +15,7 @@ return [
     'decorTitle' => 'Beispiele für Glasdekore',
     'decorTitleSecond' => 'Beispiele für Steindekore',
     'availableForm' => 'Erhältliche Spiegelformen',
-    'downloadMaterial' => 'Technische Informationen [Herunterladen]',
+    'downloadMaterial' => 'Technische Informationen <a class="text-white" href="/files/technicalSpecification/steindekor.pdf" target="_blank">[Herunterladen]</a>',
     'formContactFirst' => 'Um ein Produkt zu bestellen oder ein Angebot zu erhalten, kontaktieren Sie uns bitte unter Angabe der Größe, der Serie und des gewählten Dekors',
     'formContactSecond' => 'Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen',
 ];

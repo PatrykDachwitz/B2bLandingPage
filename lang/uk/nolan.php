@@ -38,7 +38,7 @@ return [
     'descriptionAdditional' => 'Product description',
     'decorTitle' => 'Examples of decors',
     'availableForm' => 'View full designs',
-    'downloadMaterial' => 'Technical information [Download].',
+    'downloadMaterial' => 'Technical information <a class="text-white" href="/files/technicalSpecification/nolan.pdf" target="_blank">[Download]</a>',
     'formContactFirst' => 'To order a product or get a quote, please contact us with the size, series and decor of your choice.',
     'formContactSecond' => 'We will contact you as soon as possible.',
     ];
