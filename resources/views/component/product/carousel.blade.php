@@ -1,13 +1,15 @@
 <div class="text-white mt-4 carousel position-relative" data-carousel-{{ $directory }}>
+
+
     <div class="d-flex flex-column flex-lg-row justify-content-between  align-items-start align-items-lg-end">
         <span class="ms-1 ms-lg-2 ms-lg-5 fs-1">{{ $title }}</span>
         @if($catalog ?? true !== false)
             <a class="btn btn-gold fs-6 ms-1 ms-lg-0 me-lg-2 mt-2 mt-lg-0" href="{{ route('decors', ['lang' => \Illuminate\Support\Facades\App::getLocale(), 'product' => $product]) }}">@lang('mainPage.checkDecors')</a>
         @endif
     </div>
-    <div class="d-flex mt-4 carousel__imagesContainer position-relative">
+    <div class="d-flex mt-4 carousel__imagesContainer position-relative" data-gallery="{{ $directory }}" data-carousel-length="{{ $countDecor }}">
         @for($j = 1; $j <= $countDecor; $j++)
-            <div class="mx-1 carousel__imageContainer" data-carousel-column="{{ $j }}">
+            <div class="mx-1 carousel__imageContainer" onclick="createGallery('{{ $directory }}', {{ $j }})" data-carousel-name="{{ $directory }}" data-carousel-column="{{ $j }}" >
                 <picture>
                     <source srcset="/files/{{ $directory }}/{{ $product }}/{{ $j }}.webp" type="image/webp">
                     <img src="/files/{{ $directory }}/{{ $product }}/{{ $j }}.jpg" class="carousel__image carousel__imageContainer--img" loading="lazy"/>
@@ -32,3 +34,30 @@
         </picture>
     </div>
 </div>
+
+<script>
+    function getImageWithTitleByElementDataGallery(name, positionElement) {
+        return document.querySelector(`[data-carousel-name="${name}"][data-carousel-column="${positionElement}"] > picture > img`).src;
+    }
+
+    function setValueGallery(image, positionElement, name) {
+        let imageGallery = document.querySelector('div.artforma-lithebox-content__image img');
+        let imageContainerGallery = document.querySelector('div.artforma-lithebox-content__image');
+
+        imageContainerGallery.dataset.currentPosition = positionElement;
+        imageContainerGallery.dataset.nameElement = name;
+        imageGallery.src = image;
+    }
+
+    function changeGalleryClassToActive() {
+        document.querySelector('div.artforma-lithebox').classList.add('d-flex');
+        document.querySelector('div.artforma-lithebox').classList.remove('d-none');
+    }
+
+    function createGallery(name, positionElement) {
+        let image = getImageWithTitleByElementDataGallery(name, positionElement);
+        setValueGallery(image, positionElement, name);
+        changeGalleryClassToActive()
+    }
+
+</script>

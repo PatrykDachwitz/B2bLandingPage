@@ -13,3 +13,4 @@ window.addEventListener('load', e => {
 
     const gallery = new Gallery();
 })
+

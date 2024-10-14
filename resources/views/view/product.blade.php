@@ -141,6 +141,27 @@
         <button class="btn btn-gold px-5 fs-6">{{ __($product . ".descriptionAdditional") }}</button>
     </div>
 
+    <div class="artforma-lithebox ai-c jc-c d-none">
+        <div class="artforma-lithebox__btn d-f ai-c" onclick="changeImageInGallery(-1)">
+            <svg width="20px" height="20px" viewBox="0 0 20 20"><path class="artforma-lithebox__btn-svg" d="M18.271,9.212H3.615l4.184-4.184c0.306-0.306,0.306-0.801,0-1.107c-0.306-0.306-0.801-0.306-1.107,0L1.21,9.403C1.194,9.417,1.174,9.421,1.158,9.437c-0.181,0.181-0.242,0.425-0.209,0.66c0.005,0.038,0.012,0.071,0.022,0.109c0.028,0.098,0.075,0.188,0.142,0.271c0.021,0.026,0.021,0.061,0.045,0.085c0.015,0.016,0.034,0.02,0.05,0.033l5.484,5.483c0.306,0.307,0.801,0.307,1.107,0c0.306-0.305,0.306-0.801,0-1.105l-4.184-4.185h14.656c0.436,0,0.788-0.353,0.788-0.788S18.707,9.212,18.271,9.212z"></path></svg>
+        </div>
+        <div class="artforma-lithebox-content d-f f-c">
+            <div class="artforma-lithebox-content__tittle d-f">
+                <span class="d-f ai-c font18"></span>
+                <div onclick="closeGallery()" class="cursor-pointer d-f ai-c">
+                    <svg width="20px" height="20px" viewBox="0 0 24 24">
+                        <path class="artforma-lithebox__btn-svg" d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"></path>
+                    </svg>
+                </div>
+            </div>
+            <div class="artforma-lithebox-content__image d-f ai-c jc-c" data-current-position>
+                <img class="" loading='lazy' width="150">
+            </div>
+        </div>
+        <div class="artforma-lithebox__btn artforma-lithebox__btn-left d-f ai-c" onclick="changeImageInGallery(1)">
+            <svg width="20px" height="20px" viewBox="0 0 20 20"><path class="artforma-lithebox__btn-svg" d="M18.271,9.212H3.615l4.184-4.184c0.306-0.306,0.306-0.801,0-1.107c-0.306-0.306-0.801-0.306-1.107,0L1.21,9.403C1.194,9.417,1.174,9.421,1.158,9.437c-0.181,0.181-0.242,0.425-0.209,0.66c0.005,0.038,0.012,0.071,0.022,0.109c0.028,0.098,0.075,0.188,0.142,0.271c0.021,0.026,0.021,0.061,0.045,0.085c0.015,0.016,0.034,0.02,0.05,0.033l5.484,5.483c0.306,0.307,0.801,0.307,1.107,0c0.306-0.305,0.306-0.801,0-1.105l-4.184-4.185h14.656c0.436,0,0.788-0.353,0.788-0.788S18.707,9.212,18.271,9.212z"></path></svg>
+        </div>
+    </div>
 
     @include('component.product.carousel', [
         'title' => __($product . ".decorTitle"),
@@ -167,6 +188,70 @@
           "catalog" => false
         ])
     @endif
+
+    <script>
+        const backgroundLithebox = document.querySelector("div.artforma-lithebox");
+
+        backgroundLithebox.addEventListener('click', (event) => {
+            if (event.target === backgroundLithebox) {
+                closeGallery();
+            }
+        });
+
+        function closeGallery() {
+            document.querySelector('div.artforma-lithebox').classList.remove('d-flex');
+            document.querySelector('div.artforma-lithebox').classList.add('d-none');
+        }
+
+        function getCountAvailablePositionsInGallery() {
+            let nameElement = document.querySelector('div.artforma-lithebox-content__image').dataset.nameElement;
+            return document.querySelector(`[data-gallery="${nameElement}"]`).dataset.carouselLength;
+        }
+
+        function getCurrentPositionGallery() {
+            return document.querySelector('div.artforma-lithebox-content__image').dataset.currentPosition;
+        }
+
+        function changeImageInGallery(betweenPosition) {
+            let countPositionsGallery = parseInt(getCountAvailablePositionsInGallery());
+            let currentSelectPositionGallery = parseInt(getCurrentPositionGallery());
+            let nameElement = document.querySelector('div.artforma-lithebox-content__image').dataset.nameElement;
+
+            let newPositionInGallery = (currentSelectPositionGallery + parseInt(betweenPosition));
+
+            if (newPositionInGallery >= 1 && newPositionInGallery < countPositionsGallery) {
+                changeContentGalleryByPosition(newPositionInGallery, nameElement);
+            } else if (newPositionInGallery < 1) {
+                changeContentGalleryByPosition(countPositionsGallery, nameElement);
+            } else if (newPositionInGallery >= countPositionsGallery) {
+                changeContentGalleryByPosition(1, nameElement);
+            }
+        }
+        function changeContentGalleryByPosition(position, nameElement) {
+            let selectPosition = getContentGalleryByPosition(position, nameElement);
+
+            activeGallery(selectPosition, position);
+        }
+        function getContentGalleryByPosition(position, nameElement) {
+            return document.querySelector(`[data-carousel-name="${nameElement}"][data-carousel-column="${position}"] > picture > img`);
+        }
+        function getGalleryContent() {
+            return document.querySelectorAll('[data-galery]');
+        }
+
+        function activeGallery(selectContent, positionElement) {
+            let src = selectContent.src;
+            setValueGalleryOtherImage(src, positionElement);
+        }
+        function setValueGalleryOtherImage(image, positionElement) {
+            let imageGallery = document.querySelector('div.artforma-lithebox-content__image img');
+            let imageContainerGallery = document.querySelector('div.artforma-lithebox-content__image');
+
+            imageContainerGallery.dataset.currentPosition = positionElement;
+            imageGallery.src = image;
+        }
+
+    </script>
 </section>
 
     @include('component.formContact', [

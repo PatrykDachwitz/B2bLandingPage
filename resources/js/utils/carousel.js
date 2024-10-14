@@ -18,7 +18,7 @@ export class Carousel {
             this.removeButton();
         }
 
-        this.initLoopDecor();
+      //  this.initLoopDecor();
     }
 
     clearLoopImages() {
