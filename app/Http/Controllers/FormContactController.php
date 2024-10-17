@@ -10,7 +10,7 @@ class FormContactController extends Controller
     /**
      * Handle the incoming request.
      */
-    public function __invoke(FormContactRequest $request, string $country)
+    public function __invoke(FormContactRequest $request)
     {
         $trainer = "b2b@pdachwitz.de";
         $trainee = "patrykda99@gmail.com";

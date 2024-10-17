@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ChangeLanguageController;
 use App\Http\Controllers\FormContactController;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
@@ -7,13 +8,13 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::group([
-   'prefix' => "/{lang}",
+   //'prefix' => "/{lang}",
     'middleware' => \App\Http\Middleware\updateLocale::class
 ], function () {
     Route::get('', function () {
         return view('view.mainPage');
     })->name('mainPage');
-    Route::get('/decor/{product}', function (string $country, string $product) {
+    Route::get('/decor/{product}', function (string $product) {
         switch ($product) {
             case "colorLine":
                 return view('view.decors.colorLine');
@@ -48,11 +49,7 @@ Route::group([
 
     Route::post('/send-mail', FormContactController::class)
         ->name('formContact');
-});
 
-
-Route::get('/', function () {
-   return redirect( \route("mainPage", [
-       'lang' => config('language.defaultLanguage')
-   ])) ;
+    Route::post('/change-language', ChangeLanguageController::class)
+        ->name('changeLanguage');
 });
