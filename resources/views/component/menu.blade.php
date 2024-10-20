@@ -40,7 +40,7 @@
                     </div>
                 </li>
                 <li class="nav-item menu__option">
-                    <a class="nav-link" href="#contactForm">@lang('menu.contact')</a>
+                    <a class="nav-link" href="@if(\Illuminate\Support\Facades\Route::currentRouteName() !== "product"){{ route("mainPage") }}#contactForm @else #contactForm @endif">@lang('menu.contact')</a>
                 </li>
                 @include('component.changeCountry', [
                     'class' => "d-none d-lg-block"

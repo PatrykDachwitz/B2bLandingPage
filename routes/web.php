@@ -3,13 +3,11 @@
 use App\Http\Controllers\ChangeLanguageController;
 use App\Http\Controllers\FormContactController;
 use App\Http\Controllers\ProductController;
-use App\Http\Controllers\TestUpdateLocationIp;
 use Illuminate\Support\Facades\Route;
 
 
 /*
  * Grafiki dekoró nie raz zle się wyswietlają
- * Trzeba porpawić ruting menu i stopki na podstornach i zaktualizować podstronę regulaminu i polityki na uk
  */
 Route::group([
    //'prefix' => "/{lang}",
@@ -55,7 +53,6 @@ Route::group([
         ->name('formContact');
 
 
-    Route::get('/test', TestUpdateLocationIp::class);
 
     Route::post('/change-language', ChangeLanguageController::class)
         ->name('changeLanguage');

@@ -15,7 +15,7 @@
                 <li><a class="footer__title footer__title--second" href="{{ route('policePrivate') }}">@lang('footer.privacyPolicy')</a></li>
                 <li><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#collaborationPath">@lang('footer.collaborationPath')</a></li>
                 <li><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#products">@lang('footer.products')</a></li>
-                <li><a class="footer__title footer__title--second" href="#contactForm">@lang('footer.formContact')</a></li>
+                <li><a class="footer__title footer__title--second" href="@if(\Illuminate\Support\Facades\Route::currentRouteName() !== "product"){{ route("mainPage") }}#contactForm @else #contactForm @endif">@lang('footer.formContact')</a></li>
             </ul>
         </div>
         <div class="footer--second d-flex flex-column justify-content-center align-items-center align-items-lg-end">

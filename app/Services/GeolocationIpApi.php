@@ -15,7 +15,6 @@ class GeolocationIpApi implements Geolocation
     public function getLangCodeByIp(string $ip): string
     {
         $countryCode = $this->getCountryIso($ip);
-        dump($countryCode);
         return $this->availableLanguage->getLangCodeByCountryIso($countryCode);
     }
 

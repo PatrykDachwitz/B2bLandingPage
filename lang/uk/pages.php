@@ -2,7 +2,7 @@
 
 return [
     'polices' => '<div>
-<p>This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from @if($domain-&gt;url == "artforma-canada.com") artforma-canada.com @else artforma-mirrors.com @endif We appreciate your interest in our website. The protection of your privacy is very important to us. In this privacy policy you will find more information on how to handle your data. The administrator of your data is: FORAM Sp. z o.o. sp. k., Jeziorna 3, 64-200, Karpicko, <a href="mailto:service{{ "service@" . $domain-&gt;url }}">{{ "service@" . $domain-&gt;url }}</a></p>
+<p>This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from b2b.artforma.de We appreciate your interest in our website. The protection of your privacy is very important to us. In this privacy policy you will find more information on how to handle your data. The administrator of your data is: FORAM Sp. z o.o. sp. k., Jeziorna 3, 64-200, Karpicko, <a href="mailto:b2b@artforma.eu">{{ "service@" . $domain-&gt;url }}</a></p>
 </div>
 
 <div>
@@ -111,7 +111,7 @@ We collect Device Information using the following technologies:</p>
 
 <h2 class="mb-4">9. CONTACT US</h2>
 
-<p>For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at <a href="mailto:service{{ "service@" . $domain-&gt;url }}">service{{ "service@" . $domain-&gt;url }}</a></p>
+<p>For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at <a href="mailto:b2b@artforma.eu">b2b@artforma.eu</a></p>
 </div>
 ',
     'rule' => '<h2>I. Definitions</h2>
@@ -126,13 +126,13 @@ We collect Device Information using the following technologies:</p>
 
 <ul>
 	<li>traditional mail at the address: ul. Jeziorna 3, 64-200 Karpicko</li>
-	<li>email at: <a href="mailto: service@artforma-mirrors.co.uk">service@artforma-mirrors.co.uk</a></li>
+	<li>email at: <a href="mailto: b2b@artforma.eu">b2b@artforma.eu</a></li>
 	<li>phone number: <a href="tel: +442038085213">+44 203 808 5213</a></li>
 </ul>
 
 <p>4. <strong>Regulations</strong> - this document defining the general terms and conditions of sale and the rules for the provision of electronic services as part of the Artforma Online Store.</p>
 
-<p>5. <strong>Online shop (Store)</strong> – online shop operating under the name Artforma available at <a href="www.artforma-mirrors.co.uk" target="_blank">artforma-mirrors.co.uk</a>.</p>
+<p>5. <strong>Online shop (Store)</strong> – online shop operating under the name Artforma available at <a href="www.b2b.artforma.de" target="_blank">b2b.artforma.de</a>.</p>
 
 <p>6. <strong>Goods</strong>– products offered in the Online Store.</p>
 
@@ -144,7 +144,7 @@ We collect Device Information using the following technologies:</p>
 
 <h2>II. General</h2>
 
-<p>1. These Regulations define the rules for using the online store available at: <a href="www.artforma-mirrors.co.uk" target="_blank">artforma-mirrors.co.uk</a>/. The customer should read the Regulations before registering an account in the Store, because it shapes his rights and obligations.</p>
+<p>1. These Regulations define the rules for using the online store available at: <a href="www.b2b.artforma.de" target="_blank">b2b.artforma.de</a>/. The customer should read the Regulations before registering an account in the Store, because it shapes his rights and obligations.</p>
 
 <p>2. These Regulations are the regulations referred to in art. 8 of the Act of July 18, 2022 on the provision of electronic services.</p>
 
@@ -175,7 +175,7 @@ We collect Device Information using the following technologies:</p>
 
 <p>6. In accordance with applicable law, Artforma reserves the right to limit the provision of services via the Online Store to persons who are over 18 years of age. In such a case, potential Customers will be notified of the above.</p>
 
-<p>7. Customers can access these Regulations at any time via the link on the home page of the <a href="www.artforma-mirrors.co.uk" target="_blank">artforma-mirrors.co.uk</a>/ website and download it and print it out on your own.</p>
+<p>7. Customers can access these Regulations at any time via the link on the home page of the <a href="www.b2b.artforma.de" target="_blank">b2b.artforma.de</a>/ website and download it and print it out on your own.</p>
 
 <p>&nbsp;</p>
 
@@ -279,7 +279,7 @@ With the above in mind, the Seller indicates that the right to withdraw from a d
 
 <ul>
 	<li>traditional mail: FORAM spółka z ograniczoną odpowiedzialnością sp. k., ul. Jeziorna 3, 64-200 Karpicko.</li>
-	<li>email: <a href="mailto: service@artforma-mirrors.co.uk">service@artforma-mirrors.co.uk</a></li>
+	<li>email: <a href="mailto: b2b@artforma.eu">b2b@artforma.eu</a></li>
 	<li>by phone: <a href="tel: +442038085213">+44 203 808 5213</a>.</li>
 </ul>
 
@@ -323,7 +323,7 @@ With the above in mind, the Seller indicates that the right to withdraw from a d
 
 <p>1. All goods offered in the Store are brand new, free from legal defects and have been legally introduced to the UK market. The Seller is under a statutory obligation to deliver goods free from defects. The Seller"s liability for the quality of the service provided for by law is regulated by the generally applicable provisions on the lack of conformity of the goods with the contract, in particular chapter 5a of the Act of 30 May 2014 on consumer rights.</p>
 
-<p>2. In the event of non-compliance of the goods with the contract, the Customer may submit a complaint to the Seller in any form, in particular in writing to the following address: FORAM spółka z ograniczoną odpowiedzialnością sp. k., ul. Jeziorna 3, 64-200, Karpicko or via e-mail to the following address: <a href="mailto: service@artforma-mirrors.co.uk">service@artforma-mirrors.co.uk</a>. In the complaint, it is recommended to:</p>
+<p>2. In the event of non-compliance of the goods with the contract, the Customer may submit a complaint to the Seller in any form, in particular in writing to the following address: FORAM spółka z ograniczoną odpowiedzialnością sp. k., ul. Jeziorna 3, 64-200, Karpicko or via e-mail to the following address: <a href="mailto: b2b@artforma.eu">b2b@artforma.eu</a>. In the complaint, it is recommended to:</p>
 
 <ul>
 	<li>providing information on the subject of the complaint, in particular the type and date of the defect</li>
@@ -359,7 +359,7 @@ With the above in mind, the Seller indicates that the right to withdraw from a d
 
 <p>1. The Seller takes steps to ensure the proper operation of the Online Store, to the extent that results from the current technical knowledge and undertakes to remove any irregularities reported by Customers within a reasonable time.</p>
 
-<p>2. The Customer may notify the Seller of any irregularities or interruptions in the functioning of the Online Store. Irregularities related to the functioning of the Online Store should be reported electronically to the following e-mail address: <a href="mailto: service@artforma-mirrors.co.uk">service@artforma-mirrors.co.uk</a></p>
+<p>2. The Customer may notify the Seller of any irregularities or interruptions in the functioning of the Online Store. Irregularities related to the functioning of the Online Store should be reported electronically to the following e-mail address: <a href="mailto: b2b@artforma.eu">b2b@artforma.eu</a></p>
 
 <p>3. In a complaint regarding irregularities related to the functioning of the Online Store, the type and date of the irregularity should be indicated.</p>
 

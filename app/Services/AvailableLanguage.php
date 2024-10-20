@@ -19,9 +19,7 @@ class AvailableLanguage
     public function setLanguage(string $lang) : void {
         $langChange = $this->getAvailableLanguageBySearchLanguage($lang);
 
-        dump($langChange);
         App::setLocale($langChange);
-        dd(App::getLocale());
     }
 
     public function getLangCodeByCountryIso(string $countryIso) : string {
