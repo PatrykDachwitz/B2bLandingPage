@@ -3,6 +3,7 @@
 use App\Http\Controllers\ChangeLanguageController;
 use App\Http\Controllers\FormContactController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\TestUpdateLocationIp;
 use Illuminate\Support\Facades\Route;
 
 
@@ -54,6 +55,7 @@ Route::group([
         ->name('formContact');
 
 
+    Route::get('/test', TestUpdateLocationIp::class)
 
     Route::post('/change-language', ChangeLanguageController::class)
         ->name('changeLanguage');

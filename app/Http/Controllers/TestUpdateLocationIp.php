@@ -11,6 +11,6 @@ class TestUpdateLocationIp extends Controller
      */
     public function __invoke(Request $request)
     {
-        //
+        dd($request->ip());
     }
 }
