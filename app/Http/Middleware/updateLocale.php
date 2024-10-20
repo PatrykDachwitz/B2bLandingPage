@@ -33,16 +33,20 @@ class updateLocale
             try {
                 $languageIso = $this->geolocation
                     ->getLangCodeByIp($request->ip());
-                dd($languageIso);
+                dump($languageIso);
                 session()->put([
                     'lang' => $languageIso
                 ]);
+                dump('PRzeszło');
             } catch (\Exception) {
                 session()->put([
                     'lang' => config('language.defaultLanguage')
                 ]);
             }
         }
+        dd(            session()
+            ->get('lang')
+        );
 
         $this->availableLanguage->setLanguage(
             session()
