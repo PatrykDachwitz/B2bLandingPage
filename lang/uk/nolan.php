@@ -7,7 +7,7 @@ return [
     'sizes' => [
         [
             'title' => "Washbasin cabinet",
-            'titleSecond' => "",
+            'titleSecond' => "(W x H x D)",
             'option' => [
                 '140x45x40',
                 '120x45x40',
@@ -16,7 +16,7 @@ return [
         ],
         [
             'title' => "Mirror",
-            'titleSecond' => "L x W",
+            'titleSecond' => "(W x H)",
             'option' => [
                 '140x80',
                 '120x80',
@@ -25,7 +25,7 @@ return [
         ],
         [
             'title' => "Hanging cabinet",
-            'titleSecond' => "",
+            'titleSecond' => "(W x H x D)",
             'option' => [
                 '40x150x40',
             ]

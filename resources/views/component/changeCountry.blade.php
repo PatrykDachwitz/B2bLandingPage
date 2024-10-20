@@ -1,4 +1,4 @@
-<li class="nav-item dropdown {{ $class ?? '' }}">
+<li class="nav-item menu__option--flag dropdown {{ $class ?? '' }}">
     <a class="nav-link dropdown-toggle text-white text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         <picture>
             <source srcset="/files/flags/{{ \Illuminate\Support\Facades\App::getLocale() ?? config('language.defaultLanguage') }}.webp" type="image/webp">
@@ -9,11 +9,9 @@
 
         <form action="{{ route('changeLanguage') }}" method="POST">
             @csrf
-        @foreach([
-    'pl',
-    'de',
-    'uk',
-    ] as $country)
+        @foreach(
+    config('language.availableLanguage')
+    as $country)
             <li>
                 <button name="country" value="{{ $country }}" class="dropdown-item text-white text-uppercase" href="{{ \App\Facades\PathUrl::getModificationCurrentPath($country) }}">
                     <picture>

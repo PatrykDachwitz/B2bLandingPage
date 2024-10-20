@@ -6,12 +6,14 @@
                 <img src="/files/logo.png" loading="lazy" class="menu__image" height="45">
             </picture>
         </a>
-        @include('component.changeCountry', [
+        <div class="d-flex">
+            @include('component.changeCountry', [
                     'class' => "d-flex d-lg-none align-items-center"
                 ])
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon menu__icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon menu__icon"></span>
+            </button>
+        </div>
 
         <div class="collapse navbar-collapse menu__container--option" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mt-3 mt-lg-0 mb-lg-0 menu__list">

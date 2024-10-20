@@ -7,14 +7,14 @@ return [
     'sizes' => [
         [
             'title' => "Washbasin cabinet",
-            'titleSecond' => "",
+            'titleSecond' => "(W x H x D)",
             'option' => [
                 '120x28x50',
             ]
         ],
         [
             'title' => "Mirror",
-            'titleSecond' => "L x W",
+            'titleSecond' => "(W x H)",
             'option' => [
                 '98x106',
             ]

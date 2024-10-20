@@ -7,7 +7,7 @@ return [
     'sizes' => [
         [
             'title' => "Cabinet",
-            'titleSecond' => "L x W x H",
+            'titleSecond' => "(W x H x D)",
             'option' => [
                 '140x50x57',
                 '120x50x57',
@@ -16,7 +16,7 @@ return [
         ],
         [
             'title' => "Mirror",
-            'titleSecond' => "L x W",
+            'titleSecond' => "(W x H)",
             'option' => [
                 '144x94',
                 '129x84',

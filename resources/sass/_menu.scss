@@ -70,6 +70,18 @@
             align-items: center;
             min-height: $height-menu;
         }
+
+        &--flag {
+            @media (max-width: 992px) {
+                border-right: 2px solid $gray-text;
+                padding-right: 1em;
+            }
+            @media (min-width: 992px) {
+                border-left: 2px solid $gray-text;
+                margin-left: 1em;
+                padding-left: 1em;
+            }
+        }
     }
     &__container--option {
         @media (min-width: 992px) {
