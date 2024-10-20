@@ -20,6 +20,12 @@ class GeolocationIpApi implements Geolocation
     }
 
     private function getCountryIso(string $ip) : string {
-        return Http::get("http://ip-api.com/json/{$ip}")->json('countryCode');
+        $response = Http::get("http://ip-api.com/json/{$ip}");
+
+        if ($response->status() === 200 && !empty($response->json('countryCode'))) {
+            return $response->json('countryCode');
+        } else {
+            return config('language.defaultLanguage');
+        }
     }
 }

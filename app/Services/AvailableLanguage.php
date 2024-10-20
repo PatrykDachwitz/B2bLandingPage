@@ -26,7 +26,7 @@ class AvailableLanguage
         if (isset(config('language.groupLanguageByCountryIso')[$countryIso]) && !empty(config('language.groupLanguageByCountryIso')[$countryIso])) {
             return config('language.groupLanguageByCountryIso')[$countryIso];
         } else {
-            return config('language.groupLanguageByCountryIso')[config('language.defaultLanguage')];
+            return config('language.defaultLanguage');
         }
     }
 }
