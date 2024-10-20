@@ -44,7 +44,7 @@ class updateLocale
                 ]);
             }
         }
-        dd(            session()
+        dump(            session()
             ->get('lang')
         );
 
