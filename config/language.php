@@ -10,16 +10,16 @@ return [
 
   'defaultLanguage' => env('APP_LOCALE', 'de'),
   'groupLanguageByCountryIso' => [
-    'SH' => 'UK',
-    'IE' => 'UK',
-    'AU' => 'UK',
-    'CA' => 'UK',
-    'US' => 'UK',
-    'USA' => 'UK',
-    'GA' => 'UK',
-    'GB' => 'UK',
-    'DE' => 'DE',
-    'AT' => 'DE',
+    'SH' => 'uk',
+    'IE' => 'uk',
+    'AU' => 'uk',
+    'CA' => 'uk',
+    'US' => 'uk',
+    'USA' => 'uk',
+    'GA' => 'uk',
+    'GB' => 'uk',
+    'DE' => 'de',
+    'AT' => 'de',
   ]
 
 ];
