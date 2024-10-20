@@ -11,7 +11,7 @@ class PathUrlService
     public function getModificationCurrentPath(string $countrySearch) : string {
         $currentRouteName = Route::currentRouteName();
         $currentParams = Request::route()->parameters();
-        $currentParams['lang'] = $countrySearch;
+        //$currentParams['lang'] = $countrySearch;
 
         return \route($currentRouteName, $currentParams);
     }

@@ -6,7 +6,10 @@ use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 
-
+/*
+ * Grafiki dekoró nie raz zle się wyswietlają
+ * Trzeba porpawić ruting menu i stopki na podstornach i zaktualizować podstronę regulaminu i polityki na uk
+ */
 Route::group([
    //'prefix' => "/{lang}",
     'middleware' => \App\Http\Middleware\updateLocale::class
@@ -49,6 +52,8 @@ Route::group([
 
     Route::post('/send-mail', FormContactController::class)
         ->name('formContact');
+
+    Route::get('/test', \App\Http\Controllers\TestUpdateLocationIp::class);
 
     Route::post('/change-language', ChangeLanguageController::class)
         ->name('changeLanguage');

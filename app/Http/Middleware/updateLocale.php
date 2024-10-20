@@ -26,6 +26,8 @@ class updateLocale
     public function handle(Request $request, Closure $next): Response
     {
 
+        dd($request->ip());
+
         if (session()->has('lang')) {
             $this->availableLanguage->setLanguage(
                 session()
