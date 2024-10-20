@@ -53,7 +53,6 @@ Route::group([
     Route::post('/send-mail', FormContactController::class)
         ->name('formContact');
 
-    Route::get('/test', \App\Http\Controllers\TestUpdateLocationIp::class);
 
     Route::post('/change-language', ChangeLanguageController::class)
         ->name('changeLanguage');
