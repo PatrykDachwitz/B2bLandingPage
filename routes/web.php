@@ -55,7 +55,7 @@ Route::group([
         ->name('formContact');
 
 
-    Route::get('/test', TestUpdateLocationIp::class)
+    Route::get('/test', TestUpdateLocationIp::class);
 
     Route::post('/change-language', ChangeLanguageController::class)
         ->name('changeLanguage');
