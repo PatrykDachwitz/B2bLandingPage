@@ -155,7 +155,7 @@
                 </div>
             </div>
             <div class="artforma-lithebox-content__image d-f ai-c jc-c" data-current-position>
-                <img class="" loading='lazy' width="150" style="min-height: 400px">
+                <img class="" loading='lazy' width="150" style="min-height: 400pxh">
             </div>
         </div>
         <div class="artforma-lithebox__btn artforma-lithebox__btn-left d-f ai-c" onclick="changeImageInGallery(1)">

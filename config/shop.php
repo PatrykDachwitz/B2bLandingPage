@@ -33,5 +33,8 @@ return [
         'linkedin' => "https://pl.linkedin.com/company/artformacom",
         'pinterest' => "https://pl.pinterest.com/artforma_com",
         'google' => "https://www.google.pl/search?q=artforma",
-    ]
+    ],
+
+
+    'defaultMailSendName' => "b2b@artforma.eu"
 ];

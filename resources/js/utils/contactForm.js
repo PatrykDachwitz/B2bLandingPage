@@ -85,9 +85,12 @@ export class ContactForm {
         })
     }
 
-    successMessage() {
-        document.querySelector(`[data-form-success] > h4`).innerText = 'Vielen Dank, die Daten aus dem Formular wurden gesendet.';
-        document.querySelector(`[data-form-success]`).style.display = 'block';
+    successMessage(json) {
+        json.then(message => {
+            document.querySelector(`[data-form-success] > h4`).innerText = message.msg;
+            document.querySelector(`[data-form-success]`).style.display = 'block';
+        })
+
     }
 
     errorsMsg() {
@@ -111,8 +114,7 @@ export class ContactForm {
                 if (response.status === 422) {
                     this.errorsWrite(response.json())
                 } else if(response.status === 200) {
-                    console.log(response.status)
-                    this.successMessage()
+                    this.successMessage(response.json())
                 } else {
                     this.errorsMsg();
                 }
