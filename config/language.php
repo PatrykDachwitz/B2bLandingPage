@@ -4,8 +4,11 @@ declare(strict_types=1);
 return [
   'availableLanguage' => [
       'de',
-    //  'pl',
+      'pl',
       'uk',
+      'es',
+      'it',
+      'fr',
   ],
 
   'defaultLanguage' => env('APP_LOCALE', 'de'),
@@ -20,6 +23,11 @@ return [
     'GB' => 'uk',
     'DE' => 'de',
     'AT' => 'de',
+    'BE' => 'fr',
+    'FR' => 'fr',
+    'ES' => 'es',
+    'IT' => 'it',
+    'PL' => 'pl',
   ]
 
 ];

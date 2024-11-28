@@ -1,9 +1,12 @@
 .smallBanners {
     position: relative;
     overflow: hidden;
-    @media (max-width: 768px) {
-        display: flex;
-        flex-direction: column;
+    & a {
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            min-height: 100%;
+        }
     }
     &__image {
         min-width: 100%;
@@ -37,5 +40,6 @@
     &__link {
         font-size: 0.7em;
         color: $white;
+        text-decoration: underline;
     }
 }
