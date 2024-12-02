@@ -84,5 +84,6 @@ return [
         'Grenheart' => 'Grenheart',
         'Makassar' => 'Makassar',
         'Świerk' => 'Spruce wood',
+        'Purpleheart' => 'Purpleheart',
     ]
 ];

@@ -83,6 +83,7 @@ return [
         'Dąb szary' => 'Graue Eiche',
         'Grenheart' => 'Grenheart',
         'Makassar' => 'Makassar',
+        'Purpleheart' => 'Purpleheart',
         'Świerk' => 'Fichtenholz',
     ]
 ];

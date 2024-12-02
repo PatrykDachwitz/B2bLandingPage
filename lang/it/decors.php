@@ -77,6 +77,7 @@ return [
         'Orzech Amerykański' => 'American walnut',
         'Wenge' => 'Wenge',
         'Wiśnia' => 'Cherry tree',
+        'Purpleheart' => 'Purpleheart',
         'Palisander Santos' => 'Santos rosewood',
         'Jesion Bielony' => 'White ash',
         'Palisander Brazylijski' => 'Brazilian rosewood',
