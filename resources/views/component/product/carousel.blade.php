@@ -4,7 +4,7 @@
     <div class="d-flex flex-column flex-lg-row justify-content-between  align-items-start align-items-lg-end">
         <span class="ms-1 ms-lg-2 ms-lg-5 fs-1">{{ $title }}</span>
         @if($catalog ?? true !== false)
-            <a class="btn btn-gold fs-6 ms-1 ms-lg-0 me-lg-2 mt-2 mt-lg-0" href="{{ route('decors', ['product' => $product]) }}">@lang('mainPage.checkDecors')</a>
+            <a class="btn btn-gold fs-6 ms-1 ms-lg-0 me-lg-2 mt-2 mt-lg-0" href="{{ route('decors', ['product' => $product]) }}{{ empty($idDecor) ? '' : '#' . $idDecor }}">@lang('mainPage.checkDecors')</a>
         @endif
     </div>
     <div class="d-flex mt-4 carousel__imagesContainer position-relative" data-gallery="{{ $directory }}" data-carousel-length="{{ $countDecor }}">

@@ -168,6 +168,7 @@
         'countDecor' => $countDecor,
         'product' => $product,
         'directory' => 'decor',
+        'idDecor' => $idDecor
     ])
 
     @if($product === "steindekor")
@@ -176,6 +177,7 @@
         'countDecor' => 20,
         'product' => $product,
         'directory' => 'forms',
+        'idDecor' => 'steindekor',
     ])
     @endif
 

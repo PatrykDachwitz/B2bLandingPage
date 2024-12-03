@@ -21,31 +21,37 @@ class ProductController extends Controller
             'product' => 'colorLine',
             'countDecor' => 15,
             'gallery' => 6,
+            'idDecor' => ''
         ],
         'gleamLine' => [
             'product' => 'gleamLine',
             'countDecor' => 31,
             'gallery' => 6,
+            'idDecor' => ''
         ],
         'nolan' => [
             'product' => 'nolan',
             'countDecor' => 20,
             'gallery' => 7,
+            'idDecor' => ''
         ],
         'solidLine' => [
             'product' => 'solidLine',
             'countDecor' => 14,
             'gallery' => 6,
+            'idDecor' => ''
         ],
         'steindekor' => [
             'product' => 'steindekor',
             'countDecor' => 11,
             'gallery' => 8,
+            'idDecor' => 'glasdekor'
         ],
         'stoneLine' => [
             'product' => 'stoneLine',
             'countDecor' => 20,
             'gallery' => 12,
+            'idDecor' => ''
         ]
     ];
     /**
