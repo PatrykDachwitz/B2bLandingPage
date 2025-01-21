@@ -27,7 +27,7 @@
 
     <section class="container-fluid mt-5 p-md-0 mx-0 overflow-hidden" id="products">
         <div class="container-1920 row g-3 px-3">
-            <div class="col-6 col-lg-4 smallBanners">
+            <div class="col-6 col-lg-3 smallBanners">
                <a class="text-decoration-none" href="{{ route('product', ['product' => 'colorLine']) }}">
                    <div>
                        <picture>
@@ -42,7 +42,7 @@
                </a>
 
             </div>
-            <div class="col-6 col-lg-4 smallBanners">
+            <div class="col-6 col-lg-3 smallBanners">
                 <a class="text-decoration-none" href="{{ route('product', ['product' => 'stoneLine']) }}">
                     <div>
                         <picture>
@@ -57,7 +57,7 @@
                 </a>
 
             </div>
-            <div class="col-6 col-lg-4 smallBanners">
+            <div class="col-6 col-lg-3 smallBanners">
                 <a class="text-decoration-none" href="{{ route('product', ['product' => 'nolan']) }}">
                     <div>
                         <picture>
@@ -72,7 +72,7 @@
                 </a>
 
             </div>
-            <div class="col-6 col-lg-4 smallBanners">
+            <div class="col-6 col-lg-3 smallBanners">
                <a class="text-decoration-none" href="{{ route('product', ['product' => 'solidLine']) }}">
                    <div>
                        <picture>
@@ -87,7 +87,7 @@
                </a>
 
             </div>
-            <div class="col-6 col-lg-4 smallBanners">
+            <div class="col-6 col-lg-3 smallBanners">
                 <a class="text-decoration-none" href="{{ route('product', ['product' => 'gleamLine']) }}">
                     <div>
                         <picture>
@@ -102,7 +102,7 @@
                 </a>
 
             </div>
-            <div class="col-6 col-lg-4 smallBanners">
+            <div class="col-6 col-lg-3 smallBanners">
                 <a class="text-decoration-none" href="{{ route('product', ['product' => 'steindekor']) }}">
                     <div>
                         <picture>
@@ -112,6 +112,37 @@
                     </div>
                     <div class="smallBanners__containerLink d-flex flex-column">
                         <span class="smallBanners__title fs-4">@lang('mainPage.steindekor')</span>
+                        <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="col-6 col-lg-3 smallBanners">
+                <a class="text-decoration-none" href="{{ route('product', ['product' => 'nolan']) }}">
+                    <div>
+                        <picture>
+                            <source srcset="/files/bannerNolan2.webp" type="image/webp">
+                            <img src="/files/bannerNolan2.jpg" loading="lazy" class="smallBanners__image">
+                        </picture>
+                    </div>
+                    <div class="smallBanners__containerLink d-flex flex-column">
+                        <span class="smallBanners__title fs-4">@lang('mainPage.nolan') 2</span>
+                        <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
+                    </div>
+                </a>
+
+            </div>
+            <div class="col-6 col-lg-3 smallBanners">
+                <a class="text-decoration-none" href="{{ route('product', ['product' => 'stoneLine']) }}">
+                    <div>
+                        <picture>
+                            <source srcset="/files/bannerNolan2.webp" type="image/webp">
+                            <img src="/files/bannerNolan2.jpg" loading="lazy" class="smallBanners__image">
+                        </picture>
+                    </div>
+                    <div class="smallBanners__containerLink d-flex flex-column">
+                        <span class="smallBanners__title fs-4">@lang('mainPage.stoneLine') 2</span>
                         <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
                     </div>
                 </a>
