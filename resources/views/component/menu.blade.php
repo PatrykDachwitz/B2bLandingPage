@@ -34,9 +34,9 @@
                                 <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerNolan.jpg" href="{{ route('product', ['product' => 'nolan']) }}">@lang('mainPage.nolan')</a></li>
                                 <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerSolidLone.jpg" href="{{ route('product', ['product' => 'solidLine']) }}">@lang('mainPage.solidLine')</a></li>
                                 <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerGleamLine.jpg" href="{{ route('product', ['product' => 'gleamLine']) }}">@lang('mainPage.gleamLine')</a></li>
+                                <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerNolan2.jpg" href="{{ route('product', ['product' => 'stoneLine_2']) }}">@lang('mainPage.stoneLine') 2</a></li>
+                                <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerNolan2.jpg" href="{{ route('product', ['product' => 'nolan_2']) }}">@lang('mainPage.nolan') 2</a></li>
                                 <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerSteindekor.jpg" href="{{ route('product', ['product' => 'steindekor']) }}">@lang('mainPage.steindekor')</a></li>
-                                <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerNolan2.jpg" href="{{ route('product', ['product' => 'stoneLine']) }}">@lang('mainPage.stoneLine') 2</a></li>
-                                <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerNolan2.jpg" href="{{ route('product', ['product' => 'nolan']) }}">@lang('mainPage.nolan') 2</a></li>
                             </ul>
                         </div>
                     </div>

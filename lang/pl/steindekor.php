@@ -9,7 +9,7 @@ return [
     'sizes' => "",
     'ProductionForClient' => 'Produkt wykonujemy na <b>zamówienie</b>, dostosowując go do wybranego rozmiaru.',
     'colorAvailable' => '<b>Kolory obudowy i kształty</b> dostępne w opisie',
-    'contact' => 'Masz pytania? Skontaktuj się z nami Haben Sie Fragen?',
+    'contact' => 'Masz pytania? Skontaktuj się z nami',
     'getPriceProduct' => 'Uzyskaj wycenę',
     'descriptionAdditional' => 'Opis produktu',
     'decorTitle' => 'Przykłady dekorów szklanych',

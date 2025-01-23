@@ -102,24 +102,9 @@
                 </a>
 
             </div>
-            <div class="col-6 col-lg-3 smallBanners">
-                <a class="text-decoration-none" href="{{ route('product', ['product' => 'steindekor']) }}">
-                    <div>
-                        <picture>
-                            <source srcset="/files/bannerSteindekor.webp" type="image/webp">
-                            <img src="/files/bannerSteindekor.jpg" loading="lazy" class="smallBanners__image">
-                        </picture>
-                    </div>
-                    <div class="smallBanners__containerLink d-flex flex-column">
-                        <span class="smallBanners__title fs-4">@lang('mainPage.steindekor')</span>
-                        <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
-                    </div>
-                </a>
-
-            </div>
 
             <div class="col-6 col-lg-3 smallBanners">
-                <a class="text-decoration-none" href="{{ route('product', ['product' => 'nolan']) }}">
+                <a class="text-decoration-none" href="{{ route('product', ['product' => 'nolan_2']) }}">
                     <div>
                         <picture>
                             <source srcset="/files/bannerNolan2.webp" type="image/webp">
@@ -134,7 +119,7 @@
 
             </div>
             <div class="col-6 col-lg-3 smallBanners">
-                <a class="text-decoration-none" href="{{ route('product', ['product' => 'stoneLine']) }}">
+                <a class="text-decoration-none" href="{{ route('product', ['product' => 'stoneLine_2']) }}">
                     <div>
                         <picture>
                             <source srcset="/files/bannerNolan2.webp" type="image/webp">
@@ -143,6 +128,21 @@
                     </div>
                     <div class="smallBanners__containerLink d-flex flex-column">
                         <span class="smallBanners__title fs-4">@lang('mainPage.stoneLine') 2</span>
+                        <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
+                    </div>
+                </a>
+
+            </div>
+            <div class="col-6 col-lg-3 smallBanners">
+                <a class="text-decoration-none" href="{{ route('product', ['product' => 'steindekor']) }}">
+                    <div>
+                        <picture>
+                            <source srcset="/files/bannerSteindekor.webp" type="image/webp">
+                            <img src="/files/bannerSteindekor.jpg" loading="lazy" class="smallBanners__image">
+                        </picture>
+                    </div>
+                    <div class="smallBanners__containerLink d-flex flex-column">
+                        <span class="smallBanners__title fs-4">@lang('mainPage.steindekor')</span>
                         <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
                     </div>
                 </a>

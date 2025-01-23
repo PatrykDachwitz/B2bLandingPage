@@ -14,6 +14,8 @@ class ProductController extends Controller
         'solidLine',
         'steindekor',
         'stoneLine',
+        'stoneLine_2',
+        'nolan_2'
     ];
 
     private $primarySettings = [
@@ -52,7 +54,19 @@ class ProductController extends Controller
             'countDecor' => 20,
             'gallery' => 12,
             'idDecor' => ''
-        ]
+        ],
+        'nolan_2' => [
+            'product' => 'nolan_2',
+            'countDecor' => 20,
+            'gallery' => 7,
+            'idDecor' => ''
+        ],
+        'stoneLine_2' => [
+            'product' => 'stoneLine_2',
+            'countDecor' => 20,
+            'gallery' => 12,
+            'idDecor' => ''
+        ],
     ];
     /**
      * Handle the incoming request.

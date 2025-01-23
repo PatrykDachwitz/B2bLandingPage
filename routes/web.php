@@ -6,9 +6,6 @@ use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 
-/*
- * Grafiki dekoró nie raz zle się wyswietlają
- */
 Route::group([
    //'prefix' => "/{lang}",
     'middleware' => \App\Http\Middleware\updateLocale::class
@@ -35,6 +32,12 @@ Route::group([
                 break;
             case "stoneLine":
                 return view('view.decors.stoneLine');
+                break;
+            case "stoneLine_2":
+                return view('view.decors.stoneLine');
+                break;
+            case "nolan_2":
+                return view('view.decors.nolan');
                 break;
         }
     })->name('decors');

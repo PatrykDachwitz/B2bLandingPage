@@ -11,7 +11,7 @@ return [
   'solidLine' => 'SolidLone',
   'gleamLine' => 'GleamLine',
   'nolan' => 'Nolan',
-  'steindekor' => 'Dekor szklany und Dekor kamienny',
+  'steindekor' => 'Dekor szklany i Dekor kamienny',
   'viewMore' => 'Zobacz więcej',
   'contactAboutProduct' => 'Skontaktuj się z nami i opowiedz, jakich produktów aktualnie poszukujesz i co możemy dla Ciebie stworzyć. Nawet wstępny pomysł pozwoli nam dopasować rozwiązania idealnie do Twojego projektu.',
   'sendOffers' => 'Skontaktuj się z nami i opowiedz, jakich produktów aktualnie poszukujesz i co możemy dla Ciebie stworzyć. Nawet wstępny pomysł pozwoli nam dopasować rozwiązania idealnie do Twojego projektu.',
