@@ -9,13 +9,13 @@ class ProductController extends Controller
 {
     private $availableOptions = [
         'colorLine',
-        'gleamLine',
+        /*'gleamLine',*/
         'nolan',
         'solidLine',
         'steindekor',
         'stoneLine',
-        'stoneLine_2',
-        'nolan_2'
+        'zora',
+        'losano'
     ];
 
     private $primarySettings = [
@@ -55,16 +55,16 @@ class ProductController extends Controller
             'gallery' => 12,
             'idDecor' => ''
         ],
-        'nolan_2' => [
-            'product' => 'nolan_2',
+        'losano' => [
+            'product' => 'losano',
             'countDecor' => 20,
-            'gallery' => 7,
+            'gallery' => 8,
             'idDecor' => ''
         ],
-        'stoneLine_2' => [
-            'product' => 'stoneLine_2',
+        'zora' => [
+            'product' => 'zora',
             'countDecor' => 20,
-            'gallery' => 12,
+            'gallery' => 8,
             'idDecor' => ''
         ],
     ];

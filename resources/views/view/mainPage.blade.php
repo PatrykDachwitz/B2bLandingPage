@@ -87,7 +87,7 @@
                </a>
 
             </div>
-            <div class="col-6 col-lg-3 smallBanners">
+            {{--<div class="col-6 col-lg-3 smallBanners">
                 <a class="text-decoration-none" href="{{ route('product', ['product' => 'gleamLine']) }}">
                     <div>
                         <picture>
@@ -101,33 +101,33 @@
                     </div>
                 </a>
 
-            </div>
+            </div>--}}
 
             <div class="col-6 col-lg-3 smallBanners">
-                <a class="text-decoration-none" href="{{ route('product', ['product' => 'nolan_2']) }}">
+                <a class="text-decoration-none" href="{{ route('product', ['product' => 'losano']) }}">
                     <div>
                         <picture>
-                            <source srcset="/files/bannerNolan2.webp" type="image/webp">
-                            <img src="/files/bannerNolan2.jpg" loading="lazy" class="smallBanners__image">
+                            <source srcset="/files/bannerLosano.webp" type="image/webp">
+                            <img src="/files/bannerLosano.jpg" loading="lazy" class="smallBanners__image">
                         </picture>
                     </div>
                     <div class="smallBanners__containerLink d-flex flex-column">
-                        <span class="smallBanners__title fs-4">@lang('mainPage.nolan') 2</span>
+                        <span class="smallBanners__title fs-4">Losano</span>
                         <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
                     </div>
                 </a>
 
             </div>
             <div class="col-6 col-lg-3 smallBanners">
-                <a class="text-decoration-none" href="{{ route('product', ['product' => 'stoneLine_2']) }}">
+                <a class="text-decoration-none" href="{{ route('product', ['product' => 'zora']) }}">
                     <div>
                         <picture>
-                            <source srcset="/files/bannerNolan2.webp" type="image/webp">
-                            <img src="/files/bannerNolan2.jpg" loading="lazy" class="smallBanners__image">
+                            <source srcset="/files/bannerZora.webp" type="image/webp">
+                            <img src="/files/bannerZora.jpg" loading="lazy" class="smallBanners__image">
                         </picture>
                     </div>
                     <div class="smallBanners__containerLink d-flex flex-column">
-                        <span class="smallBanners__title fs-4">@lang('mainPage.stoneLine') 2</span>
+                        <span class="smallBanners__title fs-4">Zora</span>
                         <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
                     </div>
                 </a>

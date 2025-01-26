@@ -181,7 +181,7 @@
     ])
     @endif
 
-    @if($product === "stoneLine" || $product === "stoneLine_2" )
+    @if($product === "stoneLine" || $product === "zora" )
         @include('component.product.carousel', [
           'title' => __($product . ".availableForm"),
           'countDecor' => 7,

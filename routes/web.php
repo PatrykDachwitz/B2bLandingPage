@@ -18,9 +18,9 @@ Route::group([
             case "colorLine":
                 return view('view.decors.colorLine');
                 break;
-            case "gleamLine":
+/*            case "gleamLine":
                 return view('view.decors.gleamLine');
-                break;
+                break;*/
             case "nolan":
                 return view('view.decors.nolan');
                 break;
@@ -33,10 +33,10 @@ Route::group([
             case "stoneLine":
                 return view('view.decors.stoneLine');
                 break;
-            case "stoneLine_2":
+            case "zora":
                 return view('view.decors.stoneLine');
                 break;
-            case "nolan_2":
+            case "losano":
                 return view('view.decors.nolan');
                 break;
         }
