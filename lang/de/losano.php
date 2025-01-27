@@ -1,33 +1,29 @@
 <?php
 
 return [
-    'title' => 'Nolan',
-    'description' => 'Wir bieten Möbelsets mit abgerundeten Formen an, die mit Metalllaminaten in einer Vielzahl von Strukturen und Farben versehen sind. Es sind auch MDF-Lackierungen und mit Steinlaminat erhältlich, was eine noch größere Oberflächenvielfalt ermöglicht. Das Set besteht aus einem Waschbeckenunterschrank, einem Spiegel und einem Zubehörschrank, um eine komplette und funktionale Lösung zu schaffen.',
+    'title' => 'Losano',
+    'description' => "Ein Möbelset mit Metalllaminaten in einer breiten Palette von Strukturen und Farben. Es sind auch lackierte Versionen auf MDF sowie mit Steinlaminat erhältlich, was eine noch größere Vielfalt an Oberflächen bietet. Das Set umfasst einen Waschtischunterschrank, einen beleuchteten LED-Spiegel und einen Zubehörschrank und bietet eine komplette und funktionale Lösung, die perfekt in moderne Innenräume passt.",
     'standardSize' => "Standardgrößen",
     'sizes' => [
         [
-            'title' => "Waschbeckenunterschrank",
-            'titleSecond' => "[BxHxT]",
+            'title' => "Schrank",
+            'titleSecond' => "",
             'option' => [
-                '140x45x40',
-                '120x45x40',
-                '100x45x40',
+                '140x50x50',
             ]
         ],
         [
             'title' => "Spiegel",
-            'titleSecond' => "[BxH]",
+            'titleSecond' => "",
             'option' => [
-                '140x80',
-                '120x80',
-                '100x80',
+                '120x120',
             ]
         ],
         [
-            'title' => "Hängeschrank",
-            'titleSecond' => "[BxHxT]",
+            'title' => "Zubehörschrank",
+            'titleSecond' => "",
             'option' => [
-                '40x150x40',
+                '40x160x41,8',
             ]
         ]
     ],
@@ -38,7 +34,7 @@ return [
     'descriptionAdditional' => 'Produktbeschreibung',
     'decorTitle' => 'Beispiele für Dekore',
     'availableForm' => 'Erhältliche Spiegelformen',
-    'downloadMaterial' => 'Technische Informationen <a class="text-white" href="/files/technicalSpecification/nolan_2.pdf" target="_blank">[Herunterladen]</a>',
+    'downloadMaterial' => 'Technische Informationen <a class="text-white" href="/files/technicalSpecification/losano.pdf" target="_blank">[Herunterladen]</a>',
     'formContactFirst' => 'Um ein Produkt zu bestellen oder ein Angebot zu erhalten, kontaktieren Sie uns bitte unter Angabe der Größe, der Serie und des gewählten Dekors',
     'formContactSecond' => 'Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen',
 ];

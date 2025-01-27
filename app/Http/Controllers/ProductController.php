@@ -58,13 +58,13 @@ class ProductController extends Controller
         'losano' => [
             'product' => 'losano',
             'countDecor' => 20,
-            'gallery' => 8,
+            'gallery' => 5,
             'idDecor' => ''
         ],
         'zora' => [
             'product' => 'zora',
             'countDecor' => 20,
-            'gallery' => 8,
+            'gallery' => 5,
             'idDecor' => ''
         ],
     ];
