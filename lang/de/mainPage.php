@@ -8,7 +8,7 @@ return [
   'sendRequest' => 'Fragen Sie uns',
   'colorLine' => 'ColorLine',
   'stoneLine' => 'StoneLine',
-  'solidLine' => 'SolidLone',
+  'solidLine' => 'SolidLine',
   'gleamLine' => 'GleamLine',
   'nolan' => 'Nolan',
   'steindekor' => 'Steindekor und Glasdekor',

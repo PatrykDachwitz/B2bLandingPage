@@ -2,7 +2,7 @@
 
 return [
     'polices' => '<div>
-<p>This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from b2b.artforma.de We appreciate your interest in our website. The protection of your privacy is very important to us. In this privacy policy you will find more information on how to handle your data. The administrator of your data is: FORAM Sp. z o.o. sp. k., Jeziorna 3, 64-200, Karpicko, <a href="mailto:b2b@artforma.eu">{{ "service@" . $domain-&gt;url }}</a></p>
+<p>This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from b2b.artforma.de We appreciate your interest in our website. The protection of your privacy is very important to us. In this privacy policy you will find more information on how to handle your data. The administrator of your data is: FORAM Sp. z o.o. sp. k., Jeziorna 3, 64-200, Karpicko, <a href="mailto:b2b@artforma.eu">b2b@artforma.eu</a></p>
 </div>
 
 <div>

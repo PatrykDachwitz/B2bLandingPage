@@ -9,6 +9,12 @@ return [
       'es',
       'it',
       'fr',
+      'nl',
+      'no',
+      'se',
+      'fi',
+      'dk',
+      'sk',
   ],
 
   'defaultLanguage' => env('APP_LOCALE', 'de'),
@@ -28,6 +34,12 @@ return [
     'ES' => 'es',
     'IT' => 'it',
     'PL' => 'pl',
+    'NL' => 'nl',
+    'NO' => 'no',
+    'SE' => 'se',
+    'FI' => 'fi',
+    'DK' => 'dk',
+    'SK' => 'sk',
   ]
 
 ];

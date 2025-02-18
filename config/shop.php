@@ -23,6 +23,72 @@ return [
         'pinterest' => "https://pl.pinterest.com/artforma_com",
         'google' => "https://www.google.co.uk/search?q=artforma",
     ],
+    'nl' => [
+        'phone' => "+44 203 808 5213",
+        'mailContact' => "b2b@artforma.eu",
+
+        'whatsApp' => 'https://wa.me/+48781637661',
+        'facebook' => "https://www.facebook.com/artforma",
+        'instagram' => "https://www.instagram.com/artforma_com",
+        'linkedin' => "https://pl.linkedin.com/company/artformacom",
+        'pinterest' => "https://pl.pinterest.com/artforma_com",
+        'google' => "https://www.google.co.uk/search?q=artforma",
+    ],
+    'no' => [
+        'phone' => "+44 203 808 5213",
+        'mailContact' => "b2b@artforma.eu",
+
+        'whatsApp' => 'https://wa.me/+48781637661',
+        'facebook' => "https://www.facebook.com/artforma",
+        'instagram' => "https://www.instagram.com/artforma_com",
+        'linkedin' => "https://pl.linkedin.com/company/artformacom",
+        'pinterest' => "https://pl.pinterest.com/artforma_com",
+        'google' => "https://www.google.co.uk/search?q=artforma",
+    ],
+    'se' => [
+        'phone' => "+44 203 808 5213",
+        'mailContact' => "b2b@artforma.eu",
+
+        'whatsApp' => 'https://wa.me/+48781637661',
+        'facebook' => "https://www.facebook.com/artforma",
+        'instagram' => "https://www.instagram.com/artforma_com",
+        'linkedin' => "https://pl.linkedin.com/company/artformacom",
+        'pinterest' => "https://pl.pinterest.com/artforma_com",
+        'google' => "https://www.google.co.uk/search?q=artforma",
+    ],
+    'fi' => [
+        'phone' => "+44 203 808 5213",
+        'mailContact' => "b2b@artforma.eu",
+
+        'whatsApp' => 'https://wa.me/+48781637661',
+        'facebook' => "https://www.facebook.com/artforma",
+        'instagram' => "https://www.instagram.com/artforma_com",
+        'linkedin' => "https://pl.linkedin.com/company/artformacom",
+        'pinterest' => "https://pl.pinterest.com/artforma_com",
+        'google' => "https://www.google.co.uk/search?q=artforma",
+    ],
+    'dk' => [
+        'phone' => "+44 203 808 5213",
+        'mailContact' => "b2b@artforma.eu",
+
+        'whatsApp' => 'https://wa.me/+48781637661',
+        'facebook' => "https://www.facebook.com/artforma",
+        'instagram' => "https://www.instagram.com/artforma_com",
+        'linkedin' => "https://pl.linkedin.com/company/artformacom",
+        'pinterest' => "https://pl.pinterest.com/artforma_com",
+        'google' => "https://www.google.co.uk/search?q=artforma",
+    ],
+    'sk' => [
+        'phone' => "+44 203 808 5213",
+        'mailContact' => "b2b@artforma.eu",
+
+        'whatsApp' => 'https://wa.me/+48781637661',
+        'facebook' => "https://www.facebook.com/artforma",
+        'instagram' => "https://www.instagram.com/artforma_com",
+        'linkedin' => "https://pl.linkedin.com/company/artformacom",
+        'pinterest' => "https://pl.pinterest.com/artforma_com",
+        'google' => "https://www.google.co.uk/search?q=artforma",
+    ],
     'pl' => [
         'phone' => "+48 68 422 73 65",
         'mailContact' => "b2b@artforma.eu",
