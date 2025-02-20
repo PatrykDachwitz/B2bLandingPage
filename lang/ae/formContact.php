@@ -5,7 +5,7 @@ return [
   'contact24Hours' => "Odpowiemy tak szybko ja będzie to możliwe. ",
   'names' => "Nazwa firmy lub imię i nazwisko",
   'email' => "Email",
-  'phone' => "Numer telefonu",
+  'phone' => "Emai",
   'message' => "Treść wiadomości",
   'requireInputs' => "Pola oznaczone * są wymagane.",
   'adminData' => "Administratorem Twoich danych osobowych jest FORAM Sp. z o.o. sp. k. z siedzibą w Wolsztynie przy ul. Jeziorna 3 Karpicko. Będziemy przetwarzać Twoje dane podane w niniejszym formularzu kontaktowym w celu odpowiedniego ustosunkowania się do Twojej wiadomości, w tym udzielenia odpowiedzi na Twoje zapytanie. Szczegółowe informacje o regulacjach przetwarzania przez nas danych osobowych znajdziesz tutaj.",

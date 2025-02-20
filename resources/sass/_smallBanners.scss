@@ -1,6 +1,7 @@
 .smallBanners {
     position: relative;
     overflow: hidden;
+
     & a {
         @media (max-width: 768px) {
             display: flex;
@@ -27,6 +28,12 @@
         @media (min-width: 768px) {
             min-height: auto;
             position: absolute;
+        }
+
+        &--ae {
+            text-align: end;
+            right: 17px;
+            left: auto;
         }
     }
 

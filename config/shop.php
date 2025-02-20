@@ -23,6 +23,17 @@ return [
         'pinterest' => "https://pl.pinterest.com/artforma_com",
         'google' => "https://www.google.co.uk/search?q=artforma",
     ],
+    'ae' => [
+        'phone' => "+44 203 808 5213",
+        'mailContact' => "b2b@artforma.eu",
+
+        'whatsApp' => 'https://wa.me/+48781637661',
+        'facebook' => "https://www.facebook.com/artforma",
+        'instagram' => "https://www.instagram.com/artforma_com",
+        'linkedin' => "https://pl.linkedin.com/company/artformacom",
+        'pinterest' => "https://pl.pinterest.com/artforma_com",
+        'google' => "https://www.google.co.uk/search?q=artforma",
+    ],
     'nl' => [
         'phone' => "+44 203 808 5213",
         'mailContact' => "b2b@artforma.eu",

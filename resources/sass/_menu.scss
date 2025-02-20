@@ -82,6 +82,17 @@
                 padding-left: 1em;
             }
         }
+        &--flagAe {
+            @media (max-width: 992px) {
+                border-left: 2px solid $gray-text;
+                padding-left: 1em;
+            }
+            @media (min-width: 992px) {
+                border-right: 2px solid $gray-text;
+                margin-right: 1em;
+                padding-right: 1em;
+            }
+        }
     }
     &__container--option {
         @media (min-width: 992px) {

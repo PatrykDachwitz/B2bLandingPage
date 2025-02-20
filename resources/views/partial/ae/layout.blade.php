@@ -15,14 +15,14 @@
 ])
 </head>
 <body>
-@include('component.menu', [
+@include('component.ae.menu', [
     'menu' => $menu ?? ""
 ])
 
 @yield('content')
 
-@include('component.cookie')
-@include('component.footer')
+@include('component.ae.cookie')
+@include('component.ae.footer')
 <h1> {{\Illuminate\Support\Facades\Cookie::get('cookie1')}} </h1>
 </body>
 </html>

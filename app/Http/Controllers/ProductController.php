@@ -2,6 +2,7 @@
 declare(strict_types=1);
 namespace App\Http\Controllers;
 
+use App\Facades\LanguageReadingPageFacade;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
@@ -75,7 +76,9 @@ class ProductController extends Controller
     {
 
         if (in_array($product, $this->availableOptions)) {
-            return view('view.product', $this->primarySettings[$product]);
+            if (LanguageReadingPageFacade::isRightPageReading()) return view('view.ae.product', $this->primarySettings[$product]);
+            else return view('view.product', $this->primarySettings[$product]);
+
         } else {
               abort(404);
         }

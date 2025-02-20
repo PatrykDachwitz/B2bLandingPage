@@ -15,6 +15,7 @@ return [
       'fi',
       'dk',
       'sk',
+      'ae',
   ],
 
   'defaultLanguage' => env('APP_LOCALE', 'de'),
@@ -40,6 +41,11 @@ return [
     'FI' => 'fi',
     'DK' => 'dk',
     'SK' => 'sk',
+    'AE' => 'ae',
+  ],
+
+  'rightPageRead' => [
+    'ae',
   ]
 
 ];

@@ -18,6 +18,11 @@
     &__imagesContainer {
         left: 0;
         cursor: pointer;
+        &--ae {
+            left: auto;
+            right: 0;
+            justify-content: end;
+        }
     }
 
     &__button {
