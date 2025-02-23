@@ -37,7 +37,7 @@
                    </div>
                    <div class="smallBanners__containerLink d-flex flex-column">
                        <span class="smallBanners__title fs-4">@lang('mainPage.colorLine')</span>
-                       <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
+                       <span class="smallBanners__link fs-5" >@lang('mainPage.viewMore')</span>
                    </div>
                </a>
 
@@ -52,7 +52,7 @@
                     </div>
                     <div class="smallBanners__containerLink d-flex flex-column">
                         <span class="smallBanners__title fs-4">@lang('mainPage.stoneLine')</span>
-                        <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
+                        <span class="smallBanners__link fs-5" >@lang('mainPage.viewMore')</span>
                     </div>
                 </a>
 
@@ -67,7 +67,7 @@
                     </div>
                     <div class="smallBanners__containerLink d-flex flex-column">
                         <span class="smallBanners__title fs-4">@lang('mainPage.nolan')</span>
-                        <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
+                        <span class="smallBanners__link fs-5" >@lang('mainPage.viewMore')</span>
                     </div>
                 </a>
 
@@ -82,7 +82,7 @@
                    </div>
                    <div class="smallBanners__containerLink d-flex flex-column">
                        <span class="smallBanners__title fs-4">@lang('mainPage.solidLine')</span>
-                       <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
+                       <span class="smallBanners__link fs-5" >@lang('mainPage.viewMore')</span>
                    </div>
                </a>
 
@@ -97,7 +97,7 @@
                     </div>
                     <div class="smallBanners__containerLink d-flex flex-column">
                         <span class="smallBanners__title fs-4">@lang('mainPage.gleamLine')</span>
-                        <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
+                        <span class="smallBanners__link fs-5" >@lang('mainPage.viewMore')</span>
                     </div>
                 </a>
 
@@ -113,7 +113,7 @@
                     </div>
                     <div class="smallBanners__containerLink d-flex flex-column">
                         <span class="smallBanners__title fs-4">Losano</span>
-                        <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
+                        <span class="smallBanners__link fs-5" >@lang('mainPage.viewMore')</span>
                     </div>
                 </a>
 
@@ -128,7 +128,7 @@
                     </div>
                     <div class="smallBanners__containerLink d-flex flex-column">
                         <span class="smallBanners__title fs-4">Zora</span>
-                        <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
+                        <span class="smallBanners__link fs-5" >@lang('mainPage.viewMore')</span>
                     </div>
                 </a>
 
@@ -143,7 +143,7 @@
                     </div>
                     <div class="smallBanners__containerLink d-flex flex-column">
                         <span class="smallBanners__title fs-4">@lang('mainPage.steindekor')</span>
-                        <span class="smallBanners__link fs-5 pt-2" >@lang('mainPage.viewMore')</span>
+                        <span class="smallBanners__link fs-5" >@lang('mainPage.viewMore')</span>
                     </div>
                 </a>
 

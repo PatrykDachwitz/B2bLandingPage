@@ -2,26 +2,26 @@
 
 return [
     'polices' => '<div>
-    <p>Deze Privacyverklaring beschrijft hoe jouw persoonlijke informatie wordt verzameld, gebruikt en gedeeld wanneer je onze website bezoekt of een aankoop doet via b2b.artforma.de. We stellen je interesse in onze website op prijs. De bescherming van jouw privacy is voor ons zeer belangrijk. In deze privacyverklaring vind je meer informatie over hoe wij jouw gegevens behandelen. De beheerder van je gegevens is: FORAM Sp. z o.o. sp. k., Jeziorna 3, 64-200, Karpicko, <a href="mailto:b2b@artforma.eu">b2b@artforma.eu</a></p>
+    <p>Dit privacybeleid beschrijft hoe uw persoonlijke gegevens worden verzameld, gebruikt en gedeeld wanneer u b2b.artforma.de bezoekt of een aankoop doet. Wij waarderen uw interesse in onze website. De bescherming van uw privacy is erg belangrijk voor ons. In dit privacybeleid vindt u meer informatie over hoe u met uw gegevens omgaat. De beheerder van uw gegevens is: FORAM Sp. z oo sp. k., Jeziorna 3, 64-200, Karpicko, <a href="mailto:b2b@artforma.eu">b2b@artforma.eu</a></p>
 </div>
 
 <div>
     <p>&nbsp;</p>
 
-    <h2 class="mb-4">1. PERSOONLIJKE INFORMATIE DIE WE VERZAMELEN</h2>
+    <h2 class="mb-4">1. PERSOONLIJKE INFORMATIE DIE WIJ VERZAMELEN</h2>
 
-    <p>Wanneer je de site bezoekt, verzamelen we automatisch bepaalde informatie over jouw apparaat, inclusief informatie over je webbrowser, IP-adres, tijdzone en enkele van de cookies die op je apparaat zijn geïnstalleerd. Bovendien verzamelen we, terwijl je de site doorzoekt, informatie over de individuele webpagina\'s of producten die je bekijkt, welke websites of zoektermen je naar de site hebben geleid, en informatie over hoe je met de site omgaat. We verwijzen naar deze automatisch verzamelde informatie als "Apparaatinformatie".<br />
-        We verzamelen Apparaatinformatie met behulp van de volgende technologieën:</p>
+    <p>Wanneer u de Site bezoekt, verzamelen we automatisch bepaalde informatie over uw apparaat, waaronder informatie over uw webbrowser, IP-adres, tijdzone en enkele van de cookies die op uw apparaat zijn geïnstalleerd. Bovendien verzamelen we, terwijl u door de Site bladert, informatie over de afzonderlijke webpagina\'s of producten die u bekijkt, welke websites of zoektermen u naar de Site hebben verwezen en informatie over hoe u met de Site omgaat. We verwijzen naar deze automatisch verzamelde informatie als "Apparaatinformatie."<br />
+        Wij verzamelen apparaatgegevens met behulp van de volgende technologieën:</p>
 
     <ul>
-        <li>"Cookies" zijn gegevensbestanden die op je apparaat of computer worden geplaatst en vaak een anonieme unieke identificator bevatten. Voor meer informatie over cookies en hoe je cookies kunt uitschakelen, bezoek http://www.allaboutcookies.org.</li>
-        <li>"Logbestanden" volgen acties die plaatsvinden op de site en verzamelen gegevens, waaronder je IP-adres, browsertype, internetprovider, doorverwijs-/verlaatpagina\'s en datum-/tijdstempels.</li>
-        <li>"Webbeacons", "tags" en "pixels" zijn elektronische bestanden die worden gebruikt om informatie op te nemen over hoe je de site doorzoekt.</li>
+        <li>"Cookies" zijn gegevensbestanden die op uw apparaat of computer worden geplaatst en vaak een anonieme unieke identificatie bevatten. Voor meer informatie over cookies en hoe u cookies kunt uitschakelen, gaat u naar http://www.allaboutcookies.org.</li>
+        <li>"Logbestanden" houden bij welke acties er op de site plaatsvinden en verzamelen gegevens, waaronder uw IP-adres, browsertype, internetprovider, verwijzende/afsluitende pagina\'s en datum-/tijdstempels.</li>
+        <li>"Web beacons", "tags" en "pixels" zijn elektronische bestanden die worden gebruikt om informatie vast te leggen over de manier waarop u op de Site surft.</li>
     </ul>
 
     <p>&nbsp;</p>
 
-    <p>Bovendien, wanneer je een aankoop doet of probeert te doen via de site, verzamelen we bepaalde informatie van jou, waaronder je naam, factuuradres, afleveradres, betaalinformatie, e-mailadres en telefoonnummer. We verwijzen naar deze informatie als "Bestellingsinformatie." Wanneer we het in deze privacyverklaring hebben over "Persoonlijke Informatie", bedoelen we zowel Apparaatinformatie als Bestellingsinformatie.</p>
+    <p>Bovendien verzamelen we bepaalde informatie van u wanneer u een aankoop doet of probeert te doen via de Site, waaronder uw naam, factuuradres, verzendadres, betalingsgegevens, e-mailadres en telefoonnummer. We verwijzen naar deze informatie als "Bestelgegevens". Wanneer we het in dit Privacybeleid hebben over "Persoonlijke gegevens", hebben we het zowel over Apparaatgegevens als over Bestelgegevens.</p>
 </div>
 
 <div>
@@ -29,19 +29,19 @@ return [
 
     <p>&nbsp;</p>
 
-    <h2 class="mb-4">2. HOE WE JE PERSOONLIJKE INFORMATIE GEBRUIKEN</h2>
+    <h2 class="mb-4">2. HOE GEBRUIKEN WIJ UW PERSOONLIJKE GEGEVENS?</h2>
 
-    <p>We gebruiken de Bestellingsinformatie die we verzamelen doorgaans om bestellingen die via de site zijn geplaatst te verwerken (inclusief het verwerken van je betalingsinformatie, het regelen van verzending en het verstrekken van facturen en/of orderbevestigingen). Bovendien gebruiken we deze Bestellingsinformatie om:</p>
+    <p>We gebruiken de Bestelgegevens die we verzamelen over het algemeen om bestellingen die via de Site zijn geplaatst uit te voeren (inclusief het verwerken van uw betalingsgegevens, het regelen van verzending en het verstrekken van facturen en/of orderbevestigingen). Daarnaast gebruiken we deze Bestelgegevens om:</p>
 
     <ul>
-        <li>Met je te communiceren;</li>
-        <li>Onze bestellingen te screenen op potentiële risico\'s of fraude; en</li>
-        <li>Wanneer dit in lijn is met de voorkeuren die je met ons hebt gedeeld, je informatie of advertenties te bieden die verband houden met onze producten of diensten.</li>
+        <li>Communiceren met u;</li>
+        <li>Onze bestellingen controleren op mogelijke risico\'s of fraude; en</li>
+        <li>Wanneer dit in overeenstemming is met de voorkeuren die u met ons hebt gedeeld, verstrekken wij u informatie of advertenties met betrekking tot onze producten of diensten.</li>
     </ul>
 
     <p>&nbsp;</p>
 
-    <p>We gebruiken de Apparaatinformatie die we verzamelen om ons te helpen screenen voor potentiële risico\'s en fraude (in het bijzonder je IP-adres) en meer algemeen om onze site te verbeteren en te optimaliseren (bijvoorbeeld door analyses te genereren over hoe onze klanten door de site navigeren en interactie hebben met de site, en om het succes van onze marketing- en reclamecampagnes te beoordelen).</p>
+    <p>We gebruiken de apparaatgegevens die we verzamelen om ons te helpen potentiële risico\'s en fraude (met name uw IP-adres) op te sporen en meer in het algemeen om onze site te verbeteren en optimaliseren (bijvoorbeeld door analyses te genereren over hoe onze klanten door de site bladeren en ermee omgaan, en om het succes van onze marketing- en advertentiecampagnes te beoordelen).</p>
 </div>
 
 <div>
@@ -49,9 +49,9 @@ return [
 
     <p>&nbsp;</p>
 
-    <h2 class="mb-4">3. HET DELEN VAN JE PERSOONLIJKE INFORMATIE</h2>
+    <h2 class="mb-4">3. HET DELEN VAN UW PERSOONLIJKE GEGEVENS</h2>
 
-    <p>We delen je Persoonlijke Informatie met derden om ons te helpen je Persoonlijke Informatie te gebruiken, zoals hierboven beschreven. Specifiek gebruiken we Google Analytics om ons te helpen begrijpen hoe onze klanten de site gebruiken. Je kunt hier meer lezen over hoe Google jouw Persoonlijke Informatie gebruikt. Je kunt je ook afmelden voor Google Analytics hier. Tot slot kunnen we je Persoonlijke Informatie ook delen om te voldoen aan de toepasselijke wet- en regelgeving, om te reageren op een dagvaarding, huiszoekingsbevel of andere wettige verzoeken om informatie die we ontvangen, of om onze rechten anderszins te beschermen.</p>
+    <p>We delen uw persoonlijke informatie met derden om ons te helpen uw persoonlijke informatie te gebruiken, zoals hierboven beschreven. We gebruiken met name Google Analytics om ons te helpen begrijpen hoe onze klanten de site gebruiken. U kunt hier meer lezen over hoe Google uw persoonlijke informatie gebruikt. U kunt zich hier ook afmelden voor Google Analytics. Tot slot kunnen we uw persoonlijke informatie ook delen om te voldoen aan toepasselijke wetten en regelgevingen, om te reageren op een dagvaarding, huiszoekingsbevel of ander rechtmatig verzoek om informatie dat we ontvangen, of om anderszins onze rechten te beschermen.</p>
 </div>
 
 <div>
@@ -59,9 +59,9 @@ return [
 
     <p>&nbsp;</p>
 
-    <h2 class="mb-4">4. GEDRAGSADVERTEREN</h2>
+    <h2 class="mb-4">4. GEDRAGSRECLAME</h2>
 
-    <p>Zoals hierboven beschreven, gebruiken we je Persoonlijke Informatie om je gerichte advertenties of marketingcommunicatie te bieden waarvan wij denken dat ze interessant voor je kunnen zijn. Voor meer informatie over hoe gerichte advertenties werken, kun je de educatieve pagina van het Network Advertising Initiative ("NAI") bezoeken op http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work. Je kunt je afmelden voor gerichte advertenties door Facebook of Google te bezoeken.</p>
+    <p>Zoals hierboven beschreven, gebruiken we uw persoonlijke gegevens om u gerichte advertenties of marketingcommunicatie te bieden waarvan wij denken dat deze interessant voor u kunnen zijn. Voor meer informatie over hoe gerichte advertenties werken, kunt u de educatieve pagina van het Network Advertising Initiative ("NAI") bezoeken op http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work. U kunt zich afmelden voor gerichte advertenties door Facebook of Google te bezoeken.</p>
 </div>
 
 <div>
@@ -71,7 +71,7 @@ return [
 
     <h2 class="mb-4">5. NIET VOLGEN</h2>
 
-    <p>Let op dat we de dataverzamelings- en gebruikspraktijken van onze site niet aanpassen wanneer we een "Do Not Track"-signaal van je browser ontvangen.</p>
+    <p>Houd er rekening mee dat we de gegevensverzameling en -praktijken van onze site niet wijzigen wanneer we een Do Not Track-signaal van uw browser zien.</p>
 </div>
 
 <div>
@@ -79,9 +79,9 @@ return [
 
     <p>&nbsp;</p>
 
-    <h2 class="mb-4">6. JOUW RECHTEN</h2>
+    <h2 class="mb-4">6. UW RECHTEN</h2>
 
-    <p>Als je een inwoner van Europa bent, heb je het recht om toegang te krijgen tot persoonlijke informatie die we over je hebben en om te vragen dat je persoonlijke informatie wordt gecorrigeerd, bijgewerkt of verwijderd. Als je dit recht wilt uitoefenen, neem dan contact met ons op via de contactinformatie hieronder. Daarnaast, als je een Europese inwoner bent, merken we op dat we je informatie verwerken om contracten die we mogelijk met je hebben uit te voeren (bijvoorbeeld als je een bestelling via de site plaatst), of anderszins om onze legitieme zakelijke belangen, zoals hierboven vermeld, na te streven. Let er ook op dat je informatie buiten Europa wordt overgedragen, inclusief naar Canada en de Verenigde Staten.</p>
+    <p>Als u een inwoner van Europa bent, hebt u het recht om toegang te krijgen tot de persoonlijke informatie die wij over u bewaren en om te vragen dat uw persoonlijke informatie wordt gecorrigeerd, bijgewerkt of verwijderd. Als u dit recht wilt uitoefenen, neem dan contact met ons op via de onderstaande contactgegevens. Als u een inwoner van Europa bent, merken wij bovendien op dat wij uw informatie verwerken om contracten na te komen die wij mogelijk met u hebben (bijvoorbeeld als u een bestelling plaatst via de Site), of anderszins om onze legitieme zakelijke belangen na te streven die hierboven zijn vermeld. Houd er bovendien rekening mee dat uw informatie buiten Europa wordt overgedragen, inclusief naar Canada en de Verenigde Staten.</p>
 </div>
 
 <div>
@@ -89,9 +89,9 @@ return [
 
     <p>&nbsp;</p>
 
-    <h2 class="mb-4">7. BEWAREN VAN GEGEVENS</h2>
+    <h2 class="mb-4">7. GEGEVENSBEHOUD</h2>
 
-    <p>Wanneer je een bestelling plaatst via de site, bewaren we je Bestellingsinformatie voor onze administratie, tenzij je ons vraagt deze informatie te verwijderen.</p>
+    <p>Wanneer u een bestelling plaatst via de Site, bewaren wij uw Bestelgegevens in onze administratie, tenzij en totdat u ons vraagt deze informatie te verwijderen.</p>
 </div>
 
 <div>
@@ -101,7 +101,7 @@ return [
 
     <h2 class="mb-4">8. WIJZIGINGEN</h2>
 
-    <p>We kunnen deze privacyverklaring van tijd tot tijd bijwerken om bijvoorbeeld veranderingen in onze praktijken weer te geven of om andere operationele, juridische of regelgevende redenen.</p>
+    <p>Wij kunnen dit privacybeleid van tijd tot tijd bijwerken om bijvoorbeeld wijzigingen in onze werkwijzen of om andere operationele, juridische of regelgevende redenen weer te geven.</p>
 </div>
 
 <div>
@@ -109,10 +109,11 @@ return [
 
     <p>&nbsp;</p>
 
-    <h2 class="mb-4">9. CONTACT ONS</h2>
+    <h2 class="mb-4">9. NEEM CONTACT MET ONS OP</h2>
 
-    <p>Voor meer informatie over onze privacypraktijken, als je vragen hebt, of als je een klacht wilt indienen, neem dan contact met ons op via e-mail op <a href="mailto:b2b@artforma.eu">b2b@artforma.eu</a></p>
+    <p>Voor meer informatie over onze privacy-praktijken, als u vragen hebt of als u een klacht wilt indienen, kunt u contact met ons opnemen via e-mail op <a href="mailto:b2b@artforma.eu">b2b@artforma.eu</a></p>
 </div>
+
 ',
     'rule' => '<h2>I. Definities</h2>
 
@@ -273,7 +274,7 @@ return [
 <h2>VIII. Herroepingsrecht bij een overeenkomst op afstand</h2>
 
 <p><i>De Verkoper informeert dat de meeste Goederen die in de Online Winkel worden aangeboden, volledig op de individuele bestelling van de Klant zijn gemaakt en aan zijn behoeften zijn aangepast. De meeste Goederen die in de Online Winkel worden aangeboden, zijn daarom niet-geprefabriceerde goederen, vervaardigd volgens de specificaties van de consument of dienen om aan zijn individuele behoeften te voldoen. Volgens Art. 38 punt 3 van de Wet op de consumentenrechten heeft de consument met betrekking tot overeenkomsten waarvan de goederen in kwestie het voorwerp zijn, geen recht om zich terug te trekken uit een overeenkomst op afstand.<br />
-    Met het bovenstaande in gedachten wijst de Verkoper erop dat het herroepingsrecht bij een overeenkomst op afstand zoals hieronder beschreven enkel geldt voor <strong>producten uit de Valentina-collectie (meubelsets)</strong>. </i></p>
+        Met het bovenstaande in gedachten wijst de Verkoper erop dat het herroepingsrecht bij een overeenkomst op afstand zoals hieronder beschreven enkel geldt voor <strong>producten uit de Valentina-collectie (meubelsets)</strong>. </i></p>
 
 <p>1. De klant die consument is, heeft het recht om binnen veertien dagen zonder opgave van redenen af te zien van de overeenkomst, overeenkomstig de bepalingen van de wet van 30 mei 2014 betreffende consumentenrechten. De termijn van veertien dagen begint te lopen vanaf de inbezitneming van de goederen door de Klant of een door hem aangewezen derde, die niet de vervoerder is, en in het geval van meerdere goederen die afzonderlijk, in partijen of in delen worden geleverd, vanaf de inbezitneming van de laatste goederen, hun partij of deel. Om de termijn te halen, volstaat het om vóór het verstrijken ervan een verklaring te sturen. Een verklaring van herroeping van de overeenkomst kan op elke manier worden ingediend, bijvoorbeeld via:</p>
 
@@ -355,7 +356,7 @@ return [
 
 <p>&nbsp;</p>
 
-<h2>X. Klachten over de levering van elektronische diensten</h2>
+<h2>X. Klachten over het aanbieden van elektronische diensten</h2>
 
 <p>1. De Verkoper neemt maatregelen om de goede werking van de Online Winkel te waarborgen, voor zover dat voortvloeit uit de huidige technische kennis en verbindt zich ertoe om eventuele onregelmatigheden die door Klanten worden gemeld binnen een redelijke termijn te verhelpen.</p>
 
@@ -415,7 +416,5 @@ return [
 
 <p>– Datum_______________________________________________________________________________</p>
 
-<p>(*) Doorhalen wat niet van toepassing is.</p>
-
-'
+<p>(*) Doorhalen wat niet van toepassing is.</p>'
 ];

@@ -2,26 +2,26 @@
 
 return [
     'polices' => '<div>
-<p>Denne personvernerklæringen beskriver hvordan din personlige informasjon samles inn, brukes og deles når du besøker eller gjør et kjøp fra b2b.artforma.de. Vi setter pris på din interesse for nettstedet vårt. Beskyttelsen av ditt personvern er veldig viktig for oss. I denne personvernerklæringen finner du mer informasjon om hvordan vi håndterer dine data. Administratoren av dine data er: FORAM Sp. z o.o. sp. k., Jeziorna 3, 64-200, Karpicko, <a href="mailto:b2b@artforma.eu">b2b@artforma.eu</a></p>
+<p>Denne personvernerklæringen beskriver hvordan din personlige informasjon samles inn, brukes og deles når du besøker eller foretar et kjøp fra b2b.artforma.de. Vi setter pris på din interesse for nettstedet vårt. Beskyttelse av personvernet ditt er svært viktig for oss. I denne personvernerklæringen finner du mer informasjon om hvordan du håndterer dataene dine. Administratoren for dine data er: FORAM Sp. z oo sp. k., Jeziorna 3, 64-200, Karpicko, <a href="mailto:b2b@artforma.eu">b2b@artforma.eu</a></p>
 </div>
 
 <div>
 <p>&nbsp;</p>
 
-<h2 class="mb-4">1. PERSONLIG INFORMASJON VI SAMLER INN</h2>
+<h2 class="mb-4">1. PERSONOPPLYSNINGER VI SAMLER INN</h2>
 
-<p>Når du besøker nettstedet, samler vi automatisk inn visse opplysninger om enheten din, inkludert informasjon om nettleseren din, IP-adresse, tidssone og noen av informasjonskapslene som er installert på enheten din. I tillegg, når du surfer på nettstedet, samler vi inn informasjon om de individuelle nettsidene eller produktene du ser på, hvilke nettsteder eller søkeord som henviste deg til nettstedet, og informasjon om hvordan du samhandler med nettstedet. Vi refererer til denne automatisk innsamlede informasjonen som "Enhetsinformasjon".<br />
-Vi samler inn Enhetsinformasjon ved hjelp av følgende teknologier:</p>
+<p>Når du besøker nettstedet, samler vi automatisk inn viss informasjon om enheten din, inkludert informasjon om din nettleser, IP-adresse, tidssone og noen av informasjonskapslene som er installert på enheten din. I tillegg, mens du surfer på nettstedet, samler vi inn informasjon om de individuelle nettsidene eller produktene du ser på, hvilke nettsteder eller søkeord som henviste deg til nettstedet, og informasjon om hvordan du samhandler med nettstedet. Vi refererer til denne automatisk innsamlede informasjonen som "Enhetsinformasjon."<br />
+Vi samler inn enhetsinformasjon ved hjelp av følgende teknologier:</p>
 
 <ul>
-	<li>"Informasjonskapsler" er datafiler som plasseres på enheten din eller datamaskinen og inkluderer ofte en anonym unik identifikator. For mer informasjon om informasjonskapsler, og hvordan du deaktiverer dem, kan du besøke http://www.allaboutcookies.org.</li>
-	<li>"Loggfiler" sporer handlinger som finner sted på nettstedet, og samler inn data som IP-adressen din, nettlesertype, Internett-leverandør, henvisende/utgangssider og dato/tid-stempler.</li>
-	<li>"Web beacons", "tags" og "pixels" er elektroniske filer som brukes til å registrere informasjon om hvordan du surfer på nettstedet.</li>
+<li>«Informasjonskapsler» er datafiler som plasseres på enheten eller datamaskinen din og inneholder ofte en anonym unik identifikator. For mer informasjon om informasjonskapsler og hvordan du deaktiverer informasjonskapsler, besøk http://www.allaboutcookies.org.</li>
+<li>"Loggfiler" sporer handlinger som skjer på nettstedet, og samler inn data, inkludert din IP-adresse, nettlesertype, Internett-leverandør, henvisnings-/utgangssider og dato-/tidsstempler.</li>
+<li>"Web beacons", "tags" og "pixels" er elektroniske filer som brukes til å registrere informasjon om hvordan du surfer på nettstedet.</li>
 </ul>
 
 <p>&nbsp;</p>
 
-<p>Når du også gjør et kjøp eller prøver å gjøre et kjøp gjennom nettstedet, samler vi inn viss informasjon fra deg, inkludert navnet ditt, faktureringsadresse, leveringsadresse, betalingsinformasjon, e-postadresse og telefonnummer. Vi refererer til denne informasjonen som "Bestillingsinformasjon." Når vi snakker om "Personlig informasjon" i denne personvernerklæringen, refererer vi til både Enhetsinformasjon og Bestillingsinformasjon.</p>
+<p>I tillegg, når du foretar et kjøp eller forsøker å foreta et kjøp gjennom nettstedet, samler vi inn viss informasjon fra deg, inkludert navn, faktureringsadresse, leveringsadresse, betalingsinformasjon, e-postadresse og telefonnummer. Vi refererer til denne informasjonen som "bestillingsinformasjon." Når vi snakker om "personlig informasjon" i denne personvernerklæringen, snakker vi både om enhetsinformasjon og bestillingsinformasjon.</p>
 </div>
 
 <div>
@@ -29,19 +29,19 @@ Vi samler inn Enhetsinformasjon ved hjelp av følgende teknologier:</p>
 
 <p>&nbsp;</p>
 
-<h2 class="mb-4">2. HVORDAN VI BRUKER DIN PERSONLIGE INFORMASJON</h2>
+<h2 class="mb-4">2. HVORDAN BRUKER VI DIN PERSONLIGE INFORMASJON?</h2>
 
-<p>Vi bruker Bestillingsinformasjonen som vi samler inn generelt for å oppfylle eventuelle bestillinger som er lagt gjennom nettstedet (inkludert behandling av betalingsinformasjonen din, ordning av frakt og å gi deg fakturaer og/eller ordrebekreftelser). I tillegg bruker vi denne Bestillingsinformasjonen til å:</p>
+<p>Vi bruker bestillingsinformasjonen som vi samler inn generelt for å oppfylle alle bestillinger som er lagt inn via nettstedet (inkludert å behandle betalingsinformasjonen din, ordne med frakt og gi deg fakturaer og/eller ordrebekreftelser). I tillegg bruker vi denne bestillingsinformasjonen til å:</p>
 
 <ul>
-	<li>Kommunisere med deg;</li>
-	<li>Screene våre bestillinger for potensielle risikoer eller svindel; og</li>
-	<li>Når det er i samsvar med de preferansene du har delt med oss, gi deg informasjon eller annonsering relatert til våre produkter eller tjenester.</li>
+<li>Kommuniser med deg;</li>
+<li>Sjekk bestillingene våre for potensiell risiko eller svindel; og</li>
+<li>Når du er i tråd med preferansene du har delt med oss, gi deg informasjon eller reklame knyttet til produktene eller tjenestene våre.</li>
 </ul>
 
 <p>&nbsp;</p>
 
-<p>Vi bruker Enhetsinformasjonen som vi samler inn for å hjelpe oss med å screene for potensielle risikoer og svindel (spesielt din IP-adresse), og mer generelt for å forbedre og optimalisere nettstedet vårt (for eksempel ved å generere analyser om hvordan kundene våre surfer og samhandler med nettstedet, og for å vurdere suksessen til våre markedsførings- og reklamekampanjer).</p>
+<p>Vi bruker enhetsinformasjonen som vi samler inn for å hjelpe oss med å undersøke for potensiell risiko og svindel (spesielt IP-adressen din), og mer generelt for å forbedre og optimalisere nettstedet vårt (for eksempel ved å generere analyser om hvordan kundene våre surfer og samhandler med nettstedet, og for å vurdere suksessen til markedsførings- og reklamekampanjene våre).</p>
 </div>
 
 <div>
@@ -51,7 +51,7 @@ Vi samler inn Enhetsinformasjon ved hjelp av følgende teknologier:</p>
 
 <h2 class="mb-4">3. DELING AV DIN PERSONLIGE INFORMASJON</h2>
 
-<p>Vi deler din Personlige Informasjon med tredjeparter for å hjelpe oss med å bruke din Personlige Informasjon, som beskrevet ovenfor. Spesielt bruker vi Google Analytics for å hjelpe oss med å forstå hvordan kundene våre bruker nettstedet. Du kan lese mer om hvordan Google bruker din Personlige Informasjon her. Du kan også velge bort Google Analytics her. Til slutt kan vi også dele din Personlige Informasjon for å overholde gjeldende lover og forskrifter, for å svare på en stevning, ransakingsordre eller annen lovlig forespørsel om informasjon vi mottar, eller for å beskytte våre rettigheter.</p>
+<p>Vi deler din personlige informasjon med tredjeparter for å hjelpe oss med å bruke din personlige informasjon, som beskrevet ovenfor. Spesielt bruker vi Google Analytics for å hjelpe oss å forstå hvordan kundene våre bruker nettstedet. Du kan lese mer om hvordan Google bruker personopplysningene dine her. Du kan også velge bort Google Analytics her. Til slutt kan vi også dele dine personlige opplysninger for å overholde gjeldende lover og forskrifter, for å svare på en stevning, ransakingsordre eller annen lovlig forespørsel om informasjon vi mottar, eller for på annen måte å beskytte våre rettigheter.</p>
 </div>
 
 <div>
@@ -59,9 +59,9 @@ Vi samler inn Enhetsinformasjon ved hjelp av følgende teknologier:</p>
 
 <p>&nbsp;</p>
 
-<h2 class="mb-4">4. ATFERDSREKLAME</h2>
+<h2 class="mb-4">4. ADferdsreklame</h2>
 
-<p>Som beskrevet ovenfor bruker vi din Personlige Informasjon for å gi deg målrettede annonser eller markedsføringskommunikasjoner som vi mener kan være interessante for deg. For mer informasjon om hvordan målrettet annonsering fungerer, kan du besøke Network Advertising Initiatives ("NAI") utdanningssiden på http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work. Du kan velge bort målrettet annonsering ved å besøke Facebook eller Google.</p>
+<p>Som beskrevet ovenfor bruker vi din personlige informasjon til å gi deg målrettede annonser eller markedskommunikasjon vi tror kan være av interesse for deg. For mer informasjon om hvordan målrettet annonsering fungerer, kan du besøke Network Advertising Initiatives ("NAI") utdanningsside på http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work. Du kan velge bort målrettet annonsering ved å besøke Facebook eller Google.</p>
 </div>
 
 <div>
@@ -71,7 +71,7 @@ Vi samler inn Enhetsinformasjon ved hjelp av følgende teknologier:</p>
 
 <h2 class="mb-4">5. IKKE SPOR</h2>
 
-<p>Vær oppmerksom på at vi ikke endrer nettstedets datainnsamlings- og brukspraksis når vi ser et "Do Not Track"-signal fra nettleseren din.</p>
+<p>Vær oppmerksom på at vi ikke endrer nettstedets datainnsamling og brukspraksis når vi ser et Ikke spor-signal fra nettleseren din.</p>
 </div>
 
 <div>
@@ -81,7 +81,7 @@ Vi samler inn Enhetsinformasjon ved hjelp av følgende teknologier:</p>
 
 <h2 class="mb-4">6. DINE RETTIGHETER</h2>
 
-<p>Hvis du er bosatt i Europa, har du rett til å få tilgang til personlig informasjon vi har om deg, og til å be om at din personlige informasjon blir rettet, oppdatert eller slettet. Hvis du ønsker å utøve denne retten, vennligst kontakt oss gjennom kontaktinformasjonen nedenfor. I tillegg, hvis du er bosatt i Europa, noterer vi at vi behandler informasjonen din for å oppfylle kontrakter vi måtte ha med deg (for eksempel hvis du gjør en bestilling gjennom nettstedet), eller for å forfølge våre legitime forretningsinteresser som nevnt ovenfor. Vær også oppmerksom på at informasjonen din vil bli overført utenfor Europa, inkludert til Canada og USA.</p>
+<p>Hvis du er bosatt i Europa, har du rett til å få tilgang til personlig informasjon vi har om deg og til å be om at din personlige informasjon blir rettet, oppdatert eller slettet. Hvis du ønsker å benytte deg av denne retten, vennligst kontakt oss via kontaktinformasjonen nedenfor. I tillegg, hvis du er bosatt i Europa, merker vi oss at vi behandler informasjonen din for å oppfylle kontrakter vi måtte ha med deg (for eksempel hvis du foretar en bestilling via nettstedet), eller på annen måte for å forfølge våre legitime forretningsinteresser oppført ovenfor. Vær i tillegg oppmerksom på at informasjonen din vil bli overført utenfor Europa, inkludert til Canada og USA.</p>
 </div>
 
 <div>
@@ -89,9 +89,9 @@ Vi samler inn Enhetsinformasjon ved hjelp av følgende teknologier:</p>
 
 <p>&nbsp;</p>
 
-<h2 class="mb-4">7. DATALAGRING</h2>
+<h2 class="mb-4">7. OPPBEVARING AV DATA</h2>
 
-<p>Når du legger inn en bestilling gjennom nettstedet, vil vi oppbevare Bestillingsinformasjonen din for våre poster, med mindre du ber oss om å slette denne informasjonen.</p>
+<p>Når du legger inn en bestilling via nettstedet, beholder vi bestillingsinformasjonen din for våre registre med mindre og inntil du ber oss om å slette denne informasjonen.</p>
 </div>
 
 <div>
@@ -101,7 +101,7 @@ Vi samler inn Enhetsinformasjon ved hjelp av følgende teknologier:</p>
 
 <h2 class="mb-4">8. ENDRINGER</h2>
 
-<p>Vi kan oppdatere denne personvernerklæringen fra tid til annen for å reflektere, for eksempel, endringer i våre praksiser eller for andre operasjonelle, juridiske eller regulatoriske årsaker.</p>
+<p>Vi kan oppdatere denne personvernreglene fra tid til annen for å gjenspeile for eksempel endringer i vår praksis eller av andre operasjonelle, juridiske eller regulatoriske årsaker.</p>
 </div>
 
 <div>
@@ -111,8 +111,9 @@ Vi samler inn Enhetsinformasjon ved hjelp av følgende teknologier:</p>
 
 <h2 class="mb-4">9. KONTAKT OSS</h2>
 
-<p>For mer informasjon om våre personvernpraksiser, hvis du har spørsmål, eller hvis du ønsker å sende en klage, vennligst kontakt oss på e-post: <a href="mailto:b2b@artforma.eu">b2b@artforma.eu</a></p>
+<p>For mer informasjon om vår personvernpraksis, hvis du har spørsmål, eller hvis du ønsker å sende inn en klage, vennligst kontakt oss på e-post på <a href="mailto:b2b@artforma.eu">b2b@artforma.eu</a></p>
 </div>
+
 ',
     'rule' => '<h2>Jeg. Definisjoner</h2>
 
@@ -308,7 +309,7 @@ Med det ovennevnte i tankene, indikerer selgeren at retten til å trekke seg fra
 <li>hvor gjenstanden for tjenesten er varer som på grunn av sin natur er uadskillelig forbundet med andre varer etter levering.</li>
 <li>hvor gjenstanden for tjenesten er alkoholholdige drikkevarer, hvis pris ble avtalt ved inngåelsen av salgskontrakten, og leveringen av disse kan skje først etter 30 dager og verdien avhenger av markedssvingninger som gründeren ikke har kontroll over.</li>
 <li>hvor forbrukeren eksplisitt krevde at entreprenøren skulle komme til ham for umiddelbar reparasjon eller vedlikehold; hvis gründeren yter andre tilleggstjenester enn de som forbrukeren ber om, eller leverer andre ting enn reservedeler som er nødvendige for å utføre reparasjonen eller vedlikeholdet, har forbrukeren rett til å trekke seg fra kontrakten i forhold til tilleggstjenester eller -gjenstander.</li>
-<li>hvor emnet for tjenesten er lyd- eller bildeopptak eller dataprogrammer levert i en forseglet pakke, hvis pakken ble åpnet etter levering.</li>
+<li>hvor temaet for tjenesten er lyd- eller bildeopptak eller dataprogrammer levert i en forseglet pakke, hvis pakken ble åpnet etter levering.</li>
 <li>for levering av aviser, tidsskrifter eller magasiner, med unntak av en abonnementsavtale.</li>
 <li>avsluttet av offentlig auksjon.</li>
 <li>for levering av overnattingstjenester annet enn til boligformål, transport av varer, bilutleie, gastronomi, tjenester knyttet til fritid, underholdning, sport eller kulturelle arrangementer, hvis kontrakten spesifiserer dagen eller perioden for tjenesteytelsen.</li>

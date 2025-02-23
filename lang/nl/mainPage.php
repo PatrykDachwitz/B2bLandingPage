@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'cm' => "cm",
     'ourProducts' => "Ontdek onze producten",
     'cooperation' => "Hoe werken wij?",
     'sliderContent' => 'Beste klanten, bedankt voor uw interesse in ons assortiment meubels en luxe spiegels.',

@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'cm' => "cm",
   'ourProducts' => "Poznaj nasze produkty",
   'cooperation' => "Jak działamy?",
   'sliderContent' => 'Drogi Kliencie, dziękujemy za Twoje zainteresowanie naszą ofertą mebli i luster luxury.',
