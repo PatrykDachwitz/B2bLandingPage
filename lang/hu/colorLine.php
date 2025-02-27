@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Termék leírás',
     'decorTitle' => 'Díszítési példák',
     'availableForm' => 'Teljes tervek megtekintése',
-    'downloadMaterial' => 'Műszaki információk <a class="text-white" href="/files/technicalSpecification/colorLine.pdf" target="_blank">[Letöltés]</a>',
+    'downloadMaterial' => 'Műszaki információk <a class="text-white" href="/files/technicalSpecification/colorLine_english.pdf" target="_blank">[Letöltés]</a>',
     'formContactFirst' => 'A termék megrendeléséhez vagy árajánlat kéréséhez kérjük, vegye fel velünk a kapcsolatot a választott mérettel, sorozattal és díszítéssel.',
     'formContactSecond' => 'A lehető leghamarabb felvesszük Önnel a kapcsolatot.',
 ];

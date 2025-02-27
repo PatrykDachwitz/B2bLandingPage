@@ -15,7 +15,7 @@ return [
     'decorTitle' => 'Примеры стеклянных декоров',
     'decorTitleSecond' => 'Примеры каменных декоров',
     'availableForm' => 'Просмотреть полные дизайны',
-    'downloadMaterial' => 'Техническая информация <a class="text-white" href="/files/technicalSpecification/steindekor.pdf" target="_blank">[Скачать]</a>',
+    'downloadMaterial' => 'Техническая информация <a class="text-white" href="/files/technicalSpecification/steindekor_english.pdf" target="_blank">[Скачать]</a>',
     'formContactFirst' => 'Чтобы заказать продукт или получить цену, свяжитесь с нами, указав размер, серию и декор по вашему выбору.',
     'formContactSecond' => 'Мы свяжемся с вами как можно скорее.',
 ];

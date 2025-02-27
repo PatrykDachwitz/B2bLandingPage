@@ -38,7 +38,7 @@ return [
     'descriptionAdditional' => 'Termékleírás',
     'decorTitle' => 'Dekor példák',
     'availableForm' => 'Teljes tervek megtekintése',
-    'downloadMaterial' => 'Műszaki információ <a class="text-white" href="/files/technicalSpecification/nolan.pdf" target="_blank">[Letöltés]</a>',
+    'downloadMaterial' => 'Műszaki információ <a class="text-white" href="/files/technicalSpecification/nolan_english.pdf" target="_blank">[Letöltés]</a>',
     'formContactFirst' => 'Termék rendeléséhez vagy árajánlat kéréséhez kérjük, lépjen kapcsolatba velünk a választott mérettel, sorozattal és dekorral.',
     'formContactSecond' => 'Hamarosan felvesszük Önnel a kapcsolatot.',
 ];

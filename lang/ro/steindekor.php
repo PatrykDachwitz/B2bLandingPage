@@ -15,7 +15,7 @@ return [
     'decorTitle' => 'Exemple de decorațiuni din sticlă',
     'decorTitleSecond' => 'Exemple de decorațiuni din piatră',
     'availableForm' => 'Vizualizați design-urile complete',
-    'downloadMaterial' => 'Informații tehnice <a class="text-white" href="/files/technicalSpecification/steindekor.pdf" target="_blank">[Descărcați]</a>',
+    'downloadMaterial' => 'Informații tehnice <a class="text-white" href="/files/technicalSpecification/steindekor_english.pdf" target="_blank">[Descărcați]</a>',
     'formContactFirst' => 'Pentru a comanda un produs sau a obține o ofertă, vă rugăm să ne contactați cu dimensiunile, seria și decorațiunea aleasă.',
     'formContactSecond' => 'Vă vom contacta cât mai curând posibil.',
 ];

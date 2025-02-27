@@ -27,7 +27,7 @@ return [
     'descriptionAdditional' => 'Produkto aprašymas',
     'decorTitle' => 'Dekoro pavyzdžiai',
     'availableForm' => 'Peržiūrėti pilnus dizainus',
-    'downloadMaterial' => 'Techninė informacija <a class="text-white" href="/files/technicalSpecification/gleamLine.pdf" target="_blank">[Atsisiųsti]</a>',
+    'downloadMaterial' => 'Techninė informacija <a class="text-white" href="/files/technicalSpecification/gleamLine_english.pdf" target="_blank">[Atsisiųsti]</a>',
     'formContactFirst' => 'Norėdami užsakyti produktą arba gauti pasiūlymą, susisiekite su mumis nurodydami dydį, seriją ir dekorą.',
     'formContactSecond' => 'Susisieksime su jumis kuo greičiau.',
 ];

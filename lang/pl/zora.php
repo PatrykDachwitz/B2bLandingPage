@@ -34,7 +34,7 @@ return [
     'descriptionAdditional' => 'Opis produktu',
     'decorTitle' => 'Przykładowe dekory',
     'availableForm' => 'Dostępne kształty luster',
-    'downloadMaterial' => 'Materiały do <a class="text-white" href="/files/technicalSpecification/zora.pdf" target="_blank">pobrania</a>',
+    'downloadMaterial' => 'Materiały do <a class="text-white" href="/files/technicalSpecification/zora_english.pdf" target="_blank">pobrania</a>',
     'formContactFirst' => 'Aby zamówić lub otrzymać wycenę produktu, prosimy o kontakt, podając w wiadomości rozmiar, serię oraz wybrany dekor.',
     'formContactSecond' => 'Skontaktujemy się z Tobą tak szybko jak będzie to możliwe.',
 ];

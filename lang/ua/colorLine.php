@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Опис продукту',
     'decorTitle' => 'Приклади декорів',
     'availableForm' => 'Переглянути повні дизайни',
-    'downloadMaterial' => 'Технічна інформація <a class="text-white" href="/files/technicalSpecification/colorLine.pdf" target="_blank">[Завантажити]</a>',
+    'downloadMaterial' => 'Технічна інформація <a class="text-white" href="/files/technicalSpecification/colorLine_english.pdf" target="_blank">[Завантажити]</a>',
     'formContactFirst' => 'Щоб замовити продукт або отримати ціну, будь ласка, зв\'яжіться з нами, вказавши розмір, серію та декор на ваш вибір.',
     'formContactSecond' => 'Ми зв\'яжемося з вами якомога швидше.',
 ];

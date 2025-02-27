@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Produktbeskrivelse',
     'decorTitle' => 'Eksempler på dekorationer',
     'availableForm' => 'Se fulde design',
-    'downloadMaterial' => 'Teknisk information <a class="text-white" href="/files/technicalSpecification/colorLine.pdf" target="_blank">[Download]</a>',
+    'downloadMaterial' => 'Teknisk information <a class="text-white" href="/files/technicalSpecification/colorLine_english.pdf" target="_blank">[Download]</a>',
     'formContactFirst' => 'For at bestille et produkt eller få et tilbud, kontakt os venligst med størrelse, serie og dekor efter dit valg.',
     'formContactSecond' => 'Vi vil kontakte dig hurtigst muligt.',
 ];

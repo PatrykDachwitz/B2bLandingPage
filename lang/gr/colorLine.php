@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Περιγραφή προϊόντος',
     'decorTitle' => 'Παραδείγματα διακοσμήσεων',
     'availableForm' => 'Δείτε τα πλήρη σχέδια',
-    'downloadMaterial' => 'Τεχνικές πληροφορίες <a class="text-white" href="/files/technicalSpecification/colorLine.pdf" target="_blank">[Κατέβασμα]</a>',
+    'downloadMaterial' => 'Τεχνικές πληροφορίες <a class="text-white" href="/files/technicalSpecification/colorLine_english.pdf" target="_blank">[Κατέβασμα]</a>',
     'formContactFirst' => 'Για να παραγγείλετε το προϊόν ή να λάβετε προσφορά, παρακαλούμε επικοινωνήστε μαζί μας με τις διαστάσεις, τη σειρά και τη διακόσμηση της επιλογής σας.',
     'formContactSecond' => 'Θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.',
 ];

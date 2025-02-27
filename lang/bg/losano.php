@@ -34,7 +34,7 @@ return [
     'descriptionAdditional' => 'Описание на продукта',
     'decorTitle' => 'Примери за декори',
     'availableForm' => 'Преглед на пълни дизайни',
-    'downloadMaterial' => 'Техническа информация <a class="text-white" href="/files/technicalSpecification/losano.pdf" target="_blank">[Изтегли]</a>',
+    'downloadMaterial' => 'Техническа информация <a class="text-white" href="/files/technicalSpecification/losano_english.pdf" target="_blank">[Изтегли]</a>',
     'formContactFirst' => 'За поръчка на продукт или получаване на оферта, моля свържете се с нас с размерите, серията и декора по ваш избор.',
     'formContactSecond' => 'Ще се свържем с вас възможно най-скоро.',
 ];

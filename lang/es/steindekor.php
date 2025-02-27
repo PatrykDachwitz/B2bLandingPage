@@ -15,7 +15,7 @@ return [
     'decorTitle' => 'Ejemplos de decoraciones en vidrio',
     'decorTitleSecond' => 'Ejemplos de decoraciones en piedra',
     'availableForm' => 'Ver diseños completos',
-    'downloadMaterial' => 'Información técnica <a class="text-white" href="/files/technicalSpecification/steindekor.pdf" target="_blank">[Descargar]</a>',
+    'downloadMaterial' => 'Información técnica <a class="text-white" href="/files/technicalSpecification/steindekor_english.pdf" target="_blank">[Descargar]</a>',
     'formContactFirst' => 'Para pedir un producto u obtener un presupuesto, póngase en contacto con nosotros e indíquenos el tamaño, la serie y la decoración de su elección.',
     'formContactSecond' => 'Nos pondremos en contacto con usted lo antes posible.',
 ];

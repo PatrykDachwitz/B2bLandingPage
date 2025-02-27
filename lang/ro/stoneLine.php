@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Descrierea produsului',
     'decorTitle' => 'Exemple de decorațiuni',
     'availableForm' => 'Vizualizați design-urile complete',
-    'downloadMaterial' => 'Informații tehnice <a class="text-white" href="/files/technicalSpecification/stoneLine.pdf" target="_blank">[Descărcați]</a>',
+    'downloadMaterial' => 'Informații tehnice <a class="text-white" href="/files/technicalSpecification/stoneLine_english.pdf" target="_blank">[Descărcați]</a>',
     'formContactFirst' => 'Pentru a comanda un produs sau a obține o ofertă, vă rugăm să ne contactați cu dimensiunile, seria și decorațiunea aleasă.',
     'formContactSecond' => 'Vă vom contacta cât mai curând posibil.',
 ];

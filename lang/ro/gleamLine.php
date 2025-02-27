@@ -27,7 +27,7 @@ return [
     'descriptionAdditional' => 'Descrierea produsului',
     'decorTitle' => 'Exemple de decorațiuni',
     'availableForm' => 'Vizualizează desenele complete',
-    'downloadMaterial' => 'Informații tehnice <a class="text-white" href="/files/technicalSpecification/gleamLine.pdf" target="_blank">[Descarcă]</a>',
+    'downloadMaterial' => 'Informații tehnice <a class="text-white" href="/files/technicalSpecification/gleamLine_english.pdf" target="_blank">[Descarcă]</a>',
     'formContactFirst' => 'Pentru a comanda un produs sau a obține o ofertă, te rugăm să ne contactezi cu dimensiunile, seria și decorul dorit.',
     'formContactSecond' => 'Te vom contacta cât mai curând posibil.',
 ];

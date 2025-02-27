@@ -34,7 +34,7 @@ return [
     'descriptionAdditional' => 'Toote kirjeldus',
     'decorTitle' => 'Dekooride näited',
     'availableForm' => 'Vaata täisprojekte',
-    'downloadMaterial' => 'Tehniline teave <a class="text-white" href="/files/technicalSpecification/zora.pdf" target="_blank">[Lae alla]</a>',
+    'downloadMaterial' => 'Tehniline teave <a class="text-white" href="/files/technicalSpecification/zora_english.pdf" target="_blank">[Lae alla]</a>',
     'formContactFirst' => 'Toote tellimiseks või pakkumise saamiseks võtke meiega ühendust, andes oma valitud mõõdud, seeria ja dekoori.',
     'formContactSecond' => 'Võtame teiega ühendust niipea kui võimalik.',
 ];

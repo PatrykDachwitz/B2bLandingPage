@@ -15,7 +15,7 @@ return [
     'decorTitle' => 'Klaasdekooride näited',
     'decorTitleSecond' => 'Kividekooride näited',
     'availableForm' => 'Vaata täisprojekte',
-    'downloadMaterial' => 'Tehniline teave <a class="text-white" href="/files/technicalSpecification/steindekor.pdf" target="_blank">[Lae alla]</a>',
+    'downloadMaterial' => 'Tehniline teave <a class="text-white" href="/files/technicalSpecification/steindekor_english.pdf" target="_blank">[Lae alla]</a>',
     'formContactFirst' => 'Toote tellimiseks või pakkumise saamiseks võtke meiega ühendust, andes oma valitud mõõdud, seeria ja dekoori.',
     'formContactSecond' => 'Võtame teiega ühendust niipea kui võimalik.',
 ];

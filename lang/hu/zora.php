@@ -34,7 +34,7 @@ return [
     'descriptionAdditional' => 'Termékleírás',
     'decorTitle' => 'Dekorációs példák',
     'availableForm' => 'Teljes tervek megtekintése',
-    'downloadMaterial' => 'Műszaki információ <a class="text-white" href="/files/technicalSpecification/zora.pdf" target="_blank">[Letöltés]</a>',
+    'downloadMaterial' => 'Műszaki információ <a class="text-white" href="/files/technicalSpecification/zora_english.pdf" target="_blank">[Letöltés]</a>',
     'formContactFirst' => 'Termék megrendeléséhez vagy árajánlat kéréséhez kérjük, lépjen velünk kapcsolatba a választott méret, sorozat és dekoráció megadásával.',
     'formContactSecond' => 'Hamarosan felvesszük Önnel a kapcsolatot.',
 ];

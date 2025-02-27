@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Popis produktu',
     'decorTitle' => 'Příklady dekorů',
     'availableForm' => 'Zobrazit všechny návrhy',
-    'downloadMaterial' => 'Technické informace <a class="text-white" href="/files/technicalSpecification/colorLine.pdf" target="_blank">[Stáhnout]</a>',
+    'downloadMaterial' => 'Technické informace <a class="text-white" href="/files/technicalSpecification/colorLine_english.pdf" target="_blank">[Stáhnout]</a>',
     'formContactFirst' => 'Chcete-li objednat produkt nebo získat cenovou nabídku, kontaktujte nás s požadovaným rozměrem, sérií a dekorem.',
     'formContactSecond' => 'Ozveme se vám co nejdříve.',
 ];

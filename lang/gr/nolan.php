@@ -38,7 +38,7 @@ return [
     'descriptionAdditional' => 'Περιγραφή προϊόντος',
     'decorTitle' => 'Παραδείγματα διακοσμήσεων',
     'availableForm' => 'Δείτε τα πλήρη σχέδια',
-    'downloadMaterial' => 'Τεχνικές πληροφορίες <a class="text-white" href="/files/technicalSpecification/nolan.pdf" target="_blank">[Λήψη]</a>',
+    'downloadMaterial' => 'Τεχνικές πληροφορίες <a class="text-white" href="/files/technicalSpecification/nolan_english.pdf" target="_blank">[Λήψη]</a>',
     'formContactFirst' => 'Για να παραγγείλετε ένα προϊόν ή να ζητήσετε προσφορά, παρακαλούμε επικοινωνήστε μαζί μας με τις διαστάσεις, τη σειρά και τη διακόσμηση της επιλογής σας.',
     'formContactSecond' => 'Θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.',
 ];

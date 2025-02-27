@@ -38,7 +38,7 @@ return [
     'descriptionAdditional' => 'Produkto aprašymas',
     'decorTitle' => 'Dekoravimo pavyzdžiai',
     'availableForm' => 'Peržiūrėti pilnus dizainus',
-    'downloadMaterial' => 'Techninė informacija <a class="text-white" href="/files/technicalSpecification/nolan.pdf" target="_blank">[Atsisiųsti]</a>',
+    'downloadMaterial' => 'Techninė informacija <a class="text-white" href="/files/technicalSpecification/nolan_english.pdf" target="_blank">[Atsisiųsti]</a>',
     'formContactFirst' => 'Norėdami užsisakyti produktą arba gauti pasiūlymą, susisiekite su mumis nurodydami dydį, seriją ir dekorą.',
     'formContactSecond' => 'Mes susisieksime su jumis kuo greičiau.',
 ];

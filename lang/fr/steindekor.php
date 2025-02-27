@@ -15,7 +15,7 @@ return [
     'decorTitle' => 'Exemples de décors en verre',
     'decorTitleSecond' => 'Exemples de décors en pierre',
     'availableForm' => 'Voir les motifs complets',
-    'downloadMaterial' => 'Informations techniques <a class="text-white" href="/files/technicalSpecification/steindekor.pdf" target="_blank">[Télécharger]</a>',
+    'downloadMaterial' => 'Informations techniques <a class="text-white" href="/files/technicalSpecification/steindekor_english.pdf" target="_blank">[Télécharger]</a>',
     'formContactFirst' => 'Pour commander un produit ou obtenir un devis, veuillez nous contacter en indiquant la taille, la série et le décor de votre choix.',
     'formContactSecond' => 'Nous vous contacterons dans les plus brefs délais.',
 

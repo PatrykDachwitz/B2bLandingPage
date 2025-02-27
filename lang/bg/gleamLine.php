@@ -27,7 +27,7 @@ return [
     'descriptionAdditional' => 'Описание на продукта',
     'decorTitle' => 'Примери за декори',
     'availableForm' => 'Вижте пълни дизайни',
-    'downloadMaterial' => 'Техническа информация <a class="text-white" href="/files/technicalSpecification/gleamLine.pdf" target="_blank">[Изтегли]</a>',
+    'downloadMaterial' => 'Техническа информация <a class="text-white" href="/files/technicalSpecification/gleamLine_english.pdf" target="_blank">[Изтегли]</a>',
     'formContactFirst' => 'За да поръчате продукт или да получите оферта, моля свържете се с нас с размера, серията и декора по ваш избор.',
     'formContactSecond' => 'Ще се свържем с вас възможно най-скоро.',
 ];

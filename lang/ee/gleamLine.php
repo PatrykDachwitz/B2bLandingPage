@@ -27,7 +27,7 @@ return [
     'descriptionAdditional' => 'Toote kirjeldus',
     'decorTitle' => 'Dekooride näited',
     'availableForm' => 'Vaata täisdisainide',
-    'downloadMaterial' => 'Tehniline teave <a class="text-white" href="/files/technicalSpecification/gleamLine.pdf" target="_blank">[Laadi alla]</a>',
+    'downloadMaterial' => 'Tehniline teave <a class="text-white" href="/files/technicalSpecification/gleamLine_english.pdf" target="_blank">[Laadi alla]</a>',
     'formContactFirst' => 'Toote tellimiseks või pakkumise saamiseks võtke meiega ühendust, määrates oma valitud suuruse, seeria ja dekoratsiooni.',
     'formContactSecond' => 'Võtame teiega ühendust nii kiiresti kui võimalik.',
 ];

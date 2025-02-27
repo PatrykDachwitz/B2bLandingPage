@@ -15,7 +15,7 @@ return [
     'decorTitle' => 'Приклади скляних декорів',
     'decorTitleSecond' => 'Приклади кам\'яних декорів',
     'availableForm' => 'Переглянути повні дизайни',
-    'downloadMaterial' => 'Технічна інформація <a class="text-white" href="/files/technicalSpecification/steindekor.pdf" target="_blank">[Завантажити]</a>',
+    'downloadMaterial' => 'Технічна інформація <a class="text-white" href="/files/technicalSpecification/steindekor_english.pdf" target="_blank">[Завантажити]</a>',
     'formContactFirst' => 'Щоб замовити продукт або отримати пропозицію, будь ласка, зв\'яжіться з нами, вказавши розміри, серію та декор на ваш вибір.',
     'formContactSecond' => 'Ми зв\'яжемося з вами якомога швидше.',
 ];

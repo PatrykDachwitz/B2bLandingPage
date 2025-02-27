@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Produktbeskrivning',
     'decorTitle' => 'Exempel på dekorer',
     'availableForm' => 'Se fullständiga designalternativ',
-    'downloadMaterial' => 'Teknisk information <a class="text-white" href="/files/technicalSpecification/colorLine.pdf" target="_blank">[Ladda ner]</a>',
+    'downloadMaterial' => 'Teknisk information <a class="text-white" href="/files/technicalSpecification/colorLine_english.pdf" target="_blank">[Ladda ner]</a>',
     'formContactFirst' => 'För att beställa en produkt eller få en offert, vänligen kontakta oss med den storlek, serie och dekoration du valt.',
     'formContactSecond' => 'Vi kontaktar dig så snart som möjligt.',
 ];

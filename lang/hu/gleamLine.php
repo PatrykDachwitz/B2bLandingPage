@@ -27,7 +27,7 @@ return [
     'descriptionAdditional' => 'Termékleírás',
     'decorTitle' => 'Dekorációs példák',
     'availableForm' => 'Teljes tervek megtekintése',
-    'downloadMaterial' => 'Műszaki információ <a class="text-white" href="/files/technicalSpecification/gleamLine.pdf" target="_blank">[Letöltés]</a>',
+    'downloadMaterial' => 'Műszaki információ <a class="text-white" href="/files/technicalSpecification/gleamLine_english.pdf" target="_blank">[Letöltés]</a>',
     'formContactFirst' => 'A termék megrendeléséhez vagy árajánlat kéréséhez kérjük, lépjen velünk kapcsolatba a kívánt mérettel, sorozattal és dekorral.',
     'formContactSecond' => 'A lehető leghamarabb felvesszük Önnel a kapcsolatot.',
 ];

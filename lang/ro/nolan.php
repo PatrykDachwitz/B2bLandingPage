@@ -38,7 +38,7 @@ return [
     'descriptionAdditional' => 'Descrierea produsului',
     'decorTitle' => 'Exemple de decorațiuni',
     'availableForm' => 'Vizualizați desene complete',
-    'downloadMaterial' => 'Informații tehnice <a class="text-white" href="/files/technicalSpecification/nolan.pdf" target="_blank">[Descarcă]</a>',
+    'downloadMaterial' => 'Informații tehnice <a class="text-white" href="/files/technicalSpecification/nolan_english.pdf" target="_blank">[Descarcă]</a>',
     'formContactFirst' => 'Pentru a comanda un produs sau pentru a obține o ofertă, vă rugăm să ne contactați cu dimensiunea, seria și decorul dorit.',
     'formContactSecond' => 'Vă vom contacta cât mai curând posibil.',
 ];

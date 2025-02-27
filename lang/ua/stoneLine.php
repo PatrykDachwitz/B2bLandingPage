@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Опис продукту',
     'decorTitle' => 'Приклади декорів',
     'availableForm' => 'Переглянути повні дизайни',
-    'downloadMaterial' => 'Технічна інформація <a class="text-white" href="/files/technicalSpecification/stoneLine.pdf" target="_blank">[Завантажити]</a>',
+    'downloadMaterial' => 'Технічна інформація <a class="text-white" href="/files/technicalSpecification/stoneLine_english.pdf" target="_blank">[Завантажити]</a>',
     'formContactFirst' => 'Щоб замовити продукт або отримати пропозицію, будь ласка, зв\'яжіться з нами, вказавши розміри, серію та декор на ваш вибір.',
     'formContactSecond' => 'Ми зв\'яжемося з вами якомога швидше.',
 ];

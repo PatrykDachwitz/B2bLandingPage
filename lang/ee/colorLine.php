@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Toote kirjeldus',
     'decorTitle' => 'Kaunistuste näited',
     'availableForm' => 'Vaata täispikkuses kujundusi',
-    'downloadMaterial' => 'Tehniline teave <a class="text-white" href="/files/technicalSpecification/colorLine.pdf" target="_blank">[Laadi alla]</a>',
+    'downloadMaterial' => 'Tehniline teave <a class="text-white" href="/files/technicalSpecification/colorLine_english.pdf" target="_blank">[Laadi alla]</a>',
     'formContactFirst' => 'Toote tellimiseks või hinnapakkumise saamiseks võtke meiega ühendust, märkides oma valitud suuruse, seeria ja kaunistuse.',
     'formContactSecond' => 'Võtame teiega ühendust niipea kui võimalik.',
 ];

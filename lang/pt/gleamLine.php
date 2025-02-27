@@ -27,7 +27,7 @@ return [
     'descriptionAdditional' => 'Descrição do produto',
     'decorTitle' => 'Exemplos de decorações',
     'availableForm' => 'Ver designs completos',
-    'downloadMaterial' => 'Informações técnicas <a class="text-white" href="/files/technicalSpecification/gleamLine.pdf" target="_blank">[Baixar]</a>',
+    'downloadMaterial' => 'Informações técnicas <a class="text-white" href="/files/technicalSpecification/gleamLine_english.pdf" target="_blank">[Baixar]</a>',
     'formContactFirst' => 'Para encomendar um produto ou obter um orçamento, entre em contato conosco com o tamanho, série e decoração de sua escolha.',
     'formContactSecond' => 'Entraremos em contato com você o mais rápido possível.',
 ];

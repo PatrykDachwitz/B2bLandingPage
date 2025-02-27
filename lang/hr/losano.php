@@ -34,7 +34,7 @@ return [
     'descriptionAdditional' => 'Opis proizvoda',
     'decorTitle' => 'Primjeri dekoracija',
     'availableForm' => 'Pogledajte potpune dizajne',
-    'downloadMaterial' => 'Tehničke informacije <a class="text-white" href="/files/technicalSpecification/losano.pdf" target="_blank">[Preuzmi]</a>',
+    'downloadMaterial' => 'Tehničke informacije <a class="text-white" href="/files/technicalSpecification/losano_english.pdf" target="_blank">[Preuzmi]</a>',
     'formContactFirst' => 'Za narudžbu proizvoda ili dobivanje ponude, molimo vas da nas kontaktirate s veličinom, serijom i dekorom po vašem izboru.',
     'formContactSecond' => 'Kontaktirat ćemo vas što je prije moguće.',
 ];

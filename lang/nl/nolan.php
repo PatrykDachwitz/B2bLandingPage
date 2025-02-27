@@ -38,7 +38,7 @@ return [
     'descriptionAdditional' => 'Productbeschrijving',
     'decorTitle' => 'Voorbeelden van decors',
     'availableForm' => 'Bekijk volledige ontwerpen',
-    'downloadMaterial' => 'Technische informatie <a class="text-white" href="/files/technicalSpecification/nolan.pdf" target="_blank">[Download]</a>',
+    'downloadMaterial' => 'Technische informatie <a class="text-white" href="/files/technicalSpecification/nolan_english.pdf" target="_blank">[Download]</a>',
     'formContactFirst' => 'Om een product te bestellen of een offerte te ontvangen, neem contact met ons op met de grootte, serie en decor van uw keuze.',
     'formContactSecond' => 'Wij nemen zo snel mogelijk contact met u op.',
 ]

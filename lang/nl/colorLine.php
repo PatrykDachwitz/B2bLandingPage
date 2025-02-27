@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Productbeschrijving',
     'decorTitle' => 'Voorbeelden van decors',
     'availableForm' => 'Bekijk volledige ontwerpen',
-    'downloadMaterial' => 'Technische informatie <a class="text-white" href="/files/technicalSpecification/colorLine.pdf" target="_blank">[Download]</a>',
+    'downloadMaterial' => 'Technische informatie <a class="text-white" href="/files/technicalSpecification/colorLine_english.pdf" target="_blank">[Download]</a>',
     'formContactFirst' => 'Om een product te bestellen of een prijsopgave te ontvangen, neem contact met ons op met de gewenste afmetingen, serie en decor.',
     'formContactSecond' => 'Wij nemen zo spoedig mogelijk contact met u op.',
 ];

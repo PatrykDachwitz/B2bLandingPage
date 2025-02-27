@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Описание на продукта',
     'decorTitle' => 'Примери за декорации',
     'availableForm' => 'Преглед на пълни дизайни',
-    'downloadMaterial' => 'Техническа информация <a class="text-white" href="/files/technicalSpecification/colorLine.pdf" target="_blank">[Изтеглете]</a>',
+    'downloadMaterial' => 'Техническа информация <a class="text-white" href="/files/technicalSpecification/colorLine_english.pdf" target="_blank">[Изтеглете]</a>',
     'formContactFirst' => 'За да поръчате продукт или да получите оферта, моля свържете се с нас с размера, серията и декорацията на вашия избор.',
     'formContactSecond' => 'Ще се свържем с вас възможно най-скоро.',
 ];

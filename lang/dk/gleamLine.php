@@ -27,7 +27,7 @@ return [
     'descriptionAdditional' => 'Produktbeskrivelse',
     'decorTitle' => 'Eksempler på dekorer',
     'availableForm' => 'Vis fulde designs',
-    'downloadMaterial' => 'Teknisk information <a class="text-white" href="/files/technicalSpecification/gleamLine.pdf" target="_blank">[Download]</a>',
+    'downloadMaterial' => 'Teknisk information <a class="text-white" href="/files/technicalSpecification/gleamLine_english.pdf" target="_blank">[Download]</a>',
     'formContactFirst' => 'For at bestille et produkt eller få et tilbud, bedes du kontakte os med størrelse, serie og dekoration af dit valg.',
     'formContactSecond' => 'Vi vil kontakte dig så hurtigt som muligt.',
 ];

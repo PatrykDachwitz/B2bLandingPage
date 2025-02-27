@@ -38,7 +38,7 @@ return [
     'descriptionAdditional' => 'Опис продукту',
     'decorTitle' => 'Приклади декорів',
     'availableForm' => 'Перегляньте повні дизайни',
-    'downloadMaterial' => 'Технічна інформація <a class="text-white" href="/files/technicalSpecification/nolan.pdf" target="_blank">[Завантажити]</a>',
+    'downloadMaterial' => 'Технічна інформація <a class="text-white" href="/files/technicalSpecification/nolan_english.pdf" target="_blank">[Завантажити]</a>',
     'formContactFirst' => 'Щоб замовити продукт або отримати ціну, будь ласка, зв\'яжіться з нами з розмірами, серією та декором на вибір.',
     'formContactSecond' => 'Ми зв\'яжемося з вами якомога швидше.',
 ];

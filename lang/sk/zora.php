@@ -34,7 +34,7 @@ return [
     'descriptionAdditional' => 'Popis produktu',
     'decorTitle' => 'Príklady dekorácií',
     'availableForm' => 'Zobraziť kompletné návrhy',
-    'downloadMaterial' => 'Technické informácie <a class="text-white" href="/files/technicalSpecification/zora.pdf" target="_blank">[Stiahnuť]</a>',
+    'downloadMaterial' => 'Technické informácie <a class="text-white" href="/files/technicalSpecification/zora_english.pdf" target="_blank">[Stiahnuť]</a>',
     'formContactFirst' => 'Pre objednanie produktu alebo získanie cenovej ponuky nás, prosím, kontaktujte s veľkosťou, sériou a dekorom podľa vášho výberu.',
     'formContactSecond' => 'Čoskoro vás budeme kontaktovať.',
 ];

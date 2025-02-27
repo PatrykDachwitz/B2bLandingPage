@@ -38,7 +38,7 @@ return [
     'descriptionAdditional' => 'Toote kirjeldus',
     'decorTitle' => 'Dekoratsioonide näited',
     'availableForm' => 'Vaata täis disainilahendusi',
-    'downloadMaterial' => 'Tehniline teave <a class="text-white" href="/files/technicalSpecification/nolan.pdf" target="_blank">[Laadi alla]</a>',
+    'downloadMaterial' => 'Tehniline teave <a class="text-white" href="/files/technicalSpecification/nolan_english.pdf" target="_blank">[Laadi alla]</a>',
     'formContactFirst' => 'Toote tellimiseks või hinnapakkumise saamiseks võtke meiega ühendust, andes teada soovitud suuruse, seeria ja dekoratsiooni.',
     'formContactSecond' => 'Võtame teiega ühendust niipea kui võimalik.',
 ];

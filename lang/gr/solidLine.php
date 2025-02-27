@@ -27,7 +27,7 @@ return [
     'descriptionAdditional' => 'Περιγραφή προϊόντος',
     'decorTitle' => 'Παραδείγματα διακοσμήσεων',
     'availableForm' => 'Δείτε πλήρη σχέδια',
-    'downloadMaterial' => 'Τεχνικές πληροφορίες <a class="text-white" href="/files/technicalSpecification/solidLine.pdf" target="_blank">[Λήψη]</a>',
+    'downloadMaterial' => 'Τεχνικές πληροφορίες <a class="text-white" href="/files/technicalSpecification/solidLine_english.pdf" target="_blank">[Λήψη]</a>',
     'formContactFirst' => 'Για να παραγγείλετε ένα προϊόν ή να λάβετε προσφορά, παρακαλούμε επικοινωνήστε μαζί μας με το μέγεθος, τη σειρά και τη διακόσμηση της επιλογής σας.',
     'formContactSecond' => 'Θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.',
 ];

@@ -34,7 +34,7 @@ return [
     'descriptionAdditional' => 'Descrição do produto',
     'decorTitle' => 'Exemplos de decorações',
     'availableForm' => 'Ver designs completos',
-    'downloadMaterial' => 'Informações técnicas <a class="text-white" href="/files/technicalSpecification/zora.pdf" target="_blank">[Baixar]</a>',
+    'downloadMaterial' => 'Informações técnicas <a class="text-white" href="/files/technicalSpecification/zora_english.pdf" target="_blank">[Baixar]</a>',
     'formContactFirst' => 'Para encomendar um produto ou obter um orçamento, entre em contato conosco com o tamanho, a série e a decoração de sua escolha.',
     'formContactSecond' => 'Entraremos em contato o mais breve possível.',
 ];

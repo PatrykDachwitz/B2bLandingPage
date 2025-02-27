@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Descrierea produsului',
     'decorTitle' => 'Exemple de decorațiuni',
     'availableForm' => 'Vezi design-urile complete',
-    'downloadMaterial' => 'Informații tehnice <a class="text-white" href="/files/technicalSpecification/colorLine.pdf" target="_blank">[Descarcă]</a>',
+    'downloadMaterial' => 'Informații tehnice <a class="text-white" href="/files/technicalSpecification/colorLine_english.pdf" target="_blank">[Descarcă]</a>',
     'formContactFirst' => 'Pentru a comanda un produs sau a obține o ofertă, te rugăm să ne contactezi cu dimensiunea, seria și decorul dorit.',
     'formContactSecond' => 'Te vom contacta cât mai curând posibil.',
 ];

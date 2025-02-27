@@ -34,7 +34,7 @@ return [
     'descriptionAdditional' => 'Περιγραφή προϊόντος',
     'decorTitle' => 'Παραδείγματα διακοσμήσεων',
     'availableForm' => 'Δείτε πλήρη σχέδια',
-    'downloadMaterial' => 'Τεχνικές πληροφορίες <a class="text-white" href="/files/technicalSpecification/losano.pdf" target="_blank">[Κατέβασμα]</a>',
+    'downloadMaterial' => 'Τεχνικές πληροφορίες <a class="text-white" href="/files/technicalSpecification/losano_english.pdf" target="_blank">[Κατέβασμα]</a>',
     'formContactFirst' => 'Για να παραγγείλετε ένα προϊόν ή να λάβετε προσφορά, παρακαλώ επικοινωνήστε μαζί μας με το μέγεθος, τη σειρά και τη διακόσμηση της επιλογής σας.',
     'formContactSecond' => 'Θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό.',
 ];

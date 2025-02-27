@@ -34,7 +34,7 @@ return [
     'descriptionAdditional' => 'Opis proizvoda',
     'decorTitle' => 'Primjeri dekora',
     'availableForm' => 'Pogledajte potpuni dizajn',
-    'downloadMaterial' => 'Tehničke informacije <a class="text-white" href="/files/technicalSpecification/zora.pdf" target="_blank">[Preuzmi]</a>',
+    'downloadMaterial' => 'Tehničke informacije <a class="text-white" href="/files/technicalSpecification/zora_english.pdf" target="_blank">[Preuzmi]</a>',
     'formContactFirst' => 'Za narudžbu proizvoda ili dobivanje ponude, kontaktirajte nas s veličinom, serijom i dekorom po vašem izboru.',
     'formContactSecond' => 'Kontaktirat ćemo vas što je prije moguće.',
 ];

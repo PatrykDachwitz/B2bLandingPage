@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Descrizione del prodotto',
     'decorTitle' => 'Esempi di decori',
     'availableForm' => 'Visualizza i progetti completi',
-    'downloadMaterial' => 'Informazioni tecniche <a class="text-white" href="/files/technicalSpecification/colorLine.pdf" target="_blank">[Scarica]</a>',
+    'downloadMaterial' => 'Informazioni tecniche <a class="text-white" href="/files/technicalSpecification/colorLine_english.pdf" target="_blank">[Scarica]</a>',
     'formContactFirst' => "Per ordinare un prodotto o ottenere un preventivo, vi preghiamo di contattarci indicando le dimensioni, la serie e l'arredamento di vostra scelta.",
     'formContactSecond' => 'Vi contatteremo il prima possibile.',
 ];

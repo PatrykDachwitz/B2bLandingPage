@@ -15,7 +15,7 @@ return [
     'decorTitle' => 'Cam dekor örnekleri',
     'decorTitleSecond' => 'Taş dekor örnekleri',
     'availableForm' => 'Tam tasarımları görüntüle',
-    'downloadMaterial' => 'Teknik bilgiler <a class="text-white" href="/files/technicalSpecification/steindekor.pdf" target="_blank">[İndir]</a>',
+    'downloadMaterial' => 'Teknik bilgiler <a class="text-white" href="/files/technicalSpecification/steindekor_english.pdf" target="_blank">[İndir]</a>',
     'formContactFirst' => 'Bir ürünü sipariş vermek veya fiyat teklifi almak için lütfen istediğiniz boyut, seri ve dekor ile bizimle iletişime geçin.',
     'formContactSecond' => 'En kısa sürede sizinle iletişime geçeceğiz.',
 ];

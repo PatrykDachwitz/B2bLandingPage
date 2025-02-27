@@ -15,7 +15,7 @@ return [
     'decorTitle' => 'Примери за стъклени декори',
     'decorTitleSecond' => 'Примери за каменни декори',
     'availableForm' => 'Преглед на пълни дизайни',
-    'downloadMaterial' => 'Техническа информация <a class="text-white" href="/files/technicalSpecification/steindekor.pdf" target="_blank">[Изтегли]</a>',
+    'downloadMaterial' => 'Техническа информация <a class="text-white" href="/files/technicalSpecification/steindekor_english.pdf" target="_blank">[Изтегли]</a>',
     'formContactFirst' => 'За поръчка на продукт или получаване на оферта, моля свържете се с нас с размерите, серията и декора по ваш избор.',
     'formContactSecond' => 'Ще се свържем с вас възможно най-скоро.',
 ];

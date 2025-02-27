@@ -27,7 +27,7 @@ return [
     'descriptionAdditional' => 'Termékleírás',
     'decorTitle' => 'Dekorációs példák',
     'availableForm' => 'Teljes tervek megtekintése',
-    'downloadMaterial' => 'Műszaki információ <a class="text-white" href="/files/technicalSpecification/solidLine.pdf" target="_blank">[Letöltés]</a>',
+    'downloadMaterial' => 'Műszaki információ <a class="text-white" href="/files/technicalSpecification/solidLine_english.pdf" target="_blank">[Letöltés]</a>',
     'formContactFirst' => 'A termék rendeléséhez vagy árajánlat kéréséhez kérjük, lépjen kapcsolatba velünk a méret, sorozat és dekoráció megadásával.',
     'formContactSecond' => 'A lehető leghamarabb felvesszük Önnel a kapcsolatot.',
 ];

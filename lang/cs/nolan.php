@@ -38,7 +38,7 @@ return [
     'descriptionAdditional' => 'Popis produktu',
     'decorTitle' => 'Příklady dekorů',
     'availableForm' => 'Zobrazit plné návrhy',
-    'downloadMaterial' => 'Technické informace <a class="text-white" href="/files/technicalSpecification/nolan.pdf" target="_blank">[Stáhnout]</a>',
+    'downloadMaterial' => 'Technické informace <a class="text-white" href="/files/technicalSpecification/nolan_english.pdf" target="_blank">[Stáhnout]</a>',
     'formContactFirst' => 'Pro objednání produktu nebo získání cenové nabídky nás prosím kontaktujte s velikostí, sérií a dekorací dle vašeho výběru.',
     'formContactSecond' => 'Budeme vás kontaktovat co nejdříve.',
 ];

@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Popis produktu',
     'decorTitle' => 'Příklady dekorací',
     'availableForm' => 'Zobrazit plné návrhy',
-    'downloadMaterial' => 'Technické informace <a class="text-white" href="/files/technicalSpecification/stoneLine.pdf" target="_blank">[Stáhnout]</a>',
+    'downloadMaterial' => 'Technické informace <a class="text-white" href="/files/technicalSpecification/stoneLine_english.pdf" target="_blank">[Stáhnout]</a>',
     'formContactFirst' => 'Pro objednání produktu nebo získání cenové nabídky nás prosím kontaktujte s požadovanou velikostí, sérií a dekorem.',
     'formContactSecond' => 'Co nejdříve se s vámi spojíme.',
 ];

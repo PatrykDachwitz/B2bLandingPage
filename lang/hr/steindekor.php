@@ -15,7 +15,7 @@ return [
     'decorTitle' => 'Primjeri staklenih dekora',
     'decorTitleSecond' => 'Primjeri kamenih dekora',
     'availableForm' => 'Pogledajte potpune dizajne',
-    'downloadMaterial' => 'Tehničke informacije <a class="text-white" href="/files/technicalSpecification/steindekor.pdf" target="_blank">[Preuzmite]</a>',
+    'downloadMaterial' => 'Tehničke informacije <a class="text-white" href="/files/technicalSpecification/steindekor_english.pdf" target="_blank">[Preuzmite]</a>',
     'formContactFirst' => 'Za narudžbu proizvoda ili ponudu, kontaktirajte nas s veličinom, serijom i dekorom po vašem izboru.',
     'formContactSecond' => 'Kontaktirat ćemo vas čim prije.',
 ];

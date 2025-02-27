@@ -38,7 +38,7 @@ return [
     'descriptionAdditional' => 'Ürün açıklaması',
     'decorTitle' => 'Dekor örnekleri',
     'availableForm' => 'Tam tasarımları görüntüle',
-    'downloadMaterial' => 'Teknik bilgiler <a class="text-white" href="/files/technicalSpecification/nolan.pdf" target="_blank">[İndir]</a>',
+    'downloadMaterial' => 'Teknik bilgiler <a class="text-white" href="/files/technicalSpecification/nolan_english.pdf" target="_blank">[İndir]</a>',
     'formContactFirst' => 'Bir ürünü sipariş etmek veya teklif almak için lütfen bize boyut, seri ve dekor tercihinizle ulaşın.',
     'formContactSecond' => 'En kısa sürede sizinle iletişime geçeceğiz.',
 ];

@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Opis proizvoda',
     'decorTitle' => 'Primjeri dekora',
     'availableForm' => 'Pogledajte potpune dizajne',
-    'downloadMaterial' => 'Tehničke informacije <a class="text-white" href="/files/technicalSpecification/stoneLine.pdf" target="_blank">[Preuzmite]</a>',
+    'downloadMaterial' => 'Tehničke informacije <a class="text-white" href="/files/technicalSpecification/stoneLine_english.pdf" target="_blank">[Preuzmite]</a>',
     'formContactFirst' => 'Za narudžbu proizvoda ili ponudu, kontaktirajte nas s veličinom, serijom i dekorom po vašem izboru.',
     'formContactSecond' => 'Kontaktirat ćemo vas čim prije.',
 ];

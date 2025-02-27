@@ -34,7 +34,7 @@ return [
     'descriptionAdditional' => 'Popis produktu',
     'decorTitle' => 'Příklady dekorů',
     'availableForm' => 'Zobrazit všechny návrhy',
-    'downloadMaterial' => 'Technické informace <a class="text-white" href="/files/technicalSpecification/losano.pdf" target="_blank">[Stáhnout]</a>',
+    'downloadMaterial' => 'Technické informace <a class="text-white" href="/files/technicalSpecification/losano_english.pdf" target="_blank">[Stáhnout]</a>',
     'formContactFirst' => 'Chcete-li si objednat produkt nebo získat cenovou nabídku, kontaktujte nás s požadovanými rozměry, sérií a dekorem.',
     'formContactSecond' => 'Ozveme se vám co nejdříve.',
 ];
