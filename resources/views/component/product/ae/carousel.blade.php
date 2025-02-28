@@ -1,13 +1,13 @@
 <div class="text-white mt-4 carousel position-relative" data-carousel-{{ $directory }}>
 
 
-    <div class="d-flex flex-column flex-lg-row-reverse justify-content-between  me-1 me-lg-0 align-items-end">
-        <span class="me-1 me-lg-5 fs-1">{{ $title }}</span>
+    <div class="d-flex flex-column flex-lg-row-reverse px-3 justify-content-between  align-items-start align-items-lg-end">
+        <span class="ms-1 ms-lg-2 ms-lg-5 fs-1">{{ $title }}</span>
         @if($catalog ?? true !== false)
-            <a class="btn btn-gold fs-6 me-1 me-lg-0 ms-lg-2 mt-2 mt-lg-0" href="{{ route('decors', ['product' => $product]) }}{{ empty($idDecor) ? '' : '#' . $idDecor }}">@lang('mainPage.checkDecors')</a>
+            <a class="btn btn-gold fs-6 ms-1 ms-lg-0 me-lg-2 mt-2 mt-lg-0" href="{{ route('decors', ['product' => $product]) }}{{ empty($idDecor) ? '' : '#' . $idDecor }}">@lang('mainPage.checkDecors')</a>
         @endif
     </div>
-    <div class="d-flex mt-4 carousel__imagesContainer carousel__imagesContainer--ae position-relative" data-gallery="{{ $directory }}" data-carousel-length="{{ $countDecor }}">
+    <div class="d-flex mt-4 carousel__imagesContainer position-relative @isset($langVersion)  @if($langVersion === 'ae') justify-content-end @endif @endisset" data-gallery="{{ $directory }}" data-carousel-length="{{ $countDecor }}">
         @for($j = 1; $j <= $countDecor; $j++)
             <div class="mx-1 carousel__imageContainer" onclick="createGallery('{{ $directory }}', {{ $j }})" data-carousel-name="{{ $directory }}" data-carousel-column="{{ $j }}" >
                 <picture>

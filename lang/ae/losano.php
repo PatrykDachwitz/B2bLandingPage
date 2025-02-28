@@ -2,39 +2,39 @@
 
 return [
     'title' => 'Losano',
-    'description' => 'Zestaw meblowy wykończony metalowymi laminatami w szerokiej gamie struktur i kolorów. Dostępne są również wersje lakierowane na MDF oraz z kamiennym laminatem, co zapewnia jeszcze większą różnorodność wykończeń. W skład zestawu wchodzą: szafka podumywalkowa, lustro z podświetleniem LED oraz szafka na akcesoria, tworząc kompletne i funkcjonalne rozwiązanie, które idealnie wpisuje się w nowoczesne wnętrza.',
-    'standardSize' => "Standardowe rozmiary",
+    'description' => 'مجموعة أثاث مصنوعة بتشطيبات من رقائق معدنية متوفرة في مجموعة واسعة من القوام والألوان. تتوفر أيضًا نسخ مطلية على MDF وخيارات من رقائق الحجر، مما يوفر تنوعًا أكبر في التشطيبات. تتضمن المجموعة خزانة زينة، ومرآة مضاءة بتقنية LED، وخزانة ملحقات، مما يخلق حلاً كاملاً ووظيفيًا يتناسب تمامًا مع الديكورات الداخلية العصرية.',
+    'standardSize' => "الأحجام القياسية",
     'sizes' => [
         [
-            'title' => "Szafka",
+            'title' => "الخزانة",
             'titleSecond' => "",
             'option' => [
                 '140x50x50',
             ]
         ],
         [
-            'title' => "Lustro",
+            'title' => "المرآة",
             'titleSecond' => "",
             'option' => [
                 '120x120',
             ]
         ],
         [
-            'title' => "Szafka na akcesoria",
+            'title' => "خزانة الملحقات",
             'titleSecond' => "",
             'option' => [
                 '40x160x41,8',
             ]
         ]
     ],
-    'ProductionForClient' => 'Produkt wykonujemy na <b>zamówienie</b>, dostosowując go do wybranego rozmiaru.',
-    'colorAvailable' => '<b>Kolory obudowy i kształty</b> dostępne w opisie',
-    'contact' => 'Masz pytania? Skontaktuj się z nami',
-    'getPriceProduct' => 'Uzyskaj wycenę',
-    'descriptionAdditional' => 'Opis produktu',
-    'decorTitle' => 'Przykładowe dekory',
-    'availableForm' => 'Dostępne kształty luster',
-    'downloadMaterial' => 'Materiały do <a class="text-white" href="/files/technicalSpecification/losano.pdf" target="_blank">pobrania</a>',
-    'formContactFirst' => 'Aby zamówić lub otrzymać wycenę produktu, prosimy o kontakt, podając w wiadomości rozmiar, serię oraz wybrany dekor.',
-    'formContactSecond' => 'Skontaktujemy się z Tobą tak szybko jak będzie to możliwe.',
+    'ProductionForClient' => 'نحن نقوم بتصنيع المنتج حسب الطلب وتخصيصه بالحجم الذي تختاره.',
+    'colorAvailable' => 'الألوان المتاحة وأشكال الهيكل موضحة في الوصف',
+    'contact' => 'هل لديك أسئلة؟ تواصل معنا.',
+    'getPriceProduct' => 'احصل على عرض سعر',
+    'descriptionAdditional' => 'وصف المنتج',
+    'decorTitle' => 'أمثلة الزخارف',
+    'availableForm' => 'عرض التصاميم الكاملة',
+    'downloadMaterial' => '<a class="text-white" href="/files/technicalSpecification/losano_english.pdf" target="_blank">[تحميل]</a> المعلومات التقنية',
+    'formContactFirst' => 'من أجل طلب منتج أو الحصول على عرض سعر، يرجى التواصل معنا مع تحديد الحجم والسلسلة والزخرفة التي تختارها.',
+    'formContactSecond' => 'سنتواصل معك في أقرب وقت ممكن.',
 ];

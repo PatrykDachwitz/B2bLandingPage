@@ -38,7 +38,7 @@ return [
     'descriptionAdditional' => 'Produktbeskrivning',
     'decorTitle' => 'Exempel på dekorer',
     'availableForm' => 'Visa fullständiga mönster',
-    'downloadMaterial' => 'Teknisk information <a class="text-white" href="/files/technicalSpecification/nolan.pdf" target="_blank">[Ladda ner]</a>',
+    'downloadMaterial' => 'Teknisk information <a class="text-white" href="/files/technicalSpecification/nolan_english.pdf" target="_blank">[Ladda ner]</a>',
     'formContactFirst' => 'För att beställa en produkt eller få en offert, vänligen kontakta oss med storlek, serie och dekor av ditt val.',
     'formContactSecond' => 'Vi kommer att kontakta dig så snart som möjligt.',
 ];

@@ -2,32 +2,32 @@
 
 return [
     'title' => 'GleamLine',
-    'description' => 'Zestaw mebli łazienkowych składający się z eleganckiej szafki podumywalkowej oraz lustra w ozdobnej ramie, pokrytej chromem lub lakierem z efektem metalicznym. Zarówno rama lustra, jak i szafka podumywalkowa dostępne są w różnych wybarwieniach, co pozwala na idealne dopasowanie zestawu do charakteru i stylu łazienki.',
-    'standardSize' => "Standardowe rozmiary",
+    'description' => 'The bathroom furniture set consists of an elegant cabinet under the washbasin and a mirror in a decorative frame covered with chrome or metallic finish. Both the mirror frame and the sink cabinet are available in various colors, so that the set perfectly matches the nature and style of the bathroom.',
+    'standardSize' => "الأحجام القياسية",
     'sizes' => [
         [
-            'title' => "Szafka podumywalkowa",
-            'titleSecond' => "[LxWxH]",
+            'title' => "Washbasin cabinet",
+            'titleSecond' => "(W x H x D)",
             'option' => [
                 '240x75x47',
             ]
         ],
         [
-            'title' => "Lustro",
-            'titleSecond' => "[LxW]",
+            'title' => "Mirror",
+            'titleSecond' => "(W x H)",
             'option' => [
                 '100x100',
             ]
         ]
     ],
-    'ProductionForClient' => 'Produkt wykonujemy na <b>zamówienie</b>, dostosowując go do wybranego rozmiaru.',
-    'colorAvailable' => '<b>Kolory obudowy i kształty</b> dostępne w opisie',
-    'contact' => 'Masz pytania? Skontaktuj się z nami',
-    'getPriceProduct' => 'Uzyskaj wycenę',
-    'descriptionAdditional' => 'Opis produktu',
-    'decorTitle' => 'Przykładowe dekory',
-    'availableForm' => 'Dostępne kształty luster',
-    'downloadMaterial' => 'Materiały do <a class="text-white" href="/files/technicalSpecification/gleamLine.pdf" target="_blank">pobrania</a>',
-    'formContactFirst' => 'Aby zamówić lub otrzymać wycenę produktu, prosimy o kontakt, podając w wiadomości rozmiar, serię oraz wybrany dekor.',
-    'formContactSecond' => 'Skontaktujemy się z Tobą tak szybko jak będzie to możliwe.',
+    'ProductionForClient' => 'نحن نقوم بتصنيع المنتج حسب الطلب وتخصيصه بالحجم الذي تختاره.',
+    'colorAvailable' => 'الألوان المتاحة وأشكال الهيكل موضحة في الوصف',
+    'contact' => 'هل لديك أسئلة؟ تواصل معنا.',
+    'getPriceProduct' => 'احصل على عرض سعر',
+    'descriptionAdditional' => 'وصف المنتج',
+    'decorTitle' => 'أمثلة الزخارف',
+    'availableForm' => 'عرض التصاميم الكاملة',
+    'downloadMaterial' => '<a class="text-white" href="/files/technicalSpecification/colorLine_english.pdf" target="_blank">[تحميل]</a> المعلومات التقنية',
+    'formContactFirst' => 'من أجل طلب منتج أو الحصول على عرض سعر، يرجى التواصل معنا مع تحديد الحجم والسلسلة والزخرفة التي تختارها.',
+    'formContactSecond' => 'سنتواصل معك في أقرب وقت ممكن.',
 ];

@@ -38,7 +38,7 @@ return [
     'descriptionAdditional' => 'Tuotekuvaus',
     'decorTitle' => 'Esimerkkejä koristeista',
     'availableForm' => 'Näytä täydelliset suunnitelmat',
-    'downloadMaterial' => 'Tekninen tiedot <a class="text-white" href="/files/technicalSpecification/nolan.pdf" target="_blank">[Lataa]</a>',
+    'downloadMaterial' => 'Tekninen tiedot <a class="text-white" href="/files/technicalSpecification/nolan_english.pdf" target="_blank">[Lataa]</a>',
     'formContactFirst' => 'Tuotteen tilaamiseksi tai tarjouksen saamiseksi, ota meihin yhteyttä valitsemasi koon, sarjan ja koristeen kanssa.',
     'formContactSecond' => 'Olemme yhteydessä sinuun mahdollisimman pian.',
 ];

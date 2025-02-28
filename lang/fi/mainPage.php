@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'cm' => "cm",
     'ourProducts' => "Tutustu tuotteisiimme",
     'cooperation' => "Miten toimimme?",
     'sliderContent' => 'Hyvät asiakkaat, kiitos mielenkiinnostanne huonekalujamme ja luksuspeilejämme kohtaan.',

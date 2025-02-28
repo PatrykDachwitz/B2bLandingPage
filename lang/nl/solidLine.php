@@ -27,7 +27,7 @@ return [
     'descriptionAdditional' => 'Productbeschrijving',
     'decorTitle' => 'Voorbeelden van decors',
     'availableForm' => 'Bekijk volledige ontwerpen',
-    'downloadMaterial' => 'Technische informatie <a class="text-white" href="/files/technicalSpecification/solidLine.pdf" target="_blank">[Download]</a>',
+    'downloadMaterial' => 'Technische informatie <a class="text-white" href="/files/technicalSpecification/solidLine_english.pdf" target="_blank">[Download]</a>',
     'formContactFirst' => 'Om een product te bestellen of een offerte aan te vragen, neem contact met ons op met de maat, serie en decor van uw keuze.',
     'formContactSecond' => 'We nemen zo snel mogelijk contact met u op.',
 

@@ -31,7 +31,7 @@ return [
     'descriptionAdditional' => 'Tuotekuvaus',
     'decorTitle' => 'Esimerkkejä koristeista',
     'availableForm' => 'Näytä täydelliset mallit',
-    'downloadMaterial' => 'Tekninen tieto <a class="text-white" href="/files/technicalSpecification/colorLine.pdf" target="_blank">[Lataa]</a>',
+    'downloadMaterial' => 'Tekninen tieto <a class="text-white" href="/files/technicalSpecification/colorLine_english.pdf" target="_blank">[Lataa]</a>',
     'formContactFirst' => 'Tuotteen tilaamiseksi tai tarjouksen saamiseksi ota yhteyttä ja ilmoita valitsemasi koko, sarja ja koriste.',
     'formContactSecond' => 'Ota yhteyttä mahdollisimman pian.',
 ];

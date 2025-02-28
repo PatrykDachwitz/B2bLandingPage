@@ -34,7 +34,7 @@ return [
     'descriptionAdditional' => 'Produktbeskrivning',
     'decorTitle' => 'Exempel på dekorer',
     'availableForm' => 'Visa fullständiga designer',
-    'downloadMaterial' => 'Teknisk information <a class="text-white" href="/files/technicalSpecification/losano.pdf" target="_blank">[Ladda ner]</a>',
+    'downloadMaterial' => 'Teknisk information <a class="text-white" href="/files/technicalSpecification/losano_english.pdf" target="_blank">[Ladda ner]</a>',
     'formContactFirst' => 'För att beställa en produkt eller få en offert, vänligen kontakta oss med den storlek, serie och dekor du väljer.',
     'formContactSecond' => 'Vi kommer att kontakta dig så snart som möjligt.',
 ];

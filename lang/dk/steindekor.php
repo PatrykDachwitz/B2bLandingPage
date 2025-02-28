@@ -15,7 +15,7 @@ return [
     'decorTitle' => 'Eksempler på glasdekorer',
     'decorTitleSecond' => 'Eksempler på stendekorer',
     'availableForm' => 'Se fulde design',
-    'downloadMaterial' => 'Teknisk information <a class="text-white" href="/files/technicalSpecification/steindekor.pdf" target="_blank">[Download]</a>',
+    'downloadMaterial' => 'Teknisk information <a class="text-white" href="/files/technicalSpecification/steindekor_english.pdf" target="_blank">[Download]</a>',
     'formContactFirst' => 'For at bestille et produkt eller få et tilbud, bedes du kontakte os med størrelse, serie og dekor af dit valg.',
     'formContactSecond' => 'Vi kontakter dig så hurtigt som muligt.',
 ];

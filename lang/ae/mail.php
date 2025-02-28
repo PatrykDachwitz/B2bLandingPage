@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'subject' => 'B2B Artforma - Współpraca'
+    'subject' => 'B2B Artforma - التعاون'
 ];

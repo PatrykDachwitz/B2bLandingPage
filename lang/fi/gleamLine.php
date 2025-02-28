@@ -27,7 +27,7 @@ return [
     'descriptionAdditional' => 'Tuotekuvaus',
     'decorTitle' => 'Esimerkkejä koristeista',
     'availableForm' => 'Näytä täysi suunnittelu',
-    'downloadMaterial' => 'Tekninen tieto <a class="text-white" href="/files/technicalSpecification/gleamLine.pdf" target="_blank">[Lataa]</a>',
+    'downloadMaterial' => 'Tekninen tieto <a class="text-white" href="/files/technicalSpecification/gleamLine_english.pdf" target="_blank">[Lataa]</a>',
     'formContactFirst' => 'Tilataksesi tuotteen tai saadaksesi tarjouksen, ota yhteyttä meille valitsemallasi koon, sarjan ja koristeen kanssa.',
     'formContactSecond' => 'Otaamme yhteyttä mahdollisimman pian.',
 ];

@@ -1,40 +1,40 @@
 <?php
 
 return [
-    'title' => 'Zora',
-    'description' => 'Zestaw mebli łazienkowych z fornirem kamiennym z naturalnych łupków łączy nowoczesność z elegancją. W skład zestawu wchodzi szafka podumywalkowa, szafka na akcesoria i lustro Różnorodność struktur i odcieni kamienia sprawia, że każdy element jest unikatowy. Zestaw można także rozbudować o dekor kamienny, nadając łazience wyjątkowy charakter.',
-    'standardSize' => "Standardowe rozmiary",
+    'title' => 'زورا',
+    'description' => 'مجموعة أثاث الحمام بطبقة خارجية من قشرة الأردواز الطبيعي تجمع بين الحداثة والأناقة. تتضمن المجموعة خزانة زينة، وخزانة ملحقات، ومرآة. تنوع القوام وظلال الحجر يجعل كل قطعة فريدة من نوعها. يمكن أيضًا توسيع المجموعة بإضافة زخرفة حجرية، مما يمنح الحمام طابعًا مميزًا.',
+    'standardSize' => "الأحجام القياسية",
     'sizes' => [
         [
-            'title' => "Szafka",
+            'title' => "الخزانة",
             'titleSecond' => "",
             'option' => [
                 '120x50x68,2',
             ]
         ],
         [
-            'title' => "Lustro",
+            'title' => "المرآة",
             'titleSecond' => "",
             'option' => [
                 '124x114',
             ]
         ],
         [
-            'title' => "Szafka na akcesoria",
+            'title' => "خزانة الإكسسوارات",
             'titleSecond' => "",
             'option' => [
                 '40x108,4x35',
             ]
         ]
     ],
-    'ProductionForClient' => 'Produkt wykonujemy na <b>zamówienie</b>, dostosowując go do wybranego rozmiaru.',
-    'colorAvailable' => '<b>Kolory obudowy i kształty</b> dostępne w opisie',
-    'contact' => 'Masz pytania? Skontaktuj się z nami',
-    'getPriceProduct' => 'Uzyskaj wycenę',
-    'descriptionAdditional' => 'Opis produktu',
-    'decorTitle' => 'Przykładowe dekory',
-    'availableForm' => 'Dostępne kształty luster',
-    'downloadMaterial' => 'Materiały do <a class="text-white" href="/files/technicalSpecification/zora.pdf" target="_blank">pobrania</a>',
-    'formContactFirst' => 'Aby zamówić lub otrzymać wycenę produktu, prosimy o kontakt, podając w wiadomości rozmiar, serię oraz wybrany dekor.',
-    'formContactSecond' => 'Skontaktujemy się z Tobą tak szybko jak będzie to możliwe.',
+    'ProductionForClient' => 'نحن نقوم بتصنيع المنتج حسب الطلب وتخصيصه بالحجم الذي تختاره.',
+    'colorAvailable' => 'الألوان المتاحة وأشكال الهيكل موضحة في الوصف',
+    'contact' => 'هل لديك أسئلة؟ تواصل معنا.',
+    'getPriceProduct' => 'احصل على عرض سعر',
+    'descriptionAdditional' => 'وصف المنتج',
+    'decorTitle' => 'أمثلة الزخارف',
+    'availableForm' => 'عرض التصاميم الكاملة',
+    'downloadMaterial' => '<a class="text-white" href="/files/technicalSpecification/zora_english.pdf" target="_blank">[تحميل]</a> المعلومات التقنية',
+    'formContactFirst' => 'من أجل طلب منتج أو الحصول على عرض سعر، يرجى التواصل معنا مع تحديد الحجم والسلسلة والزخرفة التي تختارها.',
+    'formContactSecond' => 'سنتواصل معك في أقرب وقت ممكن.',
 ];

@@ -5,7 +5,7 @@
             <img width="40" src="/files/flags/{{ \Illuminate\Support\Facades\App::getLocale() ?? config('language.defaultLanguage') }}.jpg" alt="pl" loading="lazy">
         </picture>
     </a>
-    <ul class="dropdown-menu">
+    <ul class="dropdown-menu menu__flags">
 
         <form action="{{ route('changeLanguage') }}" method="POST">
             @csrf

@@ -13,8 +13,8 @@
             <div class="d-flex flex-column justify-content-start me-5 me-lg-0 align-items-end text-white">
                 <b class="footer__title">@lang('footer.company')</b>
                 <p class="footer__text text-end">
-                    <a class="footer__text footer__text--unstyle" href="tel: {{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".phone") }}">{{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".phone") }}</a> @lang('footer.phone') <br />
-                    <a class="footer__text footer__text--unstyle" href="mailto: {{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".mailContact") }}">{{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".mailContact") }}</a> @lang('footer.mail')
+                    @lang('footer.phone') <a class="footer__text footer__text--unstyle" href="tel: {{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".phone") }}">{{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".phone") }}</a> <br />
+                    @lang('footer.mail') <a class="footer__text footer__text--unstyle" href="mailto: {{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".mailContact") }}">{{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".mailContact") }}</a>
                 </p>
             </div>
 

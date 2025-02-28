@@ -13,8 +13,8 @@ return [
     |
     */
 
-    'failed' => 'Te dane uwierzytelniające nie są zgodne z naszymi danymi.',
-    'password' => 'Podane hasło jest nieprawidłowe.',
-    'throttle' => 'Zbyt wiele prób logowania. Spróbuj ponownie za :sekundy.',
+    'failed' => 'بيانات الاعتماد هذه لا تتطابق مع سجلاتنا.',
+    'password' => 'كلمة المرور المقدمة غير صحيحة.',
+    'throttle' => 'عدد محاولات تسجيل الدخول كبير جدًا. يرجى المحاولة مرة أخرى بعد :seconds ثانية.',
 
 ];

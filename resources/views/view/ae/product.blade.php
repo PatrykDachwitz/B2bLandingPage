@@ -67,7 +67,7 @@
         @endif
 
         @if(is_array(__($product . ".sizes")))
-        <h2 class="fs-5">{{ __($product . ".standardSize") }} <span class="text-gray-footer">[cm]</span></h2>
+        <h2 class="fs-5">{{ __($product . ".standardSize") }} <span class="text-gray-footer">[@lang('mainPage.cm')]</span></h2>
         <div class="d-flex @if(count(__($product . ".sizes") ?? []) > 2) flex-column flex-lg-row @endif">
                 @foreach(__($product . ".sizes") ?? [] as $size)
                     <div class="@if($loop->index > 0 & count(__($product . ".sizes") ?? []) <= 2) ms-4 @elseif($loop->index > 0) ms-lg-4 @endif">
@@ -85,22 +85,25 @@
         @endif
         <ul class="list-unstyled fs-6">
             <li>
+                {!! __($product . ".ProductionForClient") !!}
                 <picture>
                     <source srcset="/files/icons/check.webp" type="image/webp">
                     <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
-                </picture> {!! __($product . ".ProductionForClient") !!}
+                </picture>
             </li>
             <li>
+                {!! __($product . ".colorAvailable") !!}
                 <picture>
                     <source srcset="/files/icons/check.webp" type="image/webp">
                     <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
-                </picture> {!! __($product . ".colorAvailable") !!}
+                </picture>
             </li>
             <li>
+                <span class="text-white">{!! __($product . ".downloadMaterial") !!}</span>
                 <picture>
                     <source srcset="/files/icons/check.webp" type="image/webp">
                     <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
-                </picture> <span class="text-white">{!! __($product . ".downloadMaterial") !!}</span>
+                </picture>
             </li>
         </ul>
         <div><a href="#contactForm" class="btn btn-gold fs-6">{{ __($product . ".getPriceProduct") }}</a></div>
@@ -109,26 +112,29 @@
             <ul class="d-flex flex-column flex-xl-row justify-content-start list-unstyled">
                 <li>
                     <a href="{{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".whatsApp") }}" class="text-decoration-none text-white fs-6">
+                        <i>WhatsApp</i>
                         <picture>
                             <source srcset="/files/icons/whatsapp.webp" type="image/webp">
                             <img src="/files/icons/whatsapp.png" alt="arrow" loading="lazy" height="30" width="30">
-                        </picture>  <i>WhatsApp</i>
+                        </picture>
                     </a>
                 </li>
                 <li class="mt-3 mt-lg-0 ms-lg-3">
                     <a href="tel: {{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".phone") }}" class="text-decoration-none text-white fs-6">
-                    <picture>
+                        <i>{{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".phone") }}</i>
+                        <picture>
                         <source srcset="/files/icons/telephone.webp" type="image/webp">
                         <img src="/files/icons/telephone.png" alt="arrow" loading="lazy" height="30" width="30">
-                    </picture> <i>{{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".phone") }}</i>
+                    </picture>
                     </a>
                 </li>
                 <li class="mt-3 mt-lg-0 ms-lg-3">
                     <a href="mailto: {{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".mailContact") }}" class="text-decoration-none text-white fs-6">
+                        <i>{{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".mailContact") }}</i>
                         <picture>
                             <source srcset="/files/icons/email.webp" type="image/webp">
                             <img src="/files/icons/email.png" alt="arrow" loading="lazy" height="30" width="30">
-                        </picture> <i>{{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".mailContact") }}</i>
+                        </picture>
                     </a>
                 </li>
             </ul>
@@ -187,7 +193,8 @@
           'countDecor' => 7,
           'product' => $product,
           'directory' => 'forms',
-          "catalog" => false
+          "catalog" => false,
+          'langVersion' => 'ae'
         ])
     @endif
 

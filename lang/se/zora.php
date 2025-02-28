@@ -34,7 +34,7 @@ return [
     'descriptionAdditional' => 'Produktbeskrivning',
     'decorTitle' => 'Exempel på dekorer',
     'availableForm' => 'Se hela designen',
-    'downloadMaterial' => 'Teknisk information <a class="text-white" href="/files/technicalSpecification/zora.pdf" target="_blank">[Ladda ner]</a>',
+    'downloadMaterial' => 'Teknisk information <a class="text-white" href="/files/technicalSpecification/zora_english.pdf" target="_blank">[Ladda ner]</a>',
     'formContactFirst' => 'För att beställa en produkt eller få en offert, vänligen kontakta oss med storleken, serien och dekoren du väljer.',
     'formContactSecond' => 'Vi kontaktar dig så snart som möjligt.',
 ];

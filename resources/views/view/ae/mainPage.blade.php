@@ -28,7 +28,7 @@
 
 
     <section class="container-fluid mt-5 p-md-0 mx-0 overflow-hidden" id="products">
-        <div class="container-1920 row g-3 px-3">
+        <div class="container-1920 flex-row-reverse row g-3 px-3">
             <div class="col-6 col-lg-3 smallBanners">
                <a class="text-decoration-none" href="{{ route('product', ['product' => 'colorLine']) }}">
                    <div>
@@ -157,9 +157,9 @@
         <p class="text-center text-white m-0 fs-1 py-5">@lang('mainPage.cooperation')</p>
         <div class="container-1920 row mx-1 mx-md-5 px-md-5 g-5 g-md-0 collaboration flex-row-reverse">
             @for($i = 1; $i < 5; $i++)
-                <div class="col-12 col-md-3 d-flex collaboration__column flex-row-reverse justify-content-md-start flex-md-column align-items-end align-items-md-start pe-md-3">
+                <div class="col-12 col-md-3 d-flex collaboration__column collaboration__column--ae flex-row-reverse justify-content-md-start flex-md-column align-items-end pe-md-3">
                     <b class="collaboration__number mb-md-5 ps-3">{{ $i }}</b>
-                    <p class="ps-5 ps-md-2 fs-6">
+                    <p class="ps-5 ps-md-2 fs-6 text-end">
                         @switch($i)
                             @case('1')
                                 @lang('mainPage.contactAboutProduct')

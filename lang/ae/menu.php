@@ -1,8 +1,8 @@
 <?php
 
 return [
-  'collaborationPath' => "Jak działamy?",
-  'ourProducts' => "Produkty",
-  'contact' => "Kontakt",
-  'collection' => "Kolekcja",
+  'collaborationPath' => "كيف نعمل؟",
+  'ourProducts' => "المنتجات",
+  'contact' => "معلومات الاتصال",
+  'collection' => "الخط",
 ];

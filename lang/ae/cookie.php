@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'description' => 'Nasza strona internetowa używa niezbędnych plików cookie do prawidłowego działania, takich jak zarządzanie sesją użytkownika. Te pliki cookie nie gromadzą danych osobowych i nie wymagają Twojej zgody.',
-    'close' => 'Zamknij',
+    'description' => 'موقعنا الإلكتروني يستخدم ملفات تعريف الارتباط الضرورية لضمان عمله بشكل صحيح، مثل إدارة جلسة المستخدم. هذه الملفات لا تجمع البيانات الشخصية ولا تتطلب موافقتك.',
+    'close' => 'إغلاق',
 ];

@@ -34,7 +34,7 @@ return [
     'descriptionAdditional' => 'Productbeschrijving',
     'decorTitle' => 'Voorbeelden van decors',
     'availableForm' => 'Bekijk volledige ontwerpen',
-    'downloadMaterial' => 'Technische informatie <a class="text-white" href="/files/technicalSpecification/losano.pdf" target="_blank">[Download]</a>',
+    'downloadMaterial' => 'Technische informatie <a class="text-white" href="/files/technicalSpecification/losano_english.pdf" target="_blank">[Download]</a>',
     'formContactFirst' => 'Om een product te bestellen of een offerte aan te vragen, neem contact met ons op met de gewenste afmetingen, serie en decor.',
     'formContactSecond' => 'Wij nemen zo snel mogelijk contact met u op.',
 ];

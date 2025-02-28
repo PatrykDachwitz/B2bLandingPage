@@ -2,12 +2,12 @@
 
 return [
     'title' => 'ColorLine',
-    'description' => 'Meble w lakierowanych ramach, dostępne w szerokiej gamie kolorów z palet RAL i NCS oraz w wykończeniach – połysk, półmat lub mat – to doskonała propozycja dla tych, którzy poszukują unikalnych i stylowych rozwiązań. Zestaw, składający się z eleganckiej szafki i lustra, można wzbogacić o szklany dekor, dostępny w różnorodnych motywach, nadając wnętrzu wyjątkowy charakter i indywidualny styl.',
-    'standardSize' => "Standardowe rozmiary",
+    'description' => 'إطارات الأثاث المطلية، المتوفرة بمجموعة متنوعة من ألوان RAL وNCS وبخيارات لامعة أو نصف لامعة أو غير لامعة، تعد مثالية لحلول الأثاث الأنيقة والفريدة من نوعها. يمكن استكمال طقم الخزانة الأنيقة والمرايا بزخارف زجاجية ذات أنماط متنوعة لإضفاء طابع فردي على الغرفة.',
+    'standardSize' => "الأحجام القياسية",
     'sizes' => [
         [
-            'title' => "Lustro",
-            'titleSecond' => "[LxWxH]",
+            'title' => "المرآة",
+            'titleSecond' => "(العرض × الارتفاع)",
             'option' => [
                 '90x160',
                 '80x140',
@@ -15,8 +15,8 @@ return [
             ]
         ],
         [
-            'title' => "Szafka podumywalkowa",
-            'titleSecond' => "[LxWxH]",
+            'title' => "الخزانة",
+            'titleSecond' => "(العرض × الارتفاع × العمق)",
             'option' => [
                 '80x50x40',
                 '100x50x40',
@@ -24,14 +24,14 @@ return [
             ]
         ]
     ],
-    'ProductionForClient' => 'Produkt wykonujemy na <b>zamówienie</b>, dostosowując go do wybranego rozmiaru.',
-    'colorAvailable' => '<b>Kolory obudowy i kształty</b> dostępne w opisie',
-    'contact' => 'Masz pytania? Skontaktuj się z nami',
-    'getPriceProduct' => 'Uzyskaj wycenę',
-    'descriptionAdditional' => 'Opis produktu',
-    'decorTitle' => 'Przykładowe dekory',
-    'availableForm' => 'Dostępne kształty luster',
-    'downloadMaterial' => 'Materiały do <a class="text-white" href="/files/technicalSpecification/colorLine.pdf" target="_blank">pobrania</a>',
-    'formContactFirst' => 'Aby zamówić lub otrzymać wycenę produktu, prosimy o kontakt, podając w wiadomości rozmiar, serię oraz wybrany dekor.',
-    'formContactSecond' => 'Skontaktujemy się z Tobą tak szybko jak będzie to możliwe.',
+    'ProductionForClient' => 'نحن نقوم بتصنيع المنتج حسب الطلب وتخصيصه بالحجم الذي تختاره.',
+    'colorAvailable' => 'الألوان المتاحة وأشكال الهيكل موضحة في الوصف',
+    'contact' => 'هل لديك أسئلة؟ تواصل معنا.',
+    'getPriceProduct' => 'احصل على عرض سعر',
+    'descriptionAdditional' => 'وصف المنتج',
+    'decorTitle' => 'أمثلة الزخارف',
+    'availableForm' => 'عرض التصاميم الكاملة',
+    'downloadMaterial' => '<a class="text-white" href="/files/technicalSpecification/colorLine_english.pdf" target="_blank">[تحميل]</a> المعلومات التقنية',
+    'formContactFirst' => 'من أجل طلب منتج أو الحصول على عرض سعر، يرجى التواصل معنا مع تحديد الحجم والسلسلة والزخرفة التي تختارها.',
+    'formContactSecond' => 'سنتواصل معك في أقرب وقت ممكن.',
 ];

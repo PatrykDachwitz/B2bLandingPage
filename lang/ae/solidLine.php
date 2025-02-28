@@ -2,32 +2,32 @@
 
 return [
     'title' => 'SolidLine',
-    'description' => 'Zestaw meblowy wykonany z litego drewna – europejskiego lub egzotycznego, dostępny w różnych rodzajach wybarwienia, stanowi doskonały dodatek do każdego wnętrza, dodając mu naturalnego uroku i elegancji. W skład zestawu wchodzi szafka podumywalkowa, lustro oraz szafka na akcesoria.',
-    'standardSize' => "Standardowe rozmiary",
+    'description' => 'مجموعة الأثاث مصنوعة من الخشب الصلب الأوروبي أو الغريب، ومتوفر بعدة درجات من البقع اللونية. إنها إضافة مثالية لأي ديكور داخلي، تضيف لمسة طبيعية من السحر والأناقة. تتكون المجموعة من خزانة تحت الحوض، ومرآة، وخزانة للملحقات.',
+    'standardSize' => "الأحجام القياسية",
     'sizes' => [
         [
-            'title' => "Szafka podumywalkowa",
-            'titleSecond' => "",
+            'title' => "خزانة حوض الغسيل",
+            'titleSecond' => "(العرض × الارتفاع × العمق)",
             'option' => [
                 '120x28x50',
             ]
         ],
         [
-            'title' => "Lustro",
-            'titleSecond' => "[LxW]",
+            'title' => "مرآة",
+            'titleSecond' => "(العرض × الارتفاع)",
             'option' => [
                 '98x106',
             ]
         ]
     ],
-    'ProductionForClient' => 'Produkt wykonujemy na <b>zamówienie</b>, dostosowując go do wybranego rozmiaru.',
-    'colorAvailable' => '<b>Kolory obudowy i kształty</b> dostępne w opisie',
-    'contact' => 'Masz pytania? Skontaktuj się z nami',
-    'getPriceProduct' => 'Uzyskaj wycenę',
-    'descriptionAdditional' => 'Opis produktu',
-    'decorTitle' => 'Przykładowe dekory',
-    'availableForm' => 'Dostępne kształty luster',
-    'downloadMaterial' => 'Materiały do <a class="text-white" href="/files/technicalSpecification/solidLine.pdf" target="_blank">pobrania</a>',
-    'formContactFirst' => 'Aby zamówić lub otrzymać wycenę produktu, prosimy o kontakt, podając w wiadomości rozmiar, serię oraz wybrany dekor.',
-    'formContactSecond' => 'Skontaktujemy się z Tobą tak szybko jak będzie to możliwe.',
+    'ProductionForClient' => 'نحن نقوم بتصنيع المنتج حسب الطلب وتخصيصه بالحجم الذي تختاره.',
+    'colorAvailable' => 'الألوان المتاحة وأشكال الهيكل موضحة في الوصف',
+    'contact' => 'هل لديك أسئلة؟ تواصل معنا.',
+    'getPriceProduct' => 'احصل على عرض سعر',
+    'descriptionAdditional' => 'وصف المنتج',
+    'decorTitle' => 'أمثلة الزخارف',
+    'availableForm' => 'عرض التصاميم الكاملة',
+    'downloadMaterial' => '<a class="text-white" href="/files/technicalSpecification/solidLine_english.pdf" target="_blank">[تحميل]</a> المعلومات التقنية',
+    'formContactFirst' => 'من أجل طلب منتج أو الحصول على عرض سعر، يرجى التواصل معنا مع تحديد الحجم والسلسلة والزخرفة التي تختارها.',
+    'formContactSecond' => 'سنتواصل معك في أقرب وقت ممكن.',
 ];

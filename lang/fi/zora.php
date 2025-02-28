@@ -34,7 +34,7 @@ return [
     'descriptionAdditional' => 'Tuotekuvaus',
     'decorTitle' => 'Esimerkkejä koristeista',
     'availableForm' => 'Näytä täydelliset mallit',
-    'downloadMaterial' => 'Tekninen tieto <a class="text-white" href="/files/technicalSpecification/zora.pdf" target="_blank">[Lataa]</a>',
+    'downloadMaterial' => 'Tekninen tieto <a class="text-white" href="/files/technicalSpecification/zora_english.pdf" target="_blank">[Lataa]</a>',
     'formContactFirst' => 'Tilataksesi tuotteen tai saadaksesi tarjouksen, ota meihin yhteyttä valitsemiesi koon, sarjan ja koristeen kanssa.',
     'formContactSecond' => 'Olemme yhteydessä sinuun mahdollisimman pian.',
 ];

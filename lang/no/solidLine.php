@@ -27,7 +27,7 @@ return [
     'descriptionAdditional' => 'Produktbeskrivelse',
     'decorTitle' => 'Eksempler på dekor',
     'availableForm' => 'Se fullstendige design',
-    'downloadMaterial' => 'Teknisk informasjon <a class="text-white" href="/files/technicalSpecification/solidLine.pdf" target="_blank">[Last ned]</a>',
+    'downloadMaterial' => 'Teknisk informasjon <a class="text-white" href="/files/technicalSpecification/solidLine_english.pdf" target="_blank">[Last ned]</a>',
     'formContactFirst' => 'For å bestille et produkt eller få et tilbud, vennligst kontakt oss med ønsket størrelse, serie og dekor.',
     'formContactSecond' => 'Vi vil kontakte deg så snart som mulig.',
 ];

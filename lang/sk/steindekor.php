@@ -15,7 +15,7 @@ return [
     'decorTitle' => 'Príklady sklenených dekorov',
     'decorTitleSecond' => 'Príklady kamenných dekorov',
     'availableForm' => 'Zobraziť úplné návrhy',
-    'downloadMaterial' => 'Technické informácie <a class="text-white" href="/files/technicalSpecification/steindekor.pdf" target="_blank">[Stiahnuť]</a>',
+    'downloadMaterial' => 'Technické informácie <a class="text-white" href="/files/technicalSpecification/steindekor_english.pdf" target="_blank">[Stiahnuť]</a>',
     'formContactFirst' => 'Ak si chcete objednať produkt alebo získať cenovú ponuku, kontaktujte nás s veľkosťou, sériou a dekorom podľa vášho výberu.',
     'formContactSecond' => 'Kontaktujeme vás čo najskôr.',
 ];

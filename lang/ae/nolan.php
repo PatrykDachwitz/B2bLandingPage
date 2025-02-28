@@ -2,12 +2,12 @@
 
 return [
     'title' => 'Nolan',
-    'description' => 'Oferujemy zestawy meblowe o zaokrąglonych kształtach, wykończone metalowymi laminatami w szerokiej gamie struktur i kolorów. Dostępne są również wersje lakierowane na MDF oraz z kamiennym laminatem, co zapewnia jeszcze większą różnorodność wykończeń. W skład zestawu wchodzą: szafka podumywalkowa, lustro oraz szafka na akcesoria, tworząc kompletne i funkcjonalne rozwiązanie. ',
-    'standardSize' => "Standardowe rozmiary",
+    'description' => 'نحن نقدم مجموعات أثاث ذات أشكال مستديرة، مغطاة بطبقات معدنية بأشكال وألوان متنوعة. تتوفر أيضًا تشطيبات خشب ليفي متوسط الكثافة المطلية باللكر وصفائح حجرية، مما يتيح مجموعة أكبر من الخيارات للأسطح. تتكون المجموعة من خزانة حوض، ومرآة، وخزانة ملحقات لإنشاء حل شامل ووظيفي.',
+    'standardSize' => "الأحجام القياسية",
     'sizes' => [
         [
-            'title' => "Szafka podumywalkowa",
-            'titleSecond' => "",
+            'title' => "خزانة الحوض",
+            'titleSecond' => "(العرض × الارتفاع × العمق)",
             'option' => [
                 '140x45x40',
                 '120x45x40',
@@ -15,8 +15,8 @@ return [
             ]
         ],
         [
-            'title' => "Lustro",
-            'titleSecond' => "LxW",
+            'title' => "المرآة",
+            'titleSecond' => "(العرض × الارتفاع)",
             'option' => [
                 '140x80',
                 '120x80',
@@ -24,21 +24,21 @@ return [
             ]
         ],
         [
-            'title' => "Szafka wisząca",
-            'titleSecond' => "",
+            'title' => "الخزانة المعلقة",
+            'titleSecond' => "(العرض × الارتفاع × العمق)",
             'option' => [
                 '40x150x40',
             ]
         ]
     ],
-    'ProductionForClient' => 'Produkt wykonujemy na <b>zamówienie</b>, dostosowując go do wybranego rozmiaru.',
-    'colorAvailable' => '<b>Kolory obudowy i kształty</b> dostępne w opisie',
-    'contact' => 'Masz pytania? Skontaktuj się z nami',
-    'getPriceProduct' => 'Uzyskaj wycenę',
-    'descriptionAdditional' => 'Opis produktu',
-    'decorTitle' => 'Przykładowe dekory',
-    'availableForm' => 'Dostępne kształty luster',
-    'downloadMaterial' => 'Materiały do <a class="text-white" href="/files/technicalSpecification/nolan.pdf" target="_blank">pobrania</a>',
-    'formContactFirst' => 'Aby zamówić lub otrzymać wycenę produktu, prosimy o kontakt, podając w wiadomości rozmiar, serię oraz wybrany dekor.',
-    'formContactSecond' => 'Skontaktujemy się z Tobą tak szybko jak będzie to możliwe.',
+    'ProductionForClient' => 'نحن نقوم بتصنيع المنتج حسب الطلب وتخصيصه بالحجم الذي تختاره.',
+    'colorAvailable' => 'الألوان المتاحة وأشكال الهيكل موضحة في الوصف',
+    'contact' => 'هل لديك أسئلة؟ تواصل معنا.',
+    'getPriceProduct' => 'احصل على عرض سعر',
+    'descriptionAdditional' => 'وصف المنتج',
+    'decorTitle' => 'أمثلة الزخارف',
+    'availableForm' => 'عرض التصاميم الكاملة',
+    'downloadMaterial' => '<a class="text-white" href="/files/technicalSpecification/nolan_english.pdf" target="_blank">[تحميل]</a> المعلومات التقنية',
+    'formContactFirst' => 'من أجل طلب منتج أو الحصول على عرض سعر، يرجى التواصل معنا مع تحديد الحجم والسلسلة والزخرفة التي تختارها.',
+    'formContactSecond' => 'سنتواصل معك في أقرب وقت ممكن.',
 ];

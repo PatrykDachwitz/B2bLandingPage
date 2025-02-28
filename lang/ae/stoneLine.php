@@ -2,12 +2,12 @@
 
 return [
     'title' => 'StoneLine',
-    'description' => 'Zestaw mebli łazienkowych z fornirem kamiennym z naturalnych łupków łączy nowoczesność z elegancją. W skład zestawu wchodzi szafka podumywalkowa i lustro z ramą z naturalnego kamienia, dostępne w dwóch głębokościach – 9 cm lub 4 cm. Różnorodność struktur i odcieni kamienia sprawia, że każdy element jest unikatowy. Zestaw można także rozbudować o dekor kamienny, nadając łazience wyjątkowy charakter.',
-    'standardSize' => "Standardowe rozmiary",
+    'description' => 'مجموعة أثاث غرفة الحمام بطبقة قشرة حجرية طبيعية تجمع بين الحداثة والأناقة. تتكون المجموعة من خزانة تحت الحوض ومرآة بإطار من الحجر الطبيعي، متوفرة بعمقين – 9 سم أو 4 سم. تنوع أنسجة الحجر وتدرجاته يجعل كل قطعة فريدة من نوعها. يمكن أيضًا إثراء المجموعة بزخارف حجرية، مما يضفي على الحمام طابعًا فريدًا',
+    'standardSize' => "الأحجام القياسية",
     'sizes' => [
         [
-            'title' => "Szafka",
-            'titleSecond' => "",
+            'title' => "الخزانة",
+            'titleSecond' => "(العرض × الارتفاع × العمق)",
             'option' => [
                 '140x50x57',
                 '120x50x57',
@@ -15,8 +15,8 @@ return [
             ]
         ],
         [
-            'title' => "Lustro",
-            'titleSecond' => "",
+            'title' => "المرآة",
+            'titleSecond' => "(العرض × الارتفاع)",
             'option' => [
                 '144x94',
                 '129x84',
@@ -24,14 +24,14 @@ return [
             ]
         ]
     ],
-    'ProductionForClient' => 'Produkt wykonujemy na <b>zamówienie</b>, dostosowując go do wybranego rozmiaru.',
-    'colorAvailable' => '<b>Kolory obudowy i kształty</b> dostępne w opisie',
-    'contact' => 'Masz pytania? Skontaktuj się z nami',
-    'getPriceProduct' => 'Uzyskaj wycenę',
-    'descriptionAdditional' => 'Opis produktu',
-    'decorTitle' => 'Przykładowe dekory',
-    'availableForm' => 'Dostępne kształty luster',
-    'downloadMaterial' => 'Materiały do <a class="text-white" href="/files/technicalSpecification/stoneLine.pdf" target="_blank">pobrania</a>',
-    'formContactFirst' => 'Aby zamówić lub otrzymać wycenę produktu, prosimy o kontakt, podając w wiadomości rozmiar, serię oraz wybrany dekor.',
-    'formContactSecond' => 'Skontaktujemy się z Tobą tak szybko jak będzie to możliwe.',
+    'ProductionForClient' => 'نحن نقوم بتصنيع المنتج حسب الطلب وتخصيصه بالحجم الذي تختاره.',
+    'colorAvailable' => 'الألوان المتاحة وأشكال الهيكل موضحة في الوصف',
+    'contact' => 'هل لديك أسئلة؟ تواصل معنا.',
+    'getPriceProduct' => 'احصل على عرض سعر',
+    'descriptionAdditional' => 'وصف المنتج',
+    'decorTitle' => 'أمثلة الزخارف',
+    'availableForm' => 'عرض التصاميم الكاملة',
+    'downloadMaterial' => '<a class="text-white" href="/files/technicalSpecification/stoneLine_english.pdf" target="_blank">[تحميل]</a> المعلومات التقنية',
+    'formContactFirst' => 'من أجل طلب منتج أو الحصول على عرض سعر، يرجى التواصل معنا مع تحديد الحجم والسلسلة والزخرفة التي تختارها.',
+    'formContactSecond' => 'سنتواصل معك في أقرب وقت ممكن.',
 ];

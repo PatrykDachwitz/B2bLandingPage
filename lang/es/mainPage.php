@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'cm' => "cm",
   'ourProducts' => "Entdecken Sie uns unsere Produkte",
   'cooperation' => "¿Cómo funcionamos?",
   'sliderContent' => 'Estimados clientes, gracias por su interés en nuestra gama de muebles y espejos de lujo.',

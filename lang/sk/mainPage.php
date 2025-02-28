@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'cm' => "cm",
     'ourProducts' => "Objavte naše produkty",
     'cooperation' => "Ako fungujeme?",
     'sliderContent' => 'Vážení zákazníci, ďakujeme vám za váš záujem o náš sortiment nábytku a luxusných zrkadiel.',
