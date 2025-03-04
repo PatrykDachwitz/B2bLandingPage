@@ -34,4 +34,5 @@ return [
     'downloadMaterial' => 'Technische Informationen <a class="text-white" href="/files/technicalSpecification/colorLine.pdf" target="_blank">[Herunterladen]</a>',
     'formContactFirst' => 'Um ein Produkt zu bestellen oder ein Angebot zu erhalten, kontaktieren Sie uns bitte unter Angabe der Größe, der Serie und des gewählten Dekors',
     'formContactSecond' => 'Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen',
+
 ];
