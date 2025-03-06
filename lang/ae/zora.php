@@ -9,21 +9,21 @@ return [
             'title' => "الخزانة",
             'titleSecond' => "",
             'option' => [
-                '120x50x68,2',
+                '68,2x50x120',
             ]
         ],
         [
             'title' => "المرآة",
             'titleSecond' => "",
             'option' => [
-                '124x114',
+                '114x124',
             ]
         ],
         [
             'title' => "خزانة الإكسسوارات",
             'titleSecond' => "",
             'option' => [
-                '40x108,4x35',
+                '35x108,4x40',
             ]
         ]
     ],

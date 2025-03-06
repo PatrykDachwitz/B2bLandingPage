@@ -9,7 +9,7 @@ return [
             'title' => "الخزانة",
             'titleSecond' => "",
             'option' => [
-                '140x50x50',
+                '50x50x140',
             ]
         ],
         [
@@ -23,7 +23,7 @@ return [
             'title' => "خزانة الملحقات",
             'titleSecond' => "",
             'option' => [
-                '40x160x41,8',
+                '41,8x160x40',
             ]
         ]
     ],
