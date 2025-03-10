@@ -8,6 +8,7 @@
                 <li><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#collaborationPath">@lang('footer.collaborationPath')</a></li>
                 <li><a class="footer__title footer__title--second" href="{{ route('mainPage') }}#products">@lang('footer.products')</a></li>
                 <li><a class="footer__title footer__title--second" href="@if(\Illuminate\Support\Facades\Route::currentRouteName() !== "product"){{ route("mainPage") }}#contactForm @else #contactForm @endif">@lang('footer.formContact')</a></li>
+                <li><a class="footer__title footer__title--second pointer" onclick="hiddenElement('manageCookie')">@lang('cookie.private')</a></li>
             </ul>
 
             <div class="d-flex flex-column justify-content-start me-5 me-lg-0 align-items-end text-white">

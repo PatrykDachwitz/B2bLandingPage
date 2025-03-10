@@ -1,0 +1,54 @@
+.manageCookie {
+    position: fixed;
+    min-height: 100vh;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #5f5f5f85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__container {
+        max-width: 95%;
+        min-height: 95vh;
+        max-height: 95vh;
+        @media (min-width: 991px) {
+            max-width: 40%;
+            min-height: 65vh;
+            max-height: 65vh;
+        }
+        overflow-y: hidden;
+    }
+
+    &__switch {
+        background-color: $gray-light !important;
+        box-shadow: none !important;
+        width: 2.6em !important;
+        height: 1.5em !important;
+
+        &:focus {
+            box-shadow: none !important;
+            border-color: transparent !important;
+            outline: none !important;
+        }
+        &:checked {
+            border: $gray-footer-text;
+            background-color: $gold !important;
+        }
+    }
+
+    &__arrow {
+        &--down {
+            transform: rotate(90deg);
+        }
+
+        &--up {
+            transform: rotate(270deg);
+        }
+    }
+
+
+
+}

@@ -7,6 +7,11 @@ import {Gallery} from "@/utils/gallery.js";
 import {Menu} from "@/utils/menu.js";
 import {ContactForm} from "@/utils/contactForm.js";
 import {activateCookie, createCookie} from "@/utils/createCookie.js";
+import {showDescription} from "@/utils/showDescription.js";
+import {hiddenElement} from "@/utils/hiddenElement.js";
+import {acceptAllCookie, updateCookieConsentSettings} from "@/utils/updateCookieConsent.js";
+import {setSelectCookiePreference} from "@/utils/setSelectCookiePreference.js";
+
 
 checkNeedActivateMenu();
 
@@ -15,6 +20,10 @@ window.addEventListener('scroll', checkNeedActivateMenu)
 
 
 window.addEventListener('load', e => {
+    window.showDescription = showDescription;
+    window.hiddenElement = hiddenElement;
+    setSelectCookiePreference();
+    window.updateCookieConsentSettings = updateCookieConsentSettings;
     const inputsRule = document.querySelectorAll('[data-rule-span]');
 
     inputsRule.forEach(input => {
@@ -29,6 +38,7 @@ window.addEventListener('load', e => {
     if (document.querySelector('[data-cooke-button]') !== null) {
         activateCookie();
         document.querySelector('[data-cooke-button]').addEventListener('click', () => {
+            acceptAllCookie();
             createCookie();
         })
     }

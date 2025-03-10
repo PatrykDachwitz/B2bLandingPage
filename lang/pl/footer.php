@@ -16,4 +16,5 @@ return [
     'findInGoogle' => "Znajdź nas w Google",
     'copyWriting' => "© 2024, Artforma | All rights reserved.",
     'message' => "Aktualności",
+    'manageCookie' => "Zarządzaj plikami cookies",
 ];

@@ -13,6 +13,7 @@ return [
     |
     */
 
+    'gtmId' => env('GTM_ID', ""),
     'name' => env('APP_NAME', 'Laravel'),
 
     /*
