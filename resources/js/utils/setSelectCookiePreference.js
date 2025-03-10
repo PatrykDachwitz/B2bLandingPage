@@ -5,10 +5,22 @@ export function setSelectCookiePreference() {
         setCheckedByName('marketingCookie', userConsent.marketingCookie)
         setCheckedByName('preferenceCookie', userConsent.preferenceCookie)
         setCheckedByName('statisticCookie', userConsent.statisticCookie)
+
+        updateConsentCookie(userConsent);
     }
 
 }
 
+function updateConsentCookie(consentCookie) {
+    gtag('consent', 'update', {
+        'analytics_storage': consentCookie.statisticCookie,
+        'ad_storage': consentCookie.marketingCookie,
+        'ad_user_data': consentCookie.marketingCookie,
+        'ad_personalization': consentCookie.marketingCookie,
+        'functionality_storage': consentCookie.preferenceCookie,
+        'personalization_storage': consentCookie.preferenceCookie,
+    });
+}
 function setCheckedByName(name, value) {
     if (value === "granted") {
         document.querySelector(`[name="${name}"]`).checked = true;

@@ -39,6 +39,7 @@ window.addEventListener('load', e => {
         activateCookie();
         document.querySelector('[data-cooke-button]').addEventListener('click', () => {
             acceptAllCookie();
+            setSelectCookiePreference();
             createCookie();
         })
     }
