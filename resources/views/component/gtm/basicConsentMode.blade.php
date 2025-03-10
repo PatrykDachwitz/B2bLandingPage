@@ -9,10 +9,12 @@
 
     if (consentUser === 'true') {
         gtag('consent', 'update', {
-            'analytics_storage': userMarketingCookie,
-            'ad_storage': userPreferenceCookie,
-            'ad_user_data': userStatisticCookie,
-            'ad_personalization': userPreferenceCookie
+            'analytics_storage': userStatisticCookie,
+            'ad_storage': userMarketingCookie,
+            'ad_user_data': userMarketingCookie,
+            'ad_personalization': userMarketingCookie,
+            'functionality_storage': userPreferenceCookie,
+            'personalization_storage': userPreferenceCookie,
         });
     } else {
         gtag('consent', 'default', {
@@ -20,6 +22,9 @@
             ad_storage: "denied",
             ad_user_data: "denied",
             analytics_storage: "denied",
+            functionality_storage: "denied",
+            personalization_storage: "denied",
+            security_storage: "granted",
             wait_for_update: 2500
         });
     }

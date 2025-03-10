@@ -3,10 +3,12 @@ import {createCookie} from "@/utils/createCookie.js";
 export function updateCookieConsentSettings() {
     const consentCookie = getConsents();
     gtag('consent', 'update', {
-        'analytics_storage': consentCookie.marketingCookie,
-        'ad_storage': consentCookie.preferenceCookie,
-        'ad_user_data': consentCookie.statisticCookie,
-        'ad_personalization': consentCookie.preferenceCookie
+        'analytics_storage': consentCookie.statisticCookie,
+        'ad_storage': consentCookie.marketingCookie,
+        'ad_user_data': consentCookie.marketingCookie,
+        'ad_personalization': consentCookie.marketingCookie,
+        'functionality_storage': consentCookie.preferenceCookie,
+        'personalization_storage': consentCookie.preferenceCookie,
     });
 
     setConsentInLocal(consentCookie);
@@ -17,10 +19,12 @@ export function updateCookieConsentSettings() {
 export function acceptAllCookie() {
     const consentCookie = getConsentsAllAccept();
     gtag('consent', 'update', {
-        'analytics_storage': consentCookie.marketingCookie,
-        'ad_storage': consentCookie.preferenceCookie,
-        'ad_user_data': consentCookie.statisticCookie,
-        'ad_personalization': consentCookie.preferenceCookie
+        'analytics_storage': consentCookie.statisticCookie,
+        'ad_storage': consentCookie.marketingCookie,
+        'ad_user_data': consentCookie.marketingCookie,
+        'ad_personalization': consentCookie.marketingCookie,
+        'functionality_storage': consentCookie.preferenceCookie,
+        'personalization_storage': consentCookie.preferenceCookie,
     });
 
     setConsentInLocal(consentCookie);
