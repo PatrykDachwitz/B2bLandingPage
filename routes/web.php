@@ -26,6 +26,10 @@ Route::group([
         switch ($product) {
             case "colorLine":
                 return view("{$prefix}colorLine");
+                break;
+            case "smartmirror":
+                return view("{$prefix}smartmirror");
+                break;
             case "nolan":
             case "losano":
                 return view("{$prefix}nolan");

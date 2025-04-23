@@ -16,7 +16,8 @@ class ProductController extends Controller
         'steindekor',
         'stoneLine',
         'zora',
-        'losano'
+        'losano',
+        'smartmirror',
     ];
 
     private $primarySettings = [
@@ -64,6 +65,12 @@ class ProductController extends Controller
         ],
         'zora' => [
             'product' => 'zora',
+            'countDecor' => 20,
+            'gallery' => 5,
+            'idDecor' => ''
+        ],
+        'smartmirror' => [
+            'product' => 'smartmirror',
             'countDecor' => 20,
             'gallery' => 5,
             'idDecor' => ''

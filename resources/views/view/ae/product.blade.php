@@ -98,13 +98,15 @@
                     <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
                 </picture>
             </li>
-            <li>
-                <span class="text-white">{!! __($product . ".downloadMaterial") !!}</span>
-                <picture>
-                    <source srcset="/files/icons/check.webp" type="image/webp">
-                    <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
-                </picture>
-            </li>
+            @if(!empty(__($product . ".downloadMaterial")))
+                <li>
+                    <span class="text-white">{!! __($product . ".downloadMaterial") !!}</span>
+                    <picture>
+                        <source srcset="/files/icons/check.webp" type="image/webp">
+                        <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
+                    </picture>
+                </li>
+            @endif
         </ul>
         <div><a href="#contactForm" class="btn btn-gold fs-6">{{ __($product . ".getPriceProduct") }}</a></div>
         <div>
@@ -188,6 +190,16 @@
     @endif
 
     @if($product === "stoneLine")
+        @include('component.product.ae.carousel', [
+          'title' => __($product . ".availableForm"),
+          'countDecor' => 7,
+          'product' => $product,
+          'directory' => 'forms',
+          "catalog" => false,
+          'langVersion' => 'ae'
+        ])
+    @endif
+    @if($product === "smartmirror")
         @include('component.product.ae.carousel', [
           'title' => __($product . ".availableForm"),
           'countDecor' => 7,
