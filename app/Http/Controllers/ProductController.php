@@ -35,7 +35,7 @@ class ProductController extends Controller
         'nolan' => [
             'product' => 'nolan',
             'countDecor' => 20,
-            'gallery' => 7,
+            'gallery' => 8,
             'idDecor' => ''
         ],
         'solidLine' => [
@@ -65,7 +65,7 @@ class ProductController extends Controller
         'zora' => [
             'product' => 'zora',
             'countDecor' => 20,
-            'gallery' => 5,
+            'gallery' => 6,
             'idDecor' => ''
         ],
     ];

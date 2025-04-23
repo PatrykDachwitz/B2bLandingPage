@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 return [
   'availableLanguage' => [
-      'de',
-      'pl',
+      'de',/*
+      'pl',*/
       'uk',
       'es',
       'it',
@@ -45,8 +45,8 @@ return [
     'BE' => 'fr',
     'FR' => 'fr',
     'ES' => 'es',
-    'IT' => 'it',
-    'PL' => 'pl',
+    'IT' => 'it',/*
+    'PL' => 'pl',*/
     'NL' => 'nl',
     'NO' => 'no',
     'SE' => 'se',
