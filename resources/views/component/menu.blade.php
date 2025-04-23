@@ -37,6 +37,7 @@
                                 <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerLosano.jpg" href="{{ route('product', ['product' => 'losano']) }}">Losano</a></li>
                                 <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerZora.jpg" href="{{ route('product', ['product' => 'zora']) }}">Zora</a></li>
                                 <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerSteindekor.jpg" href="{{ route('product', ['product' => 'steindekor']) }}">@lang('mainPage.steindekor')</a></li>
+                                <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerSmartmirror.jpg" href="{{ route('product', ['product' => 'smartmirror']) }}">@lang('smartmirror.menu')</a></li>
                             </ul>
                         </div>
                     </div>

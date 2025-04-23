@@ -96,12 +96,14 @@
                     <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
                 </picture> {!! __($product . ".colorAvailable") !!}
             </li>
-            <li>
-                <picture>
-                    <source srcset="/files/icons/check.webp" type="image/webp">
-                    <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
-                </picture> <span class="text-white">{!! __($product . ".downloadMaterial") !!}</span>
-            </li>
+            @if(!empty(__($product . ".downloadMaterial")))
+                <li>
+                    <picture>
+                        <source srcset="/files/icons/check.webp" type="image/webp">
+                        <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
+                    </picture> <span class="text-white">{!! __($product . ".downloadMaterial") !!}</span>
+                </li>
+            @endif
         </ul>
         <div><a href="#contactForm" class="btn btn-gold fs-6">{{ __($product . ".getPriceProduct") }}</a></div>
         <div>
@@ -188,6 +190,16 @@
           'product' => $product,
           'directory' => 'forms',
           "catalog" => false
+        ])
+    @endif
+
+    @if($product === "smartmirror")
+        @include('component.product.carousel', [
+          'title' => __($product . ".availableForm"),
+          'countDecor' => 7,
+          'product' => $product,
+          'directory' => 'forms',
+          "catalog" => false,
         ])
     @endif
 
