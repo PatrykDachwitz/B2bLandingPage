@@ -71,8 +71,8 @@ class ProductController extends Controller
         ],
         'smartmirror' => [
             'product' => 'smartmirror',
-            'countDecor' => 20,
-            'gallery' => 5,
+            'countDecor' => 15,
+            'gallery' => 3,
             'idDecor' => ''
         ],
     ];

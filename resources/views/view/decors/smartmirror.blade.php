@@ -64,8 +64,8 @@
                 <div class='col-6 col-md-4 col-lg-2 d-f f-c ai-s jc-c mb-2 mb-md-4 pointer' data-galery>
                     <div class='min-width-100'>
                         <picture>
-                            <source srcset='/files/Leaflet/colors/stone/{{ $color }}.webp' type='image/webp'>
-                            <img src='/files/Leaflet/colors/stone/{{ $color }}.jpg' alt='{{ __("smartmirror.color.{$color}") }}' class='min-width-100' loading='lazy'>
+                            <source srcset='/files/Leaflet/colors/smartmirror/{{ $color }}.webp' type='image/webp'>
+                            <img src='/files/Leaflet/colors/smartmirror/{{ $color }}.jpg' alt='{{ __("smartmirror.color.{$color}") }}' class='min-width-100 shadow' loading='lazy'>
                         </picture>
                     </div>
                     <div class='d-f f-c mt-1'><strong class="h3">{{ __("smartmirror.color.{$color}") }}</strong></div>
