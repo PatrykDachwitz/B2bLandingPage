@@ -3,6 +3,7 @@
 use App\Facades\LanguageReadingPageFacade;
 use App\Http\Controllers\ChangeLanguageController;
 use App\Http\Controllers\FormContactController;
+use App\Http\Controllers\MainPageController;
 use App\Http\Controllers\ProductController;
 use App\Http\Middleware\updateLocale;
 use Illuminate\Support\Facades\Route;
@@ -11,12 +12,7 @@ use Illuminate\Support\Facades\Route;
 Route::group([
     'middleware' => updateLocale::class
 ], function () {
-    Route::get('', function () {
-        if (LanguageReadingPageFacade::isRightPageReading()) {
-            return view('view.ae.mainPage');
-        }
-        return view('view.mainPage');
-    })->name('mainPage');
+    Route::get('', MainPageController::class)->name('mainPage');
     Route::get('/decor/{product}', function (string $product) {
         $prefix = 'view.decors.';
         if (LanguageReadingPageFacade::isRightPageReading()) {

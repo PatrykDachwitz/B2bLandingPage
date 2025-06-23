@@ -1,8 +1,12 @@
 <?php
-
+declare(strict_types=1);
 namespace App\Providers;
 
 use App\Facades\LanguageReadingPageFacade;
+use App\Repository\CategoryBannerInterface;
+use App\Repository\Eloquent\CategoryBanner;
+use App\Repository\Eloquent\Product;
+use App\Repository\ProductInterface;
 use App\Services\Geolocation;
 use App\Services\GeolocationIpApi;
 use App\Services\LanguageReadingPage;
@@ -24,6 +28,15 @@ class AppServiceProvider extends ServiceProvider
         $this->app->singleton(Geolocation::class, GeolocationIpApi::class);
 
         $this->app->singleton(LanguageReadingPageFacade::class, LanguageReadingPage::class);
+
+        $this->app->singleton(
+            CategoryBannerInterface::class,
+            CategoryBanner::class
+        );
+        $this->app->singleton(
+            ProductInterface::class,
+            Product::class
+        );
     }
 
     /**
@@ -31,5 +44,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+
+
     }
 }

@@ -3,7 +3,7 @@
 return [
     'menu' => "SMART Mirrors",
     'title' => 'SMART Mirrors',
-    'description' => '"The mirror with an advanced SmartPanel by Samsung feature allows you to manage all applications available in the Play Store. A high-quality speaker is integrated into the mirror. Listen to music, watch movies and news—all directly from the mirror. Control the device using a convenient pointer located on the side of the mirror, perfectly blending into its design, all on a high-resolution display.',
+    'description' => 'The mirror with an advanced SmartPanel by Samsung feature allows you to manage all applications available in the Play Store. A high-quality speaker is integrated into the mirror. Listen to music, watch movies and news—all directly from the mirror. Control the device using a convenient pointer located on the side of the mirror, perfectly blending into its design, all on a high-resolution display.',
     'standardSize' => "Standard sizes",
     'sizes' => [
         [

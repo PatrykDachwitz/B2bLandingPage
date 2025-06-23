@@ -10,9 +10,9 @@
         <div class="gallery flex-column-reverse flex-lg-row-reverse justify-content-lg-end d-flex">
             <div class="d-flex gallery__container--miniImage overflow-hidden flex-lg-column mx-lg-3 mt-2 mt-lg-0">
                 <div class="gallery__miniContainer--main flex-lg-column d-flex position-relative">
-                    @for($i = 1; $i <= $gallery; $i++)
+                    @for($i = 1; $i <= $product->gallery; $i++)
                         <div class="mb-lg-2 me-2 me-lg-0 d-lg-none gallery__mainContainer--image" data-gallery-small="{{ $i }}">
-                            <img src="/files/gallery/{{ $product }}/{{ $i }}.jpg" width="80">
+                            <img src="/files/gallery/{{ $product->work_name }}/{{ $i }}.jpg" width="80">
                         </div>
                     @endfor
                 </div>
@@ -34,11 +34,11 @@
                 <div id="carouselExample" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-galler-index="1">
-                            <img src="/files/gallery/{{ $product }}/1.jpg" class="d-block w-100" alt="...">
+                            <img src="/files/gallery/{{ $product->work_name }}/1.jpg" class="d-block w-100" alt="...">
                         </div>
-                        @for($i = 2; $i <= $gallery; $i++)
+                        @for($i = 2; $i <= $product->gallery; $i++)
                             <div class="carousel-item" data-galler-index="{{ $i }}">
-                                <img src="/files/gallery/{{ $product }}/{{ $i }}.jpg" class="d-block w-100" alt="...">
+                                <img src="/files/gallery/{{ $product->work_name }}/{{ $i }}.jpg" class="d-block w-100" alt="...">
                             </div>
                         @endfor
                     </div>
@@ -55,22 +55,22 @@
         </div>
     </div>
     <div class="col-12 col-lg-5 d-flex flex-column align-items-end text-end text-white">
-        <h1 class="fs-2 m-0 py-3 py-lg-0">{{ __($product . ".title") }}</h1>
-        <p class="fs-6 text-gray-footer">{{ __($product . ".description") }}</p>
+        <h1 class="fs-2 m-0 py-3 py-lg-0">{{ __($product->work_name . ".title") }}</h1>
+        <p class="fs-6 text-gray-footer">{{ __($product->work_name . ".description") }}</p>
 
-        @if(__($product . ".titleSecond") !== $product . ".titleSecond")
-            <h1 class="fs-2 m-0 py-3 py-lg-0">{{ __($product . ".titleSecond") }}</h1>
+        @if(__($product->work_name . ".titleSecond") !== $product->work_name . ".titleSecond")
+            <h1 class="fs-2 m-0 py-3 py-lg-0">{{ __($product->work_name . ".titleSecond") }}</h1>
         @endif
 
-        @if(__($product . ".descriptionSecond") !== $product . ".descriptionSecond")
-            <p class="fs-6 text-gray-footer">{{ __($product . ".descriptionSecond") }}</p>
+        @if(__($product->work_name . ".descriptionSecond") !== $product->work_name . ".descriptionSecond")
+            <p class="fs-6 text-gray-footer">{{ __($product->work_name . ".descriptionSecond") }}</p>
         @endif
 
-        @if(is_array(__($product . ".sizes")))
-        <h2 class="fs-5">{{ __($product . ".standardSize") }} <span class="text-gray-footer">[@lang('mainPage.cm')]</span></h2>
-        <div class="d-flex @if(count(__($product . ".sizes") ?? []) > 2) flex-column flex-lg-row @endif">
-                @foreach(__($product . ".sizes") ?? [] as $size)
-                    <div class="@if($loop->index > 0 & count(__($product . ".sizes") ?? []) <= 2) ms-4 @elseif($loop->index > 0) ms-lg-4 @endif">
+        @if(is_array(__($product->work_name . ".sizes")))
+        <h2 class="fs-5">{{ __($product->work_name . ".standardSize") }} <span class="text-gray-footer">[@lang('mainPage.cm')]</span></h2>
+        <div class="d-flex @if(count(__($product->work_name . ".sizes") ?? []) > 2) flex-column flex-lg-row @endif">
+                @foreach(__($product->work_name . ".sizes") ?? [] as $size)
+                    <div class="@if($loop->index > 0 & count(__($product->work_name . ".sizes") ?? []) <= 2) ms-4 @elseif($loop->index > 0) ms-lg-4 @endif">
                         <div class="d-flex">
                             <h3 class="fs-6">{{ $size['title'] }} <span class="text-gray-footer">{{ $size['titleSecond'] }}</span></h3>
                         </div>
@@ -85,22 +85,22 @@
         @endif
         <ul class="list-unstyled fs-6">
             <li>
-                {!! __($product . ".ProductionForClient") !!}
+                {!! __($product->work_name . ".ProductionForClient") !!}
                 <picture>
                     <source srcset="/files/icons/check.webp" type="image/webp">
                     <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
                 </picture>
             </li>
             <li>
-                {!! __($product . ".colorAvailable") !!}
+                {!! __($product->work_name . ".colorAvailable") !!}
                 <picture>
                     <source srcset="/files/icons/check.webp" type="image/webp">
                     <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
                 </picture>
             </li>
-            @if(!empty(__($product . ".downloadMaterial")))
+            @if(!empty(__($product->work_name . ".downloadMaterial")))
                 <li>
-                    <span class="text-white">{!! __($product . ".downloadMaterial") !!}</span>
+                    <span class="text-white">{!! __($product->work_name . ".downloadMaterial") !!}</span>
                     <picture>
                         <source srcset="/files/icons/check.webp" type="image/webp">
                         <img src="/files/icons/check.png" alt="arrow" loading="lazy" height="20" width="20">
@@ -108,9 +108,9 @@
                 </li>
             @endif
         </ul>
-        <div><a href="#contactForm" class="btn btn-gold fs-6">{{ __($product . ".getPriceProduct") }}</a></div>
+        <div><a href="#contactForm" class="btn btn-gold fs-6">{{ __($product->work_name . ".getPriceProduct") }}</a></div>
         <div>
-            <h3 class="fs-5 mt-3"><i>{{ __($product . ".contact") }}</i></h3>
+            <h3 class="fs-5 mt-3"><i>{{ __($product->work_name . ".contact") }}</i></h3>
             <ul class="d-flex flex-column flex-xl-row justify-content-start list-unstyled">
                 <li>
                     <a href="{{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".whatsApp") }}" class="text-decoration-none text-white fs-6">
@@ -146,7 +146,7 @@
 
 <section class="container-1920 overflow-hidden d-flex flex-column mt-2">
     <div class="border-bottom fw-bold d-flex justify-content-end">
-        <button class="btn btn-gold px-5 fs-6">{{ __($product . ".descriptionAdditional") }}</button>
+        <button class="btn btn-gold px-5 fs-6">{{ __($product->work_name . ".descriptionAdditional") }}</button>
     </div>
 
     <div class="artforma-lithebox ai-c jc-c d-none">
@@ -163,7 +163,7 @@
                 </div>
             </div>
             <div class="artforma-lithebox-content__image d-f ai-c jc-c" data-current-position>
-                <img class="" loading='lazy' width="150" style="min-height: 400pxh">
+                <img class="" loading='lazy' width="150">
             </div>
         </div>
         <div class="artforma-lithebox__btn artforma-lithebox__btn-left d-f ai-c" onclick="changeImageInGallery(1)">
@@ -171,44 +171,19 @@
         </div>
     </div>
 
-    @include('component.product.ae.carousel', [
-        'title' => __($product . ".decorTitle"),
-        'countDecor' => $countDecor,
-        'product' => $product,
-        'directory' => 'decor',
-        'idDecor' => $idDecor
-    ])
 
-    @if($product === "steindekor")
-        @include('component.product.ae.carousel', [
-        'title' => __($product . ".decorTitleSecond"),
-        'countDecor' => 20,
-        'product' => $product,
-        'directory' => 'forms',
-        'idDecor' => 'steindekor',
-    ])
-    @endif
+    @foreach($product->carousels ?? [] as $carousel)
 
-    @if($product === "stoneLine")
         @include('component.product.ae.carousel', [
-          'title' => __($product . ".availableForm"),
-          'countDecor' => 7,
-          'product' => $product,
-          'directory' => 'forms',
-          "catalog" => false,
-          'langVersion' => 'ae'
+            'title' => __("{$carousel->product_work_name}.{$carousel->name}"),
+            'countDecor' => $carousel->count_decor,
+            'product' => $carousel->product_work_name,
+            'directory' => $carousel->directory,
+            'idDecor' => $carousel->id_decor,
+            "catalog" => $carousel->available_catalog
         ])
-    @endif
-    @if($product === "smartmirror")
-        @include('component.product.ae.carousel', [
-          'title' => __($product . ".availableForm"),
-          'countDecor' => 7,
-          'product' => $product,
-          'directory' => 'forms',
-          "catalog" => false,
-          'langVersion' => 'ae'
-        ])
-    @endif
+
+    @endforeach
 
     <script>
         const backgroundLithebox = document.querySelector("div.artforma-lithebox");
@@ -276,8 +251,8 @@
 </section>
 
     @include('component.ae.formContact', [
-    'otherDescriptionFirst' => __($product . ".formContactFirst"),
-    'otherDescriptionSecond' => __($product . ".formContactSecond")
+    'otherDescriptionFirst' => __("productContact.formContactFirst"),
+    'otherDescriptionSecond' => __("productContact.formContactSecond")
 ])
 
 
