@@ -3,7 +3,7 @@
 
     <div class="container-1920 row g-3 px-3">
         @foreach($banners as $product)
-            <div class="col-6 @if(count($banners) <= 6) col-lg-4 @else col-lg-3 @endif smallBanners">
+            <article class="col-6 @if(count($banners) <= 6) col-lg-4 @else col-lg-3 @endif smallBanners">
                 <a class="text-decoration-none" href="{{ $product->url }}">
                     <div>
                         <picture>
@@ -16,7 +16,7 @@
                         <span class="smallBanners__link fs-5" >@lang('mainPage.viewMore')</span>
                     </div>
                 </a>
-            </div>
+            </article>
         @endforeach
     </div>
 </section>

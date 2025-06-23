@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'cm' => "cm",
+  'cm' => "cm",
   'ourProducts' => "Entdecken Sie uns unsere Produkte",
   'cooperation' => "How do we operate?",
   'sliderContent' => 'Dear customers, thank you for your interest in our range of furniture<br />and luxury mirrors.',

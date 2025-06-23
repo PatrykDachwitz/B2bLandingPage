@@ -4,13 +4,15 @@ namespace App\Http\Controllers;
 
 use App\Facades\LanguageReadingPageFacade;
 use App\Repository\CategoryBannerInterface;
+use App\Repository\Eloquent\Menu;
 use Illuminate\Http\Request;
 
 class MainPageController extends Controller
 {
 
     public function __construct(
-        private CategoryBannerInterface $categoryBanner
+        private CategoryBannerInterface $categoryBanner,
+        private Menu $menu
     )
     {
     }
@@ -25,7 +27,8 @@ class MainPageController extends Controller
             return view('view.ae.mainPage');
         }
         return view('view.mainPage', [
-            "categoriesBanner" => $this->categoryBanner->getActive()
+            "categoriesBanner" => $this->categoryBanner->getActive(),
+            "menus" => $this->menu->get()
         ]);
     }
 }

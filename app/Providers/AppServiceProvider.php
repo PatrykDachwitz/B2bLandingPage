@@ -5,7 +5,9 @@ namespace App\Providers;
 use App\Facades\LanguageReadingPageFacade;
 use App\Repository\CategoryBannerInterface;
 use App\Repository\Eloquent\CategoryBanner;
+use App\Repository\Eloquent\Menu;
 use App\Repository\Eloquent\Product;
+use App\Repository\MenuInterface;
 use App\Repository\ProductInterface;
 use App\Services\Geolocation;
 use App\Services\GeolocationIpApi;
@@ -36,6 +38,10 @@ class AppServiceProvider extends ServiceProvider
         $this->app->singleton(
             ProductInterface::class,
             Product::class
+        );
+        $this->app->singleton(
+            MenuInterface::class,
+            Menu::class
         );
     }
 
