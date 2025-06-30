@@ -10,14 +10,14 @@ return [
             'title' => "Width",
             'titleSecond' => "",
             'option' => [
-                '70x135',
+                '70-135',
             ]
         ],
         [
             'title' => "Height",
             'titleSecond' => "",
             'option' => [
-                '70x95',
+                '70-95',
             ]
         ]
     ],

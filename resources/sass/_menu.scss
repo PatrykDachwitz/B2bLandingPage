@@ -1,5 +1,5 @@
 .menu {
-    z-index: 3;
+    z-index: 4;
     &__icon {
         filter: invert(1);
     }
@@ -46,9 +46,9 @@
         z-index: 10;
         left: 0;
         background-color: $gray-main;
-        display: none !important;
         top: $height-menu;
         @media (min-width: 992px) {
+            display: none !important;
             position: absolute;
             border-top: 1px solid $gray-text;
             border-bottom: 1px solid $gray-text;
@@ -102,6 +102,9 @@
         }
     }
     &__container--option {
+
+        max-height: 80vh;
+        overflow-y: auto;
         @media (min-width: 992px) {
             min-height: $height-menu;
         }

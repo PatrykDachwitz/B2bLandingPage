@@ -5,20 +5,14 @@ return [
     'title' => 'Smart irregular LED mirror',
     'description' => 'The smart irregular LED mirror combines modern technology with a designer look. Built-in LED lighting provides perfect illumination, and smart features make daily care easier and enhance user comfort.',
     'standardSize' => "Standard sizes",
-   //TODO do ogarnięcia jeszcze rozmiary
     'sizes' => [
         [
-            'title' => "Width",
+            'title' => "Width x Height",
             'titleSecond' => "",
             'option' => [
-                '50-200',
-            ]
-        ],
-        [
-            'title' => "Height",
-            'titleSecond' => "",
-            'option' => [
-                '50-200',
+                '114x74',
+                '129x84',
+                '144x94',
             ]
         ]
     ],

@@ -22,21 +22,21 @@ class ArtformaCategoryBannerSeed extends Seeder
 
         $categories[] = [
             "active" => true,
-            "name" => "setFurniture",
+            "name" => "banner.setFurniture",
             "position" => 2,
             "type" => "product"
         ];
 
         $categories[] = [
             "active" => true,
-            "name" => "mirror",
+            "name" => "banner.mirror",
             "position" => 3,
             "type" => "product"
         ];
 
         $categories[] = [
             "active" => true,
-            "name" => "decorativeWall",
+            "name" => "banner.decorativeWall",
             "position" => 4,
             "type" => "product"
         ];

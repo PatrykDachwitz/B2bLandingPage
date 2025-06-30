@@ -137,6 +137,8 @@
     </div>
 </section>
 
+
+
 <section class="container-1920 overflow-hidden d-flex flex-column mt-2">
     <div class="border-bottom fw-bold">
         <button class="btn btn-gold px-5 fs-6">{{ __($product->work_name . ".descriptionAdditional") }}</button>
@@ -241,6 +243,8 @@
 
     </script>
 </section>
+
+@include('component.productZoraTemplate')
 
     @include('component.formContact', [
     'otherDescriptionFirst' => __("productContact.formContactFirst"),

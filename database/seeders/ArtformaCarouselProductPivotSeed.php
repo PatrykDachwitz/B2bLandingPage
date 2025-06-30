@@ -58,6 +58,126 @@ class ArtformaCarouselProductPivotSeed extends Seeder
                 "carousel_id" => 11,
                 "product_id" => 9,
             ],
+            [
+                "carousel_id" => 8,
+                "product_id" => 22,
+            ],
+            [
+                "carousel_id" => 11,
+                "product_id" => 22,
+            ],
+            [
+                "carousel_id" => 8,
+                "product_id" => 23,
+            ],
+            [
+                "carousel_id" => 11,
+                "product_id" => 23,
+            ],//Nowe laminaty i popioły
+            [
+                "carousel_id" => 14,
+                "product_id" => 24,
+            ],
+            [
+                "carousel_id" => 15,
+                "product_id" => 24,
+            ],
+            [
+                "carousel_id" => 16,
+                "product_id" => 10,
+            ],
+            [
+                "carousel_id" => 16,
+                "product_id" => 11,
+            ],
+            [
+                "carousel_id" => 16,
+                "product_id" => 12,
+            ],
+            [
+                "carousel_id" => 16,
+                "product_id" => 13,
+            ],
+            [
+                "carousel_id" => 16,
+                "product_id" => 14,
+            ],
+            [
+                "carousel_id" => 16,
+                "product_id" => 15,
+            ],
+            [
+                "carousel_id" => 17,
+                "product_id" => 16,
+            ],
+            [
+                "carousel_id" => 17,
+                "product_id" => 17,
+            ],
+            [
+                "carousel_id" => 17,
+                "product_id" => 18,
+            ],
+            [
+                "carousel_id" => 17,
+                "product_id" => 19,
+            ],
+            [
+                "carousel_id" => 17,
+                "product_id" => 20,
+            ],
+            [
+                "carousel_id" => 17,
+                "product_id" => 21,
+            ],
+            [
+                "carousel_id" => 12,
+                "product_id" => 10,
+            ],
+            [
+                "carousel_id" => 12,
+                "product_id" => 11,
+            ],
+            [
+                "carousel_id" => 12,
+                "product_id" => 12,
+            ],
+            [
+                "carousel_id" => 12,
+                "product_id" => 13,
+            ],
+            [
+                "carousel_id" => 12,
+                "product_id" => 14,
+            ],
+            [
+                "carousel_id" => 12,
+                "product_id" => 15,
+            ],
+            [
+                "carousel_id" => 13,
+                "product_id" => 16,
+            ],
+            [
+                "carousel_id" => 13,
+                "product_id" => 17,
+            ],
+            [
+                "carousel_id" => 13,
+                "product_id" => 18,
+            ],
+            [
+                "carousel_id" => 13,
+                "product_id" => 19,
+            ],
+            [
+                "carousel_id" => 13,
+                "product_id" => 20,
+            ],
+            [
+                "carousel_id" => 13,
+                "product_id" => 21,
+            ],
         ];
 
 

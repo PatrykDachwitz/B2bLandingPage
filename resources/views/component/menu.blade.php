@@ -21,19 +21,22 @@
                     <a class="nav-link" href="{{ route('mainPage') }}#collaborationPath">@lang('menu.collaborationPath')</a>
                 </li>
                 <li class="nav-item menu__option mx-lg-4 menu__container--submenu">
-                    <a class="nav-link dropdown-toggle menu__additional--activate" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">@lang('menu.ourProducts')</a>
-                    <div class="container-fluid justify-content-start justify-content-lg-end py-lg-4 menu__additional">
+                    <a class="d-none d-lg-flex nav-link dropdown-toggle menu__additional--activate" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">@lang('menu.ourProducts')</a>
+                    <div class="container-fluid justify-content-start justify-content-lg-end p-0 py-lg-4 menu__additional">
                         <div class="d-none d-lg-block">
                             <img src="/files/bannerColorLine.jpg" loading="lazy" class="menu__image-change" height="300">
                         </div><!--TODO Wersja mobile w pełni do poprawy-->
-                        <nav class="mx-lg-5 d-flex">
+                        <nav class="border-0 p-0 mx-lg-5 d-flex flex-column flex-lg-row dropdown-menu position-relative">
                             @foreach($menus ?? [] as $menu)
-                                <ul class="list-unstyled me-lg-5">
-                                    <li><h2 class="d-none d-lg-block fs-4 text-white fw-semibold pb-2">@lang($menu->name)</h2></li>
-                                   @foreach($menu->children ?? [] as $children)
-                                        <li><a class="fs-6 dropdown-item text-gray-footer" data-src="{{ $children->image ?? "" }}.jpg" href="{{ $children->slug ?? "" }}">@lang($children->name)</a></li>
-                                   @endforeach
-                                </ul>
+                                <div class="d-lg-flex flex-lg-column">
+                                    <h2 class="dropdown-item nav-link dropdown-toggle menu__additional--activate fs-lg-4 fw-lg-semibold pb-0 pb-lg-2 d-lg-none" role="button" data-bs-toggle="dropdown" aria-expanded="false">@lang($menu->name)</h2>
+                                    <ul class="dropdown-menu border-0 list-unstyled me-lg-5 d-lg-flex flex-lg-column position-lg-static">
+                                        <li><h2 class="text-white fs-4 fw-semibold pb-2 d-none d-lg-block">@lang($menu->name)</h2></li>
+                                        @foreach($menu->children ?? [] as $children)
+                                            <li><a class="fs-6 dropdown-item text-gray-footer px-lg-0" data-src="{{ $children->image ?? "" }}.jpg" href="{{ $children->slug ?? "" }}">@lang($children->name)</a></li>
+                                        @endforeach
+                                    </ul>
+                                </div>
                             @endforeach
                         </nav>
                     </div>

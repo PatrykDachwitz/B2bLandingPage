@@ -10,7 +10,7 @@ return [
             'title' => "Width",
             'titleSecond' => "",
             'option' => [
-                '70x140',
+                '70-140',
             ]
         ],
         [

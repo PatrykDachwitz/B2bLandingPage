@@ -52,7 +52,7 @@ class ArtformaSetFurnitureSeed extends Seeder
         $banners[] = [
             "category_banner_id" => 2,
             "url" => route('product', ['product' => 'losano']),
-            "name" => "mainPage.losano",
+            "name" => "losano.title",
             "image" => "/files/bannerLosano",
             "image_alt" => "losano image",
             "active" => true,
@@ -61,7 +61,7 @@ class ArtformaSetFurnitureSeed extends Seeder
         $banners[] = [
             "category_banner_id" => 2,
             "url" => route('product', ['product' => 'zora']),
-            "name" => "mainPage.zora",
+            "name" => "zora.title",
             "image" => "/files/bannerZora",
             "image_alt" => "zora image",
             "active" => true,

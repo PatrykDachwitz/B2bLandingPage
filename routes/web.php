@@ -40,6 +40,12 @@ Route::group([
             case "zora":
                 return view("{$prefix}stoneLine");
                 break;
+            case "homapal":
+                return view("{$prefix}homapal");
+                break;
+            case "laminat":
+                return view("{$prefix}laminat");
+                break;
         }
     })->name('decors');
 

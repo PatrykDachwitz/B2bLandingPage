@@ -3,7 +3,8 @@
 
 @section('content')
 
-    <section class="container-fluid d-flex flex-column-reverse flex-md-row justify-content-between p-0 px-md-3">
+    @include("view.banner.slider")
+    {{--<section class="container-fluid d-flex flex-column-reverse flex-md-row justify-content-between p-0 px-md-3">
 
         <div class="slider__container d-flex flex-column justify-content-center align-items-center">
             <h1 class="fs-4 text-white text-center mx-5 mt-3 mt-md-0 fw-normal">@lang('mainPage.sliderContent')</h1>
@@ -22,7 +23,7 @@
             </picture>
         </div>
 
-    </section>
+    </section>--}}
 
     @foreach($categoriesBanner as $categoryBanner)
         @include("view.banner.{$categoryBanner->type}", [

@@ -76,6 +76,48 @@ class ArtformaCarouselSeed extends Seeder
                 'directory' => 'forms',
                 'available_catalog' => false,
             ],
+            [
+                "name" => "availableForm",
+                "count_decor" => 7,
+                "product_work_name" => "homapal",
+                'directory' => 'forms',
+                'available_catalog' => false,
+            ],
+            [
+                "name" => "availableForm",
+                "count_decor" => 7,
+                "product_work_name" => "laminat",
+                'directory' => 'forms',
+                'available_catalog' => false,
+            ],
+            [
+                "name" => "availableForm",
+                "count_decor" => 7,
+                "product_work_name" => "popiol",
+                'directory' => 'forms',
+                'available_catalog' => false,
+            ],
+            [
+                "name" => "availableForm",
+                "count_decor" => 6,
+                "product_work_name" => "popiol",
+                'directory' => 'decor',
+                'available_catalog' => false,
+            ],
+            [
+                "name" => "decorTitle",
+                "count_decor" => 20,
+                "product_work_name" => "homapal",
+                'directory' => 'decor',
+                'available_catalog' => true,
+            ],
+            [
+                "name" => "decorTitle",
+                "count_decor" => 20,
+                "product_work_name" => "laminat",
+                'directory' => 'decor',
+                'available_catalog' => true,
+            ],
         ];
 
 

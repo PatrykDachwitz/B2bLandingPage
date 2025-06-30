@@ -1,5 +1,30 @@
 <?php
 
 return [
-
+    'setFurniture' => 'Furniture sets',
+    'mirror' => 'Mirrors',
+    'decorativeWall' => 'Wall decorations',
+    'homapalOkr' => 'Round mirror with stone frame',
+    'homapalRom' => 'Modern irregular mirror with stone frame',
+    'homapalObka' => 'Irregular mirror with stone frame',
+    'homapalPok' => 'Oval mirror with stone frame',
+    'homapalJaj' => 'Mirror with asymmetric stone frame',
+    'homapalZao' => 'Mirror with rounded stone frame',
+    'laminatOkr' => 'Round mirror with metal frame',
+    'laminatRom' => 'Designer mirror with metal frame',
+    'laminatObka' => 'Irregular mirror with metal frame',
+    'laminatPok' => 'Oval mirror with metal frame',
+    'laminatJaj' => 'Asymmetrical mirror in modern metal frame',
+    'laminatZao' => 'Rounded mirror with metal frame',
+    'smartOkr' => 'Smart round LED mirror',
+    'smartNrg' => 'Smart irregular LED mirror',
+    'popiolOkr' => 'LED round mirror with wooden frame',
+    'antiqueEcho' => 'Antique echo',
+    'bloomingWishes' => 'Blooming wishes',
+    'carmineEmbrace' => 'Carmine embrace',
+    'blueMelody' => 'Blue melody',
+    'autumnRusticSchiefer' => 'Autumn rustic schiefer',
+    'copperSchiefer' => 'Copper schiefer',
+    'jerraGreenSchiefer' => 'Jerra green schiefer',
+    'sandySchiefer' => 'Sandy schiefer',
 ];

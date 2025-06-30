@@ -1,5 +1,5 @@
 <section class="container-fluid mt-5 p-md-0 mx-0 overflow-hidden" id="products">
-    <p class="text-center text-white m-0 fs-1 py-5">@lang("banner.{$category->name}")</p>
+    <p class="text-center text-white m-0 fs-1 py-5">@lang($category->name)</p>
 
     <div class="container-1920 row g-3 px-3">
         @foreach($banners as $product)
@@ -12,7 +12,7 @@
                         </picture>
                     </div>
                     <div class="smallBanners__containerLink d-flex flex-column">
-                        <span class="smallBanners__title fs-4">@lang("banner.{$product->name}")</span>
+                        <span class="smallBanners__title fs-4">@lang($product->name)</span>
                         <span class="smallBanners__link fs-5" >@lang('mainPage.viewMore')</span>
                     </div>
                 </a>

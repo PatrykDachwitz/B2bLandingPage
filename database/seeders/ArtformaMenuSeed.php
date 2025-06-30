@@ -13,26 +13,25 @@ class ArtformaMenuSeed extends Seeder
      */
     public function run(): void
     {
-        //TODO dodać plik menu
         $menus = [
           [
               "parent_id" => 0,
               "slug" => "",
-              "name" => "menu.setFurniture",
+              "name" => "banner.setFurniture",
               "image" => "",
               "position" => 1,
           ],
           [
               "parent_id" => 0,
               "slug" => "",
-              "name" => "menu.mirror",
+              "name" => "banner.mirror",
               "image" => "",
               "position" => 2,
           ],
           [
               "parent_id" => 0,
               "slug" => "",
-              "name" => "menu.decorativeWall",
+              "name" => "banner.decorativeWall",
               "image" => "",
               "position" => 3,
           ],
@@ -190,7 +189,63 @@ class ArtformaMenuSeed extends Seeder
               "image" => "/files/banner-led-round-wood-frame-mirror",
               "position" => 16,
           ],
-            //TODO dodać dekory szklane i kamienne
+
+            [
+                "parent_id" => 3,
+                "slug" => route('product', ['product' => 'steindekor']),
+                "name" => "banner.antiqueEcho",
+                "image" => "/files/banner-antique-echo",
+                "position" => 1,
+            ],
+            [
+                "parent_id" => 3,
+                "slug" => route('product', ['product' => 'steindekor']),
+                "name" => "banner.bloomingWishes",
+                "image" => "/files/banner-blooming-wishes",
+                "position" => 2,
+            ],
+            [
+                "parent_id" => 3,
+                "slug" => route('product', ['product' => 'steindekor']),
+                "name" => "banner.carmineEmbrace",
+                "image" => "/files/banner-carmine-embrace",
+                "position" => 3,
+            ],
+            [
+                "parent_id" => 3,
+                "slug" => route('product', ['product' => 'steindekor']),
+                "name" => "banner.blueMelody",
+                "image" => "/files/banner-blue-melody",
+                "position" => 4,
+            ],
+            [
+                "parent_id" => 3,
+                "slug" => route('product', ['product' => 'steindekor']),
+                "name" => "banner.autumnRusticSchiefer",
+                "image" => "/files/banner-autumn-rustic-schiefer",
+                "position" => 5,
+            ],
+            [
+                "parent_id" => 3,
+                "slug" => route('product', ['product' => 'steindekor']),
+                "name" => "banner.copperSchiefer",
+                "image" => "/files/banner-copper-schiefer",
+                "position" => 6,
+            ],
+            [
+                "parent_id" => 3,
+                "slug" => route('product', ['product' => 'steindekor']),
+                "name" => "banner.jerraGreenSchiefer",
+                "image" => "/files/banner-jerra-green-schiefer",
+                "position" => 7,
+            ],
+            [
+                "parent_id" => 3,
+                "slug" => route('product', ['product' => 'steindekor']),
+                "name" => "banner.sandySchiefer",
+                "image" => "/files/banner-sandy-schiefer",
+                "position" => 8,
+            ],
         ];
 
         DB::table("menus")->truncate();
