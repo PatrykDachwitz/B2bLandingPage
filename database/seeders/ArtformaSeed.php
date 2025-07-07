@@ -19,6 +19,8 @@ class ArtformaSeed extends Seeder
            ArtformaCarouselSeed::class,
            ArtformaCarouselProductPivotSeed::class,
            ArtformaMenuSeed::class,
+           ArtformaCategorySeed::class,
+           ArtformaCategoryProductSeed::class,
         ]);
     }
 }

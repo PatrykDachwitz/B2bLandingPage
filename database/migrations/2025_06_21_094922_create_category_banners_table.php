@@ -27,6 +27,9 @@ return new class extends Migration
      */
     public function down(): void
     {
+        if (Schema::hasTable("banners")) {
+            Schema::dropIfExists('banners');
+        }
         Schema::dropIfExists('category_banners');
     }
 };

@@ -3,16 +3,11 @@ import 'swiper/css';
 import {Controller, Navigation, Pagination} from "swiper/modules";
 
 window.addEventListener("load", e => {
-    let swiperText = document.querySelector("div.swiperText");
-    let swiperImage = document.querySelector("div.swiperImage");
+    let slider = document.querySelector("div.swiperImage");
 
-    if (swiperText !== undefined && swiperImage !== undefined) {
-        const swiperText = new Swiper(".swiperText", {
-            modules: [Controller],
-            loop: true,
-            slidesPerView: 1,
-        })
-        const swiperImage = new Swiper(".swiperImage", {
+    if (slider !== undefined) {
+
+        const slider = new Swiper(".swiperImage", {
             modules: [Controller, Navigation],
             loop: true,
             slidesPerView: 1,
@@ -21,9 +16,5 @@ window.addEventListener("load", e => {
                 prevEl: ".slider__control--previous"
             }
         })
-
-
-        swiperImage.controller.control = swiperText;
-        swiperText.controller.control = swiperImage;
     }
 })

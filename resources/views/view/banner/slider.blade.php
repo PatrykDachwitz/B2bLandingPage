@@ -4,8 +4,8 @@
             <li class="swiper-slide d-flex flex-column justify-content-center align-items-center">
                 <h1 class="fs-4 text-white text-center mx-5 mt-3 mt-md-0 fw-normal">@lang('mainPage.sliderContent')</h1>
                 <div class="mt-2 d-flex flex-column flex-md-row align-items-center">
-                    <a class="btn btn-gold me-md-1 slider__button fs-6" href="{{ route('mainPage') }}#products">@lang('mainPage.viewProduct')</a>
-                    <a class="ms-md-2 btn btn-gold-inline slider__button fs-6 mt-2 mt-md-0" href="#contactForm">@lang('mainPage.sendRequest')</a>
+                    <a class="btn btn-gold me-md-1 slider__button fs-5" href="{{ route('mainPage') }}#products">@lang('mainPage.viewProduct')</a>
+                    <a class="ms-md-2 btn btn-gold-inline slider__button fs-5 mt-2 mt-md-0" href="#contactForm">@lang('mainPage.sendRequest')</a>
                 </div>
             </li>
             <li class="swiper-slide d-flex flex-column justify-content-center align-items-center">

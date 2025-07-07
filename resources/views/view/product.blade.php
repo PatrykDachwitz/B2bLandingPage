@@ -244,9 +244,9 @@
     </script>
 </section>
 
-@include('component.productZoraTemplate')
 
-    @include('component.formContact', [
+
+@include('component.formContact', [
     'otherDescriptionFirst' => __("productContact.formContactFirst"),
     'otherDescriptionSecond' => __("productContact.formContactSecond")
 ])

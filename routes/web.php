@@ -1,6 +1,7 @@
 <?php
 
 use App\Facades\LanguageReadingPageFacade;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ChangeLanguageController;
 use App\Http\Controllers\FormContactController;
 use App\Http\Controllers\MainPageController;
@@ -13,6 +14,7 @@ Route::group([
     'middleware' => updateLocale::class
 ], function () {
     Route::get('', MainPageController::class)->name('mainPage');
+    Route::get('mirror/{category}', CategoryController::class)->name('category');
     Route::get('/decor/{product}', function (string $product) {
         $prefix = 'view.decors.';
         if (LanguageReadingPageFacade::isRightPageReading()) {

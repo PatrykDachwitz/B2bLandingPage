@@ -4,6 +4,8 @@ namespace App\Providers;
 
 use App\Facades\LanguageReadingPageFacade;
 use App\Repository\CategoryBannerInterface;
+use App\Repository\CategoryInterface;
+use App\Repository\Eloquent\Category;
 use App\Repository\Eloquent\CategoryBanner;
 use App\Repository\Eloquent\Menu;
 use App\Repository\Eloquent\Product;
@@ -13,6 +15,9 @@ use App\Services\Geolocation;
 use App\Services\GeolocationIpApi;
 use App\Services\LanguageReadingPage;
 use App\Services\PathUrlService;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 use function Clue\StreamFilter\fun;
 
@@ -43,14 +48,23 @@ class AppServiceProvider extends ServiceProvider
             MenuInterface::class,
             Menu::class
         );
+        $this->app->singleton(
+            CategoryInterface::class,
+            Category::class
+        );
     }
 
     /**
      * Bootstrap any application services.
      */
-    public function boot(): void
+    public function boot(
+        Menu $menu
+    ): void
     {
-
+        if (Schema::hasTable("menus")) {
+            $menus = $menu->get();
+            View::share("menus", $menus);
+        }
 
     }
 }

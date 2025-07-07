@@ -25,8 +25,9 @@
                     <div class="container-fluid justify-content-start justify-content-lg-end p-0 py-lg-4 menu__additional">
                         <div class="d-none d-lg-block">
                             <img src="/files/bannerColorLine.jpg" loading="lazy" class="menu__image-change" height="300">
-                        </div><!--TODO Wersja mobile w pełni do poprawy-->
+                        </div>
                         <nav class="border-0 p-0 mx-lg-5 d-flex flex-column flex-lg-row dropdown-menu position-relative">
+
                             @foreach($menus ?? [] as $menu)
                                 <div class="d-lg-flex flex-lg-column">
                                     <h2 class="dropdown-item nav-link dropdown-toggle menu__additional--activate fs-lg-4 fw-lg-semibold pb-0 pb-lg-2 d-lg-none" role="button" data-bs-toggle="dropdown" aria-expanded="false">@lang($menu->name)</h2>
