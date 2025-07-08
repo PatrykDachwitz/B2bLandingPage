@@ -20,9 +20,10 @@ class MainPageController extends Controller
      */
     public function __invoke(Request $request)
     {
-        //TODO dorobić arabską wersję
         if (LanguageReadingPageFacade::isRightPageReading()) {
-            return view('view.ae.mainPage');
+            return view('view.ae.mainPage', [
+                "categoriesBanner" => $this->categoryBanner->getActive()
+            ]);
         }
         return view('view.mainPage', [
             "categoriesBanner" => $this->categoryBanner->getActive()

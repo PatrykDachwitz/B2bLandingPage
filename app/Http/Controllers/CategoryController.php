@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Facades\LanguageReadingPageFacade;
 use App\Repository\Eloquent\Category;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\Request;
@@ -19,8 +20,13 @@ class CategoryController extends Controller
      */
     public function __invoke(Request $request, string $category)
     {
-        //Arabski tutaj ogarnać
         try {
+
+            if (LanguageReadingPageFacade::isRightPageReading()) {
+                return view("view.ae.category", [
+                    "category" => $this->category->findOrFailByPath($category)
+                ]);
+            }
             return view("view.category", [
                 "category" => $this->category->findOrFailByPath($category)
             ]);

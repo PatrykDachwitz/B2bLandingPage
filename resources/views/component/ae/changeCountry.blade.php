@@ -1,4 +1,4 @@
-<li class="nav-item menu__option--flagAe dropdown {{ $class ?? '' }}">
+<li class="nav-item menu__option--flagAe dropdown position-relative {{ $class ?? '' }}">
     <a class="nav-link dropdown-toggle text-white text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         <picture>
             <source srcset="/files/flags/{{ \Illuminate\Support\Facades\App::getLocale() ?? config('language.defaultLanguage') }}.webp" type="image/webp">

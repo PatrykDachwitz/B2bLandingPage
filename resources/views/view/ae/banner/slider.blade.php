@@ -1,4 +1,4 @@
-<section class="container-fluid d-flex flex-column-reverse flex-md-row justify-content-between p-0">
+<section class="container-fluid d-flex flex-column-reverse flex-md-row-reverse justify-content-between p-0">
     <div class="swiperText slider__container">
         <ul class="swiper-wrapper list-unstyled">
             <li class="swiper-slide d-flex flex-column justify-content-center align-items-center">

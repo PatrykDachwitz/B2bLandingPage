@@ -101,6 +101,19 @@
 .dropdown-menu {
     background-color: $gray-main;
 }
+.dropdown-menu.show {
+    z-index: 10000;
+}
+
+@media (min-width: 991px) {
+    .dropdown-menu.show {
+        position: fixed !important;
+        top: 90px;
+        max-height: 300px;
+        overflow-y: auto;
+    }
+}
+
 .dropdown-item {
     background-color: $gray-main;
 }

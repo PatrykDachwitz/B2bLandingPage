@@ -15,45 +15,43 @@
             </button>
         </div>
 
+
+
         <div class="collapse navbar-collapse menu__container--option" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mt-3 mt-lg-0 mb-lg-0 menu__list justify-content-start">
+            <ul class="navbar-nav me-auto mt-3 mt-lg-0 mb-lg-0 menu__list justify-content-end align-items-end align-items-md-center flex-md-row-reverse">
                 <li class="nav-item menu__option">
                     <a class="nav-link" href="{{ route('mainPage') }}#collaborationPath">@lang('menu.collaborationPath')</a>
                 </li>
                 <li class="nav-item menu__option mx-lg-4 menu__container--submenu">
-                    <a class="nav-link dropdown-toggle menu__additional--activate" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">@lang('menu.ourProducts')</a>
-                    <div class="container-fluid justify-content-start py-lg-4 menu__additional">
-                        <div class="mx-lg-5">
-                            <ul class="list-unstyled text-end">
-                                <li><b class="d-none d-lg-block fs-4 text-white fw-semibold pb-2">@lang('menu.collection')</b></li>
-                                <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerColorLine.jpg" href="{{ route('product', ['product' => 'colorLine']) }}">@lang('mainPage.colorLine')</a></li>
-                                <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerStoneLine.jpg" href="{{ route('product', ['product' => 'stoneLine']) }}">@lang('mainPage.stoneLine')</a></li>
-                                <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerNolan.jpg" href="{{ route('product', ['product' => 'nolan']) }}">@lang('mainPage.nolan')</a></li>
-                                <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerSolidLone.jpg" href="{{ route('product', ['product' => 'solidLine']) }}">@lang('mainPage.solidLine')</a></li>
-                                {{--<li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerGleamLine.jpg" href="{{ route('product', ['product' => 'gleamLine']) }}">@lang('mainPage.gleamLine')</a></li>--}}
-                                <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerLosano.jpg" href="{{ route('product', ['product' => 'losano']) }}">Losano</a></li>
-                                <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerZora.jpg" href="{{ route('product', ['product' => 'zora']) }}">Zora</a></li>
-                                <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerSteindekor.jpg" href="{{ route('product', ['product' => 'steindekor']) }}">@lang('mainPage.steindekor')</a></li>
-                                <li><a class="fs-6 dropdown-item text-gray-footer" data-src="/files/bannerSmartmirror.jpg" href="{{ route('product', ['product' => 'smartmirror']) }}">@lang('smartmirror.menu')</a></li>
-                            </ul>
-                        </div>
-
+                    <a class="d-none d-lg-flex nav-link dropdown-toggle menu__additional--activate" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">@lang('menu.ourProducts')</a>
+                    <div class="container-fluid justify-content-start p-0 p-lg-4 menu__additional">
                         <div class="d-none d-lg-block">
                             <img src="/files/bannerColorLine.jpg" loading="lazy" class="menu__image-change" height="300">
                         </div>
+                        <nav class="border-0 p-0 mx-lg-5 d-flex flex-column flex-lg-row dropdown-menu position-relative text-end">
 
+                            @foreach($menus ?? [] as $menu)
+                                <div class="d-lg-flex flex-lg-column">
+                                    <h2 class="dropdown-item nav-link dropdown-toggle menu__additional--activate fs-lg-4 fw-lg-semibold pb-0 pb-lg-2 d-lg-none" role="button" data-bs-toggle="dropdown" aria-expanded="false">@lang($menu->name)</h2>
+                                    <ul class="dropdown-menu border-0 list-unstyled me-lg-5 d-lg-flex flex-lg-column position-lg-static align-items-end text-end">
+                                        <li><h2 class="text-white fs-4 fw-semibold pb-2 d-none d-lg-block">@lang($menu->name)</h2></li>
+                                        @foreach($menu->children ?? [] as $children)
+                                            <li><a class="fs-6 dropdown-item text-gray-footer px-lg-0" data-src="{{ $children->image ?? "" }}.jpg" href="{{ $children->slug ?? "" }}">@lang($children->name)</a></li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endforeach
+                        </nav>
                     </div>
                 </li>
                 <li class="nav-item menu__option">
                     <a class="nav-link" href="@if(\Illuminate\Support\Facades\Route::currentRouteName() !== "product"){{ route("mainPage") }}#contactForm @else #contactForm @endif">@lang('menu.contact')</a>
                 </li>
-
+                @include('component.ae.changeCountry', [
+                    'class' => "d-none d-lg-block"
+                ])
             </ul>
         </div>
-
-        @include('component.ae.changeCountry', [
-                   'class' => "d-none d-lg-block"
-       ])
 
     </div>
 </nav>
