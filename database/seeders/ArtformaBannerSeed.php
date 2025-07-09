@@ -16,7 +16,7 @@ class ArtformaBannerSeed extends Seeder
      */
     public function run(): void
     {
-        DB::table("banners")->truncate();
+
 
         $this->call([
             ArtformaDecorativeWallSeed::class,

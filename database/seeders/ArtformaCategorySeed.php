@@ -13,7 +13,6 @@ class ArtformaCategorySeed extends Seeder
      */
     public function run(): void
     {
-        DB::table("categories")->truncate();
 
         $categories = [
             [

@@ -14,7 +14,6 @@ class ArtformaCategoryProductSeed extends Seeder
     public function run(): void
     {
 
-        DB::table("category_product")->truncate();
 
         $categoryProductRelations = [
             [

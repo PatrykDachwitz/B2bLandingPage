@@ -166,7 +166,6 @@ class ArtformaProductsSeed extends Seeder
 
 
         /* Nowe produkty */
-        DB::table("products")->truncate();
         DB::table("products")->insert($products);
         DB::table("products")->insert($newProducts);
     }

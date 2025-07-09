@@ -93,14 +93,14 @@ class ArtformaCarouselSeed extends Seeder
             [
                 "name" => "availableForm",
                 "count_decor" => 7,
-                "product_work_name" => "popiol",
+                "product_work_name" => "popiolOkr",
                 'directory' => 'forms',
                 'available_catalog' => false,
             ],
             [
-                "name" => "availableForm",
+                "name" => "decorTitle",
                 "count_decor" => 6,
-                "product_work_name" => "popiol",
+                "product_work_name" => "popiolOkr",
                 'directory' => 'decor',
                 'available_catalog' => false,
             ],
@@ -121,7 +121,6 @@ class ArtformaCarouselSeed extends Seeder
         ];
 
 
-        DB::table("carousels")->truncate();
         foreach ($carousels as $carousel) {
             DB::table("carousels")->insert($carousel);
         }

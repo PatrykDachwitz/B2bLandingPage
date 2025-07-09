@@ -41,7 +41,6 @@ class ArtformaCategoryBannerSeed extends Seeder
             "type" => "product"
         ];
 
-        DB::table("category_banners")->truncate();
 
         DB::table("category_banners")
             ->insert($categories);

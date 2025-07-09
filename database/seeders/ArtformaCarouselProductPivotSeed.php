@@ -181,7 +181,6 @@ class ArtformaCarouselProductPivotSeed extends Seeder
         ];
 
 
-        DB::table("carousel_product")->truncate();
         DB::table("carousel_product")->insert($pivots);
     }
 }

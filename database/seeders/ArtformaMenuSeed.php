@@ -178,7 +178,6 @@ class ArtformaMenuSeed extends Seeder
             ],
         ];
 
-        DB::table("menus")->truncate();
         DB::table("menus")->insert($menus);
     }
 }
