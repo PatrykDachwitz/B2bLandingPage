@@ -3,10 +3,10 @@
 
 @section('content')
 
-    @include("view.ae.banner.slider")
+    @include("component.ae.banner.slider")
 
     @foreach($categoriesBanner as $categoryBanner)
-        @include("view.ae.banner.{$categoryBanner->type}", [
+        @include("component.ae.banner.{$categoryBanner->type}", [
         "category" => $categoryBanner,
         "banners" => $categoryBanner->banner
     ])
