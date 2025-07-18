@@ -1,0 +1,1 @@
+import{S as e,C as i,N as r}from"./controller-Bhxwhsjt.js";window.addEventListener("load",o=>{document.querySelector("div.swiperImage")!==void 0&&new e(".swiperImage",{modules:[i,r],loop:!0,slidesPerView:1,navigation:{nextEl:".slider__control--next",prevEl:".slider__control--previous"}})});

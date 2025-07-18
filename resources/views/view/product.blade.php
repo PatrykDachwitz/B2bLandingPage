@@ -179,6 +179,10 @@
 
     @endforeach
 
+
+    @include("component.productZoraTemplate", [
+    "productWorkName" => $product->work_name
+])
     <script>
         const backgroundLithebox = document.querySelector("div.artforma-lithebox");
 

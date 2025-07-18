@@ -140,3 +140,9 @@
         position: static !important;
     }
 }
+
+@media (min-width: 992px) {
+    .p-lg-6 {
+        padding: 6rem !important;
+    }
+}

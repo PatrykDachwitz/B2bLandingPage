@@ -1,4 +1,8 @@
 {
+  "_controller-Bhxwhsjt.js": {
+    "file": "assets/controller-Bhxwhsjt.js",
+    "name": "controller"
+  },
   "resources/js/app.js": {
     "file": "assets/app-TWO7EV5G.js",
     "name": "app",
@@ -6,22 +10,28 @@
     "isEntry": true
   },
   "resources/js/product.js": {
-    "file": "assets/product-ChNvBvu7.js",
+    "file": "assets/product-BZUWZXW_.js",
     "name": "product",
     "src": "resources/js/product.js",
-    "isEntry": true
+    "isEntry": true,
+    "imports": [
+      "_controller-Bhxwhsjt.js"
+    ]
   },
   "resources/js/slider.js": {
-    "file": "assets/slider-Bs5tsBdj.js",
+    "file": "assets/slider-CeMdVhtg.js",
     "name": "slider",
     "src": "resources/js/slider.js",
     "isEntry": true,
+    "imports": [
+      "_controller-Bhxwhsjt.js"
+    ],
     "css": [
       "assets/slider-DHBATib1.css"
     ]
   },
   "resources/sass/app.scss": {
-    "file": "assets/app-BFbwUVWn.css",
+    "file": "assets/app-Bp-r8Fdu.css",
     "src": "resources/sass/app.scss",
     "isEntry": true
   }
