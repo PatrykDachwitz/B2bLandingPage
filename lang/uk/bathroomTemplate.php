@@ -10,5 +10,5 @@ return [
     "bathroomCabinetsWithShelves" => "Wall-mounted bathroom cabinets with shelves",
     "bathroomCabinetsWithShelvesDesc" => "The cabinet features universal doors that can be mounted on either the left or right side. This solution allows you to perfectly match the furniture layout to your space, regardless of its layout. Functionality and aesthetics go hand in hand here.",
     "bathroomCabinetsWithShelvesWithCountertop" => "Wall-mounted bathroom cabinets with shelves and a countertop",
-    "bathroomCabinetsWithShelvesWithCountertopDesc" => "The cabinet's clever design allows for the door to be mounted on either side – left or right – allowing for flexible arrangement options. A varnished oak countertop completes the look, adding a touch of class. This makes the cabinet suitable for both classic and modern bathrooms, combining beauty with practicality.",
+    "bathroomCabinetsWithShelvesWithCountertopDesc" => "The cabinet's clever design allows for the door to be mounted on either side – left or right – allowing for flexible arrangement options. A varnished oak countertop completes the look, adding a touch of class. This makes the cabinet suitable for both classic and modern bathrooms, combining beauty with practicality.npm run build",
 ];
