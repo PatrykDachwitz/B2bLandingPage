@@ -27,7 +27,7 @@ class ArtformaNewBathromFurniture extends Seeder
         ];
 
         $products = [
-            [
+           /* [
                 "slug" => "bathroom-furniture-set-p1",
                 "active" => true,
                 'work_name' => 'bathroomSetP1',
@@ -44,7 +44,7 @@ class ArtformaNewBathromFurniture extends Seeder
                 "active" => true,
                 'work_name' => 'bathroomSetP3',
                 'gallery' => 5,
-            ],
+            ],*/
             [
                 "slug" => "bathroom-furniture-set-f1",
                 "active" => true,
@@ -66,7 +66,7 @@ class ArtformaNewBathromFurniture extends Seeder
         ];
 
         $banners = [
-            [
+            /*[
                 "category_banner_id" => 2,
                 "url" => route('product', ['product' => 'bathroom-furniture-set-p1']),
                 "name" => "bathroomSet.bathroomSetP1",
@@ -92,7 +92,7 @@ class ArtformaNewBathromFurniture extends Seeder
                 "image_alt" => "bathroomSetP3 image",
                 "active" => true,
                 "position" => 9,
-            ],
+            ],*/
             [
                 "category_banner_id" => 2,
                 "url" => route('product', ['product' => 'bathroom-furniture-set-f1']),
@@ -135,7 +135,7 @@ class ArtformaNewBathromFurniture extends Seeder
                 'category_id' => 3,
                 'product_id' => 27,
             ],
-            [
+            /*[
                 'category_id' => 3,
                 'product_id' => 28,
             ],
@@ -146,7 +146,7 @@ class ArtformaNewBathromFurniture extends Seeder
             [
                 'category_id' => 3,
                 'product_id' => 30,
-            ],
+            ],*/
         ];
 
         DB::table("products")->insert($products);
