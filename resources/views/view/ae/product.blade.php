@@ -185,6 +185,11 @@
 
     @endforeach
 
+
+    @if ($product->template)
+        @include("component.ae.productTemplate")
+    @endif
+
     <script>
         const backgroundLithebox = document.querySelector("div.artforma-lithebox");
 

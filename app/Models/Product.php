@@ -11,12 +11,14 @@ class Product extends Model
       "active" => "string",
       "slug" => "string",
       "gallery" => "integer",
+      "template" => "boolean",
     ];
     protected $fillable = [
       "work_name",
       "active",
       "slug",
       "gallery",
+      "template",
     ];
 
     public function carousels() {

@@ -50,18 +50,21 @@ class ArtformaNewBathromFurniture extends Seeder
                 "active" => true,
                 'work_name' => 'bathroomSetF1',
                 'gallery' => 7,
+                'template' => true,
             ],
             [
                 "slug" => "bathroom-furniture-set-f2",
                 "active" => true,
                 'work_name' => 'bathroomSetF2',
                 'gallery' => 7,
+                'template' => true,
             ],
             [
                 "slug" => "bathroom-furniture-set-f3",
                 "active" => true,
                 'work_name' => 'bathroomSetF3',
                 'gallery' => 7,
+                'template' => true,
             ],
         ];
 
