@@ -5,7 +5,7 @@
             <img alt="@lang("bathroomTemplate.title")" height="540" loading="lazy" src="/files/templates/bathroom-set.jpg" class="img-fluid" width="950" />
         </picture>
     </div>
-    <div class="col-12 col-md-6 px-4 py-3 p-lg-5 d-flex flex-column justify-content-center align-items-end text-white ps-md-5">
+    <div class="col-12 col-md-6 px-4 py-3 p-lg-5 d-flex flex-column justify-content-center align-items-start text-white ps-md-5">
         <img alt="Artforma Logo" class="d-none d-md-block mb-5" height="78" loading="lazy" src="/files/templates/artforma_logo.png" style="fill: #FFF" width="300" />
         <h2 class="fs-2">@lang("bathroomTemplate.title")</h2>
 
@@ -20,13 +20,13 @@
                 <li class="swiper-slide">
                     <picture>
                         <source srcset="/files/templates/bathroom-cabinet-with-washbasin.webp" type="image/webp" />
-                        <img alt="@lang("bathroomTemplate.bathroomCabinetWithWashbasin")" class="img-fluid" src="/files/templates/bathroom-cabinet-with-washbasin.jpg" height="540" loading="lazy" width="950" />
+                        <img alt="@lang("bathroomTemplate.bathroomCabinetWithWashbasin")" class="img-fluid" src="/files/templates/bathroom-cabinet-with-washbasin.jpg" height="540" loading="lazy"  width="950" />
                     </picture>
                 </li>
                 <li class="swiper-slide">
                     <picture>
                         <source srcset="/files/templates/solidity-and-precision-of-workmanship.webp" type="image/webp" />
-                        <img alt="@lang("bathroomTemplate.solidityAndPrecisionOfWorkmanship")" class="img-fluid" src="/files/templates/solidity-and-precision-of-workmanship.jpg" height="540" loading="lazy" width="950" />
+                        <img alt="@lang("bathroomTemplate.solidityAndPrecisionOfWorkmanship")" class="img-fluid" src="/files/templates/solidity-and-precision-of-workmanship.jpg" height="540" loading="lazy"  width="950" />
                     </picture>
                 </li>
             </ul>
@@ -48,7 +48,7 @@
                     <img src="/files/icons/slider-control.jpg" loading="lazy" width="25" height="25" type="image/jpeg" alt="Slider control next slide">
                 </picture>
             </div>
-            <ul class="swiper-wrapper p-0 text-end">
+            <ul class="swiper-wrapper p-0">
                 <li class="swiper-slide px-3">
                     <div class="d-flex flex-column justify-content-center px-5 py-3 p-lg-6 h-100">
                         <h2>@lang("bathroomTemplate.bathroomCabinetWithWashbasin")</h2>
@@ -73,7 +73,7 @@
                 <li class="swiper-slide">
                     <picture>
                         <source srcset="/files/templates/bathroom-cabinets-with-shelves.webp" type="image/webp" />
-                        <img alt="@lang("bathroomTemplate.bathroomCabinetsWithShelves")" class="img-fluid" src="/files/templates/bathroom-cabinets-with-shelves.jpg" height="540" loading="lazy"  width="950" />
+                        <img alt="@lang("bathroomTemplate.bathroomCabinetsWithShelves")" class="img-fluid" src="/files/templates/bathroom-cabinets-with-shelves.jpg" height="540" loading="lazy" width="950" />
                     </picture>
                 </li>
                 <li class="swiper-slide">
@@ -101,7 +101,7 @@
                     <img src="/files/icons/slider-control.jpg" loading="lazy" width="25" height="25" type="image/jpeg" alt="Slider control next slide">
                 </picture>
             </div>
-            <ul class="swiper-wrapper p-0 text-end">
+            <ul class="swiper-wrapper p-0">
                 <li class="swiper-slide px-3">
                     <div class="d-flex flex-column justify-content-center px-5 py-3 p-lg-6 h-100">
                         <h2>@lang("bathroomTemplate.bathroomCabinetsWithShelves")</h2>
@@ -154,7 +154,7 @@
                     <img src="/files/icons/slider-control.jpg" loading="lazy" width="25" height="25" type="image/jpeg" alt="Slider control next slide">
                 </picture>
             </div>
-            <ul class="swiper-wrapper p-0 text-end">
+            <ul class="swiper-wrapper p-0">
                 <li class="swiper-slide px-3">
                     <div class="d-flex flex-column justify-content-center px-5 py-3 p-lg-6 h-100">
                         <h2>@lang("bathroomTemplate.bathroomCabinetsWithShelvesWithCountertop")</h2>
