@@ -35,6 +35,7 @@ class ArtformaSeed extends Seeder
            ArtformaNewBathromFurniture::class,
            ArtformaAddNewSetFurniture::class,
            ArtformaUpdateProductWithTemplate::class,
+           ArtformaUpdatePositionsMenu::class,
         ]);
     }
 }

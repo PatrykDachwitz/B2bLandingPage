@@ -2,7 +2,7 @@
 
 return [
     "category" => "Vonios baldų komplektai",
-    "menu" => "Vonios baldų komplektai",
+    "menu" => "Standard",
     "bathroomSetP1" => "Vonios baldų komplektas P1",
     "bathroomSetP2" => "Vonios baldų komplektas P2",
     "bathroomSetP3" => "Vonios baldų komplektas P3",

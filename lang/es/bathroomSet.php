@@ -2,7 +2,7 @@
 
 return [
     "category" => "Conjuntos de muebles de baño",
-    "menu" => "Conjuntos de muebles de baño",
+    "menu" => "Standard",
     "bathroomSetP1" => "Conjunto de muebles de baño P1",
     "bathroomSetP2" => "Conjunto de muebles de baño P2",
     "bathroomSetP3" => "Conjunto de muebles de baño P3",

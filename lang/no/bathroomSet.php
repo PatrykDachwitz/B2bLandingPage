@@ -2,7 +2,7 @@
 
 return [
     "category" => "Baderomsmøbel sett",
-    "menu" => "Baderomsmøbel sett",
+    "menu" => "Standard",
     "bathroomSetP1" => "Baderomsmøbel sett P1",
     "bathroomSetP2" => "Baderomsmøbel sett P2",
     "bathroomSetP3" => "Baderomsmøbel sett P3",

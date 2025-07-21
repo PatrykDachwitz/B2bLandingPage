@@ -2,7 +2,7 @@
 
 return [
     "category" => "Banyo mobilyası setleri",
-    "menu" => "Banyo mobilyası setleri",
+    "menu" => "Standard",
     "bathroomSetP1" => "Banyo mobilyası seti P1",
     "bathroomSetP2" => "Banyo mobilyası seti P2",
     "bathroomSetP3" => "Banyo mobilyası seti P3",

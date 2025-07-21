@@ -2,7 +2,7 @@
 
 return [
     "category" => "Vannitoamööbli komplektid",
-    "menu" => "Vannitoamööbli komplektid",
+    "menu" => "Standard",
     "bathroomSetP1" => "Vannitoamööbli komplekt P1",
     "bathroomSetP2" => "Vannitoamööbli komplekt P2",
     "bathroomSetP3" => "Vannitoamööbli komplekt P3",

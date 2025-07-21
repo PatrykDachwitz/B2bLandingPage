@@ -55,7 +55,7 @@
     </div>
     <div class="col-12 col-lg-5 d-flex flex-column align-items-start text-white">
         <h1 class="fs-2 m-0 py-3 py-lg-0">{{ __($product->work_name . ".title") }}</h1>
-        <p class="fs-6 text-gray-footer">{{ __($product->work_name . ".description") }}</p>
+        <p class="fs-6 text-gray-footer">{!! __($product->work_name . ".description") !!}</p>
 
         @if(__($product->work_name . ".titleSecond") !== $product->work_name . ".titleSecond")
             <h1 class="fs-2 m-0 py-3 py-lg-0">{{ __($product->work_name . ".titleSecond") }}</h1>
@@ -116,7 +116,7 @@
                         </picture>  <i>WhatsApp</i>
                     </a>
                 </li>
-                <li class="mt-3 mt-lg-0 ms-lg-3">
+                <li class="mt-3 mt-lg-2 mt-xl-0 ms-xl-3">
                     <a href="tel: {{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".phone") }}" class="text-decoration-none text-white fs-6">
                     <picture>
                         <source srcset="/files/icons/telephone.webp" type="image/webp">
@@ -124,7 +124,7 @@
                     </picture> <i>{{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".phone") }}</i>
                     </a>
                 </li>
-                <li class="mt-3 mt-lg-0 ms-lg-3">
+                <li class="mt-3 mt-lg-2 mt-xl-0 ms-xl-3">
                     <a href="mailto: {{ config("shop." . \Illuminate\Support\Facades\App::getLocale() .".mailContact") }}" class="text-decoration-none text-white fs-6">
                         <picture>
                             <source srcset="/files/icons/email.webp" type="image/webp">
@@ -181,7 +181,7 @@
 
 
     @if ($product->template)
-        @include("component.productTemplate")
+        @include("component.{$product->name_template}")
     @endif
 
     <script>

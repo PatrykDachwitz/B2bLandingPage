@@ -2,7 +2,7 @@
 
 return [
     "category" => "Ensembles de meubles de salle de bains",
-    "menu" => "Ensembles de meubles de salle de bains",
+    "menu" => "Standard",
     "bathroomSetP1" => "Ensemble de meubles de salle de bains P1",
     "bathroomSetP2" => "Ensemble de meubles de salle de bains P2",
     "bathroomSetP3" => "Ensemble de meubles de salle de bains P3",

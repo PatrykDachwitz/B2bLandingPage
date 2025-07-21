@@ -30,8 +30,8 @@ window.addEventListener('load', e => {
             loop: true,
             slidesPerView: 1,
             navigation: {
-                nextEl: ".slider__control--next",
-                prevEl: ".slider__control--previous"
+                nextEl: `.slider__control--next.${nameSlider}__btn--text`,
+                prevEl: `.slider__control--previous.${nameSlider}__btn--text`
             }
         });
         let sliderImage = new Swiper(`.${nameSlider}--image`, {
@@ -39,14 +39,14 @@ window.addEventListener('load', e => {
             loop: true,
             slidesPerView: 1,
             navigation: {
-                nextEl: ".slider__control--next",
-                prevEl: ".slider__control--previous"
+                nextEl: `.slider__control--next.${nameSlider}__btn--image`,
+                prevEl: `.slider__control--previous.${nameSlider}__btn--image`
             }
         });
 
         if (slider.querySelector(`.${nameSlider}--text`) !== null && slider.querySelector(`.${nameSlider}--image`) !== null) {
-            sliderText.controller.control = sliderImage;
             sliderImage.controller.control = sliderText;
+            sliderText.controller.control = sliderImage;
         }
     })
 })

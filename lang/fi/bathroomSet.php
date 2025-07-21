@@ -2,7 +2,7 @@
 
 return [
     "category" => "Kylpyhuonekalustesarjat",
-    "menu" => "Kylpyhuonekalustesarjat",
+    "menu" => "Standard",
     "bathroomSetP1" => "Kylpyhuonekalustesarja P1",
     "bathroomSetP2" => "Kylpyhuonekalustesarja P2",
     "bathroomSetP3" => "Kylpyhuonekalustesarja P3",

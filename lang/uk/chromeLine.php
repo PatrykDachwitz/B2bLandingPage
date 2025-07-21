@@ -2,9 +2,9 @@
 
 return [
     'banner' => 'Furniture set ChromeLine',
-    'menu' => 'Furniture set ChromeLine',
+    'menu' => 'ChromeLine',
     'title' => 'Furniture set ChromeLine',
-    'description' => 'The PREMIUM set includes 3 cabinets: a washbasin cabinet with the BLUM system, a wall-mounted cabinet with shelves and a suspended cabinet with a solid oak top (4 cm and 2 cm). The cabinets are matt lacquered to protect against moisture and scratches. High-gloss lacquered MDF fronts with the BLUM TIP-ON system.',
+    'description' => 'ChromeLine is a premium bathroom furniture set that combines minimalist form with the refined sheen of a chrome finish. The cabinets and mirror are framed in durable MDF, coated with a layer of spray-applied chrome – an advanced technology that recreates the look of noble metal on non-metallic surfaces.<br /><br />The mirror-like coating catches the eye at first glance. ChromeLine fits perfectly into glamour, modern, and industrial interiors, where design takes center stage. It redefines elegance – bold yet understated.',
     'standardSize' => "Standard sizes",
     'sizes' => [
         [

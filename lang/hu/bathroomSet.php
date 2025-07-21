@@ -2,7 +2,7 @@
 
 return [
     "category" => "Fürdőszoba bútorkészletek",
-    "menu" => "Fürdőszoba bútorkészletek",
+    "menu" => "Standard",
     "bathroomSetP1" => "P1 fürdőszoba bútorkészlet P1",
     "bathroomSetP2" => "P1 fürdőszoba bútorkészlet P2",
     "bathroomSetP3" => "P1 fürdőszoba bútorkészlet P3",

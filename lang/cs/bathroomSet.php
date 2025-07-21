@@ -2,7 +2,7 @@
 
 return [
     "category" => "Sady koupelnového nábytku",
-    "menu" => "Sady koupelnového nábytku",
+    "menu" => "Standard",
     "bathroomSetP1" => "Sada koupelnového nábytku P1",
     "bathroomSetP2" => "Sada koupelnového nábytku P2",
     "bathroomSetP3" => "Sada koupelnového nábytku P3",
