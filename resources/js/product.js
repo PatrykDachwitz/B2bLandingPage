@@ -24,6 +24,7 @@ window.addEventListener('load', e => {
     sliders.forEach(slider => {
         let nameSlider = slider.dataset.slider;
 
+
         let sliderText = new Swiper(`.${nameSlider}--text`, {
             modules: [Controller, Navigation],
             loop: true,
@@ -37,10 +38,15 @@ window.addEventListener('load', e => {
             modules: [Controller, Navigation],
             loop: true,
             slidesPerView: 1,
+            navigation: {
+                nextEl: ".slider__control--next",
+                prevEl: ".slider__control--previous"
+            }
         });
 
-        sliderText.controller.control = sliderImage;
-        sliderImage.controller.control = sliderText;
+        if (slider.querySelector(`.${nameSlider}--text`) !== null && slider.querySelector(`.${nameSlider}--image`) !== null) {
+            sliderText.controller.control = sliderImage;
+            sliderImage.controller.control = sliderText;
+        }
     })
 })
-

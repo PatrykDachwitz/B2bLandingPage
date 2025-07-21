@@ -1,8 +1,8 @@
 <section class="row">
     <div class="col-12 col-md-6 px-4 py-3 p-lg-5">
         <picture>
-            <source srcset="/files/templates/bathroom-set.webp" type="image/webp" />
-            <img alt="@lang("bathroomTemplate.title")" height="540" loading="lazy" src="/files/templates/bathroom-set.jpg" class="img-fluid" width="950" />
+            <source srcset="/files/templates/bathroom-furniture-set-series-s/bathroom-set.webp" type="image/webp" />
+            <img alt="@lang("bathroomTemplate.title")" height="540" loading="lazy" src="/files/templates/bathroom-furniture-set-series-s/bathroom-set.jpg" class="img-fluid" width="950" />
         </picture>
     </div>
     <div class="col-12 col-md-6 px-4 py-3 p-lg-5 d-flex flex-column justify-content-center align-items-start text-white ps-md-5">
@@ -19,14 +19,14 @@
             <ul class="swiper-wrapper p-0 m-0">
                 <li class="swiper-slide">
                     <picture>
-                        <source srcset="/files/templates/bathroom-cabinet-with-washbasin.webp" type="image/webp" />
-                        <img alt="@lang("bathroomTemplate.bathroomCabinetWithWashbasin")" class="img-fluid" src="/files/templates/bathroom-cabinet-with-washbasin.jpg" height="540" loading="lazy"  width="950" />
+                        <source srcset="/files/templates/bathroom-furniture-set-series-s/bathroom-cabinet-with-washbasin.webp" type="image/webp" />
+                        <img alt="@lang("bathroomTemplate.bathroomCabinetWithWashbasin")" class="img-fluid" src="/files/templates/bathroom-furniture-set-series-s/bathroom-cabinet-with-washbasin.jpg" height="540" loading="lazy"  width="950" />
                     </picture>
                 </li>
                 <li class="swiper-slide">
                     <picture>
-                        <source srcset="/files/templates/solidity-and-precision-of-workmanship.webp" type="image/webp" />
-                        <img alt="@lang("bathroomTemplate.solidityAndPrecisionOfWorkmanship")" class="img-fluid" src="/files/templates/solidity-and-precision-of-workmanship.jpg" height="540" loading="lazy"  width="950" />
+                        <source srcset="/files/templates/bathroom-furniture-set-series-s/solidity-and-precision-of-workmanship.webp" type="image/webp" />
+                        <img alt="@lang("bathroomTemplate.solidityAndPrecisionOfWorkmanship")" class="img-fluid" src="/files/templates/bathroom-furniture-set-series-s/solidity-and-precision-of-workmanship.jpg" height="540" loading="lazy"  width="950" />
                     </picture>
                 </li>
             </ul>
@@ -72,14 +72,14 @@
             <ul class="swiper-wrapper p-0 m-0">
                 <li class="swiper-slide">
                     <picture>
-                        <source srcset="/files/templates/bathroom-cabinets-with-shelves.webp" type="image/webp" />
-                        <img alt="@lang("bathroomTemplate.bathroomCabinetsWithShelves")" class="img-fluid" src="/files/templates/bathroom-cabinets-with-shelves.jpg" height="540" loading="lazy" width="950" />
+                        <source srcset="/files/templates/bathroom-furniture-set-series-s/bathroom-cabinets-with-shelves.webp" type="image/webp" />
+                        <img alt="@lang("bathroomTemplate.bathroomCabinetsWithShelves")" class="img-fluid" src="/files/templates/bathroom-furniture-set-series-s/bathroom-cabinets-with-shelves.jpg" height="540" loading="lazy" width="950" />
                     </picture>
                 </li>
                 <li class="swiper-slide">
                     <picture>
-                        <source srcset="/files/templates/bathroom-cabinets-with-shelves-detal.webp" type="image/webp" />
-                        <img alt="@lang("bathroomTemplate.bathroomCabinetsWithShelvesDesc")" class="img-fluid" src="/files/templates/bathroom-cabinets-with-shelves-detal.jpg" height="540" loading="lazy" width="950" />
+                        <source srcset="/files/templates/bathroom-furniture-set-series-s/bathroom-cabinets-with-shelves-detal.webp" type="image/webp" />
+                        <img alt="@lang("bathroomTemplate.bathroomCabinetsWithShelvesDesc")" class="img-fluid" src="/files/templates/bathroom-furniture-set-series-s/bathroom-cabinets-with-shelves-detal.jpg" height="540" loading="lazy" width="950" />
                     </picture>
                 </li>
             </ul>
@@ -125,14 +125,14 @@
             <ul class="swiper-wrapper p-0 m-0">
                 <li class="swiper-slide">
                     <picture>
-                        <source srcset="/files/templates/bathroom-cabinets-with-shelves-with-countertop.webp" type="image/webp" />
-                        <img alt="@lang("bathroomTemplate.bathroomCabinetsWithShelvesWithCountertop")" class="img-fluid" src="/files/templates/bathroom-cabinets-with-shelves-with-countertop.jpg" height="540" loading="lazy" width="950" />
+                        <source srcset="/files/templates/bathroom-furniture-set-series-s/bathroom-cabinets-with-shelves-with-countertop.webp" type="image/webp" />
+                        <img alt="@lang("bathroomTemplate.bathroomCabinetsWithShelvesWithCountertop")" class="img-fluid" src="/files/templates/bathroom-furniture-set-series-s/bathroom-cabinets-with-shelves-with-countertop.jpg" height="540" loading="lazy" width="950" />
                     </picture>
                 </li>
                 <li class="swiper-slide">
                     <picture>
-                        <source srcset="/files/templates/bathroom-cabinets-with-shelves-with-countertop-detal.webp" type="image/webp" />
-                        <img alt="@lang("bathroomTemplate.bathroomCabinetsWithShelvesWithCountertopDesc")" class="img-fluid" src="/files/templates/bathroom-cabinets-with-shelves-with-countertop-detal.jpg" height="540" loading="lazy" width="950" />
+                        <source srcset="/files/templates/bathroom-furniture-set-series-s/bathroom-cabinets-with-shelves-with-countertop-detal.webp" type="image/webp" />
+                        <img alt="@lang("bathroomTemplate.bathroomCabinetsWithShelvesWithCountertopDesc")" class="img-fluid" src="/files/templates/bathroom-furniture-set-series-s/bathroom-cabinets-with-shelves-with-countertop-detal.jpg" height="540" loading="lazy" width="950" />
                     </picture>
                 </li>
             </ul>

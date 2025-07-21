@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model
 {
     protected $casts = [
+      "name_template" => "string",
       "work_name" => "string",
       "active" => "string",
       "slug" => "string",
@@ -14,6 +15,7 @@ class Product extends Model
       "template" => "boolean",
     ];
     protected $fillable = [
+      "name_template",
       "work_name",
       "active",
       "slug",
