@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'Set de mobilier ChromeLine',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'Set de mobilier ChromeLine',
+    'title' => 'ChromeLine',
     'description' => 'ChromeLine este un set de mobilier premium pentru baie, care combină forma minimalistă cu strălucirea rafinată a finisajului cromat. Dulapurile și oglinda sunt încadrate în MDF durabil, acoperit cu un strat de crom aplicat prin pulverizare – o tehnologie avansată care recreează aspectul metalului nobil pe suprafețe nemetalice.<br /><br />Acoperirea oglindă atrage privirea încă de la prima vedere. ChromeLine se potrivește perfect în interioarele glamour, moderne și industriale, unde designul ocupă un loc central. Redefineste eleganța – îndrăzneață, dar discretă.',
     'standardSize' => "Dimensiuni standard",
     'sizes' => [

@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'Möbelserie ChromeLine',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'Möbelserie ChromeLine',
+    'title' => 'ChromeLine',
     'description' => 'ChromeLine ist eine hochwertige Badmöbelserie, die minimalistische Formen mit dem edlen Glanz einer Chromoberfläche kombiniert. Die Schränke und der Spiegel sind aus strapazierfähigem MDF gefertigt und mit einer Schicht Sprühchrom beschichtet – eine fortschrittliche Technologie, die den Look von Edelmetall auf nichtmetallischen Oberflächen nachbildet.<br /><br />Die spiegelähnliche Beschichtung fällt sofort ins Auge. ChromeLine passt perfekt in glamouröse, moderne und industrielle Innenräume, in denen Design im Mittelpunkt steht. Es definiert Eleganz neu – kühn und doch zurückhaltend.',
     'standardSize' => "Standardgrößen",
     'sizes' => [

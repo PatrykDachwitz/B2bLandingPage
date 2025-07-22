@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'Set di mobili ChromeLine',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'Set di mobili ChromeLine',
+    'title' => 'ChromeLine',
     'description' => 'ChromeLine è un set di mobili da bagno di alta qualità che combina forme minimaliste con la raffinata lucentezza di una finitura cromata. I mobili e lo specchio sono incorniciati in MDF resistente, rivestito con uno strato di cromo applicato a spruzzo, una tecnologia avanzata che ricrea l\'aspetto del metallo nobile su superfici non metalliche.<br /><br />Il rivestimento a specchio cattura lo sguardo al primo sguardo. ChromeLine si inserisce perfettamente in interni glamour, moderni e industriali, dove il design è protagonista. Ridefinisce l\'eleganza: audace ma sobria.',
     'standardSize' => "Dimensioni standard",
     'sizes' => [

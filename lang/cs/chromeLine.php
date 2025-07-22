@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'Sada nábytku ChromeLine',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'Sada nábytku ChromeLine',
+    'title' => 'ChromeLine',
     'description' => 'ChromeLine je prémiová sada koupelnového nábytku, která kombinuje minimalistický tvar s rafinovaným leskem chromového povrchu. Skříňky a zrcadlo jsou rámovány odolným MDF, potaženým vrstvou chromu nanesenou stříkáním – pokročilou technologií, která na nekovových površích napodobuje vzhled ušlechtilého kovu.<br /><br />Zrcadlový povrch upoutá pozornost na první pohled. ChromeLine se perfektně hodí do glamour, moderních a industriálních interiérů, kde design hraje hlavní roli. Redefinuje eleganci – odvážnou, ale zároveň decentní.',
     'standardSize' => "Standardní rozměry",
     'sizes' => [

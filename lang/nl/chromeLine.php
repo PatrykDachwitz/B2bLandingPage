@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'Meubelset ChromeLine',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'Meubelset ChromeLine',
+    'title' => 'ChromeLine',
     'description' => 'ChromeLine is een hoogwaardige badkamermeubelset die een minimalistische vorm combineert met de verfijnde glans van een chromen afwerking. De kasten en spiegel zijn omlijst met duurzaam MDF, gecoat met een laag spuitverf in chroom – een geavanceerde technologie die de uitstraling van edelmetaal op niet-metalen oppervlakken nabootst.<br /><br />De spiegelende coating springt meteen in het oog. ChromeLine past perfect in glamoureuze, moderne en industriële interieurs, waar design centraal staat. Het herdefinieert elegantie – gedurfd en toch ingetogen.',
     'standardSize' => "Standaardmaten",
     'sizes' => [

@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'Conjunto de muebles ChromeLine',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'Conjunto de muebles ChromeLine',
+    'title' => 'ChromeLine',
     'description' => 'ChromeLine es un conjunto de muebles de baño de alta gama que combina una forma minimalista con el brillo refinado de un acabado cromado. Los armarios y el espejo están enmarcados en MDF resistente, recubierto con una capa de cromo aplicada por pulverización, una tecnología avanzada que recrea el aspecto del metal noble en superficies no metálicas.<br /><br />El revestimiento espejado llama la atención a primera vista. ChromeLine encaja a la perfección en interiores glamurosos, modernos e industriales, donde el diseño es el protagonista. Redefine la elegancia: atrevida pero discreta.',
     'standardSize' => "Tamaños estándar",
     'sizes' => [

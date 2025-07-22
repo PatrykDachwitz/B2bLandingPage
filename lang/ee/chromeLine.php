@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'Mööblikomplekt ChromeLine',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'Mööblikomplekt ChromeLine',
+    'title' => 'ChromeLine',
     'description' => 'ChromeLine on esmaklassiline vannitoamööblikomplekt, mis ühendab minimalistliku vormi ja kroomviimistluse peene läike. Kapid ja peegel on raamitud vastupidavast MDF-ist, mis on kaetud pihustatud kroomiga – see on täiustatud tehnoloogia, mis loob väärismetalli välimuse mittemetalsetele pindadele.<br /><br />Peegellik kate püüab esimesest pilgust silma. ChromeLine sobib ideaalselt glamuurse, kaasaegse ja tööstusliku interjööri, kus disain on kesksel kohal. See annab uue tähenduse elegantsile – julge, kuid tagasihoidlik.',
     'standardSize' => "Standardmõõdud",
     'sizes' => [

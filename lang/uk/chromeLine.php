@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'Furniture set ChromeLine',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'Furniture set ChromeLine',
+    'title' => 'ChromeLine',
     'description' => 'ChromeLine is a premium bathroom furniture set that combines minimalist form with the refined sheen of a chrome finish. The cabinets and mirror are framed in durable MDF, coated with a layer of spray-applied chrome – an advanced technology that recreates the look of noble metal on non-metallic surfaces.<br /><br />The mirror-like coating catches the eye at first glance. ChromeLine fits perfectly into glamour, modern, and industrial interiors, where design takes center stage. It redefines elegance – bold yet understated.',
     'standardSize' => "Standard sizes",
     'sizes' => [

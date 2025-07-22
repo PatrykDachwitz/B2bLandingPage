@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'Baldų komplektas „ChromeLine“',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'Baldų komplektas „ChromeLine“',
+    'title' => 'ChromeLine',
     'description' => '„ChromeLine“ – tai aukščiausios kokybės vonios baldų komplektas, kuriame minimalistinė forma dera su rafinuotu chromo blizgesiu. Spintelės ir veidrodis yra įrėminti iš tvirto MDF, padengto purškimo būdu užteptu chromo sluoksniu – tai pažangi technologija, kuri ne metalinėms paviršiams suteikia tauriojo metalo išvaizdą.<br /><br />Veidrodinis paviršius patraukia žvilgsnį iš pirmo žvilgsnio. ChromeLine puikiai tinka glamūringiems, moderniems ir industrial stiliaus interjerams, kur dizainas yra pagrindinis akcentas. Jis suteikia naują elegancijos apibrėžimą – drąsus, bet subtilus.',
     'standardSize' => "Standartiniai dydžiai",
     'sizes' => [

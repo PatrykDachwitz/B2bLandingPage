@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'Ensemble de meubles ChromeLine',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'Ensemble de meubles ChromeLine',
+    'title' => 'ChromeLine',
     'description' => 'ChromeLine est un ensemble de meubles de salle de bains haut de gamme qui allie une forme minimaliste à l\'éclat raffiné d\'une finition chromée. Les armoires et le miroir sont encadrés de MDF durable, recouvert d\'une couche de chrome appliquée par pulvérisation, une technologie de pointe qui recrée l\'aspect du métal noble sur des surfaces non métalliques.<br /><br />Le revêtement miroir attire le regard au premier coup d\'œil. ChromeLine s\'intègre parfaitement dans les intérieurs glamour, modernes et industriels, où le design occupe une place centrale. Il redéfinit l\'élégance, à la fois audacieuse et discrète.',
     'standardSize' => "Tailles standards",
     'sizes' => [

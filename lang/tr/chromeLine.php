@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'ChromeLine mobilya seti',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'ChromeLine mobilya seti',
+    'title' => 'ChromeLine',
     'description' => 'ChromeLine, minimalist formu ve krom kaplamanın zarif parlaklığını bir araya getiren birinci sınıf bir banyo mobilya setidir. Dolaplar ve ayna, dayanıklı MDF ile çerçevelenmiş ve sprey ile uygulanan krom kaplama ile kaplanmıştır. Bu ileri teknoloji, metal olmayan yüzeylerde asil metal görünümünü yeniden yaratır.<br /><br />Ayna gibi kaplama, ilk bakışta göze çarpar. ChromeLine, tasarımın ön planda olduğu şık, modern ve endüstriyel iç mekanlara mükemmel uyum sağlar. Cesur ama abartısız bir şekilde zarafeti yeniden tanımlar.',
     'standardSize' => "Standart boyutlar",
     'sizes' => [

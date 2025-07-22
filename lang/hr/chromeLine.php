@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'Set namještaja ChromeLine',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'Set namještaja ChromeLine',
+    'title' => 'ChromeLine',
     'description' => 'ChromeLine je vrhunski set kupaonskog namještaja koji kombinira minimalistički oblik s profinjenim sjajem kromirane završne obrade. Ormarići i ogledalo uokvireni su u izdržljivi MDF, presvučen slojem kromiranog prskanjem - napredna tehnologija koja rekreira izgled plemenitog metala na nemetalnim površinama.<br /><br />Premaz nalik ogledalu privlači pažnju na prvi pogled. ChromeLine se savršeno uklapa u glamurozne, moderne i industrijske interijere, gdje dizajn zauzima središnje mjesto. Redefinira eleganciju – smjelo, a opet decentno.',
     'standardSize' => "Standardne veličine",
     'sizes' => [

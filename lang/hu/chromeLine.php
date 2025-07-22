@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'ChromeLine bútorkészlet',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'ChromeLine bútorkészlet',
+    'title' => 'ChromeLine',
     'description' => 'A ChromeLine egy prémium fürdőszoba bútorkészlet, amely minimalista formát ötvöz a króm felület kifinomult fényével. A szekrények és a tükör tartós MDF-ből készültek, amelyeket egy réteg spray-vel felvitt króm borít – ez egy fejlett technológia, amely nem fémes felületeken is megteremti a nemes fém megjelenését.<br /><br />A tükörszerű bevonat első pillantásra magára vonja a tekintetet. A ChromeLine tökéletesen illeszkedik a csillogó, modern és ipari belső terekbe, ahol a design áll a középpontban. Újradefiniálja az eleganciát – merész, mégis visszafogott.',
     'standardSize' => "Standard méretek",
     'sizes' => [

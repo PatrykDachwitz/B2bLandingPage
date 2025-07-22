@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'Møbelsett ChromeLine',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'Møbelsett ChromeLine',
+    'title' => 'ChromeLine',
     'description' => 'ChromeLine er et eksklusivt baderomsmøbelsett som kombinerer minimalistisk form med den raffinerte glansen av en kromfinish. Skapene og speilet er innrammet i slitesterk MDF, belagt med et lag spraypåført krom – en avansert teknologi som gjenskaper utseendet til edelt metall på ikke-metalliske overflater.<br /><br />Det speilblanke belegget fanger øyet ved første blikk. ChromeLine passer perfekt inn i glamorøse, moderne og industrielle interiører, hvor design står i sentrum. Det redefinerer eleganse – dristig, men likevel diskré.',
     'standardSize' => "Standardstørrelser",
     'sizes' => [

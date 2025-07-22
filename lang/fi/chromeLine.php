@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'banner' => 'Huonekalusetti ChromeLine',
+    'banner' => 'ChromeLine',
     'menu' => 'ChromeLine',
-    'title' => 'Huonekalusetti ChromeLine',
+    'title' => 'ChromeLine',
     'description' => 'ChromeLine on korkealaatuinen kylpyhuonekalustesetti, jossa minimalistinen muoto yhdistyy kromipinnoitteen hienostuneeseen kiiltoon. Kaapit ja peili on kehystetty kestävällä MDF-levyllä, joka on päällystetty ruiskutetulla kromipinnoitteella – edistyksellisellä tekniikalla, joka luo jalometallin ilmeen ei-metallisille pinnoille.<br /><br />Peilimäinen pinnoite kiinnittää huomion heti ensi silmäyksellä. ChromeLine sopii täydellisesti glamour-tyylisiin, moderneihin ja teollisiin sisustuksiin, joissa design on keskiössä. Se määrittelee eleganssin uudelleen – rohkeasti mutta hillitysti.',
     'standardSize' => "Vakiokoot",
     'sizes' => [
