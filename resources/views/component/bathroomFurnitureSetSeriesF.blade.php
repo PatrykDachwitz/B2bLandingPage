@@ -172,3 +172,46 @@
     </div>
 </section>
 
+
+
+<section class="row" data-slider="swiperProductFour">
+    <div class="col-12 col-md-6 px-4 py-3 p-lg-5">
+        <div class="swiperProductFour--image position-relative overflow-hidden">
+            <div class="slider__control slider__control--previous swiperProductFour__btn--image swiperProductOne--prev">
+                <picture>
+                    <source srcset="/files/icons/slider-control.webp" type="image/webp">
+                    <img src="/files/icons/slider-control.jpg" loading="lazy" width="25" height="25" type="image/jpeg" alt="Slider control next slide">
+                </picture>
+            </div>
+
+            <div class="slider__control slider__control--next swiperProductFour__btn--image swiperProductOne--next">
+                <picture>
+                    <source srcset="/files/icons/slider-control.webp" type="image/webp">
+                    <img src="/files/icons/slider-control.jpg" loading="lazy" width="25" height="25" type="image/jpeg" alt="Slider control next slide">
+                </picture>
+            </div>
+            <ul class="swiper-wrapper p-0 m-0">
+                <li class="swiper-slide">
+                    <picture>
+                        <source srcset="/files/templates/bathroom-furniture-set-series-f/bathroom-set-detal.webp" type="image/webp" />
+                        <img alt="@lang("bathroomTemplate.bathroomSetDescOne")" class="img-fluid" src="/files/templates/bathroom-furniture-set-series-f/bathroom-set-detal.jpg" height="540" loading="lazy" width="950" />
+                    </picture>
+                </li>
+                <li class="swiper-slide">
+                    <picture>
+                        <source srcset="/files/templates/bathroom-furniture-set-series-f/bathroom-full-set.webp" type="image/webp" />
+                        <img alt="@lang("bathroomTemplate.bathroomSetDescTwo")" class="img-fluid" src="/files/templates/bathroom-furniture-set-series-f/bathroom-full-set.jpg" height="540" loading="lazy" width="950" />
+                    </picture>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6 overflow-hidden text-white px-4 py-3 p-lg-5">
+        <div class="d-flex flex-column justify-content-center p-lg-6 h-100">
+            <p>@lang("bathroomTemplate.bathroomSetDescOne")</p>
+            <p>@lang("bathroomTemplate.bathroomSetDescTwo")</p>
+            <p>@lang("bathroomTemplate.bathroomSetDescThree")</p>
+        </div>
+    </div>
+</section>
